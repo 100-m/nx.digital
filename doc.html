@@ -1,0 +1,40 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width" />
+<title>NeoXam Doc</title>
+<link href="/mark-pro.css" rel="stylesheet" />
+<style>
+  :root { --primary: #09c0a3;--menu-w: 340px; }
+  body { font-family: MarkPro;font-size: 16px;color: var(--text);margin: 0;min-width: 900px; }
+  h1 { display: flex;align-items: center;justify-content: center;font-size: 32px;font-weight: 600; }
+  h2 { font-size: 22px;font-weight: 400; }
+  h3 { font-size: 19px;font-weight: 400; }
+  svg { width: 1em;height: 1em;margin: .2em; }
+  h1 .tag { margin: 0 8px;color: var(--primary); }
+  .menu { position: fixed;top: 0;left: 0;width: var(--menu-w);height: 100vh;background: linear-gradient(90deg, #f8f8f8 85%, #efeff2);font-size: 20px; }
+  .links { margin: 80px 0; }
+  .links > a { display: block;padding: 10px 40px;text-decoration: none;color: var(--text); }
+  .links > a:hover { background: rgb(0,0,0,.05); }
+  .links > a.active { color: var(--primary); }
+  .content { position: relative;left: var(--menu-w);width: calc(100% - var(--menu-w) - 120px);height: 100%;margin: 60px; }
+</style>
+<div class="menu">
+  <h1>
+    <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+      <path d="M5 1.682L3.325 0 2.257 1.067 5 3.81l2.743-2.743L6.675 0 5 1.682zM5 8.318L6.675 10l1.068-1.067L5 6.19 2.257 8.933 3.325 10 5 8.318zM8.318 5L10 3.325 8.933 2.257 6.19 5l2.743 2.743L10 6.675 8.318 5z" fill="#0ED8B8" />
+      <path d="M1.682 5L0 6.675l1.067 1.068L3.81 5 1.067 2.257 0 3.325 1.682 5z" fill="#222" />
+    </svg>
+    NeoXam<div class="tag">Doc</div>
+  </h1>
+  <div class="links">
+    <a class="active" href="#architecture">Architecture</a>
+    <a href="#security">Security</a>
+  </div>
+</div>
+<div class="content"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
+<script>
+fetch('/doc/architecture.md')
+  .then(r => r.text())
+  .then(md => marked(md))
+  .then(html => document.querySelector('.content').innerHTML = html)
+</script>
