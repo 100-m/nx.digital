@@ -1,100 +1,26 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
 <title>NeoXam Doc</title>
-<link href="/mark-pro.css" rel="stylesheet" />
+<link href="/neoxam.css" rel="stylesheet" />
 <style>
-  :root { --primary: #09c0a3;--menu-w: 340px; }
-  body { font-family: MarkPro;font-size: 16px;color: var(--text);margin: 0;min-width: 900px; }
-  h1 { display: flex;align-items: center;justify-content: center;font-size: 32px;font-weight: 600; }
-  h2 { font-size: 22px;font-weight: 400;color: var(--primary) }
-  h3, .h3 { font-size: 19px;font-weight: 400;color: black;margin: 0.83em; }
-  svg { width: 1em;height: 1em;margin: .2em; }
-  h1 .tag { margin: 0 8px;color: var(--primary); }
-  .menu { position: fixed;top: 0;left: 0;width: var(--menu-w);height: 100vh;background: linear-gradient(90deg, #f8f8f8 85%, #efeff2);font-size: 20px; }
-  .links { margin: 80px 0; }
-  .links > a { display: block;padding: 10px 40px;text-decoration: none;color: var(--text); }
-  .links > a:hover { background: rgb(0,0,0,.05); }
-  .links > a.active { color: var(--primary); }
-  .content { position: relative;left: var(--menu-w);width: calc(100% - var(--menu-w) - 120px - (var(--menu-w) * 1.2));height: fit-content;margin: 60px; }
-  ul:first-of-type li { border-bottom: 1px solid #c0c3d8;width: 70%; }
-  ul:first-of-type li a { margin-left: 0;color: #c0c3d8;text-decoration: none;padding-top: 8px;padding-bottom: 8px;justify-content: space-between;display: flex;background-color: transparent;-webkit-transition: margin-left .3s ease-out;-moz-transition: margin-left .3s ease-out;-o-transition: margin-left .3s ease-out;transition: margin-left .3s ease-out; }
-  ul:first-of-type li a:hover { color: #5d6494;margin-left: 12px; }
-  ul:first-of-type { list-style-type: none; }
-  p { line-height: 24px;font-size: 14px;color: #21243d; }
-  .important { border-left: 3px solid var(--primary);padding: 24px;background-image: linear-gradient(180deg,#fff,#f5f5fa);box-shadow: 0 4px 11px 0 rgba(37,44,97,.15), 0 1px 3px 0 rgba(93,100,148,.2); }
-  .important .title { color: var(--primary);display: block;text-transform: uppercase;font-weight: 600;letter-spacing: 1.5px;font-size: 10px;margin-bottom: 8px; }
-  .right-nav-content { position: fixed;top: 0;right: 0;width: calc(var(--menu-w) * 1.2);height: 100%;align-items: center;display: inline-flex; }
-  .side-nav { display: none; }
-  .right-nav-content .side-nav li a.current { color: var(--primary); }
-  .content h2 ul li { border: 0;list-style-type: disc;line-height: 24px;font-size: 14px;color: #21243d; }
+  .content { background: white;max-width: 1280px;margin: auto; }
+  section { padding: 20px;border-bottom: 1px solid #ddd; }
+  section > * { margin-left: 350px; }
+  section > h2 { width: 290px;float: left;margin: 20px; }
 </style>
-<div class="menu">
-  <h1>
-    <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
-      <path d="M5 1.682L3.325 0 2.257 1.067 5 3.81l2.743-2.743L6.675 0 5 1.682zM5 8.318L6.675 10l1.068-1.067L5 6.19 2.257 8.933 3.325 10 5 8.318zM8.318 5L10 3.325 8.933 2.257 6.19 5l2.743 2.743L10 6.675 8.318 5z" fill="#0ED8B8" />
-      <path d="M1.682 5L0 6.675l1.067 1.068L3.81 5 1.067 2.257 0 3.325 1.682 5z" fill="#222" />
-    </svg>
-    NeoXam<div class="tag">Doc</div>
-  </h1>
-  <div class="links">
-    <a href="#architecture">Architecture</a>
-    <a class="active" href="#security">Security</a>
-  </div>
-</div>
-<div class="table_content"></div>
+<h1 class="neoxam">
+  <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+    <path d="M5 1.682L3.325 0 2.257 1.067 5 3.81l2.743-2.743L6.675 0 5 1.682zM5 8.318L6.675 10l1.068-1.067L5 6.19 2.257 8.933 3.325 10 5 8.318zM8.318 5L10 3.325 8.933 2.257 6.19 5l2.743 2.743L10 6.675 8.318 5z" fill="#0ED8B8" />
+    <path d="M1.682 5L0 6.675l1.067 1.068L3.81 5 1.067 2.257 0 3.325 1.682 5z" fill="#fff" />
+  </svg>
+  NeoXam Doc
+</h1>
 <div class="content"></div>
-<div class="right-nav-content">
-  <ul class="side-nav">
-    <li><a href="#introduction-"> Introduction </a></li>
-    <li><a href="#how-to-minimize-the-probability-of-your-data-being-leaked-"> How to minimize the probability of your data being leaked </a></li>
-    <li><a href="#make-your-information-more-secure-"> Make your information more secure </a></li>
-    <li><a href="#infrastructure-monitoring-"> Infrastructure monitoring </a></li>
-    <li><a href="#compliance-disciplines-respect-of-both-industry-regulations-and-government-legislation-by-the-organization-"> Compliance disciplines: Respect of both industry regulations and government legislation by the organization </a></li>
-    <li><a href="#faq-"> FAQ </a></li>
-  </ul>
-</div>
-</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
 <script>
-fetch('/doc/security.md')
-  .then(r => r.text())
-  .then(md => marked(md))
-  .then(html => document.querySelector('.content').innerHTML = html)
-</script>
-<script>
-console.log(window.pageYOffset);
-window.onscroll = function() {
-  if (window.pageYOffset < 200) document.querySelector('.side-nav').style.display = 'none'
-  else document.querySelector('.side-nav').style.display = 'block'
-}
-</script>
-<script>
-  let mainNavLinks = document.querySelectorAll(".right-nav-content ul.side-nav li a");
-  let mainSections = document.querySelectorAll(".content h2");
-
-  let lastId;
-  let cur = [];
-
-  window.addEventListener("scroll", event => {
-    let fromTop = window.scrollY;
-    console.log("From Top = ")
-    console.log(fromTop)
-
-    mainNavLinks.forEach(link => {
-      let section = document.querySelector(link.hash);
-      console.log("Section = ")
-      console.log(section.offsetTop)
-      console.log(section.offsetHeight)
-
-      if (
-        section.offsetTop <= (fromTop + 100) &&
-        (section.offsetTop + section.offsetHeight - 100) > fromTop
-      ) {
-        link.classList.add("current");
-      } else {
-        link.classList.remove("current");
-      }
-    });
-  });
+  fetch('/doc/security.md')
+    .then(r => r.text())
+    .then(md => marked(md))
+    .then(html => document.querySelector('.content').innerHTML = '<section>' + html.replace(/<h2/g, '</section><section><h2') + '</section>')
 </script>
