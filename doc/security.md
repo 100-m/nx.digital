@@ -1,13 +1,14 @@
-# Security
+## NeoXam's secure setup in the cloud
 
-## Introduction
-
-Our main goal is to prevent access to your confidential data. At Neoxam, we take security seriously.
-As we operate in the world of finance, it is our duty to secure all of the data that is transferred to us. We dedicate a large portion of our time to this particular process of securing the delicate data we receive, even though it may consist of public data.
+For NeoXam, the data management and securing is key. As we operate in the world of finance, it is our duty to secure all of the data that is transferred to us. We dedicate a large portion of our time to conceive secure system on all the chain, even though it may consist of public data.
 
 In this document, we discuss two major points: how we handle the security from our side (encrypt the data in transit, in rest, authentification ...), and the best practices you must follow in order to ensure the security of your data. Please reach out if you would like to discuss security in more detail.
 
-## How to minimize the probability of your data being leaked:
+<!-- ## How to minimize the probability of your data being leaked -->
+## Step 1:<br>Get the access
+
+We need your github account.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 ### Secure your admin API Key:
 
@@ -27,7 +28,8 @@ All we need to have is the client’s github account from which we can extract t
 
 - Each member can only access certain features
 
-## Make your information more secure:
+<!-- ## Make your information more secure -->
+## Step 2:<br>Transfert data to your dedicated server
 
 ### API Keys rotation:
 
@@ -48,7 +50,8 @@ All we need to have is the client’s github account from which we can extract t
 - Read key
 - Access key
 
-## Infrastructure Monitoring:
+<!-- ## Infrastructure Monitoring -->
+## Step 3:<br>Monitor data access and quality
 
 ### HTTP referers restriction:
 
@@ -59,11 +62,16 @@ All we need to have is the client’s github account from which we can extract t
 
 - Block the ip address triggering all the operations
 
-## Compliance disciplines: Respect of both industry regulations and government legislation by the organization
+### Compliance disciplines
 
+- Respect of both industry regulations and government legislation by the organization
 - GDPR
 
-## FAQ:
+## Step 4:<br>React to incident
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+## FAQ
 
 - Where is data stored?
 - Is data encrypted in transit? At rest?
@@ -73,3 +81,13 @@ All we need to have is the client’s github account from which we can extract t
 - Where are security relevant validations done ? (client or server /div>
 - How are security measures tested ?
 - Which encryption method is used for data transfer ?
+
+## Exemples:
+
+- https://aws.amazon.com/security/
+- https://github.com/security & https://github.com/enterprise/security
+- https://stripe.com/docs/security & https://stripe.com/docs/security/stripe
+- https://www.algolia.com/doc/guides/security/security-best-practices/
+- https://gdpr.algolia.com/gdpr-article-32
+- https://www.bloomberg.com/professional/product/data-license/
+- https://www.neoxam.com/data-protection-policy
