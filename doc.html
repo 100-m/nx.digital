@@ -21,7 +21,8 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
 <script>
-  fetch('/doc/security.md')
+  let path = '/doc/' + location.search.replace('?','') + '.md'
+  fetch(path)
     .then(r => r.text())
     .then(md => marked(md))
     .then(html => document.querySelector('.content').innerHTML = '<section>' + html.replace(/<h2/g, '</section><section><h2') + '</section>')
