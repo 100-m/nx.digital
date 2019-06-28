@@ -7,24 +7,46 @@ Les données sont à transmettre au format ‘.csv’.
 
 ## Référentiels
 
-### Référentiel fonds (Gestion Collective)
-Nous devons recevoir un référentiel au format .csv qui liste toutes les parts avec pour chaque part les informations suivantes en colonne: isin de la part, nom de la part, nom du fonds, id du fonds, valorisateur, benchmark, date de création (champ optionnel), catégorie (champ optionnel), nom des gérants (champ optionnel), commentaire de gestion (champ optionnel), axe analyse graph 1 (référence à une colonne du référentiel valeur), axe analyse graph 2 (référence à une colonne du référentiel valeur), axe analyse graph 3 (référence à une colonne du référentiel valeur), axe analyse graph 4 (référence à une colonne du référentiel valeur).
+Nous rassemblons toutes les données référentielles dans un document excel que nous appelons “nx-pack”. Ce document vous permet d’avoir la main sur les données référentielles de vos fonds et des valeurs, de gérer leurs traductions, tout en centralisant l’information. C’est l’unique source de vérité du référentiel de l’application digitale. La flexibilité du nx-pack vous donne un contrôle précis et la liberté d’actualiser facilement les informations référentielles de l’application.
 
-### Référentiel Valeurs
-Le référentiel valeurs est le fichier qui nous permet d'agréger par catégories dans l’application : pays, classe d’actif, horizon de liquidité, devise, secteur, type, industrie etc.
-Le model de données du référentiel est flexible. Peuvent apparaître autant de colonnes que voulu. Il faut cependant que les colonnes isin de la ligne et libellé de l’instrument apparaissent.
+Ce fichier nx-pack.xlsx est constitué de 5 onglets:
+- funds_referential
+- assets_referential
+- management_comment
+- managers
+- translation
 
-Le référentiel valeurs est à nous transmettre au format csv.
+Un exemple de fichier nx-pack.xlsx vous sera fourni en début de projet.
 
-### Référentiel Valeurs Indices
-Le référentiel des instruments de l’indice n’est pas traité différemment du référentiel valeurs des instruments des fonds. L’ensemble des valeurs et instruments présents dans l’indice doivent figurer dans le référentiel valeurs.
+### Funds referential
+
+L'onglet 'funds_referential' contient le référentiel des fonds et de leurs parts.
+
+Les informations sont par exemple le nom du fonds, sa catégorie, son id, les gérants, l’axe de gestion, le nom de la part, son ISIN, sa catégorie, sa devise, etc…
+Les colonnes de cet onglet sont gérées dynamiquement, et peuvent être modifiée au besoin du client.
+
+### Assets referential
 
 
-### Référentiel Clients (Gestion Privée)
-Le référentiel client contient les données associant une ID client final à son email et à ses informations telles qu’elles seront affichées dans l’application.
+L’onglet 'asset_referential' contient le référentiel valeurs. Ce sont les données qui nous permettent d'agréger par catégories dans l'application : pays, classe d'actif, horizon de liquidité, devise, secteur, type, notation, industrie etc.
+Les colonnes de cet onglet sont flexibles. Peuvent apparaître autant de colonnes que souhaité. Il faut cependant que les colonnes ISIN et libellé de l'instrument apparaissent.
 
-### Référentiel Comptes (Gestion Privée)
-Le référentiel comptes contient les informations qui lient un compte client à ses attributs : teneur de compte, gestionnaire etc.
+### Management comment
+
+Cet onglet contient les commentaires de gestion, traduits et historisé
+Cet onglet est composé des colonnes : 'Date', 'Fund ID' et d'autant de colonne qu'on a de langues. La colonne 'Date' doit avoir comme format: mois-année (exemple: Jan-19).
+
+### Managers
+
+Cet onglet contient les informations de présentation des gérants, traduites dans chaque langue.
+
+### Translation
+
+L’onglet ‘translation’ accueille les traductions de tous les champs du référentiel qui ont besoin d’être traduits.
+
+Les onglets funds_referential et assets_referential sont typiquement rempli dans une unique langue. C’est dans cet onglet que vous pourrez renseigner les traductions dont vous avez besoin.
+Par exemple, si vous souhaitez traduire une catégorie Pays, il suffit de référencer les traductions de cette catégorie dans cet onglet. Ceci permet de centraliser les informations dans un seul document.
+
 
 ## Données comptables (Gestion Collective)
 L’application 100M est basée sur les données comptables. Vous devrez transmettre à 100M l’ensemble des données d’inventaires valorisés, de mouvements, de souscription rachats, de pnl ligne-à-ligne, ainsi que les séries temporelles de la valorisation de chacune des parts, du nombre de parts, et des dividendes. Selon les valorisateurs, ces données vont se trouver dans différents rapports qui sont détaillés ci-dessous.
@@ -68,38 +90,3 @@ Pour que nous effectuions les attributions de performance, vous devrez nous four
 
 ## Meta données
 Les autres indicateurs, et notamment les données extra-financières, nous sont communiqués via un fichier .csv dédié contenant un nombre de séries temporelles arbitraire.
-
-## Système de Fichiers
-
-### Données de Gestion Collective
-Vous devrez organiser le dossier ‘raw’ en sous-dossiers correspondants aux données qu'ils contiennent en respectant l’arborescence suivante :
-- raw
-- reference_data
-  - instrument_reference
-  - funds_reference
-- accounting_data
-  - FR-caceis
-    - rapport .csv tel que transmis par le valorisateur.
-  - LU-caceis
-  - FR-bpss
-  - LU-bpss
-  - FR-sgss
-  - FR-cmcic
-  - FR-statestreet
-  - …
-- benchmark_data
-  - benchmark1
-    - Fichier de composition tel que transmis par le fournisseur d’indices.
-- other_timeseries
-  - Fichiers comportant les séries temporelles des indices, des valorisations des fonds, etc. au format .csv
-
-### Données de Gestion Privée
-Vous devrez organiser le dossier ‘app’ en sous-dossiers correspondants aux données qu'ils contiennent en respectant l’arborescence suivante :
-- app
-  - accounts.csv
-  - clients.csv
-  - pf-idclient1
-    - performance.csv
-    - allocation.csv
-    - trades.csv
-  - pf-idclient2
