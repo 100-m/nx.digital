@@ -1,6 +1,6 @@
 # Schema des données brutes
 
-100M préférera la donnée la plus brute possible, directement telle que transmise par un fournisseur ou un valorisateur et telle qu’exportée par un système tierce.
+NX Digital préférera la donnée la plus brute possible, directement telle que transmise par un fournisseur ou un valorisateur et telle qu’exportée par un système tierce.
 Pour assurer une qualité optimale, il est nécessaire que l’ensemble de la chaîne de traitement soit automatisé et ne comporte pas de saisie manuelle.
 
 Les données sont à transmettre au format ‘.csv’.
@@ -52,7 +52,7 @@ Par exemple, si vous souhaitez traduire une catégorie Pays, il suffit de réfé
 L’application 100M est basée sur les données comptables. Vous devrez transmettre à 100M l’ensemble des données d’inventaires valorisés, de mouvements, de souscription rachats, de pnl ligne-à-ligne, ainsi que les séries temporelles de la valorisation de chacune des parts, du nombre de parts, et des dividendes. Selon les valorisateurs, ces données vont se trouver dans différents rapports qui sont détaillés ci-dessous.
 
 ### BPSS
-Fichiers "Rapport de Validation VL" quotidiens bruts pour tous les fonds, au format excel
+Fichiers "Nav Pack" quotidiens bruts pour tous les fonds, au format excel
 ### Caceis
 Les rapports quotidiens pour toutes les parts de fonds, au format ‘.csv’:
 - HISINV.csv
