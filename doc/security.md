@@ -25,7 +25,7 @@ Github gives you the choice of using two-factor authentification, which we advis
 
 All we need to have is the client’s github account from which we can extract the public key. Hence the necessity to secure their github account. This will let them share files with us via a protocol (SFTP).
 
-## Step 2:<br>Transfert data to a dedicated server
+## Step 2:<br>Transfer data to a dedicated server
 
 After getting access to our servers, you will be able from one whitelisted server with one of the SSH private key linked to your github account to transfer data through SFTP.
 
