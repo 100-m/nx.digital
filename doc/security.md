@@ -29,11 +29,6 @@ All we need to have is the client’s github account from which we can extract t
 
 After getting access to our servers, you will be able from one whitelisted server with one of the SSH private key linked to your github account to transfer data through SFTP.
 
-Three datasets needs to be transferred to us for the application:
-- Referential Dataset: this is sent by you, it contains funds and instruments referential and can include manager's comment and custom translations. We call it **NxPack**.
-- Fund Dataset: this is sent by the custodian.
-- Benchmark Dataset: this is sent by the benchmark aggregator.
-
 Once the raw data is transferred, our computing pipeline will assess data quality, aggregate data and serve application data through an authorization API.
 
 The only service provider used by NeoXam for cloud data storage and serving is Amazon AWS which respect industry regulations, government legislation and is GDPR compliant.
