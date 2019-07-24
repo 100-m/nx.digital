@@ -1,0 +1,232 @@
+<!--
+Chronos is a project scheduling / planning tool
+It retrieves information from Trello and allow filter combinations:
+- per Period - 1Y / 1Q / 1M / 1W (Past or Forecast)
+- per People
+- per Type - INVEST / PROD / POC / RUN
+- per Project
+TOKEN: https://trello.com/1/authorize?expiration=never&name=Chronos&scope=read&response_type=token&key=046e2330907f0ebb73bd1f18947a4308
+-->
+<style>
+@import url(//rawcss.com/raw.css);
+@import url(//fonts.googleapis.com/css?family=Montserrat:100,400,700);
+body { font-family: 'Montserrat', sans-serif; }
+main { display: flex;flex-direction: column;align-items: center;width: 100%;height: 100%;min-height: fit-content;padding: 40px; }
+main > h1 { font-size: 80px; }
+main > hr { width: 600px; }
+.filters { display: flex;align-items: center;justify-content: center; }
+.filters > * { margin: 4px; }
+.filters a:hover, .filters a.active, .filters a.default { padding-bottom: 4px;margin-bottom: -2px;border-bottom: 2px solid #fd4;text-decoration: none; }
+.filters a.active, .filters a.default { font-weight: 900; }
+.filters input { width: 40px;padding: 2px; }
+.filters select { width: 60px;padding: 2px; }
+.filters hr { height: 24px;border-left: var(--border); }
+.member { display: flex;align-items: center;justify-content: center;width: 25px;height: 25px;border-radius: 50%;background: #d9d9d9;font-size: 12px; }
+.report { width: 800px; }
+.report .line > :first-child { flex: 1;word-break: break-word;hyphens: auto; }
+.report .line > :nth-child(n+2) { width: 40px; }
+</style>
+<main>
+  <h1>Chronos</h1>
+  <div class="filters">
+    <a v-href="{ member: member.initials }" v-for="member in trello && trello.members && trello.members.filter(d => !['CM', 'VD', 'WV'].includes(d.initials))">
+      <div class="member" :tt="member.fullName.join('title')" v-if="member.avatarUrl"><img :src="member.avatarUrl + '/50.png'" /></div>
+      <div class="member" v-text="member.initials" :tt="member.fullName.join('title')" v-else></div>
+    </a>
+    <hr />
+    <a :class="{ default: !router.state.period && period === month }" v-href="{ period }" v-for="period in [week, 'W' + (week.slice(1) - 1), month, quarter, year].filter(d => !/(W|Q)0/.test(d))">{{ period }}</a>
+    <label><input :value="router.state.period" @input="router.state = Object.assign({}, router.state, { period: $event.target.value })" /></label>
+    <hr />
+    <a v-href>RESET</a>
+  </div>
+  <hr />
+  <div class="report">
+    <!-- <b>TOTAL</b>: {{ cards.map('time').sum() }}j
+    <>TYPE</a> -->
+    <a v-href="{ display: 'project' }" class="column" style="color: var(--text);text-decoration: none;align-items: unset;justify-content: unset;padding: 4px;border: var(--border);border-radius: 4px;">
+      <div class="row">
+        <div style="flex: 1;height: 28px;" class="row center" v-for="grp, i in cards.group(router.state.display || 'type').values().sort(grp => -grp.map('time').sum()).slice(0, 5)">
+          <div style="width: 10px;height: 10px;border-radius: 50%;margin-right: 4px;" :style="{ background: ['#60bd4f', '#f2d602', '#ff9f19', '#eb5a46', '#c377e0', '#0279bf', '#03c2e0', '#51e897', '#ff78cb', '#344563'][i] || '#b3bac5' }"></div>
+          <div style="font-weight: 600;margin-right: 4px;">{{ grp[0][router.state.display || 'type'] }}</div>
+          <div style="font-weight: 600;color: #6a737d;margin-right: 4px;">{{ Math.round(grp.map('time').sum() / cards.map('time').sum() * 100) + '%' }}</div>
+        </div>
+      </div>
+      <div style="height: 8px;" class="row">
+        <div style="border: 1px solid white;" :style="{ width: (grp.map('time').sum() / cards.map('time').sum() * 99) + '%', height: '8px', background: ['#60bd4f', '#f2d602', '#ff9f19', '#eb5a46', '#c377e0', '#0279bf', '#03c2e0', '#51e897', '#ff78cb', '#344563'][i] || '#b3bac5' }" :tt="[grp[0][router.state.display || 'type'], Math.round(grp.map('time').sum() / cards.map('time').sum() * 100) + '%', grp.map('time').sum() + 'j'].join(' / ')" v-for="grp, i in cards.group(router.state.display || 'type').values().sort(grp => -grp.map('time').sum())"></div>
+      </div>
+    </a>
+
+    <div style="margin: 10px 0;padding: 12px;border: var(--border);border-radius: 4px;" class="column" v-for="grp in cards.group('project').values().sort(grp => -grp.map('time').sum())">
+      <div class="row center">
+        <a style="font-size: 2em;font-weight: 600;color: var(--text);" v-href="{ project: grp[0].project }">{{ grp[0].project }}</a>
+        <div style="margin-left: auto;font-weight: 600;color: #6a737d;">{{ Math.round(grp.map('time').sum() / cards.map('time').sum() * 100) }}%</div>
+        <div style="margin-left: 10px;font-size: 2em;font-weight: 600;">{{ grp.map('time').sum() }}j</div>
+      </div>
+
+      <template v-if="!router.state.period || months.includes(router.state.period)">
+        <div style="margin: 12px -12px -12px -12px;padding: 12px;border-top:  var(--border);" v-for="card in trello.cards.filter(c => c.idList === trello.lists.find(d => d.name.startsWith(month)).id && c.name.split(' - ')[0] === grp[0].project)">
+          <a style="font-weight: 600;" :style="{ color: card.dueComplete ? 'green' : 'red' }" :href="card.shortUrl" target="_blank">{{ card.name.replace(grp[0].project, card.due.slice(0, 10)) }}</a>
+        </div>
+      </template>
+
+      <template v-if="router.state.project === grp[0].project">
+        <div style="position: relative;margin: 12px -12px -12px -12px;padding: 12px;border-top:  var(--border);" v-for="ticket in grp">
+          <a v-href="ticket.url" style="padding-right: 100px;color: var(--text);">{{ ticket.task }}</a>
+          <div style="position: absolute;top: 12px;right: 60px;" class="member" :tt="trello.members.find(m => m.initials === ticket.member).fullName.join('title')" v-if="trello.members.find(m => m.initials === ticket.member).avatarUrl">
+            <img :src="trello.members.find(m => m.initials === ticket.member).avatarUrl + '/50.png'" />
+          </div>
+          <div class="member" style="position: absolute;top: 12px;right: 60px;color: var(--primary);" v-text="trello.members.find(m => m.initials === ticket.member).initials" :tt="trello.members.find(m => m.initials === ticket.member).fullName.join('title')" v-else></div>
+          <b style="position: absolute;top: 12px;right: 12px;font-weight: 600;">{{ ticket.time }}j</b>
+        </div>
+      </template>
+    </div>
+  </div>
+</main>
+
+<script type="module">
+import Vue from 'https://unpkg.com/vue@2.6.10/dist/vue.esm.browser.js'
+import raw from 'https://cdn.jsdelivr.net/gh/vbrajon/rawjs/raw.js'
+raw()
+raw(Object, 'keys')
+raw(Object, 'values')
+raw(Object, 'entries')
+Array.fromEntries = Object.fromEntries
+raw(Array, 'fromEntries')
+// Mini Vue router
+window.router = {
+  pathname: location.pathname,
+  search: location.search,
+}
+window.addEventListener('click', e => {
+  let el = e.target
+  while (el.parentNode !== document.body) {
+    if (el.href) {
+      window.history.pushState({}, null, el.href)
+      window.dispatchEvent(new Event('router'))
+      return e.preventDefault()
+    }
+    el = el.parentNode
+  }
+})
+window.addEventListener('popstate', e => window.dispatchEvent(new Event('router')))
+window.addEventListener('router', e => {
+  router.pathname = location.pathname
+  router.search = location.search
+})
+// TODO: v-href should be equal to:
+// :href="fn(...)"
+// :class="{ active: fn(...) }"
+// N2H: an input shortcut similar to v-model
+// :value="router.state.week"
+// @input="router.state = Object.assign({}, router.state, { week: $event.target.value })"
+const vhref = {} // href elements
+const uhref = ({ el, binding }) => {
+  let link
+  if (!binding.value) link = location.pathname
+  if (typeof binding.value === 'string') link = binding.value
+  if (typeof binding.value === 'object') {
+    const state = router.state.map()
+    el.classList[binding.value.keys().every(k => state[k] == binding.value[k]) ? 'add' : 'remove']('active') // ===
+    binding.value.map((v, k) => state[k] === v ? delete state[k] : state[k] = v)
+    link = state.reduce((acc, v, k) => `${acc}&${k}=${v}`, '?').replace('?&', '?').replace(/^\?$/, location.pathname)
+  }
+  el.classList[[location.pathname + location.search, location.search].includes(link) ? 'add' : 'remove']('exact')
+  el.setAttribute('href', link)
+} // update href element
+Vue.directive('href', (el, binding, vnode) => uhref(vhref[vnode.key] = { el, binding }))
+Vue.mixin({
+  data() {
+    router.state = {}
+    return { router }
+  },
+  watch: {
+    'router.search': {
+      handler(next) {
+        router.state = (router.search || '?').slice(1).split('&').filter().reduce((acc, str) => { const [k, v] = str.split('=');acc[k] = v;return acc }, {})
+      },
+      immediate: true,
+    },
+    'router.state': {
+      handler(next) {
+        if (!next.keys().length) return
+        const link = next.reduce((acc, v, k) => `${acc}&${k}=${v}`, '?').replace('?&', '?').replace(/^\?$/, location.pathname)
+        if (link === router.search) return
+        window.history.pushState({}, null, link)
+        window.dispatchEvent(new Event('router'))
+      },
+      deep: true,
+    },
+  },
+})
+
+window.months = Vue.prototype.months = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
+Date.prototype.getWeek = function() {
+  const dec31 = new Date(this.getFullYear(), 0, 0)
+  return Math.ceil(((this - dec31) / 86400000 + (dec31.getDay() > 3 ? dec31.getDay() - 7 : dec31.getDay())) / 7)
+}
+Date.prototype.getQuarter = function() {
+  return Math.ceil((this.getMonth() + 1) / 3)
+}
+new Vue({
+  el: 'main',
+  data: {
+    trello: null,
+    tickets: null,
+    week: 'W' + new Date().getWeek(),
+    quarter: 'Q' + new Date().getQuarter(),
+    month: months[new Date().getMonth()],
+    year: new Date().getFullYear(),
+  },
+  computed: {
+    cards() {
+      try {
+        return this.tickets
+          .filter(d => {
+            const period = router.state.period || this.month
+            if (router.state.member && router.state.member !== d.member) return false
+            if (router.state.project && router.state.project !== d.project) return false
+            if (/W\d+/.test(period) && period !== d.week) return false
+            if (months.includes(period) && period !== d.month) return false
+            if (/Q\d/.test(period) && period !== d.quarter) return false
+            if (/\d{4}/.test(period) && period !== d.year) return false
+            return true
+          })
+      } catch(e) { return [] }
+    },
+  },
+  mounted() {
+    fetch('https://trello.com/b/dn8XQPP7/100m-prod.json?key=046e2330907f0ebb73bd1f18947a4308&token=52431443c595002aa9fc45d54a11e9a4b5797c1a1e1dccc948a5f8efbcb3c5d1&cards=all&lists=all&checklists=all&members=all')
+    .then(r => r.json())
+    .then(json => {
+      window.trello = this.trello = Object.freeze(json)
+
+      const d = new Date('2019')
+      window.tickets = this.tickets = Object.freeze(
+        trello.cards
+          .filter(d => /([^-]*)-(.*)\[([.0-9]+).*\]/.exec(d.name))
+          .map(card => {
+            const url = card.shortUrl
+            const matches = /([^-]*)-(.*)\[([.0-9]+).*\]/.exec(card.name)
+            const project = matches[1].trim()
+            const task = matches[2].trim()
+            const time = +matches[3]
+            const labels = card.labels.map('name')
+            const type = labels.find(d => ['IMPLEM', 'INVEST', 'RUN'].includes(d)) || 'MISC'
+            const week = trello.lists.find(d => d.id === card.idList).name
+            const month = months[d.plus(week.slice(1) * 7 - d.getDay() - 2 + ' days').getMonth()]
+            const quarter = 'Q' + Math.ceil(week.slice(1) / 13)
+            const year = '2019' // +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
+            const members = (card.idMembers || []).map(mid => trello.members.find(d => d.id === mid))
+            const member = (members[0] || {}).initials
+            return { url, project, labels, type, task, time, member, week, month, quarter, year }
+          })
+          .filter(d => {
+            if (!/^W\d+$/.test(d.week)) return false
+            if (!d.member) return false // TODO: clean cards without assignment
+            return true
+          })
+      )
+    })
+  },
+})
+</script>
