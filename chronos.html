@@ -23,8 +23,6 @@ main > hr { width: 600px; }
 .filters hr { height: 24px;border-left: var(--border); }
 .member { display: flex;align-items: center;justify-content: center;width: 25px;height: 25px;border-radius: 50%;background: #d9d9d9;font-size: 12px; }
 .report { width: 800px; }
-.report .line > :first-child { flex: 1;word-break: break-word;hyphens: auto; }
-.report .line > :nth-child(n+2) { width: 40px; }
 </style>
 <main>
   <h1>Chronos</h1>
@@ -41,8 +39,18 @@ main > hr { width: 600px; }
   </div>
   <hr />
   <div class="report">
-    <!-- <b>TOTAL</b>: {{ cards.map('time').sum() }}j
-    <>TYPE</a> -->
+    <h2 class="row">
+      {{ router.state.period || month }} - {{ cards.map('time').sum() }}j
+      <div style="margin-left: auto;" class="row center right">
+        <div style="margin: 10px;" v-for="grp, i in cards.group('member').values().sort(grp => -grp.map('time').sum()).slice(0, 5)">
+          <div class="member" :tt="trello.members.find(m => m.initials === grp[0].member).fullName.join('title')" v-if="trello.members.find(m => m.initials === grp[0].member).avatarUrl">
+            <img :src="trello.members.find(m => m.initials === grp[0].member).avatarUrl + '/50.png'" />
+          </div>
+          <div class="member" v-text="trello.members.find(m => m.initials === grp[0].member).initials" :tt="trello.members.find(m => m.initials === grp[0].member).fullName.join('title')" v-else></div>
+          <div style="font-size: 20px;text-align: center;">{{ grp.map('time').sum() }}</div>
+        </div>
+      </div>
+    </h2>
     <a v-href="{ display: 'project' }" class="column" style="color: var(--text);text-decoration: none;align-items: unset;justify-content: unset;padding: 4px;border: var(--border);border-radius: 4px;">
       <div class="row">
         <div style="flex: 1;height: 28px;" class="row center" v-for="grp, i in cards.group(router.state.display || 'type').values().sort(grp => -grp.map('time').sum()).slice(0, 5)">
@@ -65,13 +73,13 @@ main > hr { width: 600px; }
 
       <template v-if="!router.state.period || months.includes(router.state.period)">
         <div style="margin: 12px -12px -12px -12px;padding: 12px;border-top:  var(--border);" v-for="card in trello.cards.filter(c => c.idList === trello.lists.find(d => d.name.startsWith(month)).id && c.name.split(' - ')[0] === grp[0].project)">
-          <a style="font-weight: 600;" :style="{ color: card.dueComplete ? 'green' : 'red' }" :href="card.shortUrl" target="_blank">{{ card.name.replace(grp[0].project, card.due.slice(0, 10)) }}</a>
+          <a :href="card.shortUrl" target="_blank" style="font-weight: 600;" :style="{ color: card.dueComplete ? 'green' : 'red' }">{{ card.name.replace(grp[0].project, card.due && card.due.slice(0, 10)) }}</a>
         </div>
       </template>
 
-      <template v-if="router.state.project === grp[0].project">
+      <template v-if="router.state.project === grp[0].project || /W\d+/.test(router.state.period)">
         <div style="position: relative;margin: 12px -12px -12px -12px;padding: 12px;border-top:  var(--border);" v-for="ticket in grp">
-          <a v-href="ticket.url" style="padding-right: 100px;color: var(--text);">{{ ticket.task }}</a>
+          <a :href="ticket.url" target="_blank" style="padding-right: 100px;color: var(--text);">{{ ticket.task }}</a>
           <div style="position: absolute;top: 12px;right: 60px;" class="member" :tt="trello.members.find(m => m.initials === ticket.member).fullName.join('title')" v-if="trello.members.find(m => m.initials === ticket.member).avatarUrl">
             <img :src="trello.members.find(m => m.initials === ticket.member).avatarUrl + '/50.png'" />
           </div>
@@ -84,14 +92,9 @@ main > hr { width: 600px; }
 </main>
 
 <script type="module">
+import 'https://cdn.jsdelivr.net/gh/vbrajon/rawjs/raw.js'
 import Vue from 'https://unpkg.com/vue@2.6.10/dist/vue.esm.browser.js'
-import raw from 'https://cdn.jsdelivr.net/gh/vbrajon/rawjs/raw.js'
 raw()
-raw(Object, 'keys')
-raw(Object, 'values')
-raw(Object, 'entries')
-Array.fromEntries = Object.fromEntries
-raw(Array, 'fromEntries')
 // Mini Vue router
 window.router = {
   pathname: location.pathname,
@@ -119,8 +122,7 @@ window.addEventListener('router', e => {
 // N2H: an input shortcut similar to v-model
 // :value="router.state.week"
 // @input="router.state = Object.assign({}, router.state, { week: $event.target.value })"
-const vhref = {} // href elements
-const uhref = ({ el, binding }) => {
+Vue.directive('href', (el, binding, vnode) => {
   let link
   if (!binding.value) link = location.pathname
   if (typeof binding.value === 'string') link = binding.value
@@ -132,8 +134,7 @@ const uhref = ({ el, binding }) => {
   }
   el.classList[[location.pathname + location.search, location.search].includes(link) ? 'add' : 'remove']('exact')
   el.setAttribute('href', link)
-} // update href element
-Vue.directive('href', (el, binding, vnode) => uhref(vhref[vnode.key] = { el, binding }))
+})
 Vue.mixin({
   data() {
     router.state = {}
