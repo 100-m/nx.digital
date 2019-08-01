@@ -32,7 +32,7 @@ main > hr { width: 600px; }
       <div class="member" v-text="member.initials" :tt="member.fullName.join('title')" v-else></div>
     </a>
     <hr />
-    <a :class="{ default: !router.state.period && period === month }" v-href="{ period }" v-for="period in [week, 'W' + (week.slice(1) - 1), month, quarter, year].filter(d => !/(W|Q)0/.test(d))">{{ period }}</a>
+    <a :class="{ default: !router.state.period && period === month }" v-href="{ period }" v-for="period in [week, 'W' + (week.slice(1) - 1), month, months[months.findIndex(d => d === month) - 1], quarter, year].filter(d => !/(W|Q)0/.test(d))">{{ period }}</a>
     <label><input :value="router.state.period" @input="router.state = Object.assign({}, router.state, { period: $event.target.value })" /></label>
     <hr />
     <a v-href>RESET</a>
@@ -71,8 +71,8 @@ main > hr { width: 600px; }
         <div style="margin-left: 10px;font-size: 2em;font-weight: 600;">{{ grp.map('time').sum() }}j</div>
       </div>
 
-      <template v-if="!router.state.period || months.includes(router.state.period)">
-        <div style="margin: 12px -12px -12px -12px;padding: 12px;border-top:  var(--border);" v-for="card in trello.cards.filter(c => c.idList === trello.lists.find(d => d.name.startsWith(month)).id && c.name.split(' - ')[0] === grp[0].project)">
+      <template v-if="!router.state.period || months.includes(router.state.period) && trello.lists.find(d => d.name.startsWith(router.state.period || month))">
+        <div style="margin: 12px -12px -12px -12px;padding: 12px;border-top:  var(--border);" v-for="card in trello.cards.filter(c => c.idList === trello.lists.find(d => d.name.startsWith(router.state.period || month)).id && c.name.split(' - ')[0] === grp[0].project)">
           <a :href="card.shortUrl" target="_blank" style="font-weight: 600;" :style="{ color: card.dueComplete ? 'green' : 'red' }">{{ card.name.replace(grp[0].project, card.due && card.due.slice(0, 10)) }}</a>
         </div>
       </template>
@@ -214,7 +214,7 @@ new Vue({
             const labels = card.labels.map('name')
             const type = labels.find(d => ['IMPLEM', 'INVEST', 'RUN'].includes(d)) || 'MISC'
             const week = trello.lists.find(d => d.id === card.idList).name
-            const month = months[d.plus(week.slice(1) * 7 - d.getDay() - 2 + ' days').getMonth()]
+            const month = months[d.plus(week.slice(1) * 7 - d.getDay() - 6 + ' days').getMonth()]
             const quarter = 'Q' + Math.ceil(week.slice(1) / 13)
             const year = '2019' // +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
             const members = (card.idMembers || []).map(mid => trello.members.find(d => d.id === mid))
