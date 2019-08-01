@@ -10,17 +10,17 @@
 
   <link href="https://rawcss.com/raw.css" rel="stylesheet">
   <style>
-    .preview { width: calc(100vw - 150px);padding-left: 20px;max-height: 100%; }
+    .preview { width: calc(100vw - 150px);max-height: 100%; }
     .list { width: 150px; }
-    .pdf { width: 30%; }
-    .text { width: 70%; }
+    .pdf { width: 40%; }
+    .text { width: 60%; }
     .full { width: 100%; }
     .text { padding: 20px; max-height: 100%; overflow: scroll; }
-    .paragraph { width: 60%; }
-    .delete { width: 10%; }
-    .labels { width: 30%;padding-left: 10px; }
-    .delete button, .labels button { margin: 2px;padding: 4px 8px; }
-    .delete button { background: #D80143; }
+    .paragraph { width: 60%;position: relative; }
+    .labels { width: 30%;padding-left: 10px;}
+    .labels button { margin: 2px;padding: 4px 8px;justify-content: left;text-transform: uppercase;font-weight: bold; }
+    .delete { position: absolute;top: -15px;left: -15px;border-radius: 30px;width: 30px;height: 30px;background: #D80143;box-shadow: 0 1px 3px 1px rgba(60,64,67,.3); }
+    .delete svg { height: 20px;width: 20px;margin: 5px;fill: white; }
     .annotation { padding: 20px 0; }
     .header { font-weight: 800;font-size: 16px; }
     .object-card { border-radius: 3px;padding: 15px;box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16); }
@@ -56,16 +56,17 @@
           <div class="row header">
             <div class="paragraph">Text</div>
             <div class="labels">Labels</div>
-            <div class="delete">Actions</div>
           </div>
           <div class="row annotation" v-for="annotation in text" v-if="annotation.text.length && annotation.label !== 'delete'">
             <div class="paragraph object-card" :style="{ color: annotation.label ? 'white': 'black', background: annotation.label ? labels.find(d => d.label === annotation.label).color : 'white' }">
               {{ annotation.text }}
+              <a class="delete" @click="update_label(annotation, 'delete')">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+              </a>
             </div>
-            <div class="labels">
+            <div class="labels column">
               <button @click="update_label(annotation, label.label)" :style="{ background: label.color }" v-for="label in labels">{{ label.label }}</button>
             </div>
-            <div class="delete"><button @click="update_label(annotation, 'delete')">Delete</button></div>
           </div>
         </div>
         <div class="pdf">
@@ -77,6 +78,8 @@
   <script type="module">
     import Vue from 'https://unpkg.com/vue@2.6.10/dist/vue.esm.browser.js'
     import 'https://cdn.jsdelivr.net/gh/vbrajon/rawjs/raw.js'
+    Array.last = (arr) => arr.slice(0, -1)[0]
+    Array.first = (arr) => arr[0]
     raw()
     window.type = Vue.prototype.type = x => Object.prototype.toString.call(x).slice(8, -1).toLowerCase()
 
