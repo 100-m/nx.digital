@@ -10,18 +10,26 @@
 
   <link href="https://rawcss.com/raw.css" rel="stylesheet">
   <style>
-    .preview { width: calc(100% - 200px); }
-    .list { width: 200px; }
+    .preview { width: calc(100vw - 150px);padding-left: 20px;max-height: 100%; }
+    .list { width: 150px; }
     .pdf { width: 30%; }
     .text { width: 70%; }
     .full { width: 100%; }
-    .text { padding: 20px; max-height: 100vh; overflow: scroll; }
+    .text { padding: 20px; max-height: 100%; overflow: scroll; }
     .paragraph { width: 60%; }
     .delete { width: 10%; }
-    .labels { width: 30%; }
-    .delete button, .labels button { margin: 5px; }
+    .labels { width: 30%;padding-left: 10px; }
+    .delete button, .labels button { margin: 2px;padding: 4px 8px; }
+    .delete button { background: #D80143; }
     .annotation { padding: 20px 0; }
     .header { font-weight: 800;font-size: 16px; }
+    .object-card { border-radius: 3px;padding: 15px;box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16); }
+    .menu { justify-content: space-between;border-bottom: 1px solid #EEE;padding: 0 30px; }
+
+    ul { list-style: none;padding: 0;margin: 0;max-height: 100%;overflow: scroll;box-shadow: 0 1px 3px 1px rgba(60,64,67,.16); }
+    ul a { padding: 7px 0;padding-left: 30px;text-align: left;width: 100%;color: #444; }
+    ul li { width: 100%;color: #444; }
+    ul a:hover, .active { background: #EEE;color: #222; }
   </style>
 </head>
 
@@ -30,21 +38,20 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-dsv/1.0.8/d3-dsv.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
   <main>
-    <h1>Prospectus extraction tool</h1>
-    <div class="row">
-      <div>Selected file: {{ selected }}</div>
-      <button @click="dlCSV(text, 'en', selected.split('/').last().split('.').first() + '-annotated.csv')" v-if="text.length">Download</button>
+    <div class="row menu">
+      <h2>Prospectus extraction tool</h2>
+      <div style="padding-top: 15px;padding-right: 30px;">
+        <button @click="dlCSV(text, 'en', selected.split('/').last().split('.').first() + '-annotated.csv')" v-if="text.length">Download annotations</button>
+      </div>
     </div>
-    <div class="row">
+    <div class="row" style="height: calc(100vh - 63px);">
       <ul class="list">
-        <li v-for="file in (csv || []).map('file').unique().sort()" v-on:click="selected = file">
-          <a>{{ file.replace('.txt', '.pdf') }}</a>
-        </li>
+        <div style="padding-left: 30px;padding-top: 10px;padding-bottom: 7px;border-bottom: 1px solid #DDD;">Select file:</div>
+        <a v-for="file in (csv || []).map('file').unique().sort()" v-on:click="selected = file" :class="{ active: selected === file }">
+          <li>{{ file.replace('.txt', '.pdf').split('/')[2] }}</li>
+        </a>
       </ul>
       <div class="preview row" v-if="selected">
-        <div class="pdf">
-          <iframe class="full" :src="'/ai/' + selected.replace('.txt', '.pdf')" height="600px"></iframe>
-        </div>
         <div class="text">
           <div class="row header">
             <div class="paragraph">Text</div>
@@ -52,7 +59,7 @@
             <div class="delete">Actions</div>
           </div>
           <div class="row annotation" v-for="annotation in text" v-if="annotation.text.length && annotation.label !== 'delete'">
-            <div class="paragraph" :style="{ background: annotation.label ? labels.find(d => d.label === annotation.label).color : 'white' }">
+            <div class="paragraph object-card" :style="{ color: annotation.label ? 'white': 'black', background: annotation.label ? labels.find(d => d.label === annotation.label).color : 'white' }">
               {{ annotation.text }}
             </div>
             <div class="labels">
@@ -60,6 +67,9 @@
             </div>
             <div class="delete"><button @click="update_label(annotation, 'delete')">Delete</button></div>
           </div>
+        </div>
+        <div class="pdf">
+          <iframe class="full" :src="'/ai/' + selected.replace('.txt', '.pdf')" height="100%"></iframe>
         </div>
       </div>
     </div>
@@ -83,11 +93,11 @@
         text: [],
         csv: '',
         labels: [
-          { label: 'objectives', color: '#D80143' },
-          { label: 'risk_profile', color: '#2F75B6' },
-          { label: 'fees', color: '#00CCAB' },
-          { label: 'past_performance', color: '#FFED04' },
-          { label: 'information', color: '#582661' }],
+          { label: 'objectives', color: '#969692' },
+          { label: 'risk_profile', color: '#728692' },
+          { label: 'fees', color: '#4CC6B2' },
+          { label: 'past_performance', color: '#6E9FCC' },
+          { label: 'information', color: '#8A6891' }],
       },
       watch: {
         'selected': function (value) {
