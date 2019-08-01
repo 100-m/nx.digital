@@ -1,0 +1,903 @@
+SONANCE 3
+
+Eligible au PEA
+
+OPCVM conforme aux normes européennes
+
+PROSPECTUS SIMPLIFIE
+SONANCE 3 est construit dans la perspective d’un investissement pour toute la durée de vie de la formule. Il est donc fortement recommandé de n’acheter des parts de ce fonds que si vous avez l’intention de les conserver jusqu’à l’échéance de la formule. Si vous revendez vos parts avant l’échéance du 27 décembre 2019*, le prix qui vous sera proposé sera fonction des paramètres du marché ce jour-là (déduction faite des frais de rachat). Il pourra être très différent (inférieur ou supérieur) du montant résultant de l’application de la formule annoncée.
+
+PARTIE A
+PRESENTATION SUCCINCTE
+ Code ISIN : FR0011060854  Dénomination : SONANCE 3
+
+STATUTAIRE
+
+ Forme juridique : Fonds Commun de Placement (FCP) de droit français.  Société de gestion : Amundi.  Gestionnaire comptable par délégation : CACEIS FASTNET.  Durée de la formule : 8 ans  Dépositaire et gestionnaire du passif : CACEIS BANK.  Commissaire aux comptes : MAZARS  Commercialisateurs : Agences des Caisses Régionales de Crédit Agricole proposant cette offre. La liste des commercialisateurs n’est pas exhaustive dans la mesure où, notamment, l’OPCVM est admis à la circulation en Euroclear. Ainsi, certains commercialisateurs peuvent ne pas être mandatés ou connus de la société de gestion.
+
+INFORMATIONS CONCERNANT LES PLACEMENTS ET LA GESTION
+ Classification : Fonds à formule  Garantie du capital à l’échéance** : oui.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte. ** Garantie de 100% de la Valeur Liquidative de Référence, pour les investisseurs conservant leurs parts jusqu’à l’échéance de la formule le 27 décembre 2019*. La Valeur Liquidative de Référence est définie comme étant la plus élevée des valeurs liquidatives (hors commission de souscription) établies entre le 8 septembre 2011 inclus et le 28 décembre 2011 inclus.
+
+1
+
+SONANCE 3
+
+Eligible au PEA
+
+ OPCVM d’OPCVM : le FCP SONANCE 3 (le « Fonds ») pourra exposer jusqu’à 100% de son actif en parts ou actions d’OPCVM ou fonds d’investissement.  Objectif de gestion : L’objectif de gestion du Fonds est de permettre aux investisseurs décembre 2019* : - de la Valeur Liquidative de Référence, (1) - majorée de la Performance 8 Ans du Panier . de bénéficier à horizon 8 ans, le 27
+
+La Performance 8 Ans du Panier correspond à la moyenne arithmétique des performances des 25 actions constituant le Panier ; la performance de chacune de ces actions étant plafonnée à 85%. La performance de la formule sera donc comprise entre 0% et 85%, soit un rendement annualisé maximum (2) de 8,00% . est un panier équipondéré des 25 actions de l’indice Euro Stoxx 50 ayant le 20 juillet 2011 les Le Panier plus fortes pondérations dans l’indice.
+(1) (2)
+
+(1)
+
+définition précise au paragraphe « Stratégie d’investissement - description de la formule » rendement annualisé obtenu sur la période du 28 décembre 2011 au 27 décembre 2019
+
+ Économie de l’OPCVM : En contrepartie du renoncement à la perception des dividendes attachés aux actions composant le Panier et d’un plafonnement de la performance à 85%, l’investisseur bénéficie à horizon 8 ans d’un rendement annualisé compris entre 0% et 8,00%. En souscrivant à SONANCE 3, l’investisseur anticipe la hausse des marchés actions de la zone Euro, représentés par le Panier.
+
+Avantages de la formule pour l’investisseur : 
+
+Inconvénients de la formule pour l’investisseur :
+
+
+
+L’investisseur peut bénéficier à l’échéance de la formule du potentiel de croissance des marchés d’actions de la zone euro représenté par le Panier ; la performance maximum de la formule étant de 85% (soit un rendement annualisé maximum de (2) 8,00% ). L’investisseur bénéficie à l’échéance de la formule de la garantie intégrale de la Valeur Liquidative de Référence.
+
+Pour bénéficier de la formule, l’investisseur doit conserver ses parts jusqu’à l’échéance de la formule. Le gain de l’investisseur est plafonné à 85% à 8 ans (2) (soit un rendement annualisé maximum de 8,00% ), la performance de chacune des actions étant plafonnée à 85% dans le calcul de la performance du Panier. L’investisseur ne profitera donc pas intégralement d’une très forte hausse (au-delà de 85%) d’une ou plusieurs actions du Panier. La performance de chaque action du Panier n’est pas limitée à la baisse. Ainsi, une forte baisse d’une action du Panier pourra diminuer la performance du Panier. La performance du Panier dans le cadre de la formule étant calculée hors dividendes, l’investisseur ne bénéficiera pas des dividendes détachés par les actions du Panier.
+
+
+
+
+
+
+
+
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+2
+
+SONANCE 3
+
+Eligible au PEA
+
+La formule est précisément décrite au paragraphe Stratégie d’Investissement – Description de la formule
+(2)
+
+rendement annualisé obtenu sur la période du 28 décembre 2011 au 27 décembre 2019
+
+ Indice de référence : La performance du Fonds n’est liée par la formule à celle du Panier d’actions (décrit au paragraphe « Stratégie d’investissement ») qu’à la date d’échéance de la formule. En effet, en raison des contrats mis en place pour assurer la formule à l’échéance, l’évolution de la valeur liquidative pendant la durée de vie de la formule peut être différente de celle du Panier d’actions. Les investisseurs sont invités à se référer aux simulations sur les données historiques de marché ainsi qu’au taux sans risque qui sont détaillés ci-dessous.  Stratégie d’investissement :
+
+ Description de la formule :
+La formule détermine la valeur liquidative établie le 27 décembre 2019* (la « Valeur Liquidative Finale ») en fonction de l’évolution du Panier dans les conditions définies ci-dessous. La Valeur Liquidative Finale sera égale à 100% de la Valeur Liquidative de Référence majorée de la Performance 8 Ans du Panier (telle que définie ci-dessous). Celle-ci sera comprise entre 0% et 85%, soit un (2) rendement annualisé maximum de 8,00% . La Valeur Liquidative de Référence est définie comme étant la plus élevée des valeurs liquidatives (hors commission de souscription) établies entre le 8 septembre 2011 inclus et le 28 décembre 2011 inclus.
+(2)
+
+rendement annualisé obtenu sur la période du 28 décembre 2011 au 27 décembre 2019
+
+Modalités de calcul de la Performance 8 Ans du Panier : - Calcul de la Performance 8 Ans Retenue de chaque action du Panier La Performance 8 Ans de chaque action du Panier est égale à : (Valeur Finale - Valeur Initiale) / Valeur Initiale. La Performance 8 Ans Retenue de chaque action du Panier est égale à sa Performance 8 Ans si celle-ci est inférieure à 85%, sinon elle est égale à 85%. Etant entendu que : La Valeur Initiale d’une action du Panier correspond à la moyenne arithmétique des cours de clôture de l’action sur sa Bourse aux dates suivantes : 30 décembre 2011, 2 janvier 2012, 3 janvier 2012, 4 janvier 2012, 5 janvier 2012, 6 janvier 2012, 9 janvier 2012, 10 janvier 2012, 11 janvier 2012 et 12 janvier 2012. La Valeur Finale d’une action du Panier correspond à la moyenne arithmétique des cours de clôture de l’action sur sa Bourse aux dates suivantes : 14 novembre 2019, 15 novembre 2019, 18 novembre
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+3
+
+SONANCE 3
+
+Eligible au PEA
+
+2019, 19 novembre 2019, 20 novembre 2019, 21 novembre 2019, 22 novembre 2019, 25 novembre 2019, 26 novembre 2019, 27 novembre 2019, 28 novembre 2019, 29 novembre 2019, 2 décembre 2019, 3 décembre 2019, 4 décembre 2019, 5 décembre 2019, 6 décembre 2019, 9 décembre 2019, 10 décembre 2019 et 11 décembre 2019.
+
+Les calculs de la Valeur Initiale et de la Valeur Finale de chaque action du Panier sont arrondis à la quatrième décimale. Si la cinquième décimale est supérieure ou égale à 5, la quatrième décimale sera arrondie par excès, sinon par défaut. - Calcul de la Performance 8 Ans du Panier La Performance 8 Ans du Panier est égale à la moyenne arithmétique des 25 Performances 8 Ans Retenues des actions du Panier. Si cette moyenne est négative, la Performance 8 Ans du Panier sera considérée comme nulle. Par construction, la Performance 8 Ans du Panier maximum est de 85%. Le Panier : La performance de la formule est liée à l’évolution d’un panier équipondéré des 25 actions de l’Euro Stoxx 50 décrites dans le tableau ci-dessous (le « Panier »). Modalités de sélection des actions du Panier : Les 25 actions retenues dans le Panier sont les plus fortes pondérations de l’indice Euro Stoxx 50 à la date du 20 juillet 2011.
+Nom de l'action AB InBev AIR LIQUIDE ALLIANZ BASF BAYER BBVA SANTANDER BNP PARIBAS DAIMLER DANONE DEUTSCHE BANK DEUTSCHE TELEKOM E.ON ENI FRANCE TELECOM GDF SUEZ ING Groep LVMH SANOFI-AVENTIS SAP SCHNEIDER ELECTRIC SIEMENS TELEFONICA TOTAL UNILEVER NV Pays Belgique France Allemagne Allemagne Allemagne Espagne Espagne France Allemagne France Allemagne Allemagne Allemagne Italie France France Pays-Bas France France Allemagne France Allemagne Espagne France Pays-Bas Code Reuters ABI.BR AIRP.PA ALVG.DE BASFn.DE BAYGn.DE BBVA.MC SAN.MC BNPP.PA DAIGn.DE DANO.PA DBKGn.DE DTEGn.DE EONGn.DE ENI.MI FTE.PA GSZ.PA ING.AS LVMH.PA SASY.PA SAPG.DE SCHN.PA SIEGn.DE TEF.MC TOTF.PA UNc.AS Chimie Assurance Chimie Chimie Banques Banques Banques Automobiles et équipementiers Agro-alimentaire et boissons Banques Télécommunications Services aux collectivites Pétrole et gaz Télécommunications Services aux collectivités Assurance Produits ménagers et de soin personnel Santé Technologie Biens et services industriels Biens et services industriels Télécommunications Pétrole et gaz Agro-alimentaire et boissons Secteur d'activité Agro-alimentaire et boissons
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+4
+
+SONANCE 3
+
+Eligible au PEA
+
+Les évènements liés à la composition du Panier et aux dérèglements de marché sont indiqués dans la Note Détaillée du Fonds. Pour plus de détails sur les actions composant le Panier et les définitions et règles applicables à la formule se reporter à la rubrique - Stratégie d’investissement – Description de la formule de la Note Détaillée.
+
+ Anticipations de marché permettant de maximiser le résultat de la formule :
+A horizon 8 ans, les anticipations qui permettent de maximiser le résultat de la formule correspondent à une hausse de chaque action du Panier par rapport à sa Valeur Initiale.
+
+ Exemples de calcul :
+Exemple de calcul de la Performance 8 Ans Retenue d’une action du Panier
+Action 1 Date 30/12/2011 02/01/2012 03/01/2012 04/01/2012 05/01/2012 Cours 40 40,25 40,75 40 40,5 Date 06/01/2012 09/01/2012 10/01/2012 11/01/2012 12/01/2012 Valeur Initiale 14/11/2019 15/11/2019 18/11/2019 19/11/2019 20/11/2019 21/11/2019 22/11/2019 25/11/2019 26/11/2019 27/11/2019 74 75,5 76,5 76 76,5 77 76 77,5 76,5 77 28/11/2019 29/11/2019 02/12/2019 03/12/2019 04/12/2019 05/12/2019 06/12/2019 09/12/2019 10/12/2019 11/12/2019 Valeur Finale Performance 8 Ans de l’Action 1 Performance 8 Retenue de l’Action 1 (plafond à 85%) Cours 41 40 39 40 41 40,25 76,5 77 76,5 76 76,5 77 76,5 77 76,5 77,5 76,475 +90% +85%
+
+
+
+Calcul de la Valeur Initiale de l’Action 1 :
+
+Valeur Initiale de l’action 1 = 40 + 40,25 + 40,75 + 40 + 40,5 + 41 + 40 + 39 + 40 + 41 = 40,25
+10
+
+
+
+Calcul de la Valeur Finale de l’Action 1 :
+
+Valeur Finale de l’Action 1 =
+
+74 + 75,5 + 76,5 + 76 + 76,5 + 77 + 76 + 77,5 + 76 ,5 + 77 + 76 ,5 + 77 + 76 ,5 + 76 + 76 ,5 + 77 + 76,5 + 77 + 76,5 + 77,5 = 76,475 20
+
+
+
+Calcul de la Performance 8 Ans Retenue de l’Action 1 :
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+5
+
+SONANCE 3
+
+Eligible au PEA
+
+Performance 8 Ans de l’Action 1=
+
+76,475 − 40,25 = +90% 40,25
+
+La Performance 8 ans de chaque action étant plafonnée à 85% dans la formule, la Performance 8 Ans Retenue de l’Action 1 sera enregistrée à 85% au lieu de 90%.
+
+Exemple de calcul de la Performance 8 Ans du Panier :
+
+Panier d'actions
+
+Performance réalisée par chaque action du Panier à horizon 8 ans
+
+Performance 8 Ans de chaque action
+
+Performance 8 Ans Retenue de chaque action (plafond à 85%) 85% 85% 85% 85% 85% 48% 42% 3% … 4% 34% -3% -15% -5% -30% -7% +36%
+
+Action 1 Action 2 Action 3 Action 4 Action 5 Action 6 Action 7 Action 8 … Action 19 Action 20 Action 21 Action 22 Action 23 Action 24 Action 25
+
+Les performances réalisées par les actions 1 à 5 sont supérieures au plafond de +85%
+
+Les performances réalisées par les actions 6 à 20 sont positives mais inférieures à +85%
+
+Les performances réalisées par les actions 21 à 25 sont négatives
+
+moyenne des 25 performances
+
+90% 105% 95% 85% 100% 48% 42% 3% … 4% 34% -3% -15% -5% -30% -7% +38%
+
+Performance 8 Ans du Panier (=moyenne des Performances 8 Ans Retenues pour les 25 actions)
+
++36%
+(soit un rendement annualisé de 3,92%)
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+6
+
+SONANCE 3
+
+Eligible au PEA
+
+Scénarios :
+Moyenne des 25 Moyenne des 25 Performances 8 Ans Performances 8 Ans Retenues des actions des actions du Panier du Panier 100% 85% valeur liquidative établie le 27 décembre 2019* Date de la Valeur Liquidative Finale Taux Valeur Rendement sans Liquidative annualisé de risque (3) (2) Finale la formule (4)
+
+Scénario
+
+Performance de la formule
+
+Favorable 8 ans
+
+85%
+
+185 €
+
+8,00%
+
+Médian 8 ans
+
+38%
+
+36%
+
+36%
+
+136 €
+
+3,92%
+
+3,30%
+
+Défavorable 8 ans
+
+-20%
+
+-20%
+
+0%
+
+100 €
+
+0%
+
+(2) (3)
+
+rendement annualisé obtenu sur la période du 28 décembre 2011 au 27 décembre 2019 Pour une Valeur Liquidative de Référence de 100 € (4) Rendement annualisé de l’OAT zéro-coupon de maturité 25 octobre 2019, constaté le 27 mai 2011
+
+La performance du panier d’actions est de 100%. La moyenne des Performances 8 Ans Retenues des 25 actions du Panier est positive et est de 85%. L’investisseur reçoit, à l’échéance du 27 décembre 2019* (Valeur Liquidative Finale), 185% de la Valeur Liquidative de Référence. La Valeur Liquidative Finale, pour une Valeur Liquidative de Référence de 100 €, serait donc dans cet exemple de 185 €, soit un rendement annualisé de 8,00%.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+7
+
+SONANCE 3
+
+Eligible au PEA
+
+La performance du panier d’actions est de 38%. La moyenne des Performances 8 Ans Retenues des 25 actions du Panier est positive et est de 36%. L’investisseur reçoit, à l’échéance du 27 décembre 2019* (Valeur Liquidative Finale), 136% de la Valeur Liquidative de Référence. La Valeur Liquidative Finale, pour une Valeur Liquidative de Référence de 100 €, serait donc dans cet exemple de 136 €, soit un rendement annualisé de 3,92%.
+
+La moyenne des Performances Retenues des actions du Panier à 8 ans est négative. La Performance 8 Ans du Panier est donc considérée comme nulle. L’investisseur reçoit, à l’échéance du 27 décembre 2019*
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+8
+
+SONANCE 3
+
+Eligible au PEA
+
+(Valeur Liquidative Finale), 100% de la Valeur Liquidative de Référence. La Valeur Liquidative Finale, pour une Valeur Liquidative de Référence de 100 €, serait donc dans cet exemple de 100 €.
+
+Ces chiffres sont donnés à titre indicatif. Ils ne préjugent en rien des performances futures des actions du Panier et du Fonds.
+
+ Simulations sur les données historiques de marché : Les simulations sur les données historiques de marché permettent de calculer des rendements fictifs, calculés en déclenchant la formule de ce fonds à des dates de lancement passées. Elles permettent de visualiser le comportement a posteriori de la formule lors des phases de marchés traversées lors de la simulation. Les scénarios de marché passés ne préjugent pas des scénarios futurs, de même que les performances. Les rendements affichés dans le graphique ci-dessous sont présentés en fonction de la date d’échéance de la formule. Pour les besoins de la simulation, la Société de gestion a remplacé certaines actions pour la partie manquante de leur historique entre le 31 décembre 1993 et le début de leur cotation. Les dates de ces substitutions sont détaillées dans le tableau ci-après : Nom de l'action AB InBev DAIMLER DEUTSCHE TELEKOM ENI FRANCE TELECOM GDF SUEZ SAP Code Reuters ABI.BR DAIGn.DE DTEGn.DE ENI.MI FTE.PA GSZ.PA SAPG.DE Indice de substitution EURO STOXX FOOD & BEV EURO STOXX AUTO & PARTS EURO STOXX TELECOM EURO STOXX OIL & GAS EURO STOXX TELECOM EURO STOXX UTILITIES EURO STOXX TECHNOLOGY Période de substitution 31/12/93 - 29/11/00 31/12/93 - 26/10/98 31/12/93 - 14/11/96 31/12/93 - 27/11/95 31/12/93 - 16/10/97 31/12/93 - 06/07/05 31/12/93 - 18/12/96
+
+Le rendement annualisé du Panier présenté dans le graphique ci-après tient compte du réinvestissement des dividendes détachés par les actions composant le Panier tandis que le rendement annualisé de la formule est calculé à partir des actions hors dividendes.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+9
+
+SONANCE 3
+
+Eligible au PEA
+
+Période 1 : dans un contexte de performances élevées du panier d’actions, les rendements de la formule sont supérieurs au taux sans risque, mais inférieurs aux rendements du panier, du fait du plafonnement individuel des actions à 8 ans et de l’abandon des dividendes des actions composant le panier. Période 2 : dans un contexte de performance en baisse du panier d’actions, les rendements de la formule sont plus faibles, parfois inférieurs au taux sans risque et toujours inférieurs aux rendements du panier, du fait du plafonnement individuel des actions à 8 ans et de l’abandon des dividendes des actions composant le panier. Période 3 : dans un contexte de performances faibles voire négatives du panier d’actions, la formule offre sur cette période des rendements systématiquement nuls (garantie de la Valeur Liquidative de Référence), inférieurs au taux sans risque. Période 4 : dans un contexte de reprise du marché, la formule alterne entre de faibles rendements et des rendements nuls, la formule offrant uniquement la garantie de la Valeur Liquidative de Référence. En fin de période, les rendements de la formule repassent au dessus du taux sans risque; mais sont toujours inférieurs aux rendements du panier, du fait du plafonnement individuel des actions du panier et de l’abandon des dividendes des actions composant le panier.  Actifs utilisés : Le Fonds détiendra au minimum 75% de son actif en instruments éligibles au Plan d’Epargne en Actions (PEA), de manière directe ou indirecte. Le Fonds pourra être géré de manière indicielle par rapport au CAC 40, au FTSEurofirst 80 ou à l’Euro Stoxx 50. Parallèlement, le Fonds contractera un ou plusieurs swaps qui lui permettront d’obtenir à l’échéance un montant qui, compte tenu des titres en portefeuille, permettra de réaliser l’objectif de gestion.
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+10
+
+SONANCE 3
+
+Eligible au PEA
+
+L’ensemble des actifs pouvant être utilisés dans le cadre de la gestion de l’OPCVM est décrit dans la Note Détaillée.  Profil de risque : Votre argent sera principalement investi dans des instruments financiers sélectionnés par la société de gestion. Ces instruments connaîtront les évolutions et les aléas des marchés.
+
+ Risque lié à la classification : Le Fonds est construit dans la perspective d’un investissement pour toute la durée de vie de la formule. Il est donc fortement recommandé de n’acheter des parts de ce fonds que si vous avez l’intention de les conserver jusqu’à l’échéance de la formule. Si vous revendez vos parts avant l’échéance du 27 décembre 2019*, le prix qui vous sera proposé sera fonction des paramètres du marché ce jour-là (déduction faite des frais de rachat). Il pourra être très différent (inférieur ou supérieur) du montant résultant de l’application de la formule annoncée.
+Entre les dates de souscription et d’échéance, l’évolution de la valeur liquidative peut être décorrélée de celle du Panier. Le risque est alors non mesurable a priori. La garantie a été mise en place dans le cadre législatif et réglementaire en vigueur. En cas de modification des textes, elle pourra être modifiée selon les modalités décrites à la rubrique « Garantie ».
+
+Risque lié à l’inflation : Le capital restitué ne tient pas compte de l’inflation. ● Risques en cas de sortie anticipée : Risque en capital : En cas de demande de rachat anticipé de ses parts du Fonds avant l’échéance, et donc de la mise en jeu de la garantie, le porteur s’expose à un risque en capital non mesurable. Risque de taux : Il s’agit du risque de baisse des instruments de taux découlant des variations de taux d’intérêt. Il est mesuré par la sensibilité. En période de hausse des taux d’intérêt, la valeur liquidative pourra baisser. Risque de crédit et de contrepartie : Pendant la durée de la formule, la défaillance d’une contrepartie ou d’un émetteur pourra avoir un impact négatif sur la valeur liquidative du Fonds. Cela dit, la formule étant garantie à l’échéance par Amundi Finance (détails ci-après), une telle défaillance n’aura pas d’impact sur la Valeur Liquidative Finale. Risque du marché action : La formule dépend de l’évolution d’un panier d’actions entrant dans la composition de l’Euro Stoxx 50 le 20 juillet 2011; l’investisseur du Fonds est donc exposé aux marchés actions de la zone Euro sur lesquels les variations de cours peuvent être élevées. Les risques accessoires sont : Risque de change Le détail des risques mentionnés dans cette rubrique se trouve dans la note détaillée.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+11
+
+SONANCE 3
+
+Eligible au PEA
+
+ Garantie : La société Amundi Finance garantit au Fonds, pour les seules parts rachetées sur la Valeur Liquidative Finale, que la Valeur Liquidative Finale sera égale à la valeur déterminée par application de la formule décrite à la rubrique ‘Stratégie d’investissement – Description de la formule’. Par ailleurs, Amundi Finance garantit que les valeurs liquidatives calculées entre la Valeur Liquidative Finale et la transformation du Fonds seront au moins égales à la Valeur Liquidative Finale. La garantie d’Amundi Finance n’est plus accordée pour les rachats centralisés avant le 27 décembre 2019* à 12 heures. L'ensemble des parts rachetées sur la Valeur Liquidative Finale bénéficiera de l'éventuelle majoration de la valeur liquidative résultant du versement par Amundi Finance des sommes dues au titre de la garantie décrite ci-dessus. En cas de mise en œuvre de sa garantie, Amundi Finance versera au Fonds, sur demande d’Amundi, les sommes dues à ce titre. Cette garantie est donnée compte tenu des textes législatifs et réglementaires en vigueur au 8 septembre 2011. En cas de changement desdits textes emportant création de nouvelles obligations pour le Fonds et notamment une charge financière directe ou indirecte de nature fiscale ou autre, Amundi Finance pourra diminuer les sommes dues au titre de la garantie de l’effet de ces nouvelles obligations. Dans ce cas, les investisseurs du Fonds en seront informés par la société de gestion. Toute modification de la garantie est soumise à l’agrément préalable de l’Autorité des Marchés Financiers. En dehors de la date de mise en jeu de la garantie, la valeur liquidative peut être inférieure à la Valeur Liquidative Finale. En raison des contrats mis en place pour assurer la formule à l’échéance, l’évolution de la valeur liquidative peut être différente de celle du Panier. A l’échéance de la formule, la société de gestion pourra faire le choix, soit de dissoudre le Fonds, soit de changer la classification du Fonds en une autre classification, soit de proposer aux investisseurs une nouvelle formule, sous réserve de l’agrément de l’AMF. Les porteurs du Fonds seront préalablement avisés de l’option retenue par la société de gestion.  Souscripteurs concernés et profil de l’investisseur type : Tous souscripteurs. Ce Fonds s’adresse à des investisseurs souhaitant bénéficier d’un gain potentiel élevé en s’exposant aux marchés d’actions de la zone Euro tout en bénéficiant d’une garantie à 100% de la Valeur Liquidative de Référence (hors commission de souscription). Le montant qu’il est raisonnable d’investir dans ce fonds dépend de la situation personnelle de l’investisseur. Pour le déterminer, il doit tenir compte de sa richesse, de son patrimoine personnel, de ses besoins actuels et futurs, à 8 ans, mais également de son souhait de prendre des risques ou au contraire de privilégier un investissement prudent. Il est également fortement recommandé de diversifier suffisamment ses investissements afin de ne pas les exposer uniquement aux risques de cet OPCVM.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+12
+
+SONANCE 3
+
+Eligible au PEA
+
+INFORMATIONS SUR LES FRAIS, LES COMMISSIONS ET LA FISCALITE
+ Frais et commissions • Commissions de souscription et de rachat : Les commissions de souscription et de rachat viennent augmenter le prix de souscription payé par l’investisseur ou diminuer le prix de remboursement. Les commissions acquises à l’OPCVM servent à compenser les frais supportés par l’OPCVM pour investir ou désinvestir les avoirs confiés. Les commissions non acquises reviennent à la société de gestion, au commercialisateur, etc. Taux Commission de souscription  
+(a)
+
+Assiette
+
+:   2,5% maximum
+
+Commission de souscription non acquise à l’OPCVM Commission de souscription non acquise à l’OPCVM pour les souscriptions effectuées par arbitrage avec le FCP Atout Monétaire PEA, Relais Monélia (ex Atout Monélia), Relais PEA Monélia (ex Atout PEA Monélia) et Atout Mone Opportunité Commission de souscription acquise à l’OPCVM
+
+2% maximum
+
+
+
+
+
+Néant
+
+Valeur liquidative x Nombre de parts
+
+Commission de rachat : 1/ pour les rachats centralisés jusqu’au 28 décembre 2011 à 12 heures, sur la Valeur Liquidative Finale et postérieurement à la Valeur Liquidative Finale Commission de rachat acquise et non acquise à l’OPCVM 2/ pour les rachats effectués sur la dernière valeur liquidative* des mois de février, mai, août et novembre de chaque année civile (de février 2012 à novembre 2019)  Commission de rachat non acquise à l’OPCVM  Commission de rachat acquise à l’OPCVM 3/ pour les rachats centralisés à d’autres dates (autres valeurs liquidatives)  Commission de rachat non acquise à l’OPCVM  Commission de rachat acquise à l’OPCVM
+
+
+
+Néant
+
+   
+
+Néant 1%
+
+Valeur liquidative x Nombre de parts
+
+Néant 3%
+
+Cas d'exonération : (a) Néant pour Amundi et Amundi Group.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+13
+
+SONANCE 3
+
+Eligible au PEA
+
+• Frais de fonctionnement et de gestion : Ces frais recouvrent tous les frais facturés directement à l’OPCVM, à l’exception des frais de transactions. Les frais de transactions incluent les frais d’intermédiation (courtage, impôts de bourse, etc.) et la commission de mouvement, le cas échéant, qui peut être perçue notamment par le dépositaire et la société de gestion. Aux frais de fonctionnement et de gestion peuvent s’ajouter : - des commissions de sur performance. Celles-ci rémunèrent la société de gestion dès lors que l’OPCVM a dépassé ses objectifs. Elles sont donc facturées à l’OPCVM ; - des commissions de mouvement facturées à l’OPCVM ; - une part du revenu des opérations d’acquisition et cession temporaires de titres. Pour plus de précision sur les frais effectivement facturés à l’OPCVM, se reporter à la partie B du prospectus simplifié.
+
+Frais facturés à l’OPCVM Frais de fonctionnement et de gestion (incluant tous les frais hors frais de transaction, de sur performance et frais liés aux investissements dans des OPCVM ou fonds d’investissement) Commission de sur performance Commission de mouvement :  perçue partiellement ou conjointement par le dépositaire sur l’ensemble des instruments
+
+Assiette
+
+Taux Barème
+
+Actif net
+
+2,5% TTC maximum l’an
+
+Actif net
+
+Néant
+
+Prélèvement sur chaque transaction  Perçue selon les instruments et opérations par la société de gestion ou par Amundi Intermédiation
+
+Montant forfaitaire de 0 à 450 euros TTC selon la place
+
+Montant maximum forfaitaire de 5 euros par contrat (futures/options) ou Commission proportionnelle de 0 à 0,20% selon les instruments (titres, change, ...)
+
+Pourront s’ajouter aux frais facturés à l’OPC et affichés ci-dessus, les coûts suivants : - Les coûts juridiques exceptionnels liés au recouvrement des créances de l’OPC ; - Les coûts liés aux contributions dues par la Société de gestion à l’AMF au titre de la gestion de l’OPC L’ensemble des frais et commissions pouvant être facturés au Fonds figure dans la Note Détaillée. Mise en concurrence des contreparties : une mise en concurrence se fait par interrogation d’au moins trois contreparties sur la base d’un document uniforme. Les réponses finales des contreparties sont confirmées par mail. À prestation égale, l’opération est réalisée avec le mieux disant, sauf si des limites d’engagement imposent de traiter avec plusieurs contreparties.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+14
+
+SONANCE 3
+
+Eligible au PEA
+
+ Régime fiscal : le Fonds est éligible au PEA. Avertissement : selon votre régime fiscal, les plus-values et revenus éventuels liés à la détention de parts de l’OPCVM peuvent être soumis à taxation. Nous vous conseillons de vous renseigner à ce sujet auprès du commercialisateur de l’OPCVM.
+
+INFORMATIONS D’ORDRE COMMERCIAL
+ Conditions de souscription et de rachat : les demandes de souscriptions et de rachats sont centralisées chaque jour d’établissement de la valeur liquidative (J) à 12 heures. Ces demandes sont exécutées sur la base de la valeur liquidative établie en J et calculée en J+1 ouvré.  Possibilité d’arrêter les souscriptions : la souscription sera ouverte au public à partir du 8 septembre 2011 pour une première tranche de 200 millions d'euros. Dès que ce montant sera atteint de nouvelles tranches de 10 millions d'euros pourront être ouvertes successivement si les conditions du marché relatives à la mise en œuvre de la formule le permettent, dans la limite d'un placement global de 400 millions d'euros jusqu'au 28 décembre 2011, 12 heures. Dès que ce plafond sera atteint, les souscriptions seront suspendues. A compter du 28 décembre 2011, 12 heures, le fonds sera fermé à toute nouvelle souscription, à l’exception des souscriptions de la société de gestion, du dépositaire ou du garant de l’OPCVM réalisées dans le but exclusif de compenser des rachats initiés par les porteurs de l’OPCVM.  Établissements désignés pour recevoir les souscriptions et les rachats : agences des Caisses régionales de Crédit Agricole proposant cette offre, Amundi et Caceis Bank. L’attention des investisseurs est attirée sur le fait que les ordres transmis à des commercialisateurs autres que les établissements mentionnés ci-dessus doivent tenir compte du fait que l’heure limite de centralisation des ordres s’applique auxdits commercialisateurs vis-à-vis de Caceis Bank. En conséquence, ces commercialisateurs peuvent appliquer leur propre heure limite, antérieure à celle mentionnées ci-dessus, afin de tenir compte de leur délai de transmission des ordres à Caceis Bank.  Date et périodicité d’établissement de la valeur liquidative : la valeur liquidative est établie chaque jour (J) où les marchés Euronext sont ouverts à l’exception des jours fériés légaux en France. Cette valeur liquidative est calculée le lendemain ouvré (J+1).  Lieu et modalités de publication ou de communication de la valeur liquidative : la valeur liquidative du Fonds est disponible sur simple demande auprès de la Société de gestion et sur le site internet www.casicavetfcp.fr.  Caractéristiques des parts : Valeur liquidative d’origine 100 euros, le jour de la création du fonds Souscription initiale minimale 1 part
+
+Devise de libellé euro
+
+Les souscriptions et les rachats s’effectuent par millièmes de part au-delà des minima de souscription.  Date de clôture de l’exercice comptable : dernière valeur liquidative du mois de novembre.  Date de clôture du premier exercice comptable : dernière valeur liquidative du mois de novembre 2012.  Affectation des résultats : les revenus du Fonds sont capitalisés.
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+15
+
+SONANCE 3
+
+Eligible au PEA
+
+ Date de création : cet OPCVM a été agréé par l’Autorité des marchés financiers le 14 juin 2011. Il a été créé le 29 juillet 2011.
+
+INFORMATIONS SUPPLEMENTAIRES
+Le prospectus complet de l’OPCVM et les derniers documents annuels et périodiques sont adressés dans un délai d’une semaine sur simple demande écrite du porteur auprès de : Amundi – Relations Réseau Caisses Régionales – 90 boulevard Pasteur – 75015 Paris. Des informations supplémentaires peuvent être obtenues auprès des Agences des Caisses Régionales de Crédit Agricole proposant cette offre, sur le site internet du Groupe Crédit Agricole (www.credit-agricole.fr), sur lequel figurent les adresses de l’ensemble des Caisses Régionales, et auprès d’Amundi (www.casicavetfcp.fr). Date de publication du prospectus : 21 avril 2017. Le site de l’AMF (www.amf-france.org) contient des informations complémentaires sur la liste des documents réglementaires et l’ensemble des dispositions relatives à la protection des investisseurs. Le présent prospectus simplifié doit être remis aux souscripteurs préalablement à la souscription.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+16
+
+SONANCE 3
+
+PARTIE B STATISTIQUES
+Affectation des résultats / Code ISIN FR0011060854 Devise de référence: EUR
+AVERTISSEMENT La performance passée ne garantit pas de futurs bénéfices et n'est pas constante dans le temps. Un investissement peut s'apprécier ou se déprécier en fonction des fluctuations du marché et les investisseurs peuvent perdre le montant initialement investi.
+
+PERFORMANCES AU 31/12/14
+
+PERFORMANCES AU 31/12/14
+Annualisées
+
+Performances
+SONANCE 3
+Indice de référence au 31/12/2014
+100.00% FONDS NON BENCHMARKE
+
+1 an
+5,47%
+
+3 ans
+5,12%
+
+5 ans
+-
+
+100% FONDS NON BENCHMARKE
+
+-
+
+-
+
+-
+
+La performance est calculée en tenant compte des dividendes nets réinvestis.
+
+PRESENTATION DES FRAIS FACTURES A L'OPCVM AU 30/11/15
+Frais de fonctionnement et de gestion Coût induit par l'investissement dans d'autres OPCVM ou fonds d'investissement
+Ce coût se détermine à partir : des coûts liés à l'achat d' OPCVM et fonds d'investissement déduction faite des rétrocessions négociées par la société de gestion de l'OPCVM investisseur
+
+1,29% 0,02%
+
+PARTIE B STATISTIQUES
+
+0,02% 0,00%
+
+Autres frais facturés à l’OPCVM
+Ces autres frais se décomposent en : commission de surperformance Commissions de mouvement
+
+-0,17%
+0,00% -0,17%
+
+Total facturé à l'OPCVM au cours du dernier exercice clos
+
+1,14%
+
+Les données relatives aux transactions doivent être appréciées en fonction de la stratégie d'investissement de l'OPCVM. Ainsi, la donnée action n'est pas pertinente pour un OPCVM investi exclusivement en produit de taux et réciproquement.
+
+Frais de fonctionnement et de gestion Ils recouvrent tous les frais facturés directement à l'OPCVM, à l'exception des frais de transaction, et le cas échéant, de la commission de surperformance. Les frais de transaction incluent les frais d'intermédiation (courtage, impôts de bourse, ...) et la commission de mouvement (voir ci-dessous). Les frais de fonctionnement et de gestion incluent notamment les frais de gestion financière, les frais de gestion administrative et comptable, les frais de dépositaire, de conservation et d'audit. Coût induit par l'achat d'OPCVM et/ou de fonds d'investissement Certains OPCVM investissent dans d'autres OPCVM ou dans des fonds d'investissement de droit étranger (OPCVM cibles). L'acquisition et la détention d'un OPCVM cible (ou d'un fonds d'investissement) font supporter à l'OPCVM acheteur deux types de coûts évalués ici : a) Des commissions de souscription/rachat. Toutefois la part de ces commissions acquises à l'OPCVM cible est assimilée à des frais de transaction et n'est donc pas comptée ici. b) Des frais facturés directement à l'OPCVM cible, qui constituent des coûts indirects pour l'OPCVM acheteur. Dans certains cas, l'OPCVM acheteur peut négocier des rétrocessions, c'est-à-dire des rabais sur certains de ces frais. Ces rabais viennent diminuer le total des frais que l'OPCVM acheteur supporte effectivement. Autres frais facturés à l'OPCVM D'autres frais peuvent être facturés à l'OPCVM. Il s'agit : a) Des commissions de surperformance. Celles-ci rémunèrent la société de gestion dès lors que l'OPCVM a dépassé ses objectifs ; b) Des commissions de mouvement. La commission de mouvement est une commission facturée à l'OPCVM à chaque opération sur le portefeuille. Le prospectus complet détaille ces commissions. La société de gestion peut en bénéficier dans les conditions prévues en partie A du prospectus simplifié. Les commissions de souscription et/ou de rachat acquises à l'OPCVM (perçues par l'OPCVM) viennent en déduction des éventuelles commissions de mouvement (payées par l'OPCVM). En conséquence, un taux négatif pour les commissions de mouvement est représentatif d'un montant de commissions acquises à l'OPCVM supérieur à celui des commissions de mouvement. L'attention de l'investisseur est appelée sur le fait que ces autres frais sont susceptibles de varier fortement d'une année à l'autre et que les chiffres présentés ici sont ceux constatés au cours de l'exercice précédent.
+
+DATE DE PUBLICATION
+
+18/12/15
+
+2
+
+SONANCE 3
+
+Eligible au PEA
+
+OPCVM conforme aux normes européennes
+
+NOTE DETAILLEE
+SONANCE 3 est construit dans la perspective d’un investissement pour toute la durée de vie de la formule. Il est donc fortement recommandé de n’acheter des parts de ce fonds que si vous avez l’intention de les conserver jusqu’à l’échéance de la formule. Si vous revendez vos parts avant l’échéance du 27 décembre 2019*, le prix qui vous sera proposé sera fonction des paramètres du marché ce jour-là (déduction faite des frais de rachat). Il pourra être très différent (inférieur ou supérieur) du montant résultant de l’application de la formule annoncée.
+
+I. CARACTERISTIQUES GENERALES I.1 Forme de l’OPCVM
+ Dénomination :  Forme juridique de l'OPCVM :  Date de création et durée d’existence prévue  Synthèse de l’offre de gestion : Affectation des revenus Capitalisation Souscription initiale minimale 1 part SONANCE 3 Fonds commun de placement (FCP) de droit français FCP créé le 29 juillet 2011 pour une durée de 99 ans
+
+Code ISIN
+
+Devise de libellé
+
+Souscripteurs concernés
+
+FR0011060854
+
+euro
+
+Tous souscripteurs
+
+ Indication du lieu où l’on peut se procurer le dernier rapport annuel et le dernier état périodique : Les derniers documents annuels et périodiques sont adressés dans un délai d’une semaine sur simple demande écrite du porteur auprès de la société de gestion : Amundi – Relations Réseau Caisses Régionales – 90 boulevard Pasteur – 75015 Paris. Des informations supplémentaires peuvent être obtenues auprès des Agences des Caisses Régionales de Crédit Agricole proposant cette offre. Le site de l’AMF www.amf-france.org contient des informations complémentaires sur la liste des documents réglementaires et l’ensemble des dispositions relatives à la protection des investisseurs.
+
+I.2 Acteurs
+ Société de gestion : Amundi, Société anonyme Société de Gestion de Portefeuille agréée par l’AMF sous le n° GP 04000036 Siège social : 90 boulevard Pasteur – 75015 Paris.  Dépositaire et gestionnaire du passif : CACEIS Bank, Société Anonyme Siège social : 1-3 place Valhubert – 75013 Paris er Activité principale : Banque et prestataire de services d’investissement agréé par le CECEI le 1 avril 2005.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+1
+
+SONANCE 3
+
+Eligible au PEA
+
+ Etablissement en charge de la centralisation des ordres de souscription et de rachat : CACEIS Bank, Société Anonyme Siège social : 1-3 place Valhubert – 75013 Paris er Activité principale : Banque et prestataire de services d’investissement agréé par le CECEI le 1 avril 2005.  Commissaire aux comptes : MAZARS 61 rue Henri Regnault, 92075 Paris La Défense Cedex Représenté par M Pierre Masieri  Commercialisateurs : Agences des Caisses Régionales de Crédit Agricole proposant cette offre. La liste des commercialisateurs n’est pas exhaustive dans la mesure où, notamment, l’OPCVM est admis à la circulation en Euroclear. Ainsi, certains commercialisateurs peuvent ne pas être mandatés ou connus de la société de gestion.  Délégataire de gestion comptable : CACEIS FASTNET, Société anonyme Siège social : 1-3 place Valhubert – 75013 Paris Caceis Fastnet est l’entité du groupe Crédit Agricole spécialisée sur les fonctions de gestion administrative et comptable des OPCVM pour une clientèle interne et externe au groupe. A ce titre, Caceis Fastnet a été désigné par Amundi, en qualité de gestionnaire comptable par délégation pour la valorisation et l’administration comptable du fonds.  Conseillers : néant
+
+II. MODALITÉS DE FONCTIONNEMENT ET DE GESTION II.1 Caractéristiques générales
+ Caractéristiques des parts : Code ISIN : FR0011060854 Nature du droit attaché à la catégorie de parts : chaque porteur de parts dispose d’un droit de copropriété sur les actifs du fonds commun de placement proportionnel au nombre de parts possédées. Inscription à un registre ou précision des modalités de tenue du passif : inscription au registre du conservateur pour les parts inscrites au nominatif. Admission en Euroclear France. Droits de vote : aucun droit de vote n’est attaché aux parts, les décisions étant prises par la société de gestion. Il est rappelé qu’une information sur les modifications du fonctionnement du fonds est donnée aux porteurs soit individuellement, soit par voie de presse, soit par tout autre moyen, conformément à la réglementation en vigueur. Forme des parts : au porteur ou au nominatif. Décimalisation : Les souscriptions et les rachats s’effectuent par millièmes de part au-delà des minima de souscription.  Date de clôture de l’exercice comptable : dernière valeur liquidative du mois de novembre.  Date de clôture du premier exercice comptable : dernière valeur liquidative du mois de novembre 2012.  Régime fiscal : l’OPCVM est éligible au PEA. L'OPCVM en tant que tel n'est pas sujet à imposition. Toutefois, les porteurs de parts peuvent supporter des impositions lorsqu'ils cèderont les titres de l’OPCVM.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+2
+
+SONANCE 3
+
+Eligible au PEA
+
+Le régime fiscal applicable aux plus ou moins values latentes ou réalisées par l'OPCVM dépend des dispositions fiscales applicables à la situation particulière de l'investisseur, de sa résidence fiscale et/ou de la juridiction d'investissement de l'OPCVM. Si l'investisseur n'est pas sûr de sa situation fiscale, il doit s'adresser à un conseiller ou un professionnel. Certains revenus distribués par l'OPCVM à des non-résidents en France sont susceptibles de supporter dans cet Etat une retenue à la source.
+
+II.2 Dispositions particulières
+ Classification : Fonds à formule.  Garantie du capital à l’échéance** : oui.  OPCVM d’OPCVM : le FCP SONANCE 3 (le « Fonds ») pourra exposer jusqu’à 100% de son actif en parts ou actions d’OPCVM ou fonds d’investissement.  Objectif de gestion : L’objectif de gestion du Fonds est de permettre aux investisseurs de bénéficier à horizon 8 ans, le 27 décembre 2019* : - de la Valeur Liquidative de Référence, (1) - majorée de la Performance 8 Ans du Panier . La Performance 8 Ans du Panier correspond à la moyenne arithmétique des performances des 25 actions constituant le Panier ; la performance de chacune de ces actions étant plafonnée à 85%. La performance de la formule sera donc comprise entre 0% et 85%, soit un rendement annualisé maximum de (2) 8,00% . est un panier équipondéré des 25 actions de l’indice Euro Stoxx 50 ayant le 20 juillet 2011 les plus Le Panier fortes pondérations dans l’indice.
+(1) (2)
+
+(1)
+
+définition précise au paragraphe « Stratégie d’investissement - description de la formule » rendement annualisé obtenu sur la période du 28 décembre 2011 au 27 décembre 2019
+
+ Économie de l’OPCVM : En contrepartie du renoncement à la perception des dividendes attachés aux actions composant le Panier et d’un plafonnement de la performance à 85%, l’investisseur bénéficie à horizon 8 ans d’un rendement annualisé compris entre 0% et 8,00%. En souscrivant à SONANCE 3, l’investisseur anticipe la hausse des marchés actions de la zone Euro, représentés par le Panier.
+
+ Avantages et inconvénients
+
+Avantages de la formule pour l’investisseur :
+
+Inconvénients de la formule pour l’investisseur :
+
+
+
+L’investisseur peut bénéficier à l’échéance de la formule du potentiel de croissance des marchés d’actions de la zone euro représentés par le Panier ; la performance maximum de la formule étant de 85% (soit un rendement annualisé (2) maximum de 8,00% ). L’investisseur bénéficie à l’échéance de la formule
+
+
+
+Pour bénéficier de la formule, l’investisseur doit conserver ses parts jusqu’à l’échéance de la formule. Le gain de l’investisseur est plafonné à 85% à 8 ans (soit un rendement annualisé maximum de (2) 8,00% ) la performance de chacune des actions étant plafonnée à 85% dans le calcul de la
+
+
+
+•
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte. ** Garantie de 100% de la Valeur Liquidative de Référence, pour les investisseurs conservant leurs parts jusqu’à l’échéance de la formule le 27 décembre 2019*. La Valeur Liquidative de Référence est définie comme étant la plus élevée des valeurs liquidatives (hors commission de souscription) établies entre le 8 septembre 2011 inclus et le 28 décembre 2011 inclus.
+
+2
+
+SONANCE 3
+
+Eligible au PEA
+
+de la garantie intégrale de la Valeur Liquidative de Référence.
+
+performance du Panier. L’investisseur ne profitera donc pas intégralement d’une très forte hausse (au-delà de 85%) d’une ou plusieurs actions du Panier.  La performance de chaque action du Panier n’est pas limitée à la baisse. Ainsi, une forte baisse d’une action du Panier pourra diminuer la performance du Panier. La performance du Panier dans le cadre de la formule étant calculée hors dividendes, l’investisseur ne bénéficiera pas des dividendes détachés par les actions du Panier.
+
+
+
+La formule est précisément décrite au paragraphe Stratégie d’Investissement – Description de la formule
+(2)
+
+rendement annualisé obtenu sur la période du 28 décembre 2011 au 27 décembre 2019
+
+ Indice de référence : La performance du Fonds n’est liée par la formule à celle du Panier d’actions (décrit au paragraphe « Stratégie d’investissement ») qu’à la date d’échéance de la formule. En effet, en raison des contrats mis en place pour assurer la formule à l’échéance, l’évolution de la valeur liquidative pendant la durée de vie de la formule peut être différente de celle du Panier d’actions. Les investisseurs sont invités à se référer aux simulations sur les données historiques de marché ainsi qu’au taux sans risque qui sont détaillés dans la rubrique « Simulations sur les données historiques de marché » dans le prospectus simplifié du Fonds.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+2
+
+SONANCE 3
+
+Eligible au PEA
+
+ Stratégie d’investissement :  Stratégie utilisée : Du fait de son éligibilité au Plan d’Epargne en Actions (PEA), le Fonds ne peut détenir moins de 75% de son actif net en actions de sociétés ayant leur siège social dans un Etat membre de la Communauté Européenne, ou dans un autre Etat partie à l’accord sur l’Espace Economique Européen ayant conclu avec la France une convention fiscale qui contient une clause d’assistance administrative en vue de lutter contre la fraude ou l’évasion fiscale, ou en OPCVM éligibles au PEA. Le Fonds pourra être géré de manière indicielle par rapport au CAC 40, au FTSEurofirst 80 ou à l’Euro Stoxx 50. Parallèlement, le Fonds contractera un ou plusieurs swaps qui lui permettront d’obtenir à l’échéance un montant qui, compte tenu des titres en portefeuille, permettra de réaliser l’objectif de gestion.  Actifs utilisés (hors dérivés intégrés) : - Actions : le Fonds sera composé en permanence à plus de 75% de l’actif d’actions issues de la zone Europe. - Instruments de taux : Le Fonds pourra détenir des obligations françaises et étrangères, des bons du Trésor et d’autres titres de créance négociables ou titres de créance complexes (dont ABS/CDO) français et étrangers émis par des entités présentant lors de leur achat une notation minimale de BBB- dans l’échelle de notation S&P ou dans celle de Fitch ou de Baa3 dans celle de Moody’s et des placements monétaires. Les émetteurs sélectionnés pourront aussi bien relever du secteur privé que du secteur public (États, collectivités territoriales, …), les dettes privées étant susceptibles de représenter jusqu’à 100% de l’actif des instruments de dette. Les obligations ou titres de créances précités seront libellés dans une des devises des États membres de l’OCDE. L’éventuel risque de change sera couvert toutefois, pendant la durée de vie de la formule, le fonds pourra présenter un risque de change accessoire, en raison des délais de mise en place et/ou de l’imperfection de la couverture. - Parts ou actions d’OPCVM : le Fonds pourra exposer jusqu’à 100% de son actif en parts ou actions des OPCVM ou fonds d’investissement suivants : • OPCVM conformes à la directive :  OPCVM pouvant investir jusqu'à 10% de leur actif en OPCVM ou fonds d’investissement  OPCVM pouvant investir plus de 10% de leur actif en OPCVM ou fonds d’investissement OPCVM français non conformes à la directive :  OPCVM pouvant investir jusqu'à 10% de leur actif en OPCVM ou fonds d’investissement  OPCVM pouvant investir plus de 10% de leur actif en OPCVM ou fonds d’investissement  OPCVM nourricier  OPCVM bénéficiant d'une procédure allégée  OPCVM contractuels  OPCVM à règles d’investissement allégées sans effet de levier  OPCVM à règles d’investissement allégées à effet de levier  OPCVM de Fonds alternatifs  FCPR dont FCPI, FCPR bénéficiant d'une procédure allégée, Fonds d'investissement de proximité  FCIMT OPC étrangers non conformes à la directive :  Fonds d’investissement faisant l'objet d'un accord bilatéral entre l'Autorité des marchés financiers et leur autorité de surveillance  Fonds d’investissement répondant aux critères fixés par l'Autorité des marchés financiers.
+
+•
+
+•
+
+Ces OPCVM et fonds d’investissement peuvent être gérés par la société de gestion ou une société liée.
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+3
+
+SONANCE 3
+
+Eligible au PEA
+
+ Description des dérivés utilisés pour atteindre l’objectif de gestion Pour réaliser son objectif de gestion, le Fonds contractera un ou plusieurs swaps complexes, échangeant tout ou partie de la performance de son portefeuille contre une performance optionnelle lui permettant d’assurer la formule dont bénéficient les investisseurs.  Nature des marchés d’intervention :  réglementés  organisés  de gré à gré Risques sur lesquels le gérant désire intervenir :  action  taux  change  crédit Natures des interventions de l’ensemble des opérations devant être limitées à la réalisation de l’objectif de gestion :  couverture  exposition  arbitrage Nature des instruments utilisés :  futures  options  swaps : le Fonds pourra conclure des contrats d’échange de deux combinaisons des types de flux suivants : - taux fixe - taux variable (indexés sur l’Eonia, l’Euribor, ou toute autre référence de marché) - performance liée à une ou plusieurs devises, actions, indices boursiers ou titres cotés, OPCVM ou fonds d’investissement - optionnel lié à une ou plusieurs devises, actions, indices boursiers ou titres cotés, OPCVM ou fonds d’investissement - dividendes (nets ou bruts)  change à terme  dérivés de crédit : Credit Default Swaps Stratégie d’utilisation des dérivés pour atteindre l’objectif de gestion :  couverture générale du portefeuille, des risques listés ci-dessus, titres, etc.  reconstitution d’une exposition synthétique à des actifs, aux risques listés ci-dessus  autre stratégie : suite à des rachats, conservation de dérivés en alternative à leur revente
+
+•
+
+•
+
+•
+
+•
+
+Le Fonds pourra conclure des "Credit Default Swaps" (CDS) soit pour vendre de la protection, soit pour acheter de la protection afin de se prémunir contre le risque de crédit ou la défaillance d'un ou plusieurs émetteurs ou contreparties en portefeuille. Les émetteurs ainsi que les entités de référence concernées (appartenant à un État de l’OCDE) ne pourront présenter lors de la conclusion de l'opération une notation inférieure à BBB- dans l’échelle de l’agence de notation S&P ou de Baa3 dans l’échelle de Moody’s. Pendant la durée de la formule, l'achat de protection réduit le risque du portefeuille tandis que la vente de protection, qui conduit à répliquer synthétiquement la détention d'un titre physique, génère un risque équivalent à celui existant en cas de détention directe du titre. Ainsi, à l’instar de la défaillance d’un émetteur du portefeuille, celle d’un émetteur sous-jacent à un dérivé de crédit aura un impact négatif sur la valeur liquidative.
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+4
+
+SONANCE 3
+
+Eligible au PEA
+
+L’utilisation de dérivés de crédit ne modifie pas à l’échéance les risques du porteur. L’engagement du Fonds issu des dérivés est limité à 100% de l’actif.  Titres intégrant des dérivés • Risques sur lesquels le gérant désire intervenir :  action  taux  change  crédit Nature des interventions et description de l’ensemble des opérations devant être limitées à la réalisation de l’objectif de gestion :  couverture  exposition  arbitrage Nature des instruments utilisés :  EMTN  BMTN  Obligations structurées  Certificats  Warrants  Credit Linked Notes Stratégie d’utilisation des dérivés intégrés pour atteindre l’objectif de gestion :  couverture générale du portefeuille, des risques listés ci-dessus, titres, etc.  reconstitution d’une exposition synthétique à des actifs, aux risques listés ci-dessus  autre stratégie : suite à des rachats, conservation de dérivés en alternative à leur revente
+
+
+
+•
+
+•
+
+Le Fonds pourra investir son actif en titres de créance indexés sur le risque de crédit d'un ou plusieurs émetteurs (Credit Linked Notes). Les émetteurs ainsi que les entités de référence concernées (membres d’un Etat de l’OCDE) ne pourront présenter lors de l'achat des titres une notation inférieure à BBB- selon l’échelle de l’agence de notation Standard & Poor’s ou à Baa3 selon l’échelle de l’agence de notation Moody’s. L’engagement du Fonds issu des dérivés intégrés est limité à 100% de l’actif. La somme des engagements du Fonds issue des dérivés et des dérivés intégrés est limitée à 100% de l'actif.  Dépôts L'OPCVM peut effectuer des dépôts d'une durée maximale de douze mois. Ces dépôts contribuent à la réalisation de l'objectif de gestion de l'OPCVM en lui permettant d'obtenir tout ou partie des flux versés dans le cadre de l'opération d'échange et/ou permettront au Fonds de gérer la trésorerie.  Emprunt d’espèces Le Fonds peut se trouver en position débitrice en raison des opérations liées à ses flux (investissements et désinvestissements en cours, opérations de souscriptions/rachats), dans la limite de 10% de son actif.  Opérations d’acquisitions et de cessions temporaires de titres • Nature des opérations utilisées :  prises et mises en pension par référence au code monétaire et financier  prêts et emprunts de titres par référence au code monétaire et financier
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+5
+
+SONANCE 3
+
+Eligible au PEA
+
+•
+
+Nature des interventions, l’ensemble des opérations devant être limitées à la réalisation de l’objectif de gestion :  gestion de la trésorerie  optimisation des revenus de l’OPCVM  contribution éventuelle à l’effet de levier de l’OPCVM  autre nature rémunération : Cf. paragraphe Frais et Commission
+
+•
+
+L’engagement du Fonds issu des opérations d’acquisitions et cessions temporaires de titres est limité à 100% de l’actif. La somme des engagements du Fonds issue des dérivés, des dérivés intégrés et des opérations d’acquisitions et cessions temporaires de titres est limitée à 100% de l'actif. La somme des engagements et de l’exposition liée à la détention de titres vifs est limitée à 100% de l’actif.  Description de la formule  Description de la formule : La formule détermine la valeur liquidative établie le 27 décembre 2019* (la « Valeur Liquidative Finale ») en fonction de l’évolution du Panier dans les conditions définies ci-dessous. La Valeur Liquidative Finale sera égale à 100% de la Valeur Liquidative de Référence majorée de la Performance 8 Ans du Panier (telle que définie ci-dessous). Celle-ci sera comprise entre 0% et 85%, soit un rendement (2) annualisé maximum de 8,00% . La Valeur Liquidative de Référence est définie comme étant la plus élevée des valeurs liquidatives (hors commission de souscription) établies entre le 8 septembre 2011 inclus et le 28 décembre 2011 inclus.
+(2)
+
+rendement annualisé obtenu sur la période du 28 décembre 2011 au 27 décembre 2019
+
+Modalités de calcul de la Performance 8 Ans du Panier : - Calcul de la Performance 8 Ans Retenue de chaque action du Panier La Performance 8 Ans de chaque action du Panier est égale à : (Valeur Finale - Valeur Initiale) / Valeur Initiale. La Performance 8 Ans Retenue de chaque action du Panier est égale à sa Performance 8 Ans si celle-ci est inférieure à 85% sinon elle est égale à 85% Etant entendu que : La Valeur Initiale d’une action du Panier correspond à la moyenne arithmétique des cours de clôture de l’action sur sa Bourse aux dates suivantes : 30 décembre 2011, 2 janvier 2012, 3 janvier 2012, 4 janvier 2012, 5 janvier 2012, 6 janvier 2012, 9 janvier 2012, 10 janvier 2012, 11 janvier 2012 et 12 janvier 2012 (les « Dates de Constatation Initiales »). La Valeur Finale d’une action du Panier correspond à la moyenne arithmétique des cours de clôture de l’action sur sa Bourse aux dates suivantes : 14 novembre 2019, 15 novembre 2019, 18 novembre 2019, 19 novembre 2019, 20 novembre 2019, 21 novembre 2019, 22 novembre 2019, 25 novembre 2019, 26 novembre 2019, 27 novembre 2019, 28 novembre 2019, 29 novembre 2019, 2 décembre 2019, 3 décembre 2019, 4 décembre 2019, 5 décembre 2019, 6 décembre 2019, 9 décembre 2019, 10 décembre 2019 et 11 décembre 2019 (les « Dates de Constatation Finales »). - Calcul de la Performance 8 Ans du Panier La Performance 8 Ans du Panier est égale à la moyenne arithmétique des 25 Performances 8 Ans Retenues des actions du Panier. Si cette moyenne est négative, la Performance 8 Ans du Panier sera considérée comme nulle. Par construction, la Performance 8 Ans du Panier maximum est de 85%.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+6
+
+SONANCE 3
+
+Eligible au PEA
+
+Les calculs de la Valeur Initiale et de la Valeur Finale de chaque action du Panier sont arrondis à la quatrième décimale. Si la cinquième décimale est supérieure ou égale à 5, la quatrième décimale sera arrondie par excès, sinon par défaut. Le calcul de la Valeur Liquidative Finale est arrondi à la deuxième décimale par défaut. Les autres calculs ne sont pas arrondis. Si une des Dates de Constatation (Initiale ou Finale) n'est pas un Jour de Bourse pour toutes les actions du Panier, la date retenue pour toutes les actions du Panier sera le Jour de Bourse suivant. En cas de dérèglement de marché à une des Dates de Constatation définies ci-dessus, les usages de place seront appliqués pour la valorisation du fonds.
+
+Le Panier : La performance de la formule est liée à l’évolution d’un panier équipondéré des 25 actions de l’Euro Stoxx 50 décrites dans le tableau ci-dessous (le « Panier »). Modalités de sélection des actions du Panier : Les 25 actions retenues dans le Panier sont les plus fortes pondérations de l’indice Euro Stoxx 50 à la date du 20 juillet 2011. Nom de l'action
+AB InBev AIR LIQUIDE ALLIANZ BASF BAYER BBVA SANTANDER BNP PARIBAS DAIMLER DANONE DEUTSCHE BANK DEUTSCHE TELEKOM E.ON ENI FRANCE TELECOM GDF SUEZ ING Groep LVMH SANOFI-AVENTIS SAP SCHNEIDER ELECTRIC SIEMENS TELEFONICA TOTAL UNILEVER NV
+(3) (4)
+
+Pays
+Belgique France
+
+Code Reuters
+ABI.BR AIRP.PA
+
+Secteur d'activité
+Agro-alimentaire et boissons Chimie Assurance Chimie Chimie Banques Banques Banques Automobiles et équipementiers Agro-alimentaire et boissons Banques Télécommunications Services aux collectivites Pétrole et gaz Télécommunications Services aux collectivités Assurance Produits ménagers et de soin personnel Santé Technologie Biens et services industriels Biens et services industriels Télécommunications Pétrole et gaz Agro-alimentaire et boissons
+
+Bourse de (3) Référence
+Euronext Bruxelles Euronext Paris XETRA XETRA XETRA SIBE SIBE Euronext Paris XETRA Euronext Paris XETRA XETRA XETRA Milan Euronext Paris Euronext Paris Euronext Amsterdam Euronext Paris Euronext Paris XETRA Euronext Paris XETRA SIBE Euronext Paris Euronext Amsterdam
+
+Marché (4) Lié
+Euronext Liffe Euronext Liffe EUREX EUREX EUREX MEFF MEFF Euronext Liffe EUREX Euronext Liffe EUREX EUREX EUREX IDEM Euronext Liffe Euronext Liffe Euronext Liffe Euronext Liffe Euronext Liffe EUREX Euronext Liffe EUREX MEFF Euronext Liffe Euronext Liffe
+
+Allemagne ALVG.DE Allemagne BASFn.DE Allemagne BAYGn.DE Espagne Espagne France BBVA.MC SAN.MC BNPP.PA
+
+Allemagne DAIGn.DE France DANO.PA
+
+Allemagne DBKGn.DE Allemagne DTEGn.DE Allemagne EONGn.DE Italie France France Pays-Bas France France ENI.MI FTE.PA GSZ.PA ING.AS LVMH.PA SASY.PA
+
+Allemagne SAPG.DE France SCHN.PA
+
+Allemagne SIEGn.DE Espagne France Pays-Bas TEF.MC TOTF.PA UNc.AS
+
+SIBE (Madrid Stock Exchange), OMX (Helsinki Stock Exchange), Milan (Italian Stock Exchange) MEFF (Mercado Espanol de Futuros Financieros), IDEM (Italian Derivatives Market)
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+7
+
+SONANCE 3
+
+Eligible au PEA
+
+Evènements liés à la composition du Panier : La composition du Panier peut évoluer en cas de survenance d’un évènement de marché tel que décrit ci-dessous entre le 20 juillet 2011 et l’échéance de la formule. l’offre publique d’acquisition sur l'action (dont l’offre publique d’achat ou l’offre publique d’échange) ; la fusion ou absorption de la société émettrice de l'action ; la scission de la société émettrice donnant lieu à la création d'actions nouvelles ; ouverture à l’encontre de la société émettrice, d’une procédure de conciliation ou de toute autre procédure équivalente, de redressement ou de liquidation judiciaire ou de toute autre procédure équivalente, ou de nationalisation de la société émettrice ; radiation de l’action de la Bourse de Référence ; changement de compartiment de la Bourse de Référence de la cotation de l’action; transfert de la cotation de l’action sur un autre marché que sa Bourse de Référence ; tout autre événement de même nature pouvant entraîner des effets similaires, si l’un de ces évènements survient pendant la vie du Fonds.
+
+Si une action du panier est remplacée par une autre action (ci-après « l’action de substitution »), celle-ci sera une action qui notamment fait l’objet d’un marché de négociations sur une Bourse et dans la mesure du possible et par ordre de priorité, appartient à l’indice Euro Stoxx 50, fait partie de la même zone géographique que l’action du panier à remplacer et appartient au même secteur d’activité économique que l’action du panier à remplacer.
+
+ Anticipations de marché permettant de maximiser le résultat de la formule :
+A horizon 8 ans, les anticipations qui permettent de maximiser le résultat de la formule correspondent à une hausse de chaque action du Panier par rapport à sa Valeur Initiale.  Profil de risque : Votre argent sera principalement investi dans des instruments financiers sélectionnés par la société de gestion. Ces instruments connaîtront les évolutions et les aléas des marchés.
+
+ Risque lié à la classification : Le Fonds est construit dans la perspective d’un investissement pour toute la durée de vie de la formule. Il est donc fortement recommandé de n’acheter des parts de ce fonds que si vous avez l’intention de les conserver jusqu’à l’échéance de la formule. Si vous revendez vos parts avant l’échéance du 27 décembre 2019*, le prix qui vous sera proposé sera fonction des paramètres du marché ce jour-là (déduction faite des frais de rachat). Il pourra être très différent (inférieur ou supérieur) du montant résultant de l’application de la formule annoncée.
+Entre les dates de souscription et d’échéance, l’évolution de la valeur liquidative peut être décorrélée de celle du Panier. Le risque est alors non mesurable a priori. La garantie a été mise en place dans le cadre législatif et réglementaire en vigueur. En cas de modification des textes, elle pourra être modifiée selon les modalités décrites à la rubrique « Garantie ». Risque lié à l’inflation : Le capital restitué ne tient pas compte de l’inflation. ● Risques en cas de sortie anticipée : Risque en capital : En cas de demande de rachat anticipé de ses parts du Fonds avant l’échéance, et donc de la mise en jeu de la garantie, le porteur s’expose à un risque en capital non mesurable.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+8
+
+SONANCE 3
+
+Eligible au PEA
+
+Risque de taux : Il s’agit du risque de baisse des instruments de taux découlant des variations de taux d’intérêt. Il est mesuré par la sensibilité. En période de hausse des taux d’intérêt, la valeur liquidative pourra baisser.
+
+Risque de crédit et de contrepartie : Pendant la durée de la formule, la défaillance d’une contrepartie ou d’un émetteur pourra avoir un impact négatif sur la valeur liquidative du Fonds. Cela dit, la formule étant garantie à l’échéance par Amundi Finance (détails ci-après), une telle défaillance n’aura pas d’impact sur la Valeur Liquidative Finale. Risque du marché action : La formule dépend de l’évolution d’un panier d’actions entrant dans la composition de l’Euro Stoxx 50 le 20 juillet 2011 ; l’investisseur du Fonds est donc exposé aux marchés actions de la zone Euro sur lesquels les variations de cours peuvent être élevées. Risque de change (accessoire) : Il s’agit du risque de baisse des devises d’investissement par rapport à la devise de référence du portefeuille, l’euro. En fonction du sens des opérations de l’OPCVM, la baisse (en cas d’achat) ou la hausse (en cas de vente) d’une devise par rapport à l’euro, pourra entraîner la baisse de la valeur liquidative. Le risque de change est couvert ; toutefois, pendant la durée de vie de la formule, le fonds pourra présenter un risque de change accessoire, en raison des délais de mise en place et/ou de l’imperfection de la couverture.  Garantie : La société Amundi Finance garantit au Fonds, pour les seules parts rachetées sur la Valeur Liquidative Finale, que la Valeur Liquidative Finale sera égale à la valeur déterminée par application de la formule décrite à la rubrique ‘Stratégie d’investissement – Description de la formule’. Par ailleurs, Amundi Finance garantit que les valeurs liquidatives calculées entre la Valeur Liquidative Finale et la transformation du Fonds seront au moins égales à la Valeur Liquidative Finale. La garantie d’Amundi Finance n’est plus accordée pour les rachats centralisés avant le 27 décembre 2019* à 12 heures. L'ensemble des parts rachetées sur la Valeur Liquidative Finale bénéficiera de l'éventuelle majoration de la valeur liquidative résultant du versement par Amundi Finance des sommes dues au titre de la garantie décrite ci-dessus. En cas de mise en œuvre de sa garantie, Amundi Finance versera au Fonds, sur demande d’Amundi, les sommes dues à ce titre. Cette garantie est donnée compte tenu des textes législatifs et réglementaires en vigueur au 8 septembre 2011. En cas de changement desdits textes emportant création de nouvelles obligations pour le Fonds et notamment une charge financière directe ou indirecte de nature fiscale ou autre, Amundi Finance pourra diminuer les sommes dues au titre de la garantie de l’effet de ces nouvelles obligations. Dans ce cas, les investisseurs du Fonds en seront informés par la société de gestion. Toute modification de la garantie est soumise à l’agrément préalable de l’Autorité des Marchés Financiers. En dehors de la date de mise en jeu de la garantie, la valeur liquidative peut être inférieure à la Valeur Liquidative Finale. En raison des contrats mis en place pour assurer la formule à l’échéance, l’évolution de la valeur liquidative peut être différente de celle du Panier. A l’échéance de la formule, la société de gestion pourra faire le choix, soit de dissoudre le Fonds, soit de changer la classification du Fonds en une autre classification, soit de proposer aux investisseurs une nouvelle formule, sous réserve de l’agrément de l’AMF. Les porteurs du Fonds seront préalablement avisés de l’option retenue par la société de gestion.  Souscripteurs concernés et profil de l’investisseur type : Tous souscripteurs.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+9
+
+SONANCE 3
+
+Eligible au PEA
+
+Ce Fonds s’adresse à des investisseurs souhaitant bénéficier d’un gain potentiel élevé en s’exposant aux marchés d’actions de la zone Euro tout en bénéficiant d’une garantie à 100% de la Valeur Liquidative de Référence (hors commission de souscription). Le montant qu’il est raisonnable d’investir dans ce fonds dépend de la situation personnelle de l’investisseur. Pour le déterminer, il doit tenir compte de sa richesse, de son patrimoine personnel, de ses besoins actuels et futurs, à 8 ans, mais également de son souhait de prendre des risques ou au contraire de privilégier un investissement prudent. Il est également fortement recommandé de diversifier suffisamment ses investissements afin de ne pas les exposer uniquement aux risques de cet OPCVM.  Modalité de détermination et d’affectation des revenus : les revenus du Fonds sont capitalisés.  Conditions de souscription et de rachat : les demandes de souscriptions et de rachats sont centralisées chaque jour d’établissement de la valeur liquidative (J) à 12 heures. Ces demandes sont exécutées sur la base de cette valeur liquidative établie en J et calculée en J+1 ouvré.  Possibilité d’arrêter les souscriptions : la souscription sera ouverte au public à partir du 8 septembre 2011 pour une première tranche de 200 millions d'euros. Dès que ce montant sera atteint de nouvelles tranches de 10 millions d'euros pourront être ouvertes successivement si les conditions du marché relatives à la mise en œuvre de la formule le permettent, dans la limite d'un placement global de 400 millions d'euros jusqu'au 28 décembre 2011, 12 heures. Dès que ce plafond sera atteint, les souscriptions seront suspendues. A compter du 28 décembre 2011, 12 heures, le fonds sera fermé à toute nouvelle souscription, à l’exception des souscriptions de la société de gestion, du dépositaire ou du garant de l’OPCVM réalisées dans le but exclusif de compenser des rachats initiés par les porteurs de l’OPCVM.  Établissements habilités à recevoir les souscriptions et les rachats : agences des Caisses Régionales de Crédit Agricole proposant cette offre, Amundi et Caceis Bank. L’attention des porteurs est attirée sur le fait que les ordres transmis à des commercialisateurs autres que les établissements mentionnés ci-dessus doivent tenir compte du fait que l’heure limite de centralisation des ordres s’applique auxdits commercialisateurs vis-à-vis de Caceis Bank. En conséquence, ces commercialisateurs peuvent appliquer leur propre heure limite, antérieure à celle mentionnées ci-dessus, afin de tenir compte de leur délai de transmission des ordres à Caceis Bank.  Caractéristiques des parts  Montant de la valeur liquidative d’origine : 100 euros, le jour de la création du Fonds.  Souscription initiale minimale : une part. Les souscriptions et les rachats s’effectuent par millièmes de part au-delà des minima de souscription.  Devise de libellé des parts : euro.
+
+ Date et périodicité d’établissement de la valeur liquidative : la valeur liquidative est établie chaque jour (J) où les marchés Euronext sont ouverts à l’exception des jours fériés légaux en France. Cette valeur liquidative est calculée le lendemain ouvré (J+1).
+ Lieu et modalités de publication ou de communication de la valeur liquidative : la valeur liquidative du Fonds est disponible sur simple demande auprès d’Amundi et sur le site internet www.ca-sicavetfcp.fr.  Frais et commissions :  Commissions de souscription et de rachat : Les commissions de souscription et de rachat viennent augmenter le prix de souscription payé par l’investisseur ou diminuer le prix de remboursement. Les commissions acquises à l’OPCVM servent à compenser les frais
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+10
+
+SONANCE 3
+
+Eligible au PEA
+
+supportés par l’OPCVM pour investir ou désinvestir les avoirs confiés. Les commissions non acquises reviennent à la société de gestion, au commercialisateur, etc.
+
+Taux Commission de souscription  
+(a)
+
+Assiette
+
+:   2,5% maximum
+
+Commission de souscription non acquise à l’OPCVM Commission de souscription non acquise à l’OPCVM pour les souscriptions effectuées par arbitrage avec le FCP Atout Monétaire PEA, Relais Monélia (ex Atout Monélia), Relais PEA Monélia (ex Atout PEA Monélia) et Atout Mone Opportunité Commission de souscription acquise à l’OPCVM
+
+2% maximum Valeur liquidative x Nombre de parts
+
+
+
+
+
+Néant
+
+Commission de rachat : 1/ pour les rachats centralisés jusqu’au 28 décembre 2011 à 12 heures, sur la Valeur Liquidative Finale et postérieurement à la Valeur Liquidative Finale Commission de rachat acquise et non acquise à l’OPCVM 2/ pour les rachats effectués sur la dernière valeur liquidative* des mois de février, mai, août et novembre de chaque année civile (de février 2012 à novembre 2019)  Commission de rachat non acquise à l’OPCVM  Commission de rachat acquise à l’OPCVM 3/ pour les rachats centralisés à d’autres dates (autres valeurs liquidatives)  Commission de rachat non acquise à l’OPCVM  Commission de rachat acquise à l’OPCVM
+
+
+
+Néant Valeur liquidative x Nombre de parts
+
+   
+
+Néant 1%
+
+Néant 3%
+
+Cas d'exonération : (a) Néant pour Amundi et Amundi GROUP. Frais indirects prélevés sur l’actif net du Fonds lors des souscriptions et des rachats de parts et actions des OPCVM et fonds d’investissement sous-jacents Commission de souscription Commission de rachat
+
+Assiette Valeur liquidative x Nombre de parts Valeur liquidative x Nombre de parts
+
+Taux 1% maximum Néant
+
+ Frais de fonctionnement et de gestion : Ces frais recouvrent tous les frais facturés directement à l’OPCVM, à l’exception des frais de transactions. Les frais de transactions incluent les frais d’intermédiation (courtage, impôts de bourse, etc.) et la commission de mouvement, le cas échéant, qui peut être perçue notamment par le dépositaire et la société de gestion.
+
+Aux frais de fonctionnement et de gestion peuvent s’ajouter : - des commissions de surperformance. Celles-ci rémunèrent la société de gestion dès lors que l’OPCVM a dépassé ses objectifs. Elles sont donc facturées à l’OPCVM ; - des commissions de mouvements facturées à l’OPCVM ; - une part du revenu des opérations d’acquisition et cession temporaires de titres.
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+11
+
+SONANCE 3
+
+Eligible au PEA
+
+Frais facturés à l’OPCVM Frais de fonctionnement et de gestion (incluant tous les frais hors frais de transaction, de sur performance et frais liés aux investissements dans des OPCVM ou fonds d’investissement) Commission de sur performance Commission de mouvement :  perçue partiellement ou conjointement par le dépositaire sur l’ensemble des instruments
+
+Assiette
+
+Taux Barème
+
+Actif net
+
+2,5% TTC maximum l’an
+
+Actif net
+
+Néant
+
+Prélèvement sur chaque transaction  Perçue selon les instruments et opérations par la société de gestion ou par Amundi Intermédiation
+
+Montant forfaitaire de 0 à 450 euros TTC selon la place
+
+Montant forfaitaire de 5 euros par contrat (futures/options) ou Commission proportionnelle de 0 à 0,20% selon les instruments (titres, change, ...)
+
+Frais indirects supportés par le porteur dans le cadre de l’investissement dans les OPCVM sous-jacents Frais de fonctionnement et de gestion
+
+Assiette Actif net
+
+Taux 0,50%TTC l’an maximum
+
+Pourront s’ajouter aux frais facturés à l’OPC et affichés ci-dessus, les coûts suivants : - Les coûts juridiques exceptionnels liés au recouvrement des créances de l’OPC ; - Les coûts liés aux contributions dues par la Société de gestion à l’AMF au titre de la gestion de l’OPC Mise en concurrence des contreparties : une mise en concurrence se fait par interrogation d’au moins trois contreparties sur la base d’un document uniforme. Les réponses finales des contreparties sont confirmées par mail. À prestation égale, l’opération est réalisée avec le mieux disant, sauf si des limites d’engagement imposent de traiter avec plusieurs contreparties. Acquisitions et cessions temporaires de titres : La rémunération des opérations de prêts de titres est partagée entre l’OPCVM et l’opérateur. Elle bénéficie pour 60% à l’OPCVM et pour 40% à Amundi Intermédiation. Pour toute information complémentaire, les porteurs peuvent se reporter au rapport annuel de l’OPCVM.
+
+III. INFORMATIONS D’ORDRE COMMERCIAL
+Le prospectus complet de l’OPCVM est disponible dans les agences des Caisses Régionales de Crédit Agricole proposant cette offre. La valeur liquidative de l’OPCVM est disponible sur simple demande auprès de la société de gestion et sur le site internet www.ca-sicavetfcp.fr. Les derniers rapports annuels et documents périodiques sont disponibles auprès de la société de gestion : Amundi –Relations Réseau Caisses Régionales – 90 boulevard Pasteur – 75015 Paris.
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+12
+
+SONANCE 3
+
+Eligible au PEA
+
+Les porteurs de parts sont informés des changements affectant l’OPCVM selon les modalités définies par l’Autorité des marchés financiers : information particulière ou tout autre moyen (avis financier, document périodique…).
+
+IV. RÈGLES D’INVESTISSEMENT
+RATIOS REGLEMENTAIRES APPLICABLES A L’OPCVM (OPCVM CONFORME AUX NORMES EUROPEENNES ET INVESTISSANT PLUS DE 10% EN OPCVM) L’OPCVM respecte les règles d’investissement définies aux articles L.214-4 et R.214-1 et suivants du Code monétaire et financier. A ce titre, s’agissant d’un OPCVM conforme aux normes européennes et investissant plus de 10% en parts ou actions d’autres OPCVM ou fonds d’investissement, il pourra appliquer les règles prévues à l’article R.214-26 du Code monétaire et financier.
+
+V – RÈGLES D’ÉVALUATION ET DE COMPTABILISATION DES ACTIFS
+Principe Les conventions générales comptables sont appliquées dans le respect des principes : de continuité de l'exploitation, de permanence des méthodes comptables d'un exercice à l'autre, d'indépendance des exercices. La méthode de base retenue, pour l'enregistrement des éléments d'actifs en comptabilité, est la méthode des coûts historiques, sauf en ce qui concerne l'évaluation du portefeuille.
+
+Règles d’évaluation des actifs Le calcul de la valeur liquidative de la part est effectué en tenant compte des règles d'évaluation précisées cidessous : - Les valeurs mobilières négociées sur un marché réglementé français ou étranger, sont évaluées au prix du marché. L'évaluation au prix du marché de référence est effectuée selon les modalités arrêtées par la Société de gestion. Les valeurs mobilières apportées à l'OPCVM ou détenues par lui, sont évaluées au dernier cours de Bourse. Les différences entre les cours de Bourse utilisés lors du calcul de la valeur liquidative et les coûts historiques des valeurs mobilières constituant le portefeuille, sont enregistrées dans un compte "Différences d'estimation". Toutefois : . Les valeurs mobilières dont le cours n'a pas été constaté le jour de l'évaluation ou dont le cours a été corrigé sont évaluées à leur valeur probable de négociation sous la responsabilité de la Société de gestion. Ces évaluations et leur justification sont communiquées au commissaire aux comptes à l'occasion de ses contrôles. . Les Titres de Créances Négociables et assimilés sont évalués de façon actuarielle sur la base d’un taux de référence défini ci-dessous, majoré le cas échéant d’un écart représentatif des caractéristiques intrinsèques de l’émetteur : TCN dont l’échéance est inférieure ou égale à 1 an : Taux interbancaire offert en euros (Euribor) TCN swapés : valorisés selon la courbe OIS (Overnight Indexed Swaps) les TCN d'une durée de vie supérieure à trois mois (OPCVM monétaires) : valorisés selon la courbe OIS (Overnight Indexed Swaps)
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+13
+
+SONANCE 3
+
+Eligible au PEA
+
+TCN dont l’échéance est supérieure à 1 an : Taux des Bons du Trésor à intérêts Annuels Normalisés (BTAN) ou taux de l’OAT (Obligations Assimilables du Trésor) de maturité proche pour les durées les plus longues Les Titres de Créances Négociables d’une durée de vie résiduelle inférieure ou égale à 3 mois pourront être évalués selon la méthode linéaire. Les bons du Trésor sont valorisés au taux du marché, communiqué quotidiennement par les Spécialistes en Valeurs du Trésor. . Les parts ou actions d'OPCVM sont évalués sur la base du dernier prix de rachat connu.
+
+- Les titres qui ne sont pas négociés sur un marché réglementé sont évalués sous la responsabilité de la Société de gestion à leur valeur probable de négociation. Ils sont évalués en utilisant des méthodes fondées sur la valeur patrimoniale et le rendement, en prenant en considération les prix retenus lors de transactions significatives récentes. - Les liquidités, dépôts et instruments financiers détenus en portefeuille et libellés en devises sont convertis dans la devise de comptabilité de l'OPCVM sur la base des taux de change au jour de l'évaluation. - Les valeurs mobilières qui font l'objet de contrats de cession ou d'acquisition temporaire sont évaluées en conformité avec la réglementation en vigueur, les modalités d'application étant arrêtées par la Société de gestion. Les titres reçus en pension sont inscrits en portefeuille acheteur dans la rubrique "Créances représentatives des titres reçus en pensions" pour leurs montants prévus dans les contrats, majorés des intérêts à recevoir. Les titres donnés en pension inscrits en portefeuille acheteur sont valorisés au cours de Bourse. Les intérêts à recevoir et à payer pour les opérations de pension, sont calculés au prorata temporis. La dette représentative des titres donnés en pension est inscrite en portefeuille vendeur, à la valeur fixée au contrat, majorée des intérêts à payer. Au dénouement, les intérêts encaissés et décaissés sont comptabilisés en revenus de créances. Les titres prêtés sont valorisés au prix du marché. L'indemnité encaissée y afférent est enregistrée en revenus de créances. Les intérêts courus sont inclus dans la valeur boursière des titres prêtés. - Les opérations portant sur des instruments financiers à terme, fermes ou conditionnels, négociées sur des marchés organisés français ou étrangers sont valorisées à la valeur de marché selon les modalités arrêtées par la Société de gestion. Les contrats sur marchés à terme sont valorisés au cours de compensation. - Les opérations à terme, fermes ou conditionnelles ou les opérations d'échange conclues sur les marchés de gré à gré, autorisés par la réglementation applicable aux OPCVM, sont valorisées à leur valeur de marché ou à une valeur estimée selon les modalités arrêtées par la Société de gestion. Les contrats d'échanges de taux d'intérêt et/ou de devises sont valorisés à leur valeur de marché, en fonction du prix calculé par actualisation des flux de trésorerie futurs (principal et intérêt), aux taux d'intérêt et/ou de devises de marché. Ce prix est corrigé du risque de signature.
+
+Méthode de comptabilisation Les entrées et cessions de titres sont comptabilisées frais exclus. L'option retenue pour la comptabilisation du revenu est celle du revenu encaissé. Les revenus sont constitués par : les revenus des valeurs mobilières, les dividendes et intérêts encaissés au taux de la devise, pour les valeurs étrangères, la rémunération des liquidités en devises, les revenus de prêts et pensions de titres et autres placements. De ces revenus sont déduits : les frais de gestion, les frais financiers et charges sur prêts et emprunts de titres et autres placements. Engagements hors bilan
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+14
+
+SONANCE 3
+
+Eligible au PEA
+
+Les contrats à terme fermes sont portés pour leur valeur de marché, en engagement hors bilan, au cours de compensation. Les opérations à terme conditionnelles sont traduites en équivalent sous-jacent. Les contrats d'échange de taux réalisés de gré à gré sont évalués sur la base du montant nominal, plus ou moins, la différence d'estimation correspondante.
+
+Compte de régularisation des revenus Les comptes de régularisation des revenus ont pour effet de respecter l'égalité des porteurs par rapport aux revenus acquis, quelle que soit la date de souscription ou de rachat.
+
+Date de mise à jour de la note détaillée : 21 avril 2017.
+
+* En cas de fermeture des marchés Euronext ou de jour férié légal en France, la valeur liquidative suivante sera prise en compte.
+
+15
+
+SONANCE 3
+
+Règlement
+
+SONANCE 3 FONDS COMMUN DE PLACEMENT REGLEMENT
+
+TITRE 1 - ACTIF ET PARTS
+Article 1 - Parts de copropriété Les droits des copropriétaires sont exprimés en parts, chaque part correspondant à une même fraction de l’actif du fonds. Chaque porteur de parts dispose d’un droit de copropriété sur les actifs du fonds proportionnel au nombre de parts possédées. La durée du fonds est de 99 ans à compter de la date d’ouverture sauf dans les cas de dissolution anticipée ou de la prorogation prévue au présent règlement. Les caractéristiques des différentes catégories de parts et leurs conditions d’accès sont précisées dans le prospectus simplifié et la note détaillée du FCP. Les différentes catégories de parts pourront : - bénéficier de régimes différents de distribution des revenus ; (distribution ou capitalisation) - être libellées en devises différentes ; - supporter des frais de gestion différents ; - supporter des commissions de souscriptions et de rachat différentes ; - avoir une valeur nominale différente. Possibilité de regroupement ou de division des parts. Les parts pourront être fractionnées, sur décision du conseil d’administration de la société de gestion en millièmes dénommées fractions de parts. Les dispositions du règlement réglant l’émission et le rachat de parts sont applicables aux fractions de parts dont la valeur sera toujours proportionnelle à celle de la part qu’elles représentent. Toutes les autres dispositions du règlement relatives aux parts s’appliquent aux fractions de parts sans qu’il soit nécessaire de le spécifier, sauf lorsqu’il en est disposé autrement. Enfin, le conseil d’administration de la société de gestion peut, sur ses seules décisions, procéder à la division des parts par la création de parts nouvelles qui sont attribuées aux porteurs en échange des parts anciennes. Article 2 - Montant minimal de l’actif Il ne peut être procédé au rachat des parts si l’actif du FCP devient inférieur à 300 000 euros ; dans ce cas, et sauf si l’actif redevient entre temps supérieur à ce montant, la société de gestion prend les dispositions nécessaires pour procéder dans le délai de trente jours à la fusion ou à la dissolution du fonds. Article 3 - Emission et rachat des parts Les parts sont émises à tout moment à la demande des porteurs sur la base de leur valeur liquidative augmentée, le cas échéant, des commissions de souscription.
+
+1
+
+SONANCE 3
+
+Règlement
+
+Les rachats et les souscriptions sont effectués dans les conditions et selon les modalités définies dans le prospectus simplifié et la note détaillée. Les parts de fonds commun de placement peuvent faire l’objet d’une admission à la cote selon la réglementation en vigueur. Les souscriptions doivent être intégralement libérées le jour du calcul de la valeur liquidative. Elles peuvent être effectuées en numéraire et/ou par apport de valeurs mobilières. La société de gestion a le droit de refuser les valeurs proposées et, à cet effet, dispose d’un délai de sept jours à partir de leur dépôt pour faire connaître sa décision. En cas d’acceptation, les valeurs apportées sont évaluées selon les règles fixées à l’article 4 et la souscription est réalisée sur la base de la première valeur liquidative suivant l’acceptation des valeurs concernées. Les rachats sont effectués exclusivement en numéraire, sauf en cas de liquidation du fonds lorsque les porteurs de parts ont signifié leur accord pour être remboursés en titres. Ils sont réglés par le dépositaire dans un délai maximum de cinq jours suivant celui de l’évaluation de la part. Toutefois, si, en cas de circonstances exceptionnelles, le remboursement nécessite la réalisation préalable d’actifs compris dans le fonds, ce délai peut être prolongé, sans pouvoir excéder 30 jours. Sauf en cas de succession ou de donation-partage, la cession ou le transfert de parts entre porteurs, ou de porteurs à un tiers, est assimilé à un rachat suivi d’une souscription ; s’il s’agit d’un tiers, le montant de la cession ou du transfert doit, le cas échéant, être complété par le bénéficiaire pour atteindre au minimum celui de la souscription minimale exigée par le prospectus simplifié et le prospectus complet. En application de l’article L. 214-30 du Code monétaire et financier, le rachat par le FCP de ses parts, comme l’émission de parts nouvelles, peuvent être suspendus, à titre provisoire, par la société de gestion, quand des circonstances exceptionnelles l’exigent et si l’intérêt des porteurs le commande. Lorsque l’actif net du FCP est inférieur au montant fixé par la réglementation, aucun rachat des parts ne peut être effectué. Possibilité de conditions de souscription minimale, selon les modalités prévues dans le prospectus simplifié et la note détaillée. Le FCP peut cesser d’émettre des parts en application de l’article L. 214-30 second alinéa du code monétaire et financier dans les cas suivants : l’OPCVM est dédié à un nombre de 20 porteurs au plus, l’OPCVM est dédié à une catégorie d’investisseurs dont les caractéristiques sont définies précisément par le prospectus complet de l’OPCVM, dans les situations objectives entraînant la fermeture des souscriptions telles qu’un nombre maximum de parts ou d’actions émises, un montant maximum d’actif atteint ou l’expiration d’une période de souscription déterminée. Ces situations objectives sont définies dans la note détaillée de l’OPCVM. Article 4 - Calcul de la valeur liquidative Le calcul de la valeur liquidative des parts est effectué en tenant compte des règles d’évaluation figurant dans la note détaillée du prospectus complet. Les apports en nature ne peuvent comporter que les titres, valeurs ou contrats admis à composer l’actif des OPCVM ; ils sont évalués conformément aux règles d’évaluation applicables au calcul de la valeur liquidative.
+
+2
+
+SONANCE 3
+
+Règlement
+
+TITRE 2 - FONCTIONNEMENT DU FONDS
+
+Article 5 - La société de gestion La gestion du fonds est assurée par la société de gestion conformément à l’orientation définie pour le fonds. La société de gestion agit en toutes circonstances pour le compte des porteurs de parts et peut seule exercer les droits de vote attachés aux titres compris dans le fonds. Article 5 bis - Règles de fonctionnement Les instruments et dépôts éligibles à l’actif de l’OPCVM ainsi que les règles d’investissement sont décrits dans la note détaillée du prospectus complet. Article 6 - Le dépositaire Le dépositaire assure la conservation des actifs compris dans le fonds, dépouille les ordres de la société de gestion concernant les achats et les ventes de titres ainsi que ceux relatifs à l’exercice des droits de souscription et d’attribution attachés aux valeurs comprises dans le fonds. Il assure tous encaissements et paiements. Le dépositaire doit s’assurer de la régularité des décisions de la société de gestion. Il doit, le cas échéant, prendre toutes mesures conservatoires qu’il juge utiles. En cas de litige avec la société de gestion, il informe l’Autorité des marchés financiers. Article 7 - Le commissaire aux comptes Un commissaire aux comptes est désigné pour six exercices, après accord de l’Autorité des marchés financiers, par le conseil d’administration ou le directoire de la société de gestion. Il effectue les diligences et contrôles prévus par la loi et notamment certifie, chaque fois qu’il y a lieu, la sincérité et la régularité des comptes et des indications de nature comptable contenues dans le rapport de gestion. Il peut être renouvelé dans ses fonctions. Il porte à la connaissance de l’Autorité des marchés financiers, ainsi qu’à celle de la société de gestion du FCP, les irrégularités et inexactitudes qu’il a relevées dans l’accomplissement de sa mission. Les évaluations des actifs et la détermination des parités d’échange dans les opérations de transformation, fusion ou scission sont effectuées sous le contrôle du commissaire aux comptes. Il apprécie tout apport en nature et établit sous sa responsabilité un rapport relatif à son évaluation et à sa rémunération. Il atteste l’exactitude de la composition de l’actif et des autres éléments avant publication. Les honoraires du commissaire aux comptes sont fixés d’un commun accord entre celui-ci et le conseil d’administration ou le directoire de la société de gestion au vu d’un programme de travail précisant les diligences estimées nécessaires. En cas de liquidation, il évalue le montant des actifs et établit un rapport sur les conditions de cette liquidation. Il atteste les situations servant de base à la distribution d’acomptes. Article 8 - Les comptes et le rapport de gestion A la clôture de chaque exercice, la société de gestion, établit les documents de synthèse et établit un rapport sur la gestion du fonds pendant l’exercice écoulé.
+
+3
+
+SONANCE 3
+
+Règlement
+
+L’inventaire est attesté par le dépositaire et l’ensemble des documents ci-dessus est contrôlé par le commissaire aux comptes. La société de gestion tient ces documents à la disposition des porteurs de parts dans les quatre mois suivant la clôture de l’exercice et les informe du montant des revenus auxquels ils ont droit : ces documents sont soit transmis par courrier à la demande expresse des porteurs de parts, soit mis à leur disposition à la société de gestion ou chez le dépositaire. TITRE 3 - MODALITES D’AFFECTATION DES RESULTATS Article 9 Le résultat net de l’exercice est égal au montant des intérêts, arrérages, dividendes, primes et lots, jetons de présence ainsi que tous produits relatifs aux titres constituant le portefeuille du fonds majoré du produit des sommes momentanément disponibles et diminué des frais de gestion et de la charge des emprunts. Les sommes distribuables sont égales au résultat net de l’exercice augmenté des reports à nouveau et majoré ou diminué du solde des comptes de régularisation des revenus afférents à l’exercice clos. La société de gestion décide de la répartition des résultats. Le FCP a opté pour la capitalisation pure. Les sommes distribuables sont intégralement capitalisées à l’exception de celles qui font l’objet d’une distribution obligatoire en vertu de la loi. TITRE 4 - FUSION - SCISSION - DISSOLUTION – LIQUIDATION
+
+Article 10 - Fusion – Scission La société de gestion peut soit faire apport, en totalité ou en partie, des actifs compris dans le fonds à un autre OPCVM qu’elle gère, soit scinder le fonds en deux ou plusieurs autres fonds communs dont elle assurera la gestion. Ces opérations de fusion ou de scission ne peuvent être réalisées qu’un mois après que les porteurs en ont été avisés. Elles donnent lieu à la délivrance d’une nouvelle attestation précisant le nombre de parts détenues par chaque porteur. Article 11 - Dissolution – Prorogation - Si les actifs du fonds demeurent inférieurs, pendant trente jours, au montant fixé à l’article 2 cidessus, la société de gestion en informe l’Autorité des marchés financiers et procède, sauf opération de fusion avec un autre fonds commun de placement, à la dissolution du fonds. - La société de gestion peut dissoudre par anticipation le fonds ; elle informe les porteurs de parts de sa décision et à partir de cette date les demandes de souscription ou de rachat ne sont plus acceptées. - La société de gestion procède également à la dissolution du fonds en cas de demande de rachat de la totalité des parts, de cessation de fonction du dépositaire, lorsque aucun autre dépositaire n’a été désigné, ou à l’expiration de la durée du fonds, si celle-ci n’a pas été prorogée. La société de gestion informe l’Autorité des marchés financiers par courrier de la date et de la procédure de dissolution retenue. Ensuite, elle adresse à l’Autorité des marchés financiers le rapport du commissaire aux comptes. La prorogation d’un fonds peut être décidée par la société de gestion en accord avec le dépositaire. Sa décision doit être prise au moins 3 mois avant l’expiration de la durée prévue pour le fonds et portée à la connaissance des porteurs de parts et de l’Autorité des marchés financiers.
+
+4
+
+SONANCE 3
+
+Règlement
+
+En cas de résiliation de la convention conclue entre le dépositaire et la société de gestion par l'une ou l'autre des parties, la société de gestion procède à la dissolution du fonds dans un délai maximum de trois mois à compter de la réception par la partie notifiée de cette résiliation, lorsque aucun autre dépositaire n'a été désigné par la société de gestion et agréé par l’Autorité des marchés financiers dans ce délai. Article 12 – Liquidation En cas de dissolution, la société de gestion est chargée des opérations de liquidation. Les opérations de liquidation peuvent être confiées au dépositaire avec l’accord de ce dernier. La société de gestion ou, le cas échéant, le dépositaire sont investis à cet effet, des pouvoirs les plus étendus pour réaliser les actifs, payer les créanciers éventuels et répartir le solde disponible entre les porteurs de parts en numéraire ou en valeurs. Le commissaire aux comptes et le dépositaire continuent d’exercer leurs fonctions jusqu’à la fin des opérations de liquidation. TITRE 5 – CONTESTATION
+
+Article 13 - Compétence - Election de domicile Toutes contestations relatives au fonds qui peuvent s’élever pendant la durée de fonctionnement de celui-ci, ou lors de sa liquidation, soit entre les porteurs de parts, soit entre ceux-ci et la société de gestion ou le dépositaire, sont soumises à la juridiction des tribunaux compétents.
+
+Date de mise à jour du règlement : 21 avril 2017
+
+5
+
+

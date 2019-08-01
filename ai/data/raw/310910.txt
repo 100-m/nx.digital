@@ -1,0 +1,490 @@
+Informations clés pour l'investisseur
+Ce document fournit des informations essentielles aux investisseurs de ce fonds. Il ne s’agit pas d’un document promotionnel. Les informations qu’il contient vous sont fournies conformément à une obligation légale, afin de vous aider à comprendre en quoi consiste un investissement dans ce fonds et quels risques y sont associés. Il vous est conseillé de le lire pour décider en connaissance de cause d’investir ou non.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+Classe I - Code ISIN : (C/D) FR0013356086
+OPCVM de droit français géré par Amundi Asset Management, société de Amundi
+
+Objectifs et politique d'investissement
+Classification AMF ("Autorité des Marchés Financiers") : Actions des pays de l'Union Européenne En souscrivant à AMUNDI EUROPEAN SECTOR ROTATION FUND - I, vous vous exposez aux marchés des actions européennes par la mise en place d'une gestion indicielle. L'objectif de gestion du fonds est de répliquer le plus fidèlement possible la performance de l’indice de stratégie European Sector Rotation Net Return Index (l’« Indice de Stratégie ») diminuée des frais courants, quelle que soit son évolution, positive ou négative. L'objectif d'écart de suivi maximal, calculé sur un an glissant, entre l'évolution de la valeur liquidative du fonds et celle de l'Indice de Stratégie est de 2%. L'Indice de Stratégie, dividendes nets réinvestis (les dividendes nets de fiscalité versés par les actions composant l'indice sont intégrés dans le calcul de l'indice) est libellé en euro. Il est développé, calculé et publié par UniCredit Bank AG. Les actions entrant dans la composition de l'Indice de Stratégie sont toutes issues de l'indice STOXX® Europe 600, l'Indice de Stratégie fournissant une exposition à une sélection d’indices sectoriels qui composent l'indice STOXX® Europe 600. La composition de l’Indice de Stratégie est définie en appliquant un modèle quantitatif qui vise à sélectionner les indices sectoriels de l'indice STOXX® Europe 600 susceptibles de tirer le meilleur profit des différentes phases du cycle économique en Europe. Pour ce faire, 3 paniers sont définis : - un panier cyclique comprenant cinq indices sectoriels de l'indice STOXX® Europe 600 présentant une forte sensibilité en terme de performance aux phases de reprise économique, - un panier défensif comprenant cinq indices sectoriels de l'indice STOXX® Europe 600 présentant une grande stabilité en terme de performance dans les phases de ralentissement économique, - un panier neutre constitué de l'indice STOXX® Europe 600. L’allocation effective de l’Indice de Stratégie entre les paniers est déterminée en fonction de deux signaux : - Le Signal 1 (prévision de croissance) repose sur une méthodologie quantitative fonction de l’évolution du niveau du sous-indice Business Expectations de l’indice Ifo du Climat des Affaires, - Le Signal 2 (performance relative) repose sur une méthodologie quantitative amenant à surpondérer l’allocation de l’Indice de Stratégie sur celui des 3 paniers qui a eu la performance mensuelle moyenne la plus élevée au cours des 3 mois précédents. Des informations complémentaires sur la composition des paniers ainsi que sur la méthodologie d'allocation entre les paniers sont disponibles dans le prospectus. Des informations complémentaires sur la composition et le fonctionnement de l’Indice de Stratégie sont disponibles dans le prospectus et sur le site internet www.onemarkets.de/ www.onemarkets.it. La valeur de l'Indice de Stratégie est disponible via Reuters (.UCGRESRN) et Bloomberg (UCGRESRN). Afin de s'exposer à l'Indice de Stratégie, le fonds échange la performance des actifs détenus par le fonds contre celle de l’Indice de Stratégie en concluant des contrats d’échange à terme ou « total return swap » (Réplication synthétique de l'Indice de Stratégie).Le fonds est exposé au risque de change résultant de la différence entre les devises de certaines des actions composant l’Indice de Stratégie et la devise de référence du fonds. Afin de s'exposer à l'Indice de Stratégie, le fonds échange la performance des actifs détenus par le fonds contre celle de l’Indice de Stratégie en concluant des contrats d’échange à terme ou « total return swap » (Réplication synthétique de l'Indice de Stratégie). Le fonds est exposé au risque de change résultant de la différence entre les devises de certaines des actions composant l’Indice de Stratégie et la devise de référence du fonds. Dans le cadre de ce fonds UniCredit Bank AG joue plusieurs rôles susceptibles de donner lieu à la manifestation de conflits d’intérêts : promoteur de l'indice et/ou agent de calcul de l'Indice de Stratégie, contrepartie de contrat d’échange à terme (TRS) et commercialisateur. Des informations complémentaires sur les potentiels conflits d’intérêts sont disponibles dans le prospectus. Le résultat net du fonds est réinvesti ou redistribué sur décision de la société de gestion et les plus-values nettes réalisées du fonds sont réinvesties ou redistribuées sur décision de la société de gestion. La Société de Gestion a pour objectif de distribuer annuellement des revenus représentant tout ou partie des dividendes nets détachés par les actions auxquelles le fonds est exposé par l’intermédiaire de l’Indice de Stratégie. Vous pouvez demander le remboursement de vos parts chaque jour, les opérations de rachat sont exécutées de façon quotidienne. Recommandation : ce fonds pourrait ne pas convenir aux investisseurs qui prévoient de retirer leur apport avant 5 ansans.
+
+Profil de risque et de rendement
+à risque plus faible, rendement potentiellement plus faible à risque plus élevé, rendement potentiellement plus élevé Les risques importants pour l'OPCVM non pris en compte dans l'indicateur sont : Risque de contrepartie : il représente le risque de défaillance d’un intervenant de marché l’empêchant d’honorer ses engagements vis-à-vis de votre portefeuille. La survenance de l’un de ces risques peut entraîner une baisse de la valeur liquidative du portefeuille.
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+Le niveau de risque du fonds reflète principalement le risque du marché des actions européennes sur lequel il est exposé. Les données historiques utilisées pour le calcul de l’indicateur de risque numérique pourraient ne pas constituer une indication fiable du profil de risque futur de l’OPCVM. La catégorie de risque associée à ce fonds n’est pas garantie et pourra évoluer dans le temps. La catégorie la plus faible ne signifie pas « sans risque ». Le capital initialement investi ne bénéficie d'aucune garantie.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND - I
+
+1
+
+Frais
+Les frais et commissions acquittés servent à couvrir les coûts d’exploitation de l’OPCVM y compris les coûts de commercialisation et de distribution des parts, ces frais réduisent la croissance potentielle des investissements. Les frais d’entrée et de sortie affichés sont des frais maximum. Frais ponctuels prélevés avant ou après investissement Dans certains cas, les frais payés peuvent être inférieurs - vous pouvez obtenir plus d’information auprès de votre conseiller Frais d'entrée 6,00 % financier. Frais de sortie Néant Les frais courants sont fondés sur les chiffres de l’exercice en Ces taux correspondent au pourcentage maximal pouvant être prélevé cours. Ce pourcentage peut varier d’une année sur l’autre. Il exclut : les commissions de surperformance, sur votre capital avant que celui-ci ne soit investi (entrée) ou ne vous les frais d’intermédiation, à l’exception des frais d’entrée et de soit remboursé (sortie). sortie payés par l’OPCVM lorsqu’il achète ou vend des parts Frais prélevés par le FCP sur une année d’un autre OPC. *L'OPCVM n'ayant pas encore arrêté ses comptes, le pourcentage Frais courants 0,45 % de l'actif net moyen* des frais courants présenté ci-contre est une estimation. Pour Frais prélevés par le FCP dans certaines circonstances chaque exercice, le rapport annuel de l'OPCVM donnera le montant Commission de performance Néant exact des frais encourus. Pour plus d'information sur les frais, veuillez vous référer à la rubrique « frais et commissions » du prospectus de cet OPCVM, disponible sur simple demande auprès de la société de gestion.
+
+Performances passées
+Votre OPCVM ne dispose pas encore de données sur une année civile complète pour permettre l'affichage du diagramme de ses performances.
+Les performances ne sont pas constantes dans le temps et ne préjugent pas des performances futures. Le fonds a été créé le 24 octobre 2018 et sa classe I le 24 octobre 2018. La devise de référence est l'euro (EUR).
+
+Informations pratiques
+Nom du dépositaire : CACEIS Bank. Informations supplémentaires relatives à l'OPCVM : Le dernier prospectus et les derniers documents périodiques, ainsi que toutes autres informations pratiques, sont disponibles gratuitement auprès de la société de gestion. Les détails actualisés de la politique de rémunération de la société de gestion sont disponibles sur son site internet ou gratuitement sur simple demande écrite auprès de celle-ci. Cette politique décrit notamment les modalités de calcul des rémunérations et avantages de certaines catégories de salariés, les organes responsables de leur attribution ainsi que la composition du Comité de rémunération. La valeur liquidative est disponible sur simple demande auprès de la société de gestion, sur son site internet www.amundi.com Fiscalité : Selon votre régime fiscal, les plus-values et revenus éventuels liés à la détention de titres de l’OPCVM peuvent être soumis à taxation. Nous vous conseillons de vous renseigner à ce sujet auprès du commercialisateur de l’OPCVM. Responsabilité : La responsabilité de Amundi Asset Management ne peut être engagée que sur la base de déclarations contenues dans le présent document qui seraient trompeuses, inexactes ou non cohérentes avec les parties correspondantes du prospectus de l’OPCVM. L’OPCVM n’est pas ouvert aux résidents des Etats Unis d’Amérique/"U.S. Person" (la définition de "U.S. Person" est disponible sur le site internet de la société de gestion www.amundi.com et/ou dans le prospectus). L’OPCVM propose d’autres parts ou actions pour des catégories d’investisseurs définies dans son prospectus.
+
+--------------------------
+
+Cet OPCVM est agréé en France et réglementé par l'Autorité des marchés financiers (AMF). La société de gestion Amundi Asset Management est agréée en France et réglementée par l'Autorité des marchés financiers (AMF). Les informations clés pour l'investisseur ici fournies sont exactes et à jour au 17 avril 2019.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND - I
+
+2
+
+Informations clés pour l'investisseur
+Ce document fournit des informations essentielles aux investisseurs de ce fonds. Il ne s’agit pas d’un document promotionnel. Les informations qu’il contient vous sont fournies conformément à une obligation légale, afin de vous aider à comprendre en quoi consiste un investissement dans ce fonds et quels risques y sont associés. Il vous est conseillé de le lire pour décider en connaissance de cause d’investir ou non.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+Classe P - Code ISIN : (C/D) FR0013356094
+OPCVM de droit français géré par Amundi Asset Management, société de Amundi
+
+Objectifs et politique d'investissement
+Classification AMF ("Autorité des Marchés Financiers") : Actions des pays de l'Union Européenne En souscrivant à AMUNDI EUROPEAN SECTOR ROTATION FUND - P, vous vous exposez aux marchés des actions européennes par la mise en place d'une gestion indicielle. L'objectif de gestion du fonds est de répliquer le plus fidèlement possible la performance de l’indice de stratégie European Sector Rotation Net Return Index (l’« Indice de Stratégie ») quelle que soit son évolution, positive ou négative, déduction faite des frais courants. L'objectif d'écart de suivi maximal, calculé sur un an glissant, entre l'évolution de la valeur liquidative du fonds et celle de l'Indice de Stratégie est de 2%. L'Indice de Stratégie, dividendes nets réinvestis (les dividendes nets de fiscalité versés par les actions composant l'indice sont intégrés dans le calcul de l'indice) est libellé en euro. Il est développé, calculé et publié par UniCredit Bank AG. Les actions entrant dans la composition de l'Indice de Stratégie sont toutes issues de l'indice STOXX® Europe 600, l'Indice de Stratégie fournissant une exposition à une sélection d’indices sectoriels qui composent l'indice STOXX® Europe 600. La composition de l’Indice de Stratégie est définie en appliquant un modèle quantitatif qui vise à sélectionner les indices sectoriels de l'indice STOXX® Europe 600 susceptibles de tirer le meilleur profit des différentes phases du cycle économique en Europe. Pour ce faire, 3 paniers sont définis : - un panier cyclique comprenant cinq indices sectoriels de l'indice STOXX® Europe 600 présentant une forte sensibilité en terme de performance aux phases de reprise économique, - un panier défensif comprenant cinq indices sectoriels de l'indice STOXX® Europe 600 présentant une grande stabilité en terme de performance dans les phases de ralentissement économique, - un panier neutre constitué de l'indice STOXX® Europe 600. L’allocation effective de l’Indice de Stratégie entre les paniers est déterminée en fonction de deux signaux : - Le Signal 1 (prévision de croissance) repose sur une méthodologie quantitative fonction de l’évolution du niveau du sous-indice Business Expectations de l’indice Ifo du Climat des Affaires, - Le Signal 2 (performance relative) repose sur une méthodologie quantitative amenant à surpondérer l’allocation de l’Indice de Stratégie sur celui des 3 paniers qui a eu la performance mensuelle moyenne la plus élevée au cours des 3 mois précédents. Des informations complémentaires sur la composition des paniers ainsi que sur la méthodologie d'allocation entre les paniers sont disponibles dans le prospectus. Des informations complémentaires sur la composition et le fonctionnement de l’Indice de Stratégie sont disponibles dans le prospectus et sur le site internet www.onemarkets.de/ www.onemarkets.it. La valeur de l'Indice de Stratégie est disponible via Reuters (.UCGRESRN) et Bloomberg (UCGRESRN). Afin de s'exposer à l'Indice de Stratégie, le fonds échange la performance des actifs détenus par le fonds contre celle de l’Indice de Stratégie en concluant des contrats d’échange à terme ou « total return swap » (Réplication synthétique de l'Indice de Stratégie).Le fonds est exposé au risque de change résultant de la différence entre les devises de certaines des actions composant l’Indice de Stratégie et la devise de référence du fonds. Afin de s'exposer à l'Indice de Stratégie, le fonds échange la performance des actifs détenus par le fonds contre celle de l’Indice de Stratégie en concluant des contrats d’échange à terme ou « total return swap » (Réplication synthétique de l'Indice de Stratégie). Le fonds est exposé au risque de change résultant de la différence entre les devises de certaines des actions composant l’Indice de Stratégie et la devise de référence du fonds. Dans le cadre de ce fonds UniCredit Bank AG joue plusieurs rôles susceptibles de donner lieu à la manifestation de conflits d’intérêts : promoteur de l'indice et/ou agent de calcul de l'Indice de Stratégie, contrepartie de contrat d’échange à terme (TRS) et commercialisateur. Des informations complémentaires sur les potentiels conflits d’intérêts sont disponibles dans le prospectus. Le résultat net du fonds est réinvesti ou redistribué sur décision de la société de gestion et les plus-values nettes réalisées du fonds sont réinvesties ou redistribuées sur décision de la société de gestion. La Société de Gestion a pour objectif de distribuer annuellement des revenus représentant tout ou partie des dividendes nets détachés par les actions auxquelles le fonds est exposé par l’intermédiaire de l’Indice de Stratégie. Vous pouvez demander le remboursement de vos parts chaque jour, les opérations de rachat sont exécutées de façon quotidienne. Recommandation : ce fonds pourrait ne pas convenir aux investisseurs qui prévoient de retirer leur apport avant 5 ansans.
+
+Profil de risque et de rendement
+à risque plus faible, rendement potentiellement plus faible à risque plus élevé, rendement potentiellement plus élevé Les risques importants pour l'OPCVM non pris en compte dans l'indicateur sont : Risque de contrepartie : il représente le risque de défaillance d’un intervenant de marché l’empêchant d’honorer ses engagements vis-à-vis de votre portefeuille. La survenance de l’un de ces risques peut entraîner une baisse de la valeur liquidative du portefeuille.
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+Le niveau de risque du fonds reflète principalement le risque du marché des actions européennes sur lequel il est exposé. Les données historiques utilisées pour le calcul de l’indicateur de risque numérique pourraient ne pas constituer une indication fiable du profil de risque futur de l’OPCVM. La catégorie de risque associée à ce fonds n’est pas garantie et pourra évoluer dans le temps. La catégorie la plus faible ne signifie pas « sans risque ». Le capital initialement investi ne bénéficie d'aucune garantie.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND - P
+
+3
+
+Frais
+Les frais et commissions acquittés servent à couvrir les coûts d’exploitation de l’OPCVM y compris les coûts de commercialisation et de distribution des parts, ces frais réduisent la croissance potentielle des investissements. Les frais d’entrée et de sortie affichés sont des frais maximum. Frais ponctuels prélevés avant ou après investissement Dans certains cas, les frais payés peuvent être inférieurs - vous pouvez obtenir plus d’information auprès de votre conseiller Frais d'entrée 6,00 % financier. Frais de sortie Néant Les frais courants sont fondés sur les chiffres de l’exercice en Ces taux correspondent au pourcentage maximal pouvant être prélevé cours. Ce pourcentage peut varier d’une année sur l’autre. Il exclut : les commissions de surperformance, sur votre capital avant que celui-ci ne soit investi (entrée) ou ne vous les frais d’intermédiation, à l’exception des frais d’entrée et de soit remboursé (sortie). sortie payés par l’OPCVM lorsqu’il achète ou vend des parts Frais prélevés par le FCP sur une année d’un autre OPC. *L'OPCVM n'ayant pas encore arrêté ses comptes, le pourcentage Frais courants 1,20 % de l'actif net moyen* des frais courants présenté ci-contre est une estimation. Pour Frais prélevés par le FCP dans certaines circonstances chaque exercice, le rapport annuel de l'OPCVM donnera le montant Commission de performance Néant exact des frais encourus. Pour plus d'information sur les frais, veuillez vous référer à la rubrique « frais et commissions » du prospectus de cet OPCVM, disponible sur simple demande auprès de la société de gestion.
+
+Performances passées
+Votre OPCVM ne dispose pas encore de données sur une année civile complète pour permettre l'affichage du diagramme de ses performances.
+Les performances ne sont pas constantes dans le temps et ne préjugent pas des performances futures. Le fonds a été créé le 24 octobre 2018 et sa classe P le 24 octobre 2018. La devise de référence est l'euro (EUR).
+
+Informations pratiques
+Nom du dépositaire : CACEIS Bank. Informations supplémentaires relatives à l'OPCVM : Le dernier prospectus et les derniers documents périodiques, ainsi que toutes autres informations pratiques, sont disponibles gratuitement auprès de la société de gestion. Les détails actualisés de la politique de rémunération de la société de gestion sont disponibles sur son site internet ou gratuitement sur simple demande écrite auprès de celle-ci. Cette politique décrit notamment les modalités de calcul des rémunérations et avantages de certaines catégories de salariés, les organes responsables de leur attribution ainsi que la composition du Comité de rémunération. La valeur liquidative est disponible sur simple demande auprès de la société de gestion, sur son site internet www.amundi.com Fiscalité : Selon votre régime fiscal, les plus-values et revenus éventuels liés à la détention de titres de l’OPCVM peuvent être soumis à taxation. Nous vous conseillons de vous renseigner à ce sujet auprès du commercialisateur de l’OPCVM. Responsabilité : La responsabilité de Amundi Asset Management ne peut être engagée que sur la base de déclarations contenues dans le présent document qui seraient trompeuses, inexactes ou non cohérentes avec les parties correspondantes du prospectus de l’OPCVM. L’OPCVM n’est pas ouvert aux résidents des Etats Unis d’Amérique/"U.S. Person" (la définition de "U.S. Person" est disponible sur le site internet de la société de gestion www.amundi.com et/ou dans le prospectus). L’OPCVM propose d’autres parts ou actions pour des catégories d’investisseurs définies dans son prospectus.
+
+--------------------------
+
+Cet OPCVM est agréé en France et réglementé par l'Autorité des marchés financiers (AMF). La société de gestion Amundi Asset Management est agréée en France et réglementée par l'Autorité des marchés financiers (AMF). Les informations clés pour l'investisseur ici fournies sont exactes et à jour au 17 avril 2019.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND - P
+
+4
+
+OPCVM relevant de la directive 2009/65/CE complétée par la directive 2014/91/UE
+
+PROSPECTUS
+I - CARACTERISTIQUES GENERALES
+Dénomination : Forme Juridique de l'OPCVM et Etat membre : Date de création, d'existence prévue : d'agrément et AMUNDI EUROPEAN SECTOR ROTATION FUND Fonds Commun de Placement (FCP) de droit français
+
+durée OPCVM créé le 24 octobre 2018, agréé le 12 octobre 2018, pour une durée de vie de 99 ans
+
+Synthèse de l'offre de gestion :
+Dénomination Part
+Part
+
+Code ISIN
+FR0013356086
+
+Affectation des sommes distribuables
+Affectation du résultat net : Capitalisation et/ou distribution par décision de la société de gestion Affectation des plus-values nettes réalisées : Capitalisation et/ou distribution par décision de la société de gestion
+
+Devise de libellé
+Euro
+
+Souscriptio n initiale minimale
+1,000 Part(s)
+
+Souscriptio n ultérieure minimale
+1 Part(s)
+
+Souscripteurs concernés
+Plus particulièrement les institutionnels
+
+Part
+
+FR0013356094
+
+Affectation du résultat net : Capitalisation et/ou distribution par décision de la société de gestion Affectation des plus-values nettes réalisées : Capitalisation et/ou distribution par décision de la société de gestion
+
+Euro
+
+1 Part(s)
+
+1 Part(s)
+
+Tous souscripteurs
+
+Indication du lieu où l'on peut se procurer le dernier rapport annuel et le dernier état périodique : Les derniers documents annuels ainsi que la composition des actifs sont adressés dans un délai de 8 jours ouvrés sur simple demande écrite du porteur auprès de : Amundi Asset Management 90, Boulevard Pasteur - 75015 Paris Des informations supplémentaires peuvent être obtenues auprès de votre interlocuteur habituel. Le site de l'AMF www.amf-france.org contient des informations complémentaires sur la liste des documents réglementaires et l'ensemble des dispositions relatives à la protection des investisseurs.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+5 / 33
+
+II - ACTEURS
+Société de gestion : Amundi Asset Management, Société par Actions Simplifiée Société de Gestion de Portefeuille agréée par l’AMF sous le n° GP 04000036 Siège social : 90, Boulevard Pasteur - 75015 Paris Dépositaire et Gestionnaire du passif : CACEIS BANK, Société Anonyme Siège social : 1-3 Place Valhubert - 75013 Paris Activité principale : Banque et prestataire de services d’investissement agréé par le CECEI le 1er avril 2005
+
+Au regard des missions réglementaires et contractuellement confiées par la société de gestion, le dépositaire a pour activité principale la garde des actifs de l’OPCVM, le contrôle de la régularité des décisions de la société de gestion ainsi que le suivi des flux de liquidité de l’OPCVM. Le dépositaire et la société de gestion appartiennent au même groupe; ainsi, et conformément à la réglementation applicable, ils ont mis en place une politique d’identification et de prévention des conflits d’intérêts. Si un conflit d’intérêt ne peut être évité, la société de gestion et le dépositaire prennent toutes les mesures nécessaires pour gérer, suivre et signaler ce conflit d’intérêt. La description des fonctions de garde déléguées, la liste des délégataires et sous délégataires du dépositaire et l’information relative aux conflits d’intérêt susceptibles de résulter de ces délégations sont disponibles sur son site internet : www.caceis.com ou gratuitement sur simple demande écrite. Des informations actualisées sont mises à disposition des porteurs sur demande. Etablissement en charge de la centralisation des ordres de souscription et de rachat par délégation de la société de gestion : CACEIS BANK, Société Anonyme Siège social : 1-3 Place Valhubert - 75013 Paris Activité principale : Banque et prestataire de services d’investissement agréé par le CECEI le 1er avril 2005
+
+Le dépositaire est également chargé, par délégation de la société de gestion, de la tenue du passif de l'OPCVM, qui recouvre la centralisation des ordres de souscription et de rachat des parts ainsi que la tenue du compte émission des parts . Commissaire aux comptes : PricewaterhouseCoopers Audit Représenté par Philippe Chevalier 63, rue de Villiers 92200 Neuilly-sur-Seine Commercialisateurs : Amundi Asset Management et les entités en Europe du groupe UniCredit proposant cette offre. La liste des commercialisateurs n'est pas exhaustive dans la mesure où, notamment, l'OPCVM est admis à la
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+6 / 33
+
+circulation en Euroclear. Ainsi, certains commercialisateurs peuvent ne pas être mandatés ou connus de la société de gestion. Gestionnaire comptable par délégation : CACEIS Fund Administration, Société Anonyme Siège social : 1-3, Place Valhubert - 75013 Paris CACEIS Fund Administration est l’entité du groupe Crédit Agricole spécialisée sur les fonctions de gestion administrative et comptable des OPC pour une clientèle interne et externe au groupe. A ce titre, CACEIS Fund Administration a été désignée par Amundi Asset Management, en qualité de gestionnaire comptable par délégation pour la valorisation et l’administration comptable de l'OPC.
+
+III - MODALITES DE FONCTIONNEMENT ET DE GESTION
+1. Caractéristiques générales
+Caractéristiques des parts : Nature du droit attaché à la catégorie de parts : Chaque porteur de parts dispose d'un droit de copropriété sur les actifs du fonds commun de placement proportionnel au nombre de parts possédées. Inscription à un registre ou précision des modalités de tenue du passif : Dans le cadre de la gestion du passif du fonds, les fonctions de centralisation des ordres de souscription et de rachat, ainsi que de tenue de compte émetteur des parts sont effectuées par le dépositaire en relation avec la société Euroclear France, auprès de laquelle le fonds est admis. Inscription au registre du gestionnaire du passif pour les parts inscrites au nominatif administré. Droit de vote : Aucun droit de vote n'est attaché aux parts, les décisions étant prises par la société de gestion. Il est rappelé qu'une information sur les modifications du fonctionnement du fonds est donnée aux porteurs soit individuellement, soit par voie de presse, soit par tout autre moyen conformément à la réglementation en vigueur. Forme des parts : Nominatif ou au porteur Décimalisation : Pour la part , Les souscriptions s'effectuent en millième de part au delà des minima de souscriptions. Les rachats s'effectuent en millième de part. Pour la part P-C/D, Les souscriptions s'effectuent en millième de part au delà des minima de souscriptions. Les rachats s'effectuent en millième de part. Date de clôture de l'exercice comptable : dernière valeur liquidative du mois de décembre Date de clôture du premier exercice comptable : dernière valeur liquidative du mois de décembre 2019
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+7 / 33
+
+Libellé de la devise de comptabilité : Euro Régime fiscal : L'OPCVM en tant que tel n'est pas sujet à imposition. Toutefois, les porteurs peuvent supporter des impositions du fait des revenus distribués par l'OPCVM, le cas échéant, ou lorsqu'ils cèderont les titres de celui-ci. Le régime fiscal applicable aux sommes distribuées par l'OPCVM ou aux plus ou moins values latentes ou réalisées par l'OPCVM dépend des dispositions fiscales applicables à la situation particulière de l'investisseur, de sa résidence fiscale et/ou de la juridiction d'investissement de l'OPCVM. Si l'investisseur n'est pas sûr de sa situation fiscale, il doit s'adresser à un conseiller ou un professionnel. Certains revenus distribués par l'OPCVM à des non-résidents en France sont susceptibles de supporter dans cet Etat une retenue à la source.
+
+2. Dispositions particulières
+Code ISIN :
+Part FR0013356086 Part FR0013356094
+
+Classification : Actions des pays de l'Union Européenne Objectif de gestion : L’objectif de gestion du fonds est de répliquer, le plus fidèlement possible, la performance de l’indice de stratégie European Sector Rotation Net Return Index (cf. section « Indicateur de Référence ») diminuée des frais courants, quelle que soit son évolution, positive ou négative. La gestion vise à obtenir un écart entre l'évolution de la valeur liquidative du fonds et celle de l’indice de stratégie European Sector Rotation Net Return Index (ci-après l’« Indice European Sector Rotation ») le plus faible possible. Ainsi, l’objectif d’écart de suivi (« tracking error ») maximal, calculé sur un an glissant, entre l’évolution de la valeur liquidative du fonds et celle de l’Indice European Sector Rotation est de 2%. Si la « tracking error » devenait malgré tout plus élevé que 2%, l’objectif serait de rester néanmoins à un niveau inférieur à 15% de la volatilité de l’Indice European Sector Rotation. Indicateur de référence : L’indicateur de référence du fonds est l’Indice European Sector Rotation, dividendes nets réinvestis (net return), libellé en euro. L'Indice European Sector Rotation est un indice de stratégie offrant une exposition à des actions des pays de l'Union Européenne, développé, calculé et publié par UniCredit Bank AG. La méthodologie complète de construction de l’Indice European Sector Rotation sera disponible sur le site internet www.onemarkets.de/ www.onemarkets.it au lancement du fonds. Potentiels conflits d'intérêts Dans le cadre de ce fonds Unicredit Bank AG joue plusieurs rôles susceptibles de donner lieu à la manifestation de conflits d’intérêts : promoteur de l'indice et/ou d'agent de calcul de l'indice European Sector Rotation:
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+8 / 33
+
+L’Indice European Sector Rotation est conçu par Unicredit Bank AG et est exploité conformément à une méthodologie élaborée par ce dernier. Sauf dans les circonstances limitativement énoncées dans la méthodologie complète de construction de l’Indice European Sector Rotation, Unicredit Bank AG n'exerce aucun pouvoir discrétionnaire en ce qui concerne le fonctionnement de l’Indice European Sector Rotation. Unicredit Bank AG est responsable du calcul et de la publication de la valeur de l’Indice European Sector Rotation. contrepartie de contrat d’échange à terme (TRS), commercialisateur. Unicredit Bank AG est un groupe de services financiers et, par conséquent, peut être engagé dans une gamme d'activités notamment bancaires et de négociation qui pourraient affecter, positivement ou négativement, la valeur de l’Indice European Sector Rotation et de tout Instrument. Bien qu’Unicredit Bank AG s'acquittera de ses obligations d'une manière qu'elle juge raisonnable sur le plan commercial, elle peut être confrontée à des conflits entre les rôles qu'elle joue dans le cadre de l’Indice European Sector Rotation et ses propres intérêts. Unicredit Bank AG dispose d’une politique de gestion des conflits d’intérêt, disponible sur le site www.hypovereinsbank.de/hvb/ueber-uns/compliance-en. Description générale de l'Indice European Sector Rotation L'Indice European Sector Rotation fournit une exposition à une sélection d’indices sectoriels qui composent l'indice STOXX® Europe 600. La composition de l’Indice European Sector Rotation est définie en appliquant un modèle quantitatif qui vise à sélectionner les secteurs d’activité susceptibles de tirer le meilleur profit des différentes phases du cycle économique en Europe. Pour ce faire, 3 paniers (chacun un « Panier ») sont définis : un panier cyclique (le "Panier Cyclique") comprenant cinq indices sectoriels de l'indice STOXX® Europe 600 présentant une forte sensibilité en terme de performance aux phases de reprise économique, un panier défensif (le "Panier Défensif") comprenant cinq indices sectoriels de l'indice STOXX® Europe 600 présentant une grande stabilité en terme de performance dans les phases de ralentissement économique, un panier neutre (le "Panier Neutre") constitué de l'indice STOXX® Europe 600. A la date de création du fonds, chaque Panier est construit comme suit :
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+9 / 33
+
+Panier Cyclique Poids Cible 20% 20% 20% 20% 20% Instrument STOXX® Europe 600 Automobiles & Parts STOXX® Europe 600 Basic Resources STOXX® Europe 600 Chemicals STOXX® Europe 600 Construction & Materials STOXX® Europe 600 Goods & Services Panier Défensif Poids Cible 20% 20% 20% 20% 20% STOXX Europe 600 Food & Beverage Net Return STOXX Europe 600 Health Care Net Return STOXX Europe 600 Oil & Gas Net Return STOXX Europe 600 Telecommunications Net Return STOXX Europe 600 Utilities Net Return Panier Neutre Poids Cible 100% Instrument STOXX Europe 600 Net Return Bloomberg SXXR Index Reuters .SXXR Instrument SX3R Index SXDR Index SXER Index SXKR Index SX6R Index .SX3R .SXDR .SXER .SXKR .SX6R Bloomberg SXAR Index SXPR Index SX4R Index SXOR Index SXNR Index Reuters .SXAR .SXPR .SX4R .SXOR .SXNR
+
+À la date de création du fonds puis à chaque jour de bourse qui suit une date de publication de l’indice Ifo du Climat des Affaires (une « Date de Réallocation »), l’Indice European Sector Rotation est allouée sur une combinaison des trois Paniers. L'Indice Ifo du Climat des Affaires est publiée le vendredi de la 3ème semaine de chaque mois par la société allemande Institut fûr Wirtschaftforschung (IFO - Institut de Recherche en Economie). Cet indice est le fruit d'une enquête réalisée auprès de 700 entreprises allemandes des secteurs manufacturier, de la construction, du commerce de gros et de détail, l'enquête aboutissant à la constitution de deux sous-indices qualitatifs : le sentiment des entreprises sur la situation actuelle de l'économie allemande («Current Assessment») et leurs anticipations quant aux perspectives à 6 mois (« Business Expectations »). L'indicateur Ifo du Climat des Affaires est un composite de ces deux sous-indices. L’allocation effective de l’Indice European Sector Rotation entre les Paniers est déterminée en fonction de deux signaux : Le Signal 1 (prévision de croissance) repose sur une méthodologie quantitative permettant de définir, en fonction de l’évolution du niveau du sous-indice Business Expectations de l’indice Ifo du Climat des Affaires, si : le cycle économique en Europe est en phase de reprise, ce qui doit amener à privilégier une exposition au Panier Cyclique, ou si, au contraire, le cycle économique en Europe est en phase de ralentissement ce qui doit amener à privilégier une exposition au Panier Défensif. Une tendance haussière (“Tendance Haussière”) est identifiée lorsque le sous-indice Business Expectations de l’indice Ifo du Climat des Affaires a augmenté pendant trois mois consécutifs et que la hausse cumulée sur les trois mois est supérieure à 2 points d’indice. Inversement, une tendance baissière (“Tendance Baissière”) est identifiée lorsque ce sous-indice a baissé pendant trois mois consécutifs et que la baisse cumulée sur les trois mois est supérieure à 2 points d’indice.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+10 / 33
+
+Un point d’inflexion marquant le début d’une phase de reprise est défini comme le troisième mois d’une Tendance Haussière après une phase de ralentissement. Lors d’un point d’inflexion marquant le début d’une phase de reprise, le Signal 1 attribue une allocation cible de 50% au Panier Cyclique. Un point d’inflexion marquant le début d’une phase de ralentissement est défini comme le troisième mois d’une Tendance Baissière après une phase de reprise. Lors d’un point d’inflexion marquant le début d’une phase de ralentissement, le Signal 1 attribue une allocation cible de 50% au Panier Défensif. Si le Signal 1 n’indique pas de point d’inflexion, l’allocation cible qui a été déterminée lors du dernier point d’inflexion reste inchangée. Le Signal 2 (performance relative) repose sur une méthodologie quantitative amenant à surpondérer l’allocation de l’Indice European Sector Rotation sur celui des 3 Paniers qui a eu la performance mensuelle moyenne la plus élevée au cours des 3 mois précédents. A chaque Date de Réallocation, la moyenne arithmétique des performances mensuelles sur les trois mois précédents (“Performance Mensuelle Moyenne”) est calculée pour le Panier Cyclique, le Panier Défensif et le Panier Neutre. Le Panier pour lequel la Performance Mensuelle Moyenne est la plus élevée se voit attribuer une Allocation cible de 50%. Sur la base de ces deux signaux, l’Indice European Sector Rotation est, à chaque Date de Réallocation, alloué en appliquant la grille d’allocation suivante :
+Signal 1 (prévision de croissance) Panier Cyclique Panier Cyclique Panier Cyclique Panier Défensif Panier Défensif Panier Défensif Signal 2 (performance relative) Panier Cyclique Panier Neutre Panier Défensif Panier Cyclique Panier Neutre Panier Défensif Allocation cible au Panier Allocation cible au Panier Allocation cible au Panier Cyclique Neutre Défensif 100% 50% 50% 50% 0% 0% 0% 50% 0% 0% 50% 0% 0% 0% 50% 50% 50% 100%
+
+A chaque Date de Réallocation, si la méthodologie de l’Indice European Sector Rotation conduit à modifier l’allocation entre chacun des 3 Paniers, chaque Instrument des Paniers concernés est remis à son Poids Cible. Entre deux Dates de Réallocation, les pondérations effectives des Instruments dans l'Indice European Sector Rotation évoluent en fonction de leurs performances respectives. Enfin, si à une Date de Réallocation, la méthodologie de l’Indice European Sector Rotation conduit à ne pas modifier l’allocation entre chacun des 3 Paniers, aucun ajustement n’est effectué sur la composition de l’Indice European Sector Rotation et les pondérations effectives des Instruments compris dans l'Indice European Sector Rotation continuent à évoluer en fonction de leurs performances respectives.
+
+Calcul de l'Indice European Sector Rotation La valeur initiale de l'Indice European Sector Rotation est de 1.000 EUR à la date de création du fonds. La valeur de l'Indice European Sector Rotation sera ensuite déterminée quotidiennement sur la base de la valeur de chacun des Instruments déduction faite des frais d’indice définis ci-dessous (les « Frais d’Indice »). Les Frais d’Indice sont constitués :
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+11 / 33
+
+de frais de réplication de 0.30% par an calculés quotidiennement sur la valeur des Instruments composant l'Indice European Sector Rotation et destinés à refléter synthétiquement les coûts de réplication de la performance desdits Instruments, et des frais d'ajustement de 0.04% prélevés à chaque ajustement de la composition de l'Indice European Sector Rotation sur les variations de Poids Cible des Instruments afin de refléter synthétiquement les coûts de transaction liés à ces opérations d’ajustement.
+
+Publication de l'Indice European Sector Rotation La valeur de l'Indice European Sector Rotation est publiée sur la page Reuters .UCGRESRN et sur la page Bloomberg UCGRESRN Index.
+
+Révisions de l’Indice European Sector Rotation UniCredit Bank AG se réserve le droit de modifier l’Indice European Sector Rotation en fonction d’un certain nombre de règles disponibles sur le site internet www.onemarkets.de. Toute révision peut être obtenue sur simple demande écrite auprès de la société de gestion.
+
+Potentiels conflits d'intérêts Unicredit Bank AG joue plusieurs rôles dans le cadre de l’Indice European Sector Rotation : L’Indice European Sector Rotation est conçu par Unicredit Bank AG et est exploité conformément à une méthodologie élaborée par ce dernier. Sauf dans les circonstances limitativement énoncées dans la méthodologie complète de construction de l’Indice European Sector Rotation, Unicredit Bank AG n'exerce aucun pouvoir discrétionnaire en ce qui concerne le fonctionnement de l’Indice European Sector Rotation. Unicredit Bank AG est responsable du calcul et de la publication de la valeur de l’Indice European Sector Rotation. Unicredit Bank AG est un groupe de services financiers et, par conséquent, peut être engagé dans une gamme d'activités notamment bancaires et de négociation qui pourraient affecter, positivement ou négativement, la valeur de l’Indice European Sector Rotation et de tout Instrument. Bien qu’Unicredit Bank AG s'acquittera de ses obligations d'une manière qu'elle juge raisonnable sur le plan commercial, elle peut être confrontée à des conflits entre les rôles qu'elle joue dans le cadre de l’Indice European Sector Rotation et ses propres intérêts.
+
+Stratégie d'investissement : 1. Stratégies utilisées Le fonds fait l’objet d’une gestion de type « indicielle » dont l’objectif est de répliquer les évolutions de la performance de l’Indice European Sector Rotation selon une méthode de réplication synthétique de l’Indice European Sector Rotation. Afin de s'exposer à l’Indice European Sector Rotation, le fonds aura recours à l'achat d’un panier d’actions internationales ainsi, qu'à titre accessoire, de parts d'OPC (le "Panier") et à un contrat d'échange sur
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+12 / 33
+
+rendement global transformant l'exposition aux titres du Panier en une exposition à l'Indice European Sector Rotation, de sorte à ce que la valeur liquidative du fonds varie à la hausse (respectivement à la baisse) quand l'indice est en hausse (respectivement en baisse). Le contrat d'échange sur rendement global ("total return swap") est réalisé avec Unicredit Bank AG en tant que contrepartie. Le fonds bénéficie de la dérogation prévue à l'article R. 214-22 du Code monétaire et financier, l'autorisant à investir jusqu'à 20% (pouvant être porté à 35% pour un seul émetteur) de son actif en titres du même émetteur, si la composition de l'indice le justifie, lorsque cela se révèle justifié par des conditions exceptionnelles sur le marché, notamment sur des marchés réglementés où certaines valeurs mobilières ou certains instruments du marchés monétaire sont dominants. Au regard de la stratégie utilisée, le fonds sera exposé aux devises de l'Union Européenne et le risque de change ne sera pas couvert. Le risque de change sera limité à un engagement total devises hors euro de 100% de l'actif net. 2. Description des actifs utilisés (hors dérivés) Actions : Le fonds pourra détenir jusqu'à 110% de son actif net en actions émises par des sociétés de toutes tailles de capitalisation. Les titres sélectionnés pourront appartenir à l'ensemble des places financières de l'OCDE.
+
+Titres de créance et instruments du marché monétaire : Les titres en portefeuille seront sélectionnés selon le jugement de la gestion et dans le respect de la politique interne de suivi du risque de crédit de la société de gestion. La gestion pourra recourir notamment à des titres bénéficiant des notations telles que décrites ci-dessous. Toutefois, cette dernière ne s’appuie, ni exclusivement ni mécaniquement, sur les notations émises par les agences de notation, mais elle se fonde sa conviction d’achat et de vente d’un titre sur ses propres analyses de crédit et de marchés. Le fonds pourra investir en instruments du marché monétaire et obligataire dans la limite de 30% de son actif net. Les catégories d'instruments utilisées sont les suivantes : tous types d'obligations, TCN, BTF, BTAN, Euro Commercial Paper (Billet de trésorerie euro) et les OPC monétaires. Les investissements seront réalisés indifféremment sur des obligations publiques et privées émis par des émetteurs de l'OCDE et libellées en euros. Les titres pourront avoir une notation "Investment Grade", c'est à dire ayant une notation allant de AAA à BBBdans l'échelle de notations Standard's & Poors et/ou dans celle de Fitch et/ou allant de Aaa à Baa3 dans celle de Moody's et/ou jugée équivalente par la société de gestion.
+
+Devises :
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+13 / 33
+
+Toute devise de la zone OCDE précisée ci-dessus pourra être utilisée.
+
+Détention d'actions ou parts d'autres OPC ou fonds d'investissement Le Fonds peut détenir jusqu'à 10% de son actif en parts ou actions d’OPC ou fonds d'investissement suivants : OPCVM français ou étrangers FIA français ou européens ou fonds d’investissement respectant les critères fixés par le Code (2) Monétaire et Financier
+(1)
+
+Ces OPC et fonds d'investissement peuvent investir jusqu'à 10% de leur actif en OPCVM ou FIA ou fonds d'investissement. Ils peuvent être gérés par la société de gestion ou une société liée. Le profil de risque de ces OPC est compatible avec celui de l'OPCVM. (1) jusqu'à 100% en cumul de l'actif net (maximum réglementaire) (2) jusqu'à 30% en cumul de l'actif net (maximum réglementaire) 3. Description des dérivés utilisés L'utilisation des instruments financiers à terme fait partie intégrante du processus d'investissement en raison de leurs avantages en matière de liquidité et/ou de leur rapport coût-efficacité. L’utilisation des swaps permet d’obtenir une exposition synthétique qui autrement obligerait le fonds à répliquer de façon physique l’indice. Une réplication entraine des coûts, et des risques opérationnels, et peut ne pas permettre d’obtenir une réplication correcte de l’indice Informations relatives aux contreparties des contrats dérivés négociés de gré à gré : La Société de Gestion procède généralement par appel d'offres. Dans le cas présent, ces opérations auront comme unique contrepartie UniCredit Bank AG. De ce fait, la Société de Gestion ne s’engagera pas sur une procédure formelle, traçable et contrôlable de mise en concurrence des contreparties des instruments financiers à terme de gré-à-gré. Nature des marchés d’intervention : réglementés organisés de gré à gré Risques sur lesquels le gérant désire intervenir : action taux change crédit volatilité Nature des interventions, l’ensemble des opérations devant être limitées à la réalisation de l’objectif de gestion : couverture
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+14 / 33
+
+exposition arbitrage trading Nature des instruments utilisés : futures : sur actions/indices boursiers, sur devises, sur taux, sur indices de volatilité options : sur actions/indices boursiers, de change, de taux swaps : de devises, sur actions, sur indices boursiers, de taux contrats d'échange sur rendement global (Total Return Swap) L’OPCVM pourra conclure des contrats d’échange de deux combinaisons parmi les types de flux suivants : - taux fixe - taux variable (indexés sur l’Eonia, l’Euribor, ou toute autre référence de marché) - performance liée à une ou plusieurs devises, actions, indices boursiers ou titres cotés, OPC ou fonds d’investissement - optionnel lié à une ou plusieurs devises, actions, indices boursiers ou titres cotés, OPC ou fonds d’investissement - dividendes (nets ou bruts) change à terme : achat de devises à terme, vente de devises à terme dérivés de crédit : Credit Default Swap autre nature
+
+Stratégie d’utilisation des dérivés pour atteindre l’objectif de gestion : L'OPCVM pourra conclure des contrats d'échange sur rendement global (Total Return Swap) dans le but de reconstituer une exposition synthétique à l'indice de stratégie. Les actifs détenus par l’OPCVM et sur lesquels portent les contrats d'échange sur rendement global (Total Return Swap) sont conservés auprès du dépositaire.
+
+Les contrats d’échange sur rendement global sont tenus en position dans les livres du dépositaire. A titre indicatif, les contrats d'échange sur rendement global (Total Return Swap) représentent environ 100 % de l'actif net, avec un maximum de 110 % de l’actif net. 4. Description des titres intégrant des dérivés Le fonds n'aura pas recours à ce type d'instruments. 5. Dépôts L'OPCVM peut effectuer des dépôts d'une durée maximale de douze mois. Ces dépôts contribuent à la réalisation de l'objectif de gestion de l'OPCVM en lui permettant de gérer la trésorerie.
+
+6. Emprunts d'espèces
+
+L'OPCVM peut se trouver en position débitrice en raison des opérations liées à ses flux (investissements/désinvestissements en cours, opérations de souscription/rachat, surexposition), dans la limite de 10% de l'actif net.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+15 / 33
+
+7. Opérations d'acquisitions et cessions temporaires de titres Le fonds n'aura pas recours à ce type d'opérations. La somme de l'exposition issue des titres vifs et des engagements aux dérivés est limitée à 120% de l'actif net. 8- Informations relatives aux garanties financières (acquisitions et cessions temporaires de titres et/ou aux dérivés négociés de gré à gré dont les contrats d'échange sur rendement global (TRS)) : Le FCP pourra, conformément aux dispositions de l’article R. 214-32-28 du Code Monétaire et Financier, procéder au nantissement d’un ou plusieurs de ses comptes d’instruments financiers au profit de tiers en garantie d’engagements pris par le FCP au titre des instruments financiers à terme visés au paragraphe «Stratégie d’investissement ». Dans ce cas, pour chaque instrument financier à terme concerné, le bénéficiaire de la garantie sera la contrepartie de l’instrument financier à terme. Nature des garanties financières : Dans le cadre des opérations d’acquisitions et cessions temporaires de titres et/ou des opérations sur dérivés négociés de gré à gré, l’OPCVM peut recevoir à titre de garantie (appelé collatéral) des titres et des espèces. Les titres reçus en garantie doivent respecter des critères définis par la société de gestion. Ils doivent être : - liquides, - cessibles à tout moment, - diversifiés, dans le respect des règles d’éligibilité, d’exposition et de diversification de l’OPCVM, - émis par un émetteur qui n'est pas une entité de la contrepartie ou de son groupe. Pour les obligations, les titres seront en outre émis par des émetteurs localisés dans l'OCDE et de haute qualité dont la notation minimale pourrait aller de AAA à BBB- sur l’échelle de Standard & Poor’s ou bénéficiant d'une notation jugée équivalente par la société de gestion. Les titres obligataires doivent avoir une échéance maximale de 50 ans. Les critères décrits ci-dessus sont détaillés dans une politique Risques consultable sur le site internet de la société de gestion : www.amundi.com et pourront faire l'objet de modifications notamment en cas de circonstances de marché exceptionnelles. Des décotes peuvent être appliquées au collatéral reçu ; elles prennent en compte la qualité de crédit, la volatilité des prix des titres ainsi que le résultat des simulations de crises réalisées. Réutilisation du collatéral espèces reçu : Le collatéral espèces reçu peut être réinvesti en dépôts, en obligations d'Etat ou en OPCVM monétaires court terme conformément à la Politique Risques de la société de gestion. Réutilisation du collatéral titres reçu : Non autorisé : Les titres reçus en collatéral ne pourront être vendus, réinvestis ou remis en garantie. Profil de risque : Risque actions : Si les actions contenues dans l'indice auquel le fonds est exposé baissent la valeur liquidative du fonds pourra baisser.
+
+Risque de perte en capital : L’investisseur est averti que son capital n’est pas garanti et peut donc ne pas lui être restitué.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+16 / 33
+
+Risque de modèle : Le fonds est exposé à un indice de stratégie dont la composition est définie en appliquant un modèle quantitatif. Il existe donc un risque que le modèle ne soit pas efficient, rien ne garantissant que les situations de marché passées ne se reproduisent à l’avenir. Risque de liquidité lié aux contrats d’échange sur rendement global (TRS) : Le fonds peut être exposé à des difficultés de négociation ou une impossibilité momentanée de négociation de certains titres dans lesquels le fonds investit ou de ceux reçus en garantie, en cas de défaillance d’une contrepartie de contrats d’échange sur rendement global (TRS). Risque de contrepartie : Le fonds a recours à des dérivés négociés de gré à gré dont les contrats d’échange sur rendement global. Ces opérations, conclues avec une contrepartie, exposent le fonds à un risque de défaillance et/ou de non-exécution du contrat d’échange de la part de celle-ci, qui pourront avoir un impact significatif sur la valeur liquidative du fonds. Ce risque pourrait ne pas être, le cas échéant, compensé par les garanties financières reçues. Risque juridique : l’utilisation des contrats d’échange sur rendement global (TRS) peut entraîner un risque juridique, notamment relatif aux contrats. Risque de change : Le fonds présente un risque de change découlant de l'exposition à l'Indice European Sector Rotation, résultant des variations des devises de référence des actions composant l'Indice European Sector Rotation répliqué par le fonds. L'investisseur est donc exposé aux fluctuations des taux de change de ces devises par rapport à l'euro. Risque de taux : Il s’agit du risque de baisse des instruments de taux découlant des variations de taux d’intérêt. Il est mesuré par la sensibilité. En période de hausse (en cas de sensibilité positive) ou de baisse (en cas de sensibilité négative) des taux d’intérêt, la valeur liquidative pourra baisser. Risque de crédit : il s’agit du risque de baisse de la qualité de crédit d’un émetteur privé ou de défaut de ce dernier. En fonction du sens des opérations de l’OPCVM, la baisse (en cas d’achat) ou la hausse (en cas de vente) de la valeur des titres de créance sur lesquels est exposé l’OPCVM peut entraîner une baisse de la valeur liquidative. Souscripteurs concernés et profil de l'investisseur type : Part P-C/D : Tous souscripteurs Part I-C/D : Plus particulièrement les institutionnels La durée minimale de placement recommandée est de 5 ans ans. L’orientation des placements correspond aux besoins de souscripteurs recherchant une valorisation dynamique du capital tout en acceptant les risques des marchés actions. Le montant qu’il est raisonnable d’investir par chaque investisseur dans cet OPCVM dépend de sa situation personnelle. Pour le déterminer, il doit tenir compte de son patrimoine personnel, de ses besoins actuels et de la durée de placement recommandée, mais également de son souhait de prendre des risques ou au contraire, de privilégier un investissement prudent. Il lui est également recommandé de diversifier suffisamment ses investissements afin de ne pas les exposer uniquement aux risques de cet OPCVM. Les parts de ce FCP ne peuvent être offertes ou vendues directement ou indirectement aux Etats-Unis d’Amérique (y compris sur ses territoires et possessions), au bénéfice d'une « U.S. Person », telle que définie par la réglementation américaine « Regulation S » adoptée par la Securities and Exchange Commission («
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+17 / 33
+
+SEC »).
+
+(1)
+
+Date et périodicité d'établissement de la valeur liquidative : La valeur liquidative est établie chaque jour où les marchés Euronext Paris sont ouverts à l'exception des jours fériés légaux en France, en Allemagne, en Suisse et en Angleterre. Conditions de souscription et de rachat : Les demandes de souscriptions et de rachats sont centralisées la veille ouvrée (J-1)du jour d'établissement de la valeur liquidative (J) à 16h00 . Ces demandes sont exécutées sur la base de la valeur liquidative établie en J ouvré et calculée en J+2 ouvré. Les ordres sont exécutés conformément au tableau ci-dessous :
+J J J : jour J+2 ouvrés d'établissement de la VL J+3 ouvrés J+3 ouvrés
+
+Centralisation avant 16h00 des ordres de souscription 1
+1
+
+Centralisation Exécution de l’ordre Publication de la avant 16h00 au plus tard en J valeur liquidative des ordres de rachat1
+
+Règlement des souscriptions
+
+Règlement des rachats
+
+Sauf éventuel délai spécifique convenu avec votre établissement financier.
+
+Les personnes désirant acquérir ou souscrire des parts certifient en souscrivant ou en acquérant les parts de ce FCP, qu’elles ne sont pas des « U.S. Persons ». Tout porteur de parts doit informer immédiatement la société de gestion du FCP s’il devient une « U.S. Person ». Etablissements habilités à recevoir les souscriptions et les rachats par délégation de la société de gestion : , CACEIS Bank, L'attention des porteurs est attirée sur le fait que les ordres transmis à des commercialisateurs autres que les établissements mentionnés ci-dessus doivent tenir compte du fait que l'heure limite de centralisation des ordres s'applique auxdits commercialisateurs vis-à-vis de CACEIS Bank. En conséquence, ces commercialisateurs peuvent appliquer leur propre heure limite, antérieure à celle mentionnée ci-dessus, afin de tenir compte de leur délai de transmission des ordres à CACEIS Bank. Lieu et modalités de publication ou de communication de la valeur liquidative : La valeur liquidative de l'OPCVM est disponible sur simple demande auprès de la société de gestion et sur le site internet : www.amundi.com.
+
+1 L’expression « U.S. Person » s’entend de: (a) toute personne physique résidant aux Etats-Unis d’Amérique; (b) toute entité ou société organisée ou enregistrée en vertu de la réglementation américaine ; (c) toute succession (ou « trust ») dont l’exécuteur ou l’administrateur est U.S. Person ; (d) toute fiducie dont l’un des fiduciaires est une « U.S. Person »; (e) toute agence ou succursale d’une entité non-américaine située aux Etats-Unis d’Amérique ; (f) tout compte géré de manière non discrétionnaire (autre qu’une succession ou une fiducie) par un intermédiaire financier ou tout autre représentant autorisé, constitué ou (dans le cas d’une personne physique) résidant aux Etats-Unis d’Amérique; (g) tout compte géré de manière discrétionnaire (autre qu’une succession ou une fiducie) par un intermédiaire financier ou tout autre représentant autorisé, constitué ou (dans le cas d’une personne physique) résidant aux Etats-Unis d’Amérique ; et (h) toute entité ou société, dès lors qu’elle est (i) organisée ou constituée selon les lois d’un pays autre que les Etats-Unis d’Amérique et (ii) établie par une U.S. Person principalement dans le but d’investir dans des titres non enregistrés sous le régime de l’U.S. Securities Act de 1933, tel qu’amendé, à moins qu’elle ne soit organisée ou enregistrée et détenue par des « Investisseurs Accrédités » (tel que ce terme est défini par la « Règle 501(a) » de l’Act de 1933, tel qu’amendé) autres que des personne physiques, des successions ou des trusts.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+18 / 33
+
+Caractéristiques des parts : Montant minimum de la première souscription : Part : 1 000 Part(s) Part : 1 Part(s) Cette condition de montant minimum de souscription initiale ne s'applique pas à la société de gestion, au dépositaire ou à toute entité appartenant au même groupe. Montant minimum des parts souscrites ultérieurement : Part : 1 Part(s) Part : 1 Part(s) Décimalisation : Part : Les souscriptions s'effectuent en millième de part au delà des minima de souscriptions. Les rachats s'effectuent en millième de part. Part : Les souscriptions s'effectuent en millième de part au delà des minima de souscriptions. Les rachats s'effectuent en millième de part. Valeur liquidative d'origine : Part : 1 000,00 euros Part : 100,00 euros Devise de libellé des parts : Part : Euro Part : Euro Affectation du résultat net :
+Part : Capitalisation et/ou distribution par décision de la société de gestion Part : Capitalisation et/ou distribution par décision de la société de gestion
+
+Affectation des plus-values nettes réalisées : Part : Capitalisation et/ou distribution par décision de la société de gestion Part : Capitalisation et/ou distribution par décision de la société de gestion Fréquence de distribution Part :annuelle en cas de distribution Part :annuelle en cas de distribution Détermination annuelle des revenus : A la création du fonds, la société de gestion a pour objectif de distribuer annuellement des revenus représentant tout ou partie des dividendes nets détachés par les actions auxquelles le fonds est exposé par l’intermédiaire de l’Indice European Sector Rotation.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+19 / 33
+
+Frais et commissions : - Commissions de souscription et de rachat : Les commissions de souscription et de rachat viennent augmenter le prix de souscription payé par l’investisseur ou diminuer le prix de remboursement. Les commissions acquises à l’OPCVM servent à compenser les frais supportés par l’OPCVM pour investir ou désinvestir les avoirs confiés. Les commissions non acquises reviennent à la société de gestion, au commercialisateur, etc. Frais à la charge de l'investisseur, prélevés lors des souscriptions et des rachats
+Commission de souscription non acquise à l'OPCVM Commission de souscription acquise à l'OPCVM Commission de rachat non acquise à l'OPCVM Commission de rachat acquise à l'OPCVM
+
+Assiette
+Valeur liquidative x Nombre de parts Valeur liquidative x Nombre de parts Valeur liquidative x Nombre de parts Valeur liquidative x Nombre de parts
+
+Taux
+Part : 6,00% maximum Part : 6,00% maximum Néant Part : Néant Part : Néant Néant
+
+Cas d'exonération : En cas de rachat suivi d'une souscription le même jour, pour un même montant et sur un même compte, sur la base de la même valeur liquidative, le rachat et la souscription s'effectuent sans commission. - Frais de fonctionnement et de gestion : Ces frais recouvrent tous les frais facturés directement à l’OPCVM, à l’exception des frais de transaction. Les frais de transaction incluent les frais d’intermédiation (courtage, impôts de bourse, etc.) et la commission de mouvement, le cas échéant, qui peut être perçue notamment par le dépositaire et la société de gestion. Aux frais de fonctionnement et de gestion peuvent s’ajouter : des commissions de sur performance. Celles-ci rémunèrent la société de gestion dès lors que l’OPCVM a dépassé ses objectifs. Elles sont donc facturées à l’OPCVM ; des commissions de mouvements facturées à l’OPCVM ; des frais liés aux opérations d’acquisition et cession temporaires de titres.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+20 / 33
+
+Frais facturés à l'OPCVM
+P1 __ P2 Frais de gestion financière __________________________________ Frais administratifs externes à la société de gestion Frais indirects maximum (commissions et frais de gestion) Commission de mouvement Perçue partiellement ou conjointement par le dépositaire sur l'ensemble des instruments. P4 ************** Perçue partiellement ou conjointement par la société de gestion sur les opérations de change et par Amundi Intermédiation sur tous les autres instruments
+
+Assiette
+Actif net
+
+Taux barème
+Part : 0,40 % TTC maximum
+
+Part : 1,15 % TTC maximum
+
+P3
+
+Actif net
+
+Non significatif
+
+Néant **************** Prélèvement sur chaque transaction ou opération Montant maximum de 5 € par contrat (futures/options) ou commission proportionnelle de 0 à 0,20 % selon les instruments (titres, change,…) Part : Néant
+
+P5
+
+Commission de surperformance
+
+Néant
+
+Part : Néant
+
+Pourront s’ajouter aux frais facturés à l’OPCVM et affichés ci-dessus, les coûts suivants : Les coûts juridiques exceptionnels liés au recouvrement des créances de l’OPCVM ; Les coûts liés aux contributions dues par la société de gestion à l’AMF au titre de la gestion de l’OPCVM. Les frais de fonctionnement et de gestion sont directement imputés au compte de résultat de l'OPCVM. Sélection des intermédiaires La société de gestion met en oeuvre une politique de sélection d'intermédiaires notamment lorsqu'elle conclut des opérations d'acquisitions et cessions temporaires de titres et certains dérivés. La sélection des brokers et intermédiaires financiers s'opère de façon rigoureuse parmi les intermédiaires réputés de la place sur la base de plusieurs critères liés à la fourniture de services de Recherche (analyse financière fondamentale, information sur les sociétés, valeur ajoutée des interlocuteurs, bien-fondé des recommandations, etc ...) ou de services d’Exécution (accès et informations sur les marchés, coûts des transactions, prix d’exécution, bon dénouement des opérations, etc...). Ne sont sélectionnés que les établissements financiers d'un pays de l'OCDE dont la notation minimale pourrait aller de AAA à BBB- sur l'échelle de Standard & Poor's lors de la mise en place de la transaction ou bénéficiant d'une notation jugée équivalente par la société de gestion. Par ailleurs, chacune des contreparties retenues sera analysée sur la base de critères propres au Département des Risques tels que la stabilité financière, la notation, l’exposition, le type d’activité, les antécédents, etc ... La liste des contreparties autorisées est revue annuellement. Elle implique les différents acteurs des Départements fronts et supports du groupe Amundi. Les brokers et intermédiaires financiers sélectionnés font l'objet d'un suivi régulier conformément à la Politique d’Exécution de la société de gestion. Concernant l'indice de stratégie : La Société de Gestion procède généralement par appel d'offres. Dans le cas présent, ces opérations auront comme unique contrepartie UniCredit Bank AG. De ce fait, la Société de Gestion ne s’engagera pas sur une procédure formelle, traçable et contrôlable de mise
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+21 / 33
+
+en concurrence des contreparties des instruments financiers à terme de gré-à-gré. Gestion des conflits d’intérêts - rôles d’Unicredit Bank AG : Unicredit Bank AG peut avoir plusieurs rôles dans le cadre de ce fonds, comme indiqué dans le présent Prospectus. En particulier, Unicredit Bank AG peut agir en tant que commercialisateur, contrepartie de swap, ou au titre de promoteur de l'indice et/ou d'agent de calcul de l'indice, selon le cas. Unicredit Bank AG dispose d’une politique de gestion des conflits d’intérêt, disponible sur le site www.hypovereinsbank.de/hvb/ueber-uns/compliance-en
+
+IV - INFORMATIONS D'ORDRE COMMERCIAL
+Diffusion des informations concernant l'OPCVM : Le prospectus, les derniers rapports annuels et documents périodiques sont disponibles auprès de la société de gestion : Amundi Asset Management 90, Boulevard Pasteur - 75015 Paris La valeur liquidative de l’OPCVM est disponible sur simple demande auprès de la société de gestion et sur le site internet : www.amundi.com Les porteurs sont informés des changements affectant l’OPCVM selon les modalités définies par l’Autorité des Marchés Financiers: information particulière ou tout autre moyen (avis financier, document périodique…). Les avis financiers pourront être publiés par voie de presse et/ou sur le site internet de la société de gestion : www.amundi.com à la rubrique Actualités-et-documentation/Avis-Financiers. Transmission de la composition du portefeuille de l'OPCVM : La société de gestion peut transmettre, directement ou indirectement, la composition de l’actif de l’OPCVM aux porteurs de l’OPCVM ayant la qualité d’investisseurs professionnels relevant du contrôle de l’ACPR, de l’AMF ou des autorités européennes équivalentes, pour les seuls besoins de calcul des exigences réglementaires liées à la directive Solvabilité II. Cette transmission a lieu, le cas échéant, dans un délai qui ne peut être inférieur à 48 heures après la publication de la valeur liquidative. Respect par l’OPCVM de critères relatifs aux objectifs environnementaux, sociaux et de qualité de gouvernance (ESG) : La société de gestion met à la disposition de l’investisseur, sur son site Internet www.amundi.com et dans le rapport annuel de l’OPCVM (à partir des exercices ouverts à compter du 1er janvier 2012), des informations sur les modalités de prise en compte des critères ESG dans la politique d’investissement de l’OPCVM.
+
+V - REGLES D'INVESTISSEMENT
+L'OPCVM respecte les règles d'investissement édictées par le Code Monétaire et Financier et applicable à sa catégorie. En particulier, il pourra investir jusqu'à 35% de ses actifs en titres financiers éligibles et instruments du marché monétaire émis ou garantis par tous états ou organismes publics ou parapublics autorisés.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+22 / 33
+
+VI – RISQUE GLOBAL
+Méthode de calcul du ratio du risque global : L'Engagement
+
+VII - REGLES D'EVALUATION ET DE COMPTABILISATION DES ACTIFS
+Principe Les conventions générales comptables sont appliquées dans le respect des principes : de continuité de l'exploitation, de permanence des méthodes comptables d'un exercice à l'autre, d'indépendance des exercices. La méthode de base retenue, pour l'enregistrement des éléments d'actifs en comptabilité, est la méthode des coûts historiques, sauf en ce qui concerne l'évaluation du portefeuille. Règles d’évaluation des actifs Le calcul de la valeur liquidative de la part est effectué en tenant compte des règles d'évaluation précisées ci-dessous : Les valeurs mobilières négociées sur un marché réglementé français ou étranger, sont évaluées au prix du marché. L'évaluation au prix du marché de référence est effectuée selon les modalités arrêtées au dernier cours de bourse. Les différences entre les cours de Bourse utilisés lors du calcul de la valeur liquidative et les coûts historiques des valeurs mobilières constituant le portefeuille, sont enregistrées dans un compte "Différences d'estimation". Toutefois : Les valeurs mobilières dont le cours n'a pas été constaté le jour de l'évaluation ou dont le cours a été corrigé sont évaluées à leur valeur probable de négociation sous la responsabilité de la Société de gestion. Ces évaluations et leur justification sont communiquées au commissaire aux comptes à l'occasion de ses contrôles. Les Titres de Créances Négociables et assimilés sont évalués de façon actuarielle sur la base d’un taux de référence défini ci-dessous, majoré le cas échéant d’un écart représentatif des caractéristiques intrinsèques de l’émetteur : TCN dont l’échéance est inférieure ou égale à 1 an : Taux interbancaire offert en euros (Euribor) TCN swapés : valorisés selon la courbe OIS (Overnight Indexed Swaps) les TCN d'une durée de vie supérieure à trois mois (OPC monétaires) : valorisés selon la courbe OIS (Overnight Indexed Swaps) TCN dont l’échéance est supérieure à 1 an : Taux des Bons du Trésor à intérêts Annuels Normalisés ( BTAN ) ou taux de l’OAT (Obligations Assimilables du Trésor) de maturité proche pour les durées
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+23 / 33
+
+les plus longues. Les Titres de Créances Négociables d’une durée de vie résiduelle inférieure ou égale à 3 mois pourront être évalués selon la méthode linéaire. Les bons du Trésor sont valorisés au taux du marché, communiqué quotidiennement par les Spécialistes en Valeurs du Trésor. Les parts ou actions d'OPC sont évaluées à la dernière valeur liquidative connue. Les titres qui ne sont pas négociés sur un marché réglementé sont évalués sous la responsabilité de la Société de gestion à leur valeur probable de négociation. Ils sont évalués en utilisant des méthodes fondées sur la valeur patrimoniale et le rendement, en prenant en considération les prix retenus lors de transactions significatives récentes. Les parts ou actions de fonds d'investissement sont évaluées à la dernière valeur liquidative connue ou, le cas échéant, sur la base d'estimations disponibles sous le contrôle et la responsabilité de la Société de Gestion. Les liquidités, dépôts et instruments financiers détenus en portefeuille et libellés en devises sont convertis dans la devise de comptabilité de l'OPCVM sur la base des taux de change au jour de l'évaluation. Les valeurs mobilières qui font l'objet de contrats de cession ou d'acquisition temporaire sont évaluées en conformité avec la réglementation en vigueur, les modalités d'application étant arrêtées par la Société de gestion. Les titres reçus en pension sont inscrits en portefeuille acheteur dans la rubrique "Créances représentatives des titres reçus en pensions" pour leurs montants prévus dans les contrats, majorés des intérêts à recevoir. Les titres donnés en pension inscrits en portefeuille acheteur sont valorisés au cours de Bourse. Les intérêts à recevoir et à payer pour les opérations de pension, sont calculés au prorata temporis. La dette représentative des titres donnés en pension est inscrite en portefeuille vendeur, à la valeur fixée au contrat, majorée des intérêts à payer. Au dénouement, les intérêts encaissés et décaissés sont comptabilisés en revenus de créances. Les titres prêtés sont valorisés au prix du marché. L'indemnité encaissée y afférent est enregistrée en revenus de créances. Les intérêts courus sont inclus dans la valeur boursière des titres prêtés. Les opérations portant sur des instruments financiers à terme, fermes ou conditionnels, négociées sur des marchés organisés français ou étrangers sont valorisées à la valeur de marché selon les modalités arrêtées par la Société de gestion. Les contrats sur marchés à terme sont valorisés au cours de compensation. Valorisation des garanties financières : Les garanties sont évaluées quotidiennement au prix du marché (mark-to-market). Des décotes peuvent être appliquées au collatéral reçu ; elles prennent en compte la qualité de crédit, la volatilité des prix des titres ainsi que le résultat des simulations de crises réalisées. Les appels de marge sont quotidiens sauf stipulation contraire mentionnée dans le contrat-cadre encadrant ces opérations ou en cas d'accord entre la société de gestion et la contrepartie sur l'application d'un seuil de déclenchement. Les opérations à terme, fermes ou conditionnelles ou les opérations d'échange conclues sur les marchés de gré à gré, autorisés par la réglementation applicable aux OPC, sont valorisées à leur valeur de marché ou à une valeur estimée selon les modalités arrêtées par la Société de gestion. Les contrats d'échanges de taux d'intérêt et/ou de devises sont valorisés à leur valeur de marché, en fonction du prix calculé par actualisation des flux de trésorerie futurs (principal et intérêt), aux taux d'intérêt et/ou de devises de marché.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+24 / 33
+
+Ce prix est corrigé du risque de signature. Méthode de comptabilisation Les entrées et cessions de titres sont comptabilisées frais exclus. L'option retenue pour la comptabilisation du revenu est celle du revenu couru. Les revenus sont constitués par : les revenus des valeurs mobilières, les dividendes et intérêts encaissés au taux de la devise, pour les valeurs étrangères, la rémunération des liquidités en devises, les revenus de prêts et pensions de titres et autres placements, les flux de swaps comportant une composante de taux. De ces revenus sont déduits : les frais de gestion, les frais financiers et charges sur prêts et emprunts de titres et autres placements. Engagements hors bilan Les contrats à terme fermes sont portés pour leur valeur de marché, en engagement hors bilan, au cours de compensation. Les opérations à terme conditionnelles sont traduites en équivalent sous-jacent. Les contrats d'échange de taux réalisés de gré à gré sont évalués sur la base du montant nominal, plus ou moins, la différence d'estimation correspondante. Compte de régularisation des revenus Les comptes de régularisation des revenus ont pour effet de respecter l'égalité des porteurs par rapport aux revenus acquis, quelle que soit la date de souscription ou de rachat.
+
+VIII - REMUNERATION
+La société de gestion a adopté la politique de rémunération du groupe Amundi, dont elle fait partie. Le groupe Amundi a mis en place une politique de rémunération adaptée à son organisation et à ses activités. Cette politique a pour objet d’encadrer les pratiques concernant les différentes rémunérations des salariés ayant un pouvoir décisionnaire, de contrôle ou de prise de risque au sein du groupe. Cette politique de rémunération a été définie au regard de la stratégie économique, des objectifs, des valeurs et intérêts du groupe, des sociétés de gestion faisant partie du groupe, des OPCVM gérés par les sociétés du groupe et de leurs porteurs. L’objectif de cette politique est de ne pas encourager une prise de risque excessive en allant, notamment, à l’encontre du profil de risque des OPCVM gérés. Par ailleurs, la société de gestion a mis en place les mesures adéquates en vue de prévenir les conflits d’intérêt. La politique de rémunération est adoptée et supervisée par le Conseil d'Administration d'Amundi, société de tête du groupe Amundi. La politique de rémunération est disponible sur le site www.amundi.com ou gratuitement sur simple demande écrite auprès de la société de gestion.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+25 / 33
+
+Date de mise à jour du prospectus :17 avril 2019
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+26 / 33
+
+NOM OPCVM : AMUNDI EUROPEAN SECTOR ROTATION FUND FONDS COMMUN DE PLACEMENT
+
+REGLEMENT
+TITRE 1 - ACTIF ET PARTS
+Article 1 - Parts de copropriété
+Les droits des copropriétaires sont exprimés en parts, chaque part correspondant à une même fraction de l’actif du fonds. Chaque porteur de parts dispose d’un droit de copropriété sur les actifs du fonds proportionnel au nombre de parts possédées. La durée du fonds est 99 ans à compter de sa création, sauf dans les cas de dissolution anticipée ou de la prorogation prévue au présent règlement. Catégories de parts : les caractéristiques des différentes catégories de parts et leurs conditions d’accès sont précisées dans le prospectus du fonds. Les différentes catégories de parts pourront : bénéficier de régimes différents de distribution des revenus; (distribution ou capitalisation) être libellées en devises différentes ; supporter des frais de gestion différents ; supporter des commissions de souscriptions et de rachat différentes ; avoir une valeur nominale différente. être assorties d’une couverture systématique de risque, partielle ou totale, définie dans le prospectus. Cette couverture est assurée au moyen d’instruments financiers réduisant au minimum l’impact des opérations de couverture sur les autres catégories de part de l’OPCVM ; être réservées à un ou plusieurs réseaux de commercialisation. La société de gestion a la possibilité, après en avoir informé les porteurs et le Dépositaire, de regrouper ou diviser le nombre de parts. Les parts pourront être fractionnées, sur décision du conseil d'administration de la société de gestion en dixièmes, centièmes, millièmes, dix-millièmes ou cent-millièmes dénommées fractions de parts. Les dispositions du règlement réglant l’émission et le rachat de parts sont applicables aux fractions de parts dont la valeur sera toujours proportionnelle à celle de la part qu’elles représentent. Toutes les autres dispositions du règlement relatives aux parts s’appliquent aux fractions de parts sans qu’il soit nécessaire de le spécifier, sauf lorsqu’il en est disposé autrement. Enfin, le conseil d'administration de la société de gestion peut, sur ses seules décisions, procéder à la division des parts par la création de parts nouvelles qui sont attribuées aux porteurs en échange des parts anciennes.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+27 / 33
+
+Article 2 - Montant minimal de l'actif
+Il ne peut être procédé au rachat des parts si l'actif du fonds devient inférieur à 300 000 euros; lorsque l'actif demeure pendant trente jours inférieur à ce montant, la société de gestion prend les dispositions nécessaires afin de procéder à la liquidation de l'OPCVM concerné, ou à l'une des opérations mentionnées à l'article 411-16 du règlement général de l'AMF (mutation de l’OPCVM).
+
+Article 3 - Emission et rachat des parts
+Les parts sont émises à tout moment à la demande des porteurs sur la base de leur valeur liquidative augmentée, le cas échéant, des commissions de souscription. Les rachats et les souscriptions sont effectués dans les conditions et selon les modalités définies dans le prospectus. Les parts de fonds peuvent faire l’objet d’une admission à la cote selon la réglementation en vigueur. Les souscriptions doivent être intégralement libérées le jour du calcul de la valeur liquidative. Elles peuvent être effectuées en numéraire et/ou par apport d’instruments financiers. La société de gestion a le droit de refuser les valeurs proposées et, à cet effet, dispose d’un délai de sept jours à partir de leur dépôt pour faire connaître sa décision. En cas d’acceptation, les valeurs apportées sont évaluées selon les règles fixées à l’article 4 et la souscription est réalisée sur la base de la première valeur liquidative suivant l’acceptation des valeurs concernées. Les rachats peuvent être effectués en numéraire et/ou en nature. Si le rachat en nature correspond à une quote-part représentative des actifs du portefeuille, alors seul l’accord écrit signé du porteur sortant doit être obtenu par le fonds ou la société de gestion. Lorsque le rachat en nature ne correspond pas à une quote-part représentative des actifs du portefeuille, l’ensemble des porteurs doivent signifier leur accord écrit autorisant le porteur sortant à obtenir le rachat de ses parts contre certains actifs particuliers, tels que définis explicitement dans l’accord. Par dérogation à ce qui précède, lorsque le fonds est un ETF, les rachats sur le marché primaire peuvent, avec l’accord de la société de gestion et dans le respect de l’intérêt des porteurs de parts, s’effectuer en nature dans les conditions définies dans le prospectus ou le règlement du fonds. Les actifs sont alors livrés par le teneur de compte émetteur dans les conditions définies dans le prospectus du fonds. De manière générale, les actifs rachetés sont évalués selon les règles fixées à l’article 4 et le rachat en nature est réalisé sur la base de la première valeur liquidative suivant l’acceptation des valeurs concernées. Les rachats sont réglés par le teneur de compte émetteur dans un délai maximum de cinq jours suivant celui de l’évaluation de la part.
+
+Toutefois, si, en cas de circonstances exceptionnelles, le remboursement nécessite la réalisation préalable d’actifs compris dans le fonds, ce délai peut être prolongé, sans pouvoir excéder 30 jours. Sauf en cas de succession ou de donation-partage, la cession ou le transfert de parts entre porteurs, ou de porteurs à un tiers, est assimilé à un rachat suivi d’une souscription ; s’il s’agit d’un tiers, le montant de la cession ou du transfert doit, le cas échéant, être complété par le bénéficiaire pour atteindre au minimum celui de la souscription minimale exigée par le prospectus. En application de l’article L. 214-8-7 du Code monétaire et financier, le rachat par le fonds de ses parts, comme l’émission de parts nouvelles, peuvent être suspendus, à titre provisoire, par la société de gestion, quand des
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+28 / 33
+
+circonstances exceptionnelles l’exigent et si l’intérêt des porteurs le commande. Lorsque l’actif net du fonds est inférieur au montant fixé par la réglementation, aucun rachat des parts ne peut être effectué. Des conditions de souscription minimale pourront être fixées selon les modalités prévues par le prospectus. Le fonds peut cesser d’émettre des parts en application du troisième alinéa de l’article L. 214-8-7 du Code monétaire et financier, de manière provisoire ou définitive, partiellement ou totalement, dans les situations objectives entraînant la fermeture des souscriptions telles qu’un nombre maximum de parts émises, un montant maximum d’actif atteint ou l’expiration d’une période de souscription déterminée. Le déclenchement de cet outil fera l’objet d’une information par tout moyen des porteurs existants relative à son activation, ainsi qu’au seuil et à la situation objective ayant conduit à la décision de fermeture partielle ou totale. Dans le cas d’une fermeture partielle, cette information par tout moyen précisera explicitement les modalités selon lesquelles les porteurs existants peuvent continuer de souscrire pendant la durée de cette fermeture partielle. Les porteurs de parts sont également informés par tout moyen de la décision du fonds ou de la société de gestion soit de mettre fin à la fermeture totale ou partielle des souscriptions (lors du passage sous le seuil de déclenchement), soit de ne pas y mettre fin (en cas de changement de seuil ou de modification de la situation objective ayant conduit à la mise en œuvre de cet outil). Une modification de la situation objective invoquée ou du seuil de déclenchement de l’outil doit toujours être effectuée dans l’intérêt des porteurs de parts. L’information par tout moyen précise les raisons exactes de ces modifications. Clauses résultant de la loi Américaine « Dodd Franck » : La société de gestion peut restreindre ou empêcher la détention directe ou indirecte des parts du FCP par toute personne qualifiée de « Personne non Eligible » au sens ci-après. Une Personne non Eligible est : - une « U.S. Person » telle que définie par la réglementation américaine « Regulation S » de la Securities and Exchange Commission (« SEC »); ou - toute autre personne (a) qui apparaît directement ou indirectement en infraction avec les lois et règlements de tout pays ou toute autorité gouvernementale, ou (b) qui pourrait, de l’avis la société de gestion du FCP, faire subir un dommage au FCP qu’elle n’aurait autrement ni enduré ni subi. A cette fin, la société de gestion du FCP peut : (i) refuser d’émettre toute part dès lors qu’il apparaît qu’une telle émission aurait ou pourrait avoir pour effet que les dites parts soient directement ou indirectement détenues par ou au bénéfice d’une Personne non Eligible ; (ii) à tout moment requérir d’une personne ou entité dont le nom apparaît sur le registre des porteurs de parts que lui soit fournie toute information, accompagnée d’une déclaration sur l’honneur, qu’elle estimerait nécessaire aux fins de déterminer si le bénéficiaire effectif des parts est ou non une Personne non Eligible; et (iii) procéder, après un délai raisonnable, au rachat forcé de toutes les [parts / actions] détenues par un porteur lorsqu’il lui apparaît que ce dernier est (a) une Personne non Eligible et, (b) qu’elle est seule ou conjointement, le bénéficiaire effectif des parts. Pendant ce délai, le bénéficiaire effectif [des parts / actions] pourra présenter ses observations à l’organe compétent. Ce pouvoir s’étend également à toute personne (i) qui apparaît directement ou indirectement en infraction avec les lois et règlements de tout pays ou toute autorité gouvernementale, ou (ii) qui pourrait, de l’avis de la société
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+29 / 33
+
+de gestion du FCP, faire subir un dommage au FCP qu’elle n’aurait autrement ni enduré ni subi. Le rachat forcé s’effectuera à la dernière valeur liquidative connue, diminuée le cas échéant des frais, droits et commissions applicables, qui resteront à la charge de la Personne non Eligible.
+
+Article 4 - Calcul de la valeur liquidative
+Le calcul de la valeur liquidative des parts est effectué en tenant compte des règles d’évaluation figurant dans le prospectus. Les apports en nature ne peuvent comporter que les titres, valeurs ou contrats admis à composer l’actif des OPCVM ; les apports et les rachats en nature sont évalués conformément aux règles d’évaluation applicables au calcul de la valeur liquidative.
+
+TITRE 2 - FONCTIONNEMENT DU FONDS
+Article 5 - La société de gestion
+La gestion du fonds est assurée par la société de gestion conformément à l’orientation définie pour le fonds. La société de gestion agit en toutes circonstances dans l'intérêt exclusif des porteurs de parts et peut seule exercer les droits de vote attachés aux titres compris dans le fonds.
+
+Article 5 bis - Règles de fonctionnement
+Les instruments et dépôts éligibles à l’actif de l’OPCVM ainsi que les règles d’investissement sont décrits dans le prospectus.
+
+Article 6 - Le dépositaire
+Le dépositaire assure les missions qui lui incombent en application des lois et règlements en vigueur ainsi que celles qui lui ont été contractuellement confiées par la société de gestion. Il doit notamment s’assurer de la régularité des décisions de la société de gestion. Il doit, le cas échéant, prendre toutes mesures conservatoires qu’il juge utiles. En cas de litige avec la société de gestion, il informe l’Autorité des marchés financiers. Si le fonds est un OPCVM nourricier, le dépositaire a donc conclu une convention d'échange d'information avec le dépositaire de l'OPCVM maître; ou le cas échéant, quand il est également dépositaire de l'OPCVM maître, il a établi un cahier des charges adapté.
+
+Article 7 - Le commissaire aux comptes
+Un commissaire aux comptes est désigné pour six exercices, après accord de l’Autorité des marchés financiers, par la société de gestion. Il certifie la régularité et la sincérité des comptes. Il peut être renouvelé dans ses fonctions. Le commissaire aux comptes est tenu de signaler dans les meilleurs délais à l’Autorité des marchés financiers tout fait ou toute décision concernant l’organisme de placement collectif en valeurs mobilières dont il a eu connaissance dans l’exercice de sa mission, de nature :
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+30 / 33
+
+1° A constituer une violation des dispositions législatives ou réglementaires applicables à cet organismes et susceptible d’avoir des effets significatifs sur la situation financière, le résultat ou le patrimoine ; 2° A porter atteinte aux conditions ou à la continuité de son exploitation ; 3° A entrainer l’émission de réserves ou le refus de la certification des comptes. Les évaluations des actifs et la détermination des parités d’échange dans les opérations de transformation, fusion ou scission sont effectuées sous le contrôle du commissaire aux comptes. Il apprécie tout apport ou rachat en nature sous sa responsabilité, hormis dans le cadre de rachats en nature pour un ETF sur le marché primaire. Il contrôle la composition de l’actif et des autres éléments avant publication. Les honoraires du commissaire aux comptes sont fixés d’un commun accord entre celui-ci et la société de gestion au vu d’un programme de travail précisant les diligences estimées nécessaires. Il atteste les situations servant de base à la distribution d’acomptes. Si le fonds est un OPCVM nourricier: le commissaire aux comptes a conclu une convention d'échange d'information avec le commissaire aux comptes de l'OPCVM maître. lorsqu’il est également le commissaire aux comptes de l'OPCVM maître, il établit un programme de travail adapté. Ses honoraires sont compris dans les frais de gestion.
+
+Article 8 - Les comptes et le rapport de gestion
+A la clôture de chaque exercice, la société de gestion, établit les documents de synthèse et établit un rapport sur la gestion du fonds pendant l’exercice écoulé. La société de gestion établit, au minimum de façon semestrielle et sous contrôle du dépositaire, l'inventaire des actifs du fonds. La société de gestion tient ces documents à la disposition des porteurs de parts dans les quatre mois suivant la clôture de l’exercice et les informe du montant des revenus auxquels ils ont droit : ces documents sont soit transmis par courrier à la demande expresse des porteurs de parts, soit mis à leur disposition à la société de gestion.
+
+TITRE 3 - MODALITES D'AFFECTATION DES RESULTATS
+Article 9 : Modalités d’affectation des sommes distribuables
+Les sommes distribuables sont constituées par : 1° Le résultat net augmenté du report à nouveau et majoré ou diminué du solde du compte de régularisation des revenus ; 2° Les plus-values réalisées, nettes de frais, diminuées des moins-values réalisées, nettes de frais constatées au cours de l’exercice, augmentées des plus-values nettes de même nature constatées au cours d’exercices antérieurs n’ayant pas fait l’objet d’une distribution et d’une capitalisation et diminuées ou augmentées du solde du compte de régularisation des plus-values.
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+31 / 33
+
+Les sommes mentionnées aux 1° et 2° peuvent être distribuées, en tout ou partie, indépendamment l’une de l’autre. La mise en paiement des sommes distribuables est effectuée dans un délai maximal de 5 mois suivant la clôture de l’exercice. Le résultat net du fonds est égal au montant des intérêts, arrérages, primes et lots, dividendes, jetons de présence et tous autres produits relatifs aux titres constituant le portefeuille du fonds majoré du produit des sommes momentanément disponibles et diminué du montant des frais de gestion et de la charge des emprunts. La société de gestion décide de la répartition des sommes distribuables. Pour chaque catégorie de parts le cas échéant, le fonds peut opter, pour chacune des sommes mentionnées aux 1° et 2° pour l’une des formules suivantes : La capitalisation pure : les sommes distribuables sont intégralement capitalisées à l’exception de celles qui font l’objet d’une distribution obligatoire en vertu de la loi ; La distribution pure : les sommes distribuables sont intégralement distribuées, aux arrondis près ; Pour les fonds qui souhaitent conserver la liberté de capitaliser ou/et de distribuer et/ou de porter les sommes distribuables en report, la société de gestion décide chaque année de l’affectation de chacune des sommes mentionnées aux 1° et 2°. Le cas échéant, la société de gestion peut décider, en cours d'exercice, la mise en distribution d'un ou plusieurs acomptes dans la limite des revenus nets de chacune des sommes mentionnées aux 1° et 2° comptabilisés à la date de décision. Les modalités précises d’affectation des revenus sont décrites dans le prospectus.
+
+TITRE 4 - FUSION - SCISSION - DISSOLUTION LIQUIDATION
+Article 10 - Fusion - Scission
+La société de gestion peut soit faire apport, en totalité ou en partie, des actifs compris dans le fonds à un autre OPCVM, soit scinder le fonds en deux ou plusieurs autres fonds communs. Ces opérations de fusion ou de scission ne peuvent être réalisées qu'après que les porteurs en ont été avisés. Elles donnent lieu à la délivrance d’une nouvelle attestation précisant le nombre de parts détenues par chaque porteur.
+
+Article 11 - Dissolution - Prorogation
+Si les actifs du fonds demeurent inférieurs, pendant trente jours, au montant fixé à l'article 2 ci-dessus, la société de gestion en informe l’Autorité des marchés financiers et procède, sauf opération de fusion avec un autre fonds commun de placement, à la dissolution du fonds. La société de gestion peut dissoudre par anticipation le fonds ; elle informe les porteurs de parts de sa décision et à partir de cette date les demandes de souscription ou de rachat ne sont plus acceptées. La société de gestion procède également à la dissolution du fonds en cas de demande de rachat de la totalité
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+32 / 33
+
+des parts, de cessation de fonction du dépositaire, lorsqu’aucun autre dépositaire n’a été désigné, ou à l’expiration de la durée du fonds, si celle-ci n’a pas été prorogée. La société de gestion informe l’Autorité des marchés financiers par courrier de la date et de la procédure de dissolution retenue. Ensuite, elle adresse à l’Autorité des marchés financiers le rapport du commissaire aux comptes. La prorogation d’un fonds peut être décidée par la société de gestion en accord avec le dépositaire. Sa décision doit être prise au moins 3 mois avant l’expiration de la durée prévue pour le fonds et portée à la connaissance des porteurs de parts et de l’Autorité des marchés financiers.
+
+Article 12 - Liquidation
+En cas de dissolution, la société de gestion ou la personne désignée à cet effet assume les fonctions de liquidateur ; à défaut, le liquidateur est désigné en justice à la demande de toute personne intéressée. Ils sont investis à cet effet, des pouvoirs les plus étendus pour réaliser les actifs, payer les créanciers éventuels et répartir le solde disponible entre les porteurs de parts en numéraire ou en valeurs. Le commissaire aux comptes et le dépositaire continuent d’exercer leurs fonctions jusqu’à la fin des opérations de liquidation.
+
+TITRE 5 - CONTESTATION
+Article 13 - Compétence - Election de domicile
+Toutes contestations relatives au fonds qui peuvent s’élever pendant la durée de fonctionnement de celui-ci, ou lors de sa liquidation, soit entre les porteurs de parts, soit entre ceux-ci et la société de gestion ou le dépositaire, sont soumises à la juridiction des tribunaux compétents. Date de la mise à jour du règlement : 17 avril 2019
+
+AMUNDI EUROPEAN SECTOR ROTATION FUND
+
+33 / 33
+
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://rawcss.com/raw.css" rel="stylesheet">
+  <style>
+    .preview { width: calc(100% - 200px); }
+    .list { width: 200px; }
+    .pdf { width: 30%; }
+    .text { width: 70%; }
+    .full { width: 100%; }
+    .text { padding: 20px; max-height: 100vh; overflow: scroll; }
+    .paragraph { width: 60%; }
+    .delete { width: 10%; }
+    .labels { width: 30%; }
+    .delete button, .labels button { margin: 5px; }
+    .annotation { padding: 20px 0; }
+    .header { font-weight: 800;font-size: 16px; }
+  </style>
+</head>
+
+<body>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-dsv/1.0.8/d3-dsv.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+  <main>
+    <h1>Prospectus extraction tool</h1>
+    <div class="row">
+      <div>Selected file: {{ selected }}</div>
+      <button @click="dlCSV(text, 'en', selected.split('/').last().split('.').first() + '-annotated.csv')" v-if="text.length">Download</button>
+    </div>
+    <div class="row">
+      <ul class="list">
+        <li v-for="file in (csv || []).map('file').unique().sort()" v-on:click="selected = file">
+          <a>{{ file.replace('.txt', '.pdf') }}</a>
+        </li>
+      </ul>
+      <div class="preview row" v-if="selected">
+        <div class="pdf">
+          <iframe class="full" :src="'/ai/' + selected.replace('.txt', '.pdf')" height="600px"></iframe>
+        </div>
+        <div class="text">
+          <div class="row header">
+            <div class="paragraph">Text</div>
+            <div class="labels">Labels</div>
+            <div class="delete">Actions</div>
+          </div>
+          <div class="row annotation" v-for="annotation in text" v-if="annotation.text.length && annotation.label !== 'delete'">
+            <div class="paragraph" :style="{ background: annotation.label ? labels.find(d => d.label === annotation.label).color : 'white' }">
+              {{ annotation.text }}
+            </div>
+            <div class="labels">
+              <button @click="update_label(annotation, label.label)" :style="{ background: label.color }" v-for="label in labels">{{ label.label }}</button>
+            </div>
+            <div class="delete"><button @click="update_label(annotation, 'delete')">Delete</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script type="module">
+    import Vue from 'https://unpkg.com/vue@2.6.10/dist/vue.esm.browser.js'
+    import 'https://cdn.jsdelivr.net/gh/vbrajon/rawjs/raw.js'
+    raw()
+    window.type = Vue.prototype.type = x => Object.prototype.toString.call(x).slice(8, -1).toLowerCase()
+
+    // Vue.use(antd.Slider)
+    window.vm = new Vue({
+      el: 'main',
+      created () {
+        axios.get('/ai/data/golden/prospectus.csv').then(r => {
+          this.csv = d3.csvParse(r.data)
+        })
+      },
+      data: {
+        selected: '',
+        text: [],
+        csv: '',
+        labels: [
+          { label: 'objectives', color: '#D80143' },
+          { label: 'risk_profile', color: '#2F75B6' },
+          { label: 'fees', color: '#00CCAB' },
+          { label: 'past_performance', color: '#FFED04' },
+          { label: 'information', color: '#582661' }],
+      },
+      watch: {
+        'selected': function (value) {
+          axios.get('/ai/' + value).then(r => {
+            this.text = r.data.split('\n').map((d, i) => ({ text: d, id: i, label: '' }))
+          })
+        }
+      },
+      methods: {
+        update_label(annotation, label) {
+          annotation.label = annotation.label === label ? '' : label
+          Vue.set(this.text, annotation.id, annotation)
+        },
+        dlCSV(arr, lang, filename, browser) {
+          const sep = lang === 'fr' ? ';' : ','
+          if (browser === 'ie') {
+            const IEwindow = window.open()
+            IEwindow.document.write('sep=,\r\n' + arr.toCSV(sep, lang))
+            IEwindow.document.close()
+            IEwindow.document.execCommand('SaveAs', true, filename || 'table.csv')
+            IEwindow.close()
+          } else {
+            const content = `${this.toCSV(arr, sep, lang)}`
+            var blob = new Blob(['\ufeff', content])
+            var url = URL.createObjectURL(blob)
+            const link = document.createElement('a')
+            link.setAttribute('href', url)
+            link.setAttribute('style', 'display: none;')
+            link.setAttribute('download', filename || 'table.csv')
+            document.body.appendChild(link) // Required for FF
+            link.click()
+          }
+        },
+        toCSV(arr, sep, lang) {
+          const keys = Object.keys(arr[0]).map(d => this.escapeCSV(d, lang, sep))
+          const values = arr.map(o => Object.values(o).map(d => this.escapeCSV(d, lang, sep)))
+          return [keys]
+            .concat(values)
+            .map(d => d.join(sep))
+            .join('\n')
+        },
+        escapeCSV(s, lang, sep) {
+          if (type(s) === 'number' && lang === 'fr') return ('' + s).replace('.', ',')
+          if (type(s) === 'string' && s.indexOf(sep) > -1) return '"' + s.split('"').join('""') + '"'
+          return s
+        },
+      }
+    })
+  </script>
+</body>
+
+</html>
