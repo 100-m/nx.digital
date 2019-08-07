@@ -1,5 +1,4 @@
 # IMPRESS Architecture at a glance
-
 ## Impress is a cloud solution
 IMPRESS is a cloud based product implementing best practices in term of architecture and security. The platform relies on world-class software as services: AWS, Auth0, Firebase, Github and Zeit.
 
@@ -21,13 +20,23 @@ User authentication is the verification of an active human-to-machine transfer o
 We chose Auth0 to provide Impress authentication. Auth0 provides authentication and authorization as a service. It provides crucial features like Single Sign On, Multi Factor Authentication, User Management and Passwordless Authentication. Companies like Atlassian, Nvidia or Mozilla rely on Auth0.
 
 ### Real time data storage
+Impress real time Database is a cloud-hosted NoSQL database that lets you store and sync data between Impress users in real time. Realtime syncing makes it easy for our users to collaborate with one another.
 
+We chose Google Firebase to be our real time database. The Firebase Realtime Database uses data synchronization—every time data changes, any connected device receives that update within milliseconds.
 
-### Application Server
+### Cloud Server Hosting
+Impress application is served using a web server. Impress servers are hosted in a could. Services are made available to customers on demand via the Internet. Rather than being provided by a single server or virtual server, Impress services are provided by multiple connected servers that comprise a cloud.
 
-### Computation Lambdas
+We chose Amazon Web Service to be our default Cloud provider. Amazon operates in over 50 availability zones. Our servers are located in Frankfurt, except when specified otherwise.
+
+### Serverless Computing Provider
+Serverless computing is a cloud-computing execution model in which the cloud provider runs the server, and dynamically manages the allocation of machine resources. Serverless computing allows impress to scale instantly with its user needs.
+
+We chose Amazon Lambdas for our serverless computing platform.
 
 ## Impress user roles
+Three big types of user roles exist in Impress: the application users who interact with the application using the web GUI, the developers who write the software and deploy it on the servers, and the administrators who administrate the server and the data.
+
 **Application Users** can access the IMPRESS application via a [https://*.nx.digital](#) URL. Once the application is loaded, users authenticate. The authentication relies on the Auth0 API to retrieve an identity token (JWT). This token is valid for 1h (by default) and is then used:
   - to retrieve financial data files from our AWS server filesystems.
   - to create factsheet on-demand using AWS lambdas.
@@ -37,8 +46,31 @@ We chose Auth0 to provide Impress authentication. Auth0 provides authentication 
 
 **Administrators** can connect to our AWS filesystem EC2 instance (surface.nx.digital) via SFTP, with a dedicated user, using RSA keypairs hosted on Github. They have access to raw Financial data in read/write as well as a golden copy and application data in read only.
 
+########################################################################################
 # A few principles that help secure our solution by design
+########################################################################################
+
+## Decentralized security.
+In an 'on premises' security paradigm, most resources and storage are centralized on a network that is a single point of entry. The network has to be protected behind firewalls in a private network. Access to this network is usually very tightly controlled as a malicious access can compromise the entire network.
+
+We operate in a 'cloud paradigm' with a decentralized vision of security: sensitive data and code can be located on multiple networks that are accessible on the Web. In that case, each application is responsible for its security. Access to an application or a resource is protected through authentication. Each user is given a 'key' (a SSH key or a token) that gives him some rights. Information is exchanged between applications on the public web through encrypted protocols to guarantee confidentiality.
+
+In a 'cloud paradigm', there is not such thing as a local network to protect. The only local resource is the local machine of the user. This is why all our machine have an encrypted disk and are password protected.
+
+*schema of on premises security paradigm*
+*schema of a cloud security paradigm*
+
+## Principle of Least Privilege
+The principle means giving a user account or process only those privileges which are essential to perform its intended function. For example, developers only access to customers data during the development phase. After that we remove these access.
+
+*how are we using the LEAST PRIVILEGE PRINCIPLE.*
+
 ## SSH keys
+**SSH**, or secure shell, is a secure protocol and the most common way of safely administering remote servers. Using a number of encryption technologies, SSH provides a mechanism for establishing a cryptographically secured connection between two parties, authenticating each side to the other, and passing commands and output back and forth.
+
+Impress solution and software factory uses public–key cryptography to encrypt and decrypt login information to the servers. Public–key cryptography uses a public key to encrypt a piece of data, and then the recipient uses the private key to decrypt the data. The public and private keys are known as a key pair. Public-key cryptography enables you to securely access your instances using a private key instead of a password.
+
+
 #### Protect access with passwords is a bad habit:
   - Passwords are generally, predictably, unavoidably weak
   - Password expiration (without a strong password policy user increment their password or use the same on different website).
@@ -47,39 +79,35 @@ We chose Auth0 to provide Impress authentication. Auth0 provides authentication 
   - SSH Keys is composed of a passphrase and a private Keys.
 
 #### Storage & key management
-  At Neoxam, we fetch our clients’ public key from their GitHub account (https://github.com/USER.keys).
-  All of our clients must have a GitHub account. If not, they must create one and send us their username in order to get their public keys automatically.
-  A script is launched every 5 minutes to synchronize the public and private key. Once the client revokes his public key, it will no longer exist on our server. Therefore, the access is no longer available.
-  Your credentials and passphrase must remain confidential so that no one can modify or remove your public key. Our contract and trust is based on it.
-  #### How we Create / Read / Update or Delete our Keys
-  - Create a key: https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
-  - Read / update / delete : Directly from your github account.
+At Neoxam, we fetch our clients’ public key from their GitHub account (https://github.com/USER.keys).
+All of our clients must have a GitHub account. If not, they must create one and send us their username in order to get their public keys automatically.
+A script is launched every 5 minutes to synchronize the public and private key. Once the client revokes his public key, it will no longer exist on our server. Therefore, the access is no longer available.
+Your credentials and passphrase must remain confidential so that no one can modify or remove your public key. Our contract and trust is based on it.
 
-#### [Server access, Protecting codebase access] Usage
+#### How we Create / Read / Update or Delete our Keys
+- [Create a SSH Key](https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+- [Read / update / delete : Directly from your github account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
+
+#### Usage
+- Codebase Access
 - Connect to our server (Surface / Abyss)
-- Acess to our codebase
 To acess to our server, you need to be whitelisted, we add one of the SSH private key linked to your github account the server or specific folder required.
 
 ## Two-factor authentication
 Two-factor authentication is an additional security layer for your company that helps addressing the vulnerability of a standard password-only approach. The idea behind it is, once you enter your password or passphrase, you will receive either an SMS or email that contains a code. This code has to be entered by the user in a specific field to make sure that the account has not been hacked.
-Github gives you the choice of using two-factor authentication, which we advise you to do.
-All we need to have is the client’s GitHub account from which we can extract the public key. Hence the necessity to secure their GitHub account. This will let them share files with us via a protocol (SFTP).
 
-## Decentralized vision of security.
-To be define.
-
-## Principle of Least Privilege
-The principle means giving a user account or process only those privileges which are essential to perform its intended function. For example, developers only access to customers data during the development phase. After that we remove these access.
+Two-factor authentication are enabled on all our accounts.
 
 # How we designed a secure application and are keeping it that way
 ## Users management
 Users are managed using a dedicated 3rd party SaaS (Auth0).
 Auth0 is an authentication and authorization management platform. We manage identity as a Service.
-You have the ability to manage the users by yourself:
+customers have the ability to manage the users by themself:
   - Create / Delete
   - Define the users right (Even in NeoXam teams.)
   - Track connections in the app
 
+1 Auth0 account is create by customer for privacy constraints
 
 ## Auditability
 We ensure auditability through a comprehensive logging system.
@@ -87,19 +115,32 @@ You have access to a log directory exposing all SSH connections and all API Auth
 With an additional cost, we can centralise and stream logs to an external service (eg: [Datadog](https://www.datadoghq.com/)) or to the client log centralisation tool. (eg: [Kibana](https://www.elastic.co/products/kibana)). We can also setup automatic mailing to any behaviour rules.
 
 ## Application monitoring
-Application monitoring through dedicated web interface
-NB: Aut0 dashboard / firebase dashboard / AWS dashboard / Zeit (+ Screenshot)
+We can monitor all our applications through web dashboard:
+  -  Amazon CloudWatch is a monitoring and observability service, it provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health.
+  - Firebase give us a lot statistics to monitor database usage.
+  - Auth0 provides a login dashboard global and by user.
+  - Zeit provides the logs of the application invokation.
+
 ## Application administration
-Application administration with the dedicated web dashboard
+All our providers have administration tools. Access to theses services are restricted to NeoXam cloud admin.
+Except Auth0, where each customer is admin of his account.
+
+??? Explain who access to this service and how ??? => NeoXam Cloud amdin?
+
 ## Secured Server Access
-  - Updates & Security
-  - SSH Key
+Although Server is hosted in the cloud, our team follow attentive to the security updates.
+2 kinds of profile are setup on our servers:
+  - Customers / Data Provider: Only sftp acess to a specific folder
+  - Development Teams: SSH connection + data according right of user (**Today, Dev connect as root on Surface/Abyss**)
+The identification is made through the SSH keys.
+
   - User Management
   - Access Via Administration Console
 
 ## [COMMUNICATION & NOTIFICATIONS SECURITY]
   The different way to receive information from our applications
   - Mail / Slack
+
 ## Ensuring Business Continuity
 React to incident:
 There is 2 channels of communication to reach us, a dedicated slack channel and a support email address **contact@100m.io**.
@@ -107,15 +148,28 @@ The following mechanisms are available to mitigate incidents:
 - A command to revert to any daily backup < 30j
 - A command to logout currently connected user and resynchronize access keys or revoke all accesses.
 
+########################################################################################
 # How we set up a secure & OS agnostic software factory in a public cloud environment
+########################################################################################
 ## [user management]
 Users are managed using team services or ssh keys
 
 ## [Software and Infrastructure testing]
 How we test Software and Infrastructure:
-  - Vulnerability Scanner
-  - Penetration Test
-  - Secure coding & Codebase Security Audit
+### Vulnerability Scanner
+  To be define
+### Penetration Test
+  To be define
+### Secure coding & Codebase Security Audit
+All of our work is based on pull requests. In other words, before pushing and deploying our code, someone must review it. If the code that was modified or added only affects the configuration of the application, any member of the team can review it. For important modification which affects authentication or any other sensible parts of the code, it must be reviewed by the person with the highest level of seniority.
+
+In addition, we assess, each year or on demand, the security of our system's physical configuration, environment and user practices.
+
+## [Users Training]
+All Security specialized companies report that the Human is the most efficient shield against cyber-attacks. And this is also the main weakness as we keep seeing in phishing campaign for instance.
+We are renewing our security awareness effort to protect our asset.
+This Awareness program is mandatory for all employees and contractors, and consist to pass a test of security after watching videos.
+The program is renewed every years.
 
 ## 3rd Party Software
 Due diligence before using 3rd Party Software as a Service
@@ -123,19 +177,19 @@ Due diligence before using 3rd Party Software as a Service
 ## [ADMINISTRATION]
 to be define
 
-## [Local Machine Security] We ensure security of our local machines
- - Password protection
- - Encryption
- - Antivirus
- - Updates
- - Remote deactivation (?)
+## Local Machine Security
+ ​
+NeoXam has a strong password policy for the local:
+- password changed once every 3 months
+- All password must be saved in a password manager
 
-## [Users Training]
-Training our team according to last security standards
- - ISO XXXX
+We stay vigilant with local machines, to prevent any lake of data :
+- Hard disk encryption
+- availability to erase remotely all the data that is on the hard disk
+- Updated Operating System and Antivirus Software.
 
-## [Network Security]
-  To be define
+## Network Security
+  According to our architecture, network security is managed by restricting physical access to our servers.
 
 ## [COMMUNICATION & NOTIFICATIONS SECURITY]
 The different way to receive information from our applications
@@ -148,37 +202,78 @@ Ensuring information management and confidentiality
 # How we guarantee your data security and privacy
 ## [PERMISSIONING]
 We define finely what tasks users can perform and what features users can access
-## [Data is encrypted at rest and in transit]
-We encrypt all our transiting data
+
+## Data encryption
+Data is encrypted at rest and in transit
   - In Transit
   - At Rest
   - Additional Encryption
 
-## [Data Location & Privacy Shield]
-Date are located in Europe See XXXXX
+## Data Location & Privacy Shield
+All our AWS server are hosted in Europe (Frankfurt)
+All our are hosted in Europe (europe-west)
+About Zeit and the lambda invocation, the closest region is chosen automatically to deploy the lambda.
 
-## [GDPR] Our key steps to ensure GDPR compliance
-The only service provider used by NeoXam for cloud data storage is Amazon AWS which respect industry regulations, government legislation and is GDPR compliant (https://aws.amazon.com/blogs/security/all-aws-services-gdpr-ready/). The same goes for Auth0 (https://auth0.com/docs/compliance/gdpr) and Firebase (https://firebase.google.com/support/privacy) which are also GDPR compliant.
-Neoxam is GDPR compliant since we do not use personal data, we do not share our data and we stock our data in a way that it is safe from hacking.
+## Impress GDPR
+On 27 April 2016, the European Parliament and the European Council adopted legislation known as General Data Protection Regulation (GDPR), which becomes enforceable 25 May 2018. This legislation replaces European Privacy Directive 95/46/EC.
 
-## [DATACENTER PHYSICAL SECURITY]
-How we secure physically our data.
-...
+GDPR is intended to unify and strengthen data privacy for individuals located in the European Union (EU). GDPR also extends the applicability of EU data privacy legislation to non-EU companies who store or process data on EU residents and increases the fines that may be levied against companies who are responsible for preventing breaches of personal data or who violate GDPR requirements.
 
-## [DATA ACCESS ADMIN ?]
-How to..
+NeoXam Impress is compliant with GDPR as well as its 3rd party software provider.
 
-## [DISCARDING DATABASE ?]
-DISCARDING DATABASE by using a static file...
+Amazon AWS, which hosts the solution, respects industry regulations, government legislation and is [GDPR compliant](https://aws.amazon.com/blogs/security/all-aws-services-gdpr-ready/). AWS has in place effective technical and organizational measures for data processors to secure personal data in accordance with the GDPR, and specifically enables encryption of personal data; the ability to ensure the ongoing confidentiality, integrity, availability, and resilience of processing systems and services; the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.
 
-## [BACK UP AND RECOVERY]
-We stock our data in two different places: in AWS and in Firebase.
-In AWS we push all the data that is sensible. Our server is configured in a way that it is backed up daily and weekly. This means that we can go either 1 day or 3 days back and fetch the back up that was made on this day, or instead go 2 weeks or 3 week back and fetch the data that was made on this week.
-​
-In firebase, the data is backed up on a daily basis. Firebase contains only the configuration of the application and the referential data of a fund.
+The same goes for [Auth0](https://auth0.com/docs/compliance/gdpr) and
 
-## [REVERSIBILITY]
-to be define
+
+
+
+As far as Google Firebase is concerned, from a GRPD perspective, Google is generally seen a data processor and processes personal data on behalf the users. Firebase terms include [Data Processing and Security Terms for all Firebase services](https://firebase.google.com/terms/data-processing-term). Firebase allows Impress to be GDPR compliant.
+
+*Neoxam is GDPR compliant since we do not use personal data, we do not share our data and we stock our data in a way that it is safe from hacking. MOUUAIS PAS SUR D'ACHETER .....*
+
+## DATA CENTER PHYSICAL SECURITY
+- [AWS pysical Security](https://aws.amazon.com/compliance/data-center/controls/?nc1=h_ls#Physical_Access)
+- [Google pysical Security](https://www.google.com/about/datacenters/inside/data-security/index.html)
+- Zeit and Auth0 are using AWS.
+
+
+## DATA ACCESS ADMIN
+Only the cloud admin manager can administer your differents services.
+His duties are to manage the right of the team member according.
+
+## DISCARDING DATA
+DISCARDING DATA ???
+Amazon norm / decomission server
+
+## BACKUP AND RECOVERY
+Even if our cloud providers are reliable, we have prepared a **recovery procedure** to rollback data and/or our application to a previous state.
+For our databases:
+- daily download to a AWS filesystems
+- Weekly archive of the friday backup
+- Archive are conserved 2 years before removing.
+For our servers:
+- Weekly snapshot are taken
+- Data stored on our Server (Customer or custodian flux) are saved on a shared disks (redundancy)
+For our deployments
+- We keep at least *** N *** previous version after a new delivery
+
+## Disaster Recovery Plan
+### NeoXam
+All the teams work on laptop, and can work from other place than our office. Moreover our application run outside of NeoXam networks.
+### AWS
+[Amazon Disaster recovery plan](https://aws.amazon.com/compliance/data-center/controls/?nc1=h_ls#Business_Continuity_.26_Disaster_Recovery)
+### auth0
+[Auth0 Disaster recovery plan](https://auth0.com/availability-trust)
+### Firebase
+[Google Disaster recovery plan](https://cloud.google.com/solutions/dr-scenarios-planning-guide)
+
+## REVERSIBILITY
+Slack Channel and trello board will be closed.
+Remove DNS will disable application.
+Auth0 account will be closed.
+Remove all customers data from our server and databases
+All the backup will conserve XX days, after this delay, backups are removed.
 
 # F.A.Q.
 ## Employees leaving the company
