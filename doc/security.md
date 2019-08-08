@@ -191,46 +191,54 @@ We stay vigilant with local machines, to prevent any lake of data :
 ## Network Security
   According to our architecture, network security is managed by restricting physical access to our servers.
 
-## [COMMUNICATION & NOTIFICATIONS SECURITY]
-The different way to receive information from our applications
- - Slack notification
- - Email
+## COMMUNICATION & NOTIFICATIONS SECURITY
+Impress solutions uses two medium of communication:
+ - Slack notification: based on the API Rest.
+ - Email is based on [sendgrid](https://sendgrid.com/)
+
+This both medium are secured by using a unique token between Empress and the service.
 
 ## [INFORMATION MANAGEMENT AND CONFIDENTIALITY]
 Ensuring information management and confidentiality
 
+
+########################################################################################
 # How we guarantee your data security and privacy
-## [PERMISSIONING]
-We define finely what tasks users can perform and what features users can access
+########################################################################################
+
+## Permissioning
+Any access to data or application features is subject to a permission that is defined in the user Auth0 profile.
+
+Data is delivered to the application either directly through Firebase or through the Impress APIs. Both mechanism are protected by the authentication service.
+
+Firebase provides a built-in Auth0 connection and built in authentication mechanism.
+
+Impress API, built in Node.js, provides *XXXXXXX complete*
 
 ## Data encryption
-Data is encrypted at rest and in transit
-  - In Transit
-  - At Rest
-  - Additional Encryption
+With Impress, like with any cloud solution, data is exchanged over the public Web. Impress implement state-of-the-art data encryption in-transit to guarantee the confidentiality of its content:
+  - data exchanged between the application user and the application server is encrypted with the HTTPS protocol.
+  - data exchanged between developers and a server is encrypted with the SSH protocol
+  - data exchanged between administrators and a server is encrypted with the SFPT protocol.
 
-## Data Location & Privacy Shield
-All our AWS server are hosted in Europe (Frankfurt)
-All our are hosted in Europe (europe-west)
-About Zeit and the lambda invocation, the closest region is chosen automatically to deploy the lambda.
+Impress also implements 'Data At Rest' encryption to prevents data visibility in the event of its unauthorized access or theft.
 
-## Impress GDPR
+## Data Location
+All our AWS server are hosted in Continental Europe (Frankfurt)
+*About Zeit and the lambda invocation, the closest region is chosen automatically to deploy the lambda. A REFORMULER*
+
+## GDPR
 On 27 April 2016, the European Parliament and the European Council adopted legislation known as General Data Protection Regulation (GDPR), which becomes enforceable 25 May 2018. This legislation replaces European Privacy Directive 95/46/EC.
 
 GDPR is intended to unify and strengthen data privacy for individuals located in the European Union (EU). GDPR also extends the applicability of EU data privacy legislation to non-EU companies who store or process data on EU residents and increases the fines that may be levied against companies who are responsible for preventing breaches of personal data or who violate GDPR requirements.
 
-NeoXam Impress is compliant with GDPR as well as its 3rd party software provider.
+The NeoXam Impress software along with its 3rd party software provider is GDPR compliant.
 
 Amazon AWS, which hosts the solution, respects industry regulations, government legislation and is [GDPR compliant](https://aws.amazon.com/blogs/security/all-aws-services-gdpr-ready/). AWS has in place effective technical and organizational measures for data processors to secure personal data in accordance with the GDPR, and specifically enables encryption of personal data; the ability to ensure the ongoing confidentiality, integrity, availability, and resilience of processing systems and services; the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.
 
-The same goes for [Auth0](https://auth0.com/docs/compliance/gdpr) and
-
-
-
+Per GDPR, Auth0 is a [Data Processor](https://auth0.com/docs/compliance/gdpr). It enables Impress to protect user consent, secure user data, allow data portability, implement data minimization and right to access, correct, and erase data.
 
 As far as Google Firebase is concerned, from a GRPD perspective, Google is generally seen a data processor and processes personal data on behalf the users. Firebase terms include [Data Processing and Security Terms for all Firebase services](https://firebase.google.com/terms/data-processing-term). Firebase allows Impress to be GDPR compliant.
-
-*Neoxam is GDPR compliant since we do not use personal data, we do not share our data and we stock our data in a way that it is safe from hacking. MOUUAIS PAS SUR D'ACHETER .....*
 
 ## DATA CENTER PHYSICAL SECURITY
 - [AWS pysical Security](https://aws.amazon.com/compliance/data-center/controls/?nc1=h_ls#Physical_Access)
@@ -240,7 +248,7 @@ As far as Google Firebase is concerned, from a GRPD perspective, Google is gener
 
 ## DATA ACCESS ADMIN
 Only the cloud admin manager can administer your differents services.
-His duties are to manage the right of the team member according.
+His duties are to manage the right of the team member according to according to current projects of the team.
 
 ## DISCARDING DATA
 DISCARDING DATA ???
@@ -290,6 +298,15 @@ If a developer quits the job, all that has to be done is:
 
 ## Loss of a device
 ### how do you handle loss of a device ?
+- Erase remotely his device
+- Remove his SSH Keys from Github account and Server
+- Reset all his passwords.
 
 ## Password policy
 ### how do you impose password policy ?
+- All passwords must be saved in an encrypted passwoard manager
+- Use a Different Password on every site/service
+- Not be identical to the previous **X** passwords.
+- Not be transmitted in the clear or plaintext outside the secure locatio
+- Always enable the two factor authentication
+***confirm with IT****
