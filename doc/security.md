@@ -44,26 +44,25 @@ Three big types of user roles exist in Impress: the application users who intera
 
 **Developers** can connect to our AWS filesystem and computing EC2 instances via SSH, with a dedicated user, using RSA keypairs hosted on Github.
 
-**Administrators** can connect to our AWS filesystem EC2 instance (surface.nx.digital) via SFTP, with a dedicated user, using RSA keypairs hosted on Github. They have access to raw Financial data in read/write as well as a golden copy and application data in read only.
+**Administrators** can connect to our AWS filesystem EC2 instance (surface.nx.digital) via SFTP, with a dedicated user, using RSA keypairs hosted on Github. They have access to raw Financial data in read/write as well as a golden copy and application data in read only. He manages the rights granted to each person on the team. (**Cloud Administror**)
 
-########################################################################################
 # A few principles that help secure our solution by design
-########################################################################################
 
 ## Decentralized security.
 In an 'on premises' security paradigm, most resources and storage are centralized on a network that is a single point of entry. The network has to be protected behind firewalls in a private network. Access to this network is usually very tightly controlled as a malicious access can compromise the entire network.
+<img style="width: calc(50% + 400px);" src="/img/on-premises-security.png" />
 
 We operate in a 'cloud paradigm' with a decentralized vision of security: sensitive data and code can be located on multiple networks that are accessible on the Web. In that case, each application is responsible for its security. Access to an application or a resource is protected through authentication. Each user is given a 'key' (a SSH key or a token) that gives him some rights. Information is exchanged between applications on the public web through encrypted protocols to guarantee confidentiality.
 
 In a 'cloud paradigm', there is not such thing as a local network to protect. The only local resource is the local machine of the user. This is why all our machine have an encrypted disk and are password protected.
+<img style="width: calc(50% + 400px);" src="/img/cloud-security.png" />
 
-*schema of on premises security paradigm*
-*schema of a cloud security paradigm*
 
 ## Principle of Least Privilege
 The principle means giving a user account or process only those privileges which are essential to perform its intended function. For example, developers only access to customers data during the development phase. After that we remove these access.
 
-*how are we using the LEAST PRIVILEGE PRINCIPLE.*
+### How it works in NeoXam?
+We create access only on demands according to the project. The cloud admin manager grant or remove access according to the team allocation. That's means after the development phases only the support team can access to the customer application.
 
 ## SSH keys
 **SSH**, or secure shell, is a secure protocol and the most common way of safely administering remote servers. Using a number of encryption technologies, SSH provides a mechanism for establishing a cryptographically secured connection between two parties, authenticating each side to the other, and passing commands and output back and forth.
@@ -81,8 +80,10 @@ Impress solution and software factory uses public–key cryptography to encrypt 
 #### Storage & key management
 At Neoxam, we fetch our clients’ public key from their GitHub account (https://github.com/USER.keys).
 All of our clients must have a GitHub account. If not, they must create one and send us their username in order to get their public keys automatically.
-A script is launched every 5 minutes to synchronize the public and private key. Once the client revokes his public key, it will no longer exist on our server. Therefore, the access is no longer available.
+A script is launched every 5 minutes to synchronize the public key. Once the client revokes his public key, it will no longer exist on our server. Therefore, the access is no longer available.
 Your credentials and passphrase must remain confidential so that no one can modify or remove your public key. Our contract and trust is based on it.
+
+***@Val Customers github account is not a good solution to grant acess to our server.***
 
 #### How we Create / Read / Update or Delete our Keys
 - [Create a SSH Key](https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
@@ -125,8 +126,6 @@ We can monitor all our applications through web dashboard:
 All our providers have administration tools. Access to theses services are restricted to NeoXam cloud admin.
 Except Auth0, where each customer is admin of his account.
 
-??? Explain who access to this service and how ??? => NeoXam Cloud amdin?
-
 ## Secured Server Access
 Although Server is hosted in the cloud, our team follow attentive to the security updates.
 2 kinds of profile are setup on our servers:
@@ -137,7 +136,7 @@ The identification is made through the SSH keys.
   - User Management
   - Access Via Administration Console
 
-## [COMMUNICATION & NOTIFICATIONS SECURITY]
+## Communication & Notifications Security
   The different way to receive information from our applications
   - Mail / Slack
 
@@ -148,37 +147,48 @@ The following mechanisms are available to mitigate incidents:
 - A command to revert to any daily backup < 30j
 - A command to logout currently connected user and resynchronize access keys or revoke all accesses.
 
-########################################################################################
 # How we set up a secure & OS agnostic software factory in a public cloud environment
-########################################################################################
-## [user management]
-Users are managed using team services or ssh keys
+## User Management
+A script is launched every 5 minutes to synchronize the public key. The script get all the public keys of the NeoXam teams and added them to our differents servers.
+If one keys or user is deleted, the script will spread the update on all our servers. Therefore, the access is no longer available.
+Moreover, each keys is secured with a strong passphrase.
 
-## [Software and Infrastructure testing]
-How we test Software and Infrastructure:
+## Software and Infrastructure testing
+To ensure security, several types of tests are performed:
+
 ### Vulnerability Scanner
-  To be define
+  ***@Val: Does Github provide this kind of tests on our codebase? I know that NeoXam uses Sonar in other products***
+
 ### Penetration Test
-  To be define
+  ***@Val: Describe in few word the last test procedure.***
+
 ### Secure coding & Codebase Security Audit
 All of our work is based on pull requests. In other words, before pushing and deploying our code, someone must review it. If the code that was modified or added only affects the configuration of the application, any member of the team can review it. For important modification which affects authentication or any other sensible parts of the code, it must be reviewed by the person with the highest level of seniority.
 
 In addition, we assess, each year or on demand, the security of our system's physical configuration, environment and user practices.
 
-## [Users Training]
+## Users Training
 All Security specialized companies report that the Human is the most efficient shield against cyber-attacks. And this is also the main weakness as we keep seeing in phishing campaign for instance.
 We are renewing our security awareness effort to protect our asset.
 This Awareness program is mandatory for all employees and contractors, and consist to pass a test of security after watching videos.
 The program is renewed every years.
 
 ## 3rd Party Software
-Due diligence before using 3rd Party Software as a Service
+Due diligence before using 3rd Party Software as a Service.
+Severals points are checked before to add a new 3rd Party Software as a Service:
+- Security guarantee
+- Privacy
+- Solid company with a strong presence
+- User reviews
 
-## [ADMINISTRATION]
-to be define
+And finally we take care to limit our dependencies to this services, in order to be able to change it quickly and simply
+***@VAL could you check how how we do the due diligence***
+
+## Administration
+Only the cloud Administror can acess to the admin panel of our cloud Services. Each member have his own credentials to use a service. The cloud Administror grant users according to their project.
+
 
 ## Local Machine Security
- ​
 NeoXam has a strong password policy for the local:
 - password changed once every 3 months
 - All password must be saved in a password manager
@@ -191,20 +201,17 @@ We stay vigilant with local machines, to prevent any lake of data :
 ## Network Security
   According to our architecture, network security is managed by restricting physical access to our servers.
 
-## COMMUNICATION & NOTIFICATIONS SECURITY
+## Communication & Notifications Security
 Impress solutions uses two medium of communication:
  - Slack notification: based on the API Rest.
  - Email is based on [sendgrid](https://sendgrid.com/)
 
 This both medium are secured by using a unique token between Empress and the service.
 
-## [INFORMATION MANAGEMENT AND CONFIDENTIALITY]
+## Information Management and Confidentiality
 Ensuring information management and confidentiality
 
-
-########################################################################################
 # How we guarantee your data security and privacy
-########################################################################################
 
 ## Permissioning
 Any access to data or application features is subject to a permission that is defined in the user Auth0 profile.
@@ -224,10 +231,10 @@ With Impress, like with any cloud solution, data is exchanged over the public We
 Impress also implements 'Data At Rest' encryption to prevents data visibility in the event of its unauthorized access or theft.
 
 ## Data Location
-All our AWS server are hosted in Continental Europe (Frankfurt)
-*About Zeit and the lambda invocation, the closest region is chosen automatically to deploy the lambda. A REFORMULER*
+All our AWS server and our Firebase database are hosted in Continental Europe (Frankfurt)
+Our content delivery network (Zeit) that serves the application, choose the best area to deploy the application. The best area is defined by the closest region of the user.
 
-## GDPR
+## G.D.P.R.
 On 27 April 2016, the European Parliament and the European Council adopted legislation known as General Data Protection Regulation (GDPR), which becomes enforceable 25 May 2018. This legislation replaces European Privacy Directive 95/46/EC.
 
 GDPR is intended to unify and strengthen data privacy for individuals located in the European Union (EU). GDPR also extends the applicability of EU data privacy legislation to non-EU companies who store or process data on EU residents and increases the fines that may be levied against companies who are responsible for preventing breaches of personal data or who violate GDPR requirements.
@@ -240,21 +247,22 @@ Per GDPR, Auth0 is a [Data Processor](https://auth0.com/docs/compliance/gdpr). I
 
 As far as Google Firebase is concerned, from a GRPD perspective, Google is generally seen a data processor and processes personal data on behalf the users. Firebase terms include [Data Processing and Security Terms for all Firebase services](https://firebase.google.com/terms/data-processing-term). Firebase allows Impress to be GDPR compliant.
 
-## DATA CENTER PHYSICAL SECURITY
+## Datacenter Physical Security
+Impress solution is cloud solution, all our datacenter are hosted in the cloud:
 - [AWS pysical Security](https://aws.amazon.com/compliance/data-center/controls/?nc1=h_ls#Physical_Access)
 - [Google pysical Security](https://www.google.com/about/datacenters/inside/data-security/index.html)
 - Zeit and Auth0 are using AWS.
 
 
-## DATA ACCESS ADMIN
+## Data Access Admin
 Only the cloud admin manager can administer your differents services.
 His duties are to manage the right of the team member according to according to current projects of the team.
 
-## DISCARDING DATA
+## Discarding data
 DISCARDING DATA ???
 Amazon norm / decomission server
 
-## BACKUP AND RECOVERY
+## Backup and Recovery
 Even if our cloud providers are reliable, we have prepared a **recovery procedure** to rollback data and/or our application to a previous state.
 For our databases:
 - daily download to a AWS filesystems
@@ -271,12 +279,12 @@ For our deployments
 All the teams work on laptop, and can work from other place than our office. Moreover our application run outside of NeoXam networks.
 ### AWS
 [Amazon Disaster recovery plan](https://aws.amazon.com/compliance/data-center/controls/?nc1=h_ls#Business_Continuity_.26_Disaster_Recovery)
-### auth0
+### Auth0
 [Auth0 Disaster recovery plan](https://auth0.com/availability-trust)
 ### Firebase
 [Google Disaster recovery plan](https://cloud.google.com/solutions/dr-scenarios-planning-guide)
 
-## REVERSIBILITY
+## Reversibility
 Slack Channel and trello board will be closed.
 Remove DNS will disable application.
 Auth0 account will be closed.
