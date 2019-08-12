@@ -80,6 +80,8 @@
     import 'https://cdn.jsdelivr.net/gh/vbrajon/rawjs/raw.js'
     Array.last = (arr) => arr.slice(0, -1)[0]
     Array.first = (arr) => arr[0]
+    Array.max = (arr) => arr.slice().sort((a, b) => b - a)[0]
+    Object.max = (obj) => obj.find(Object.values(obj).slice().sort((a, b) => b - a)[0])
     raw()
     window.type = Vue.prototype.type = x => Object.prototype.toString.call(x).slice(8, -1).toLowerCase()
 
@@ -100,19 +102,27 @@
           { label: 'risk_profile', color: '#728692' },
           { label: 'fees', color: '#4CC6B2' },
           { label: 'past_performance', color: '#6E9FCC' },
-          { label: 'information', color: '#8A6891' }],
+          { label: 'information', color: '#8A6891' },
+          { label: 'ignore', color: '#FF97A0' }],
       },
       watch: {
-        'selected': function (value) {
+        'selected': function(value) {
           axios.get('/ai/' + value).then(r => {
             this.text = r.data.split('\n').map((d, i) => ({ text: d, id: i, label: '' }))
+            this.predict_labels()
           })
-        }
+        },
       },
       methods: {
         update_label(annotation, label) {
           annotation.label = annotation.label === label ? '' : label
           Vue.set(this.text, annotation.id, annotation)
+        },
+        predict_labels() {
+          const inputs = this.text.slice(0, 100).map('text')
+          axios.post('https://ai.nx.digital/predict', { input: inputs }).then(d => {
+            d.data.map((v, k) => this.text[k].label = (v.max() || '').replace('delete', 'ignore'))
+          })
         },
         dlCSV(arr, lang, filename, browser) {
           const sep = lang === 'fr' ? ';' : ','
