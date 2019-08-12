@@ -21,6 +21,7 @@
     .labels button { margin: 2px;padding: 4px 8px;justify-content: left;text-transform: uppercase;font-weight: bold; }
     .delete { position: absolute;top: -15px;left: -15px;border-radius: 30px;width: 30px;height: 30px;background: #D80143;box-shadow: 0 1px 3px 1px rgba(60,64,67,.3); }
     .delete svg { height: 20px;width: 20px;margin: 5px;fill: white; }
+    button.delete { display: none; }
     .annotation { padding: 20px 0; }
     .header { font-weight: 800;font-size: 16px; }
     .object-card { border-radius: 3px;padding: 15px;box-shadow: 0 1px 1px 0 rgba(60,64,67,.08), 0 1px 3px 1px rgba(60,64,67,.16); }
@@ -53,11 +54,12 @@
       </ul>
       <div class="preview row" v-if="selected">
         <div class="text">
+          <a @click="show_deleted = !show_deleted">{{show_deleted ? 'Hide deleted' : 'Show deleted' }}</a>
           <div class="row header">
             <div class="paragraph">Text</div>
             <div class="labels">Labels</div>
           </div>
-          <div class="row annotation" v-for="annotation in text" v-if="annotation.text.length && annotation.label !== 'delete'">
+          <div class="row annotation" v-for="annotation in text" v-if="annotation.text.length && (show_deleted || annotation.label !== 'delete')">
             <div class="paragraph object-card" :style="{ color: annotation.label ? 'white': 'black', background: annotation.label ? labels.find(d => d.label === annotation.label).color : 'white' }">
               {{ annotation.text }}
               <a class="delete" @click="update_label(annotation, 'delete')">
@@ -65,7 +67,7 @@
               </a>
             </div>
             <div class="labels column">
-              <button @click="update_label(annotation, label.label)" :style="{ background: label.color }" v-for="label in labels">{{ label.label }}</button>
+              <button :class="label.label" @click="update_label(annotation, label.label)" :style="{ background: label.color }" v-for="label in labels">{{ label.label }}</button>
             </div>
           </div>
         </div>
@@ -97,13 +99,15 @@
         selected: '',
         text: [],
         csv: '',
+        show_deleted: false,
         labels: [
           { label: 'objectives', color: '#969692' },
           { label: 'risk_profile', color: '#728692' },
           { label: 'fees', color: '#4CC6B2' },
           { label: 'past_performance', color: '#6E9FCC' },
           { label: 'information', color: '#8A6891' },
-          { label: 'ignore', color: '#FF97A0' }],
+          { label: 'delete', color: '#D80143' },
+        ]
       },
       watch: {
         'selected': function(value) {
@@ -121,7 +125,7 @@
         predict_labels() {
           const inputs = this.text.slice(0, 100).map('text')
           axios.post('https://ai.nx.digital/predict', { input: inputs }).then(d => {
-            d.data.map((v, k) => this.text[k].label = (v.max() || '').replace('delete', 'ignore'))
+            d.data.map((v, k) => this.text[k].label = (v.max() || ''))
           })
         },
         dlCSV(arr, lang, filename, browser) {
