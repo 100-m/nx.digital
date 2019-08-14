@@ -52,9 +52,11 @@ Three big types of user roles exist in Impress: the application users who intera
 - to create factsheet on-demand using AWS lambdas.
 - access real-time private data on Firebase.
 
-**Developers** can connect to our AWS filesystem and computing EC2 instances via SSH, with a dedicated user, using RSA keypairs hosted on Github.
+**Users Administrator** can connect to Auth0 web interface and manage the account and permission of application users as well as the other users administrators.
 
-**Administrators** can connect to our AWS filesystem EC2 instance (surface.nx.digital) via SFTP, with a dedicated user, using RSA keypairs hosted on Github. They have access to raw financial data in read/write as well as a golden copy and application data in read-only. He manages the rights granted to each person on the team. (**Cloud Administror**)
+**Data Administrators** can connect to our AWS filesystem EC2 instance (surface.nx.digital) via SFTP, with a dedicated user, using RSA keypairs hosted on Auth0 or Github. They have access to raw financial data in read/write as well as a golden copy and application data in read-only.
+
+**Developers** can connect to our AWS filesystem and computing EC2 instances via SSH, with a dedicated user, using RSA keypairs hosted on Github.
 
 # A few principles that help secure our solution by design
 
@@ -76,7 +78,8 @@ The principle means giving a user account or process only those privileges which
 
 ### How it works in NeoXam?
 
-We create access only on-demand according to the project. The cloud admin manager grants or removes access according to the team allocation. That means after the development phases only the support team can access to the customer application.
+Only cloud administrators have access to AWS, Firebase, Zeit or Auth0 console.
+Users administrators accounts are created for the client and dedicated developers during the implementation phase. At any time, developer access can be removed by users administrator, at least one access will be needed by the support team to check on the data or users.
 
 ## SSH keys
 
@@ -84,7 +87,7 @@ We create access only on-demand according to the project. The cloud admin manage
 
 Impress solution and software factory uses public-key cryptography to encrypt and decrypt login information to the servers. Public–key cryptography uses a public key to encrypt a piece of data, and then the recipient uses the private key to decrypt the data. The public and private keys are known as a key pair. Public-key cryptography enables you to securely access your instances using a private key instead of a password.
 
-#### Protect access with passwords is a bad habit:
+### Protect access with passwords is a bad habit:
 
 - Passwords are generally, predictably, unavoidably weak
 - Password expiration (without a strong password policy user increment their password or use the same on different websites).
@@ -92,21 +95,19 @@ Impress solution and software factory uses public-key cryptography to encrypt an
 - SSH keys don't get transmitted to the remote system
 - SSH keys are composed of a passphrase and a private Keys.
 
-#### Storage & key management
+### Storage & key management
 
 At Neoxam, we fetch our clients’ public key from their GitHub account (https://github.com/USER.keys).
 All of our clients must have a GitHub account. If not, they must create one and send us their username to get their public keys automatically.
 A script is launched every 5 minutes to synchronize the public key. Once the client revokes his public key, it will no longer exist on our server. Therefore, access is no longer available.
 Your credentials and passphrase must remain confidential so that no one can modify or remove your public key. Our contract and trust are based on it.
 
-**_@Val Customers Github account is not a good solution to grant access to our server._**
-
-#### How to manage SSH Keys ?
+### How to manage SSH Keys ?
 
 - [Create a SSH Key](https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [Read / update / delete : Directly from your github account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
 
-#### Usage
+### Usage
 
 - Codebase Access
 - Connect to our server (Surface / Abyss)
@@ -120,7 +121,7 @@ Two-factor authentication is required on all GitHub and Auth0 admin accounts.
 
 # How we designed a secure application and are keeping it that way
 
-## Users management
+## User management
 
 Users are managed using a dedicated 3rd party SaaS (Auth0).
 Auth0 is an authentication and authorization management platform providing customers with a User Interface to manage the users themselves:
@@ -168,7 +169,8 @@ Impress solutions use couple mediums of communication:
 - SMS notification: based on [Twilio](https://www.twilio.com/).
 - Email notification: based on [Sendgrid](https://sendgrid.com/).
 - Slack notification: based on the API Rest.
-  These mediums are secured by API tokens stored on secret environment variable on AWS Lambdas.
+
+These mediums are secured by API tokens stored on secret environment variable on AWS Lambdas.
 
 ## Ensuring Business Continuity
 
@@ -185,11 +187,11 @@ In the case of a major incident, each team member is trained to apply our Recove
 
 # How we set up a secure & OS agnostic software factory in a public cloud environment
 
-## User Management
+## Administrator Management
 
-A script is launched every 5 minutes to synchronize the public key. The script gets all the public keys of the NeoXam teams and added them to our different servers.
-If one key or user is deleted, the script will spread the update on all our servers. Therefore, access is no longer available.
-Moreover, each key is secured with a strong passphrase.
+Users Administrators are managed using a dedicated 3rd party SaaS (Auth0).
+Data Administrators are managed using a dedicated 3rd party SaaS (Auth0 or Github) and a synchronization script. They have access to servers with a SSH keypair, if one key or user is added or deleted, the script will spread the authorization on our servers.  
+We use the same principle to grant/remove access to Developers in our team. In addition, Developers have access to client data only if their email is authorized as Users Administrator.
 
 ## Software and Infrastructure testing
 
@@ -197,15 +199,21 @@ To ensure security, several types of tests are performed:
 
 ### Vulnerability Scanner
 
-**_@Val: Does Github provide this kind of test on our codebase? I know that NeoXam uses Sonar in other products_** > No
+We limit drastically our dependencies to services SDK or libraries and these dependencies are scanned by GitHub for vulnerability and security patches.
 
 ### Penetration Test
 
-**_@Val: Describe in a few words the last test procedure._** > Ok
+External audit teams are testing our application and servers for vulnerability. We allow running blackbox and greybox test, for this we notify third party services that a penetration test will run and we give a set of access to the audit team. We don't give access to the source code of the application for intellectual property reasons.
+
+Blackbox tests simulate an attacker without access to the platform. Usually all OWASP vulnerabilities are tested as well as targeted attacks.
+
+Greybox tests simulate an attacker with a user or admin login, trying to extend data out of his scope or following a corrupted link.
+
+If issues are found after a test, we commit to correct any issues with a medium risk or medium business impact within a week and deploy the patch for all our cloud clients.
 
 ### Secure coding & Codebase Security Audit
 
-All of our work is based on pull requests. In other words, before pushing and deploying our code, someone must review it. If the code that was modified or added only affects the configuration of the application, any member of the team can review it. For important modification which affects authentication or any other sensitive parts of the code, it must be reviewed by the person with the highest level of seniority.
+All of our work is validated by a peer via a pull requests. In other words, before pushing and deploying our code, someone must review it. If the code that was modified or added only affects the configuration of the application, any member of the team can review it. For important modification which affects authentication or any other sensitive parts of the code, it must be reviewed by the person with the highest level of seniority.
 
 In addition, we assess, each year or on-demand, the security of our system's physical configuration, environment, and user practices.
 
@@ -226,12 +234,11 @@ Several points are checked before to add a new 3rd Party Software as a Service:
 - Solid company with a strong presence
 - User reviews
 
-And finally, we take care to limit our dependencies to these services, to be able to change it quickly and simply
-**_@VAL could you check how we do the due diligence_**
+And finally, we take care to limit our dependencies to these services, to be able to change it quickly and simply.
 
 ## Administration
 
-Only the cloud Administrator can access to the admin panel of our cloud Services. Each member has his credentials to use a service. The cloud Administrators grant users according to their project.
+Only the cloud Administrator can access the admin panel of our cloud Services. Each member has his credentials to use a service. The cloud Administrators grant users according to their project.
 
 ## Local Machine Security
 
@@ -246,20 +253,6 @@ We stay vigilant with local machines, to prevent any lake of data :
 - availability to erase remotely all the data that is on the hard disk
 - Updated Operating System and Antivirus Software.
 
-## Network Security
-
-According to our architecture, network security is managed by restricting physical access to our servers.
-
-## Communication & Notifications Security
-
-Impress solutions use couple mediums of communication:
-
-- SMS notification: based on [Twilio](https://www.twilio.com/).
-- Email notification: based on [Sendgrid](https://sendgrid.com/).
-- Slack notification: based on the API Rest.
-
-These mediums are secured by using a secret token between Impress and the service.
-
 ## Information Management and Confidentiality
 
 Ensuring information management and confidentiality
@@ -268,13 +261,11 @@ Ensuring information management and confidentiality
 
 ## Permissioning
 
-Any access to data or application features is subject to permission that is defined in the user's Auth0 profile.
+Any access to data or application features is subject to permission that is defined in the user's Auth0 profile. Each user can be set a funds/shares list that he can access. On each funds/shares, a publication date can limit the information exposed to the users before the factsheet is release, for legal reasons.
 
-Data is delivered to the application either directly through Firebase or the Impress APIs. Both mechanisms are protected by the authentication service.
+Financial Data is delivered to the application via the Impress API, secured by an authentication API.
 
-Firebase provides a built-in Auth0 connection and built-in authentication mechanism.
-
-Impress API, built-in Node.js, provides _XXXXXXX complete_
+Application configuration and real-time data is delivered through Firebase, secured by their built-in authentication mechanism and the Auth0 token.
 
 ## Data encryption
 
@@ -284,11 +275,11 @@ With Impress, like with any cloud solution, data is exchanged over the public We
 - data exchanged between developers and a server is encrypted with the SSH protocol
 - data exchanged between administrators and a server is encrypted with the SFPT protocol.
 
-Impress also implements 'Data At Rest' encryption to prevents data visibility in the event of its unauthorized access or theft.
+Impress also implements "Data At Rest" encryption to prevents data visibility in the event of its unauthorized access or theft.
 
 ## Data Location
 
-All our AWS server and our Firebase database are hosted in Continental Europe (Frankfurt)
+All our AWS server and our Firebase database are hosted in Continental Europe (Paris)
 Our content delivery network (Zeit) that serves the application, choose the best area to deploy the application. The best area is defined by the closest region of the user.
 
 ## G.D.P.R.
@@ -313,24 +304,24 @@ Impress solution is cloud solution, all our datacenter are hosted in the cloud:
 - [Google physical Security](https://www.google.com/about/datacenters/inside/data-security/index.html)
 - Zeit and Auth0 are using AWS.
 
-## Discarding data
+## Data Access Admin
 
-DISCARDING DATA ???
-Amazon norm / decommission the server
+Only the cloud administrator can administer your differents services.
+His duties are to manage the right of the team member according to current projects of the team.
 
 ## Backup and Recovery
 
 Even if our cloud providers are reliable, we have prepared a **recovery procedure** to rollback data and/or our application to a previous state.
-For our databases:
 
-- daily download to the AWS filesystems
-- Weekly archive on Friday's backup
+For our servers & databases:
+
+- Daily data backup (AWS & Firebase)
+- Weekly filesystem snapshots
 - Archive are conserved 2 years before removing.
-  For our servers:
-- Weekly snapshot is taken
-- Data stored on our Server (Customer or custodian flux) are saved on a shared disk (redundancy)
-  For our deployments
-- We keep at least **_ N _** previous version after a new delivery
+
+For our deployments:
+
+- We keep all previous version of the application after a new delivery
 
 ## Disaster Recovery Plan
 
