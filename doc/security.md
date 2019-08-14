@@ -172,11 +172,16 @@ Impress solutions use couple mediums of communication:
 
 ## Ensuring Business Continuity
 
-There are 2 channels of communication to reach us, a dedicated slack channel and a support email address **contact@100m.io**.
-The following mechanisms are available to mitigate incidents:
+There are 2 channels of communication to reach us, a dedicated slack channel and a support email address *contact@100m.io*.
 
-- A command to revert to any daily backup < 30j
-- A command to logout currently connected user and resynchronize access keys or revoke all accesses.
+The support team is available from Monday to Friday from 9:00 am to 7:00 pm, within a maximum of 2 hours.
+
+Business continuity plan covers the following risks:
+- delivery defect
+- Issues with our third-party service
+- Issues with our Cloud provider.
+
+In the case of a major incident, each team member is trained to apply our Recovery plan. The training is realized in our demonstration environment at least once a year. The recovery plan execution necessitates 1 day.
 
 # How we set up a secure & OS agnostic software factory in a public cloud environment
 
@@ -308,11 +313,6 @@ Impress solution is cloud solution, all our datacenter are hosted in the cloud:
 - [Google physical Security](https://www.google.com/about/datacenters/inside/data-security/index.html)
 - Zeit and Auth0 are using AWS.
 
-## Data Access Admin
-
-Only the cloud admin manager can administer your differents services.
-His duties are to manage the right of the team member according to current projects of the team.
-
 ## Discarding data
 
 DISCARDING DATA ???
@@ -337,6 +337,7 @@ For our databases:
 ### NeoXam
 
 All the teams work on laptops and can work from another place than our office. Moreover, our application runs outside of NeoXam networks.
+__Mail sent to IT__
 
 ### AWS
 
@@ -352,11 +353,14 @@ All the teams work on laptops and can work from another place than our office. M
 
 ## Reversibility
 
-Slack Channel and Trello board will be closed.
-Remove DNS will disable the application.
-Auth0 account will be closed.
-Remove all customers data from our server and databases
-All the backup will conserve XX days, after this delay, backups are removed.
+In the event of termination of the contractual relationship, whatever the cause, the following tasks will be performed within 10 days:
+
+- return to the customer  (or possibly destroy, at the Customer's option) all data
+- Decommissioning all cloud services (Server and Database)
+- Slack Channel and Trello board will be closed.
+- Remove DNS
+- Decommissioning all our thrid-party services (Auth0...)
+- Backups will be conserved 1 year, after this delay, backups are removed.
 
 # F.A.Q.
 
