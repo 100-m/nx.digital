@@ -1,12 +1,12 @@
-# Impress Architecture at a glance
+# Architecture Overview
 
-## Impress is a cloud solution
+## Impress Architecture at a glance
 
 Impress is a cloud-based product implementing best practices in terms of architecture and security. The platform relies on world-class software as services: AWS, Auth0, Firebase, Github and Zeit.
 
 One key to have a secure architecture is to have a comprehensive system, here is our system's schema:
 
-<img style="width: calc(100% + 400px);margin-left: -400px;" src="/img/impress-architecture.png" />
+![Architecture](/img/impress-architecture.png)
 
 ## Relying on best-in-class 3rd party provider
 
@@ -58,9 +58,9 @@ Three big types of user roles exist in Impress: the application users who intera
 
 **Developers** can connect to our AWS filesystem and computing EC2 instances via SSH, with a dedicated user, using RSA keypairs hosted on Github.
 
-# A few principles that help secure our solution by design
+# Security principles
 
-## Decentralized security.
+## Decentralization
 
 In an "on-premises" security paradigm, most resources and storage are centralized on a network that is a single point of entry. The network has to be protected behind firewalls in a private network. Access to this network is usually very tightly controlled as malicious access can compromise the entire network.
 
@@ -119,7 +119,7 @@ Two-factor authentication is an additional security layer for your company that 
 
 Two-factor authentication is required on all GitHub and Auth0 admin accounts.
 
-# How we designed a secure application and are keeping it that way
+# Cloud application security
 
 ## User management
 
@@ -174,18 +174,17 @@ These mediums are secured by API tokens stored on secret environment variable on
 
 ## Ensuring Business Continuity
 
+Business continuity plan covers the following risks:
+- delivery defect
+- issues with our third-party services
+
 There are 2 channels of communication to reach us, a dedicated slack channel and a support email address *contact@100m.io*.
 
 The support team is available from Monday to Friday from 9:00 am to 7:00 pm, within a maximum of 2 hours.
 
-Business continuity plan covers the following risks:
-- delivery defect
-- Issues with our third-party service
-- Issues with our Cloud provider.
+In the case of a major incident, each team member is trained to apply our Recovery plan. The recovery plan execution takes 1 day.
 
-In the case of a major incident, each team member is trained to apply our Recovery plan. The training is realized in our demonstration environment at least once a year. The recovery plan execution necessitates 1 day.
-
-# How we set up a secure & OS agnostic software factory in a public cloud environment
+# Development process security
 
 ## Administrator Management
 
@@ -253,11 +252,7 @@ We stay vigilant with local machines, to prevent any lake of data :
 - availability to erase remotely all the data that is on the hard disk
 - Updated Operating System and Antivirus Software.
 
-## Information Management and Confidentiality
-
-Ensuring information management and confidentiality
-
-# How we guarantee your data security and privacy
+# Data storage security
 
 ## Permissioning
 
@@ -307,7 +302,7 @@ Impress solution is cloud solution, all our datacenter are hosted in the cloud:
 ## Data Access Admin
 
 Only the cloud administrator can administer your differents services.
-His duties are to manage the right of the team member according to current projects of the team.
+His duties are to manage the rights of the team member according to current projects of the team.
 
 ## Backup and Recovery
 
@@ -325,22 +320,13 @@ For our deployments:
 
 ## Disaster Recovery Plan
 
-### NeoXam
+**NeoXam**: Available on-demand via [contact@nx.digital](mailto:contact@nx.digital)
 
-All the teams work on laptops and can work from another place than our office. Moreover, our application runs outside of NeoXam networks.
-__Mail sent to IT__
+**AWS**: [Amazon Disaster recovery plan](https://aws.amazon.com/compliance/data-center/controls/?nc1=h_ls#Business_Continuity_.26_Disaster_Recovery)
 
-### AWS
+**Auth0**: [Auth0 Disaster recovery plan](https://auth0.com/availability-trust)
 
-[Amazon Disaster recovery plan](https://aws.amazon.com/compliance/data-center/controls/?nc1=h_ls#Business_Continuity_.26_Disaster_Recovery)
-
-### Auth0
-
-[Auth0 Disaster recovery plan](https://auth0.com/availability-trust)
-
-### Firebase
-
-[Google Disaster recovery plan](https://cloud.google.com/solutions/dr-scenarios-planning-guide)
+**Firebase**: [Google Disaster recovery plan](https://cloud.google.com/solutions/dr-scenarios-planning-guide)
 
 ## Reversibility
 
@@ -355,36 +341,21 @@ In the event of termination of the contractual relationship, whatever the cause,
 
 # F.A.Q.
 
-## Employees leaving the company
+## How do you handle employees leaving the company?
 
-### how do you handle employees leaving the company?
-
-Each developer has an email that allows him to access to GitHub, Auth0, Firebase, AWS, and Zeit.
+Each developer has a **@neoxam.com** email and corresponding accesses to GitHub, Auth0, Firebase, AWS, and Zeit.
 If a developer quits the job, all that has to be done is:
 
 - remove his email from LDAP
 - remove his access to GitHub
 - remove his access to AWS
-- remove his access to firebase (for all databases)
-- change firebase API key (for all projects)
-- remove his access to Auth0 (all clients)
+- remove his access to Firebase
+- regenerate all Firebase API keys
+- remove his access to Auth0
 - remove his access to Zeit
 
-## Loss of a device
-
-### how do you handle the loss of a device?
+## How do you handle the loss of a device?
 
 - Erase remotely his device
-- Remove his SSH Keys from Github account and Server
-- Reset all his passwords.
-
-## Password policy
-
-### how do you impose password policy?
-
-- All passwords must be saved in an encrypted password manager
-- Use a Different Password on every site/service
-- Not be identical to the previous **X** passwords.
-- Not be transmitted in the clear or plaintext outside the secure location
-- Always enable the two-factor authentication
-  **\*confirm with IT\*\***
+- Remove SSH Keys from Github account (Server access are automatically synced)
+- Reset all accesses to third parties.

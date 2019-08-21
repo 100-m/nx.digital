@@ -1,32 +1,81 @@
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<!-- <base target="_blank"> -->
 <title>NeoXam Doc</title>
 <link href="/neoxam.css" rel="stylesheet" />
 <style>
-  .content { background: white;max-width: 1280px;margin: 40px auto; }
-  section { padding: 40px;border-bottom: 1px solid #ddd; }
+  body { display: flex;flex-wrap: wrap; }
+  h1.neoxam { z-index: 1;position: fixed;width: 100%;justify-content: flex-start;background: var(--text);height: 76px;padding: 0 60px;margin: 0;font-size: 1.5em;font-weight: 600; }
+  .content { flex: 1; }
+
+  section { padding: 40px;background: white;border-bottom: 1px solid #ddd; }
+  section.h1 { margin-top: 60px; }
+  section.h1 > h1 { font-size: 2.5em; }
   section:empty { display: none; }
-  section > * { margin-left: 400px;margin-right: 40px; }
-  section > h1 { color: #0ED8B8;font-size: 2em;margin-left: 0px; }
-  .content section:not(:first-child) h1 { margin-top: 100px; }
-  section > h2 { width: 300px;float: left;margin: 20px; }
-  section > p { text-align: justify; }
-  li div { margin: 10px 0 20px; }
+  section p { text-align: justify; }
+  section img { max-width: 100%; }
+  .toc { visibility: hidden; }
+  @media (min-width: 1000px) {
+    .toc { visibility: visible; }
+    .content { max-width: calc(100% - 340px);margin: 60px; }
+    section > h1, section > h2 { margin: 0;padding: 20px;margin-top: -100px;padding-top: 120px; }
+    section > :not(h1):not(h2) { margin-left: 400px;margin-right: 40px; }
+    section > h2 { width: 300px;float: left; }
+    section img { max-width: calc(100% + 400px);margin-left: -400px; }
+  }
 </style>
 <h1 class="neoxam">
   <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
     <path d="M5 1.682L3.325 0 2.257 1.067 5 3.81l2.743-2.743L6.675 0 5 1.682zM5 8.318L6.675 10l1.068-1.067L5 6.19 2.257 8.933 3.325 10 5 8.318zM8.318 5L10 3.325 8.933 2.257 6.19 5l2.743 2.743L10 6.675 8.318 5z" fill="#0ED8B8" />
     <path d="M1.682 5L0 6.675l1.067 1.068L3.81 5 1.067 2.257 0 3.325 1.682 5z" fill="#fff" />
   </svg>
-  NeoXam Doc
+  NeoXam Digital
 </h1>
 <div class="content"></div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
 <script>
-  let path = '/doc/' + location.search.replace('?','') + '.md'
-  fetch(path)
+  fetch('/doc/' + location.search.replace('?', '').replace(/(.md)?$/, '.md'))
     .then(r => r.text())
     .then(md => marked(md))
-    .then(html => document.querySelector('.content').innerHTML = '<section>' + html.replace(/<h2/g, '</section><section><h2') + '</section>')
+    .then(html => document.querySelector('.content').innerHTML = '<section>' + html.replace(/<h1/g, '</section><section class="h1"><h1').replace(/<h2/g, '</section><section><h2') + '</section>')
+    .then(() => { // Table of content
+      node($$('h1:not(.neoxam), h2, h3').map(el => el.outerHTML.replace(/<(h\d) id="/, '<a class="$1" href="#').replace(/<h\d/, '<a')).join('\n'), 'div', 'toc')
+      node(`.toc { position: fixed;top: 120px;right: 0;display: flex;flex-direction: column;width: 220px;height: fit-content;overflow: auto;overflow-x: hidden;border-left: 1px solid #ddd; }
+      .toc a { padding: 4px 16px 4px 24px;color: #888;font-size: 12px;min-height: 16px;line-height: 16px;font-weight: 600;text-overflow: ellipsis;white-space: nowrap;overflow: hidden; }
+      .toc .h2 { padding-left: 36px; }
+      .toc .h3 { padding-left: 48px;font-weight: 400; }
+      .toc a:not(.h1).hide { display: none; }
+      .toc a.current { color: var(--primary);border-left: 2px solid var(--primary); }`, 'style')
+    })
+    .then(() => { // Scroll animation
+      const loop = () => {
+        $$('section *').forEach(el => {
+          const r = el.getBoundingClientRect()
+          if ((r.top <= 0 && r.bottom >= 0) ||
+            (r.bottom >= window.innerHeight && r.top <= window.innerHeight) ||
+            (r.top >= 0 && r.bottom <= window.innerHeight)) return el.classList.add('in-viewport')
+          return el.classList.remove('in-viewport')
+        })
+        try {
+          const current = $(`.toc a[href="#${$('h1.in-viewport, h2.in-viewport, h3.in-viewport').id}"]`)
+          $$('.toc a').forEach(el => el === current ? el.classList.add('current') : el.classList.remove('current'))
+          const groups = $$('.toc a').reduce((acc, el) => (el.classList.contains('h1') && acc.push([el]) || acc.slice(-1)[0].push(el), acc), [])
+          groups.map(grp => grp.some(el => el.classList.contains('current')) && grp.map(el => el.classList.remove('hide')) || grp.map(el => el.classList.add('hide')))
+        } catch(e) {}
+        window.requestAnimationFrame(loop)
+      }
+      loop()
+      node(`section > * { opacity: 0;transition: .6s all; }
+      section > .in-viewport { opacity: 1; }`, 'style')
+    })
+  // Utils
+  window.$ = s => document.querySelector(s)
+  window.$$ = s => Array.from(document.querySelectorAll(s))
+  function node(html, tag = 'div', className) {
+    const node = document.createElement(tag)
+    if (className) node.className = className
+    node.innerHTML = html
+    document.body.appendChild(node)
+  }
 </script>

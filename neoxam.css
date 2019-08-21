@@ -1,7 +1,7 @@
 :root { --primary: #09c0a3;--text: #222; }
-body { font-family: MarkPro;font-size: 20px;font-weight: 300;background: #f8f8f8;color: var(--text);margin: 0;min-width: 900px; }
+body { font-family: MarkPro;font-size: 20px;font-weight: 300;background: #f8f8f8;color: var(--text);margin: 0;min-width: 800px; }
 h1, h2, h3 { display: flex;align-items: center;letter-spacing: -0.02em; }
-h1.neoxam { justify-content: center;padding: 10vh;margin: 0;font-size: 4em;background: var(--text);background-image: url(https://www.neoxam.com/wp-content/themes/neoxam/assets/images/dist/inner-hero-arrows.svg);background-repeat: no-repeat;background-position: center 140px;background-size: 100% auto;color: white; }
+h1.neoxam { justify-content: center;padding: 80px 0;margin: 0;font-size: 4em;background: var(--text);background-image: url(https://www.neoxam.com/wp-content/themes/neoxam/assets/images/dist/inner-hero-arrows.svg);background-repeat: no-repeat;background-position: center 160px;background-size: 100% auto;color: white; }
 svg { width: 1em;height: 1em;margin: .2em; }
 a { text-decoration: none;transition: background .3s cubic-bezier(.4,0,.2,1); }
 a.btn { display: flex;align-items: center;justify-content: center;width: 180px;height: 40px;color: white;background: var(--primary); }
