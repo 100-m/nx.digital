@@ -13,7 +13,6 @@ Ce fichier nx-pack.xlsx est constitué de 5 onglets:
 - funds_referential
 - assets_referential
 - management_comment
-- managers
 - translation
 
 Un exemple de fichier nx-pack.xlsx vous sera fourni en début de projet.
