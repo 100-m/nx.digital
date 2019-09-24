@@ -6,7 +6,7 @@ Impress is a cloud-based product implementing best practices in terms of archite
 
 One key to have a secure architecture is to have a comprehensive system, here is our system's schema:
 
-![Architecture](/img/impress-architecture.png)
+![Architecture](/doc/img/impress-architecture.png)
 
 ## Relying on best-in-class 3rd party provider
 
@@ -64,13 +64,13 @@ Three big types of user roles exist in Impress: the application users who intera
 
 In an "on-premises" security paradigm, most resources and storage are centralized on a network that is a single point of entry. The network has to be protected behind firewalls in a private network. Access to this network is usually very tightly controlled as malicious access can compromise the entire network.
 
-<!-- <img style="width: 100%;" src="/img/on-premises-security.png" /> -->
+<!-- <img style="width: 100%;" src="/doc/img/on-premises-security.png" /> -->
 
 We operate in a "cloud paradigm" with a decentralized vision of security: sensitive data and code can be located on multiple networks that are accessible on the Web. In that case, each application is responsible for its security. Access to an application or a resource is protected through authentication. Each user is given a "key" (an SSH key or a token) that gives him some rights. Information is exchanged between applications on the public web through encrypted protocols to guarantee confidentiality.
 
 In a "cloud paradigm", there is no such thing as a local network to protect. The only local resource is the local machine of the user. This is why all our machines have an encrypted disk and are password protected.
 
-<!-- <img style="width: 100%;" src="/img/cloud-security.png" /> -->
+<!-- <img style="width: 100%;" src="/doc/img/cloud-security.png" /> -->
 
 ## Principle of Least Privilege
 

@@ -92,7 +92,7 @@ main > hr { width: 600px; }
 </main>
 
 <script type="module">
-import 'https://cdn.jsdelivr.net/gh/vbrajon/rawjs/raw.js'
+import 'https://vbrajon.github.io/rawjs/raw.js'
 import Vue from 'https://unpkg.com/vue@2.6.10/dist/vue.esm.browser.js'
 raw()
 // Mini Vue router
@@ -199,9 +199,8 @@ new Vue({
     fetch('https://trello.com/b/dn8XQPP7/100m-prod.json?key=046e2330907f0ebb73bd1f18947a4308&token=52431443c595002aa9fc45d54a11e9a4b5797c1a1e1dccc948a5f8efbcb3c5d1&cards=all&lists=all&checklists=all&members=all')
     .then(r => r.json())
     .then(json => {
-      window.trello = this.trello = Object.freeze(json)
-
       const d = new Date('2019')
+      window.trello = this.trello = Object.freeze(json)
       window.tickets = this.tickets = Object.freeze(
         trello.cards
           .filter(d => /([^-]*)-(.*)\[([.0-9]+).*\]/.exec(d.name))
