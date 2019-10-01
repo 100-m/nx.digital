@@ -35,7 +35,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/0.3.6/marked.js"></script>
 <script>
-  fetch('/doc/' + location.search.replace('?', '').replace(/(.md)?$/, '.md'))
+  fetch(location.search.replace('?', '').replace(/^(?!http|\/)/, '/doc/').replace(/(.md)?$/, '.md'))
     .then(r => r.text())
     .then(md => marked(md))
     .then(html => document.querySelector('.content').innerHTML = '<section>' + html.replace(/<h1/g, '</section><section class="h1"><h1').replace(/<h2/g, '</section><section><h2') + '</section>')
