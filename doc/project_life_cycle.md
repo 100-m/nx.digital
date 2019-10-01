@@ -67,7 +67,7 @@ During this phase developper will:
 
 ## Definition of ready:
 * Feedbacks round 1 closed
-* Template of the new factsheet (according to contract)
+* New Factsheet Design (according to contract)
 
 ## Sprint
 During this phase developper will:
