@@ -71,7 +71,7 @@ During this phase developper will:
   * Digital App updated with History / benchmark / Indicators
   * Feedbacks round 1
 
-# 4) Factsheet
+# Factsheet
 
 ## Definition of ready
 * Feedbacks round 1 closed
@@ -84,9 +84,12 @@ During this phase developper will:
 ##  Definition of done
  * Feedbacks round 2
 
-// TO DO: Explain limits in design implementation...
+## Custom Design
 
-# 5) Add others funds (Only for production, not realized for POC)
+If you have chosen a custom design, our team needs a template filled with real data. (Indeed false data does not allow to see the true size of the blocks (disclaimers ...)).
+Moreover the template won't be reproduce exactly (pixel by pixel), some corrections will be added due to implementation constraints.
+
+# Add others funds (Only for production, not realized for POC)
 
 ## Definition of ready
 * Feedbacks round 2 closed
