@@ -11,8 +11,8 @@ Each phase is composed of :
 A new phase can start if and only if all Definition of Ready are Verified.
 
 Two dedicated moments will be allowed for feedbacks:
-* ROUND1: End of phase 2 (Complementary data)
-* ROUND2: End of phase 3 (Reporting)
+* ***ROUND1***: End of phase 2 (Complementary data)
+* ***ROUND2***: End of phase 3 (Reporting)
 
 All feedback must be centralized on Trello. FeedBacks send by mail won't be processed.
 
@@ -32,7 +32,7 @@ The implementation of the project starts with a meeting that will present the to
   * SFTP connection OK
 
   * Nx Pack (link to download Greenrock nxpack):
-      - asset referential with at least (Currency, Asset_Class, Country, Sector)
+      - Asset referential with at least (Currency, Asset_Class, Country, Sector)
       - Fund referential
       - Translation for at least 1 language
 
@@ -64,8 +64,8 @@ If specific computes neeeded:
 ## Sprint (5 days)
 
 During this phase developper will:
-  * add the new indicators and check all the
-  * check all the computers on the main funds profile thanks to the examples
+  * Add the new indicators and check all the
+  * Check all the computers on the main funds profile thanks to the examples
 
 ##  Definition of done
   * Digital App updated with History / benchmark / Indicators
@@ -98,7 +98,7 @@ Moreover the template won't be reproduce exactly (pixel by pixel), some correcti
 
 ## Sprint
 During this phase developper will:
-  * add the others funds
+  * Add the others funds
 
 ## Definition of done:
 * All funds are added
