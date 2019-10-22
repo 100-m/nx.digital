@@ -21,6 +21,8 @@ All feedback must be centralized on Trello. FeedBacks send by mail won't be proc
 ## Overview
 The implementation of the project starts with a meeting that will present the tools used (Trello / Slack) and will identify the main fund profiles.
 
+Trello must be linked to the support channel.
+
 ## Definition of done
 
   * The customer can access slack and Trello
