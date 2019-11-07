@@ -8,7 +8,7 @@ Each phase is composed of 3 main steps:
 
 * ***Definition of Ready (DoR)***: When a phase is ready to start.
 * ***Sprint***: The period of time during which specific work has to be completed and ready for review
-* ***Definition of Done (DoD)***: What is expected during this phase
+* ***Definition of Done (DoD)***: What is expected during this phase (awaited result)
 
 
 A new phase can start if, and only if all Definition of Ready are verified.
@@ -72,10 +72,10 @@ During this phase, developers will:
 ## Definition of ready
 
   * Historic fund & Benchmark
-  * Benchmark
+  * Benchmark (Benchmark provider)
   * Indicators (Delta, Sensitaux / Exposure ...)
-  * Spreadsheet with formulae with real data: Volatility, drawdown... (If specific computes needed:)
-  * Benchmark referential (if attribution needed)
+  * Detailed example: Excel spreadsheet filled with real data and where we can clearly see the method or formula that has been used to get the awaited result (Just in case the client wants a specific formula to be used)
+  * Benchmark referential (In case the client need to display the attribution analysis)
 
 ## Sprint
   
