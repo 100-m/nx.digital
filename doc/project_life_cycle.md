@@ -110,12 +110,12 @@ Moreover, template will not be reproduced pixel-wise, some corrections will be a
 
 ## Definition of ready
 * Feedbacks round 2 closed
-* Nx-pack filled for all the funds
-* History / benchmarks / indicators available for all the funds
+* Nx-pack filled for all funds
+* History / benchmarks / indicators available for all funds
 
 ## Sprint
 During this phase, developers will:
-  * Add the others funds
+  * Add the rest of the funds
 
 ## Definition of done:
 * All funds are added
