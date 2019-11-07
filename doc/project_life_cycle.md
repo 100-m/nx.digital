@@ -33,7 +33,7 @@ Trello must be linked to the support channel.
 ## Definition of ready
   * SFTP connection OK
 
-  * Nx Pack (link to download Greenrock nxpack):
+  * Nx Pack ([Example](http://platform.100m.io/dist/greenrock/nx-pack_greenrock.xlsx)):
       - Asset referential with at least (Currency, Asset_Class, Country, Sector)
       - Fund referential
       - Translation for at least 1 language
@@ -50,7 +50,7 @@ During this phase developper will:
 
 ## Definition of done
   * Digital App updated every day on all shares and all funds
-  * Application is lived and firt user can use application.
+  * Application is lived and first user can use application.
   * No customer feedback expected
 
 # 3) Complementary data
@@ -59,6 +59,7 @@ During this phase developper will:
 
   * Historic fund & Benchmark
   * Benchmark
+  * attribution
   * Indicators (sensitaux / Expo ...)
 If specific computes neeeded:
   * Spreadsheet with formulae with real data. (Volatility, drawdown...)
