@@ -34,7 +34,7 @@ Trello must be linked to the support channel.
 
 ## Definition of ready
 
-  * SFTP connection OK
+  * SFTP connection ([More informations](https://nx.digital/doc?transfer))
 
   * Nx Pack ([Example](http://platform.100m.io/dist/greenrock/nx-pack_greenrock.xlsx)):
       - Asset referential with at least: (Currency, Asset_Class, Country, Sector)
