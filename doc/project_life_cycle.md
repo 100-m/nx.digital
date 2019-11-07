@@ -2,6 +2,8 @@
 
 The aim of this document is to describe the life cycle of POC or a Production.
 
+![project life cycle Schema](https://platform.100m.io/dist/nx-digital/project-life-cycle.png)
+
 Each phase is composed of :
 
 * ***A Definition of Ready***: When a phase is ready to start.
