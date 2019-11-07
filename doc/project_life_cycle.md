@@ -11,7 +11,7 @@ Each phase is composed of 3 main steps:
 * ***Definition of Done (DoD)***: What is expected during this phase
 
 
-A new phase can start if, and only if all Definition of Ready are Verified.
+A new phase can start if, and only if all Definition of Ready are verified.
 
 Two dedicated moments will be allowed for feedbacks:
 * ***ROUND1***: End of phase 2 (Complementary data)
