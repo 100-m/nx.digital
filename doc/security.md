@@ -4,17 +4,17 @@
 
 Impress is a cloud-based product implementing best practices in terms of architecture and security. The platform relies on world-class software as services: AWS, Auth0, Firebase, Github and Zeit.
 
-One key to have a secure architecture is to have a comprehensive system, here is our system's schema:
+One key to have a secure architecture is to have a comprehensive system. Here is our system's schema:
 
 ![Architecture](/doc/img/impress-architecture.png)
 
-## Relying on best-in-class 3rd party provider
+## Relying on best-in-class third party provider
 
-Impress leverages 3rd party providers for content delivery, user authentication, real-time data storage, as well as server hosting. We chose well-establish best-in-class providers that we review regularly.
+Impress leverages third party providers for content delivery, user authentication, real-time data storage, as well as server hosting. We chose well-establish best-in-class providers that we review regularly.
 
 ### Content Delivery
 
-Content delivery network (CDN) are systems of distributed servers (network) that deliver pages and other web content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server. It is effective in speeding the delivery of content of websites with high traffic and websites that have a global reach.
+Content delivery network (CDN) are systems of distributed servers (network) that deliver pages and other web content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server. It is effective in speeding up the delivery of content of websites with high traffic and websites that have a global reach.
 
 We chose ZEIT as Impress Content Delivery Network. ZEIT is a content delivery network that serves the application shell efficiently worldwide. Other companies like Netflix or GitHub rely on ZEIT.
 
@@ -32,9 +32,9 @@ We chose Google Firebase to be our real-time database. The Firebase Realtime Dat
 
 ### Cloud Server Hosting
 
-Impress application is served using a web server. Impress servers are hosted in a could. Services are made available to customers on-demand via the Internet. Rather than being provided by a single server or virtual server, Impress services are provided by multiple connected servers that comprise a cloud.
+Impress application is served using a web server. Impress servers are hosted in a cloud. Services are made available to customers on-demand via the Internet. Rather than being provided by a single server or virtual server, Impress services are provided by multiple connected servers that comprise a cloud.
 
-We chose Amazon Web Service to be our default Cloud provider. Amazon operates in over 50 availability zones. Our servers are located in Frankfurt, except when specified otherwise.
+We chose Amazon Web Service to be our default Cloud provider. Amazon operates in over 50 availability zones. Our servers are located in Continental Europe, except when specified otherwise.
 
 ### Serverless Computing Provider
 
@@ -66,7 +66,7 @@ In an "on-premises" security paradigm, most resources and storage are centralize
 
 <!-- <img style="width: 100%;" src="/doc/img/on-premises-security.png" /> -->
 
-We operate in a "cloud paradigm" with a decentralized vision of security: sensitive data and code can be located on multiple networks that are accessible on the Web. In that case, each application is responsible for its security. Access to an application or a resource is protected through authentication. Each user is given a "key" (an SSH key or a token) that gives him some rights. Information is exchanged between applications on the public web through encrypted protocols to guarantee confidentiality.
+We operate in a "cloud paradigm" with a decentralized vision of security: sensitive data and code can be located on multiple networks that are accessible on the Web. In that case, each application is responsible for its security. Access to an application or a resource is protected through authentication. Each user is given a "key" (an SSH key or a token) that gives him/her some rights. Information is exchanged between applications on the public web through encrypted protocols to guarantee confidentiality.
 
 In a "cloud paradigm", there is no such thing as a local network to protect. The only local resource is the local machine of the user. This is why all our machines have an encrypted disk and are password protected.
 
@@ -74,7 +74,7 @@ In a "cloud paradigm", there is no such thing as a local network to protect. The
 
 ## Principle of Least Privilege
 
-The principle means giving a user account or process only those privileges which are essential to perform its intended function. For example, developers only access customers' data during the development phase. After that, we remove their access.
+This principle means giving a user account or process only those privileges which are essential to perform its intended function. For example, developers only access customers' data during the development phase. After that, we remove their access.
 
 ### How it works in NeoXam?
 
@@ -85,7 +85,7 @@ Users administrators accounts are created for the client and dedicated developer
 
 **SSH**, or secure shell, is a secure protocol and the most common way of safely administering remote servers. Using several encryption technologies, SSH provides a mechanism for establishing a cryptographically secured connection between two parties, authenticating each side to the other, and passing commands and output back and forth.
 
-Impress solution and software factory uses public-key cryptography to encrypt and decrypt login information to the servers. Public–key cryptography uses a public key to encrypt a piece of data, and then the recipient uses the private key to decrypt the data. The public and private keys are known as a key pair. Public-key cryptography enables you to securely access your instances using a private key instead of a password.
+Impress solution and software factory uses public-key cryptography to encrypt and decrypt login information to the servers. Public-key cryptography uses a public key to encrypt a piece of data, and then the recipient uses the private key to decrypt the data. The public and private keys are known as a key pair. Public-key cryptography enables you to securely access your instances using a private key instead of a password.
 
 ### Protect access with passwords is a bad habit:
 
@@ -98,8 +98,8 @@ Impress solution and software factory uses public-key cryptography to encrypt an
 ### Storage & key management
 
 At Neoxam, we fetch our clients’ public key from their GitHub account (https://github.com/USER.keys).
-All of our clients must have a GitHub account. If not, they must create one and send us their username to get their public keys automatically.
-A script is launched every 5 minutes to synchronize the public key. Once the client revokes his public key, it will no longer exist on our server. Therefore, access is no longer available.
+All our clients must have a GitHub account. If not, they must create one and send us their username to get their public keys automatically.
+A script is launched every 5 minutes to synchronize the public key. Once the client revokes its public key, it will no longer exist on our server. Therefore, access is no longer available.
 Your credentials and passphrase must remain confidential so that no one can modify or remove your public key. Our contract and trust are based on it.
 
 ### How to manage SSH Keys ?
@@ -123,7 +123,7 @@ Two-factor authentication is required on all GitHub and Auth0 admin accounts.
 
 ## User management
 
-Users are managed using a dedicated 3rd party SaaS (Auth0).
+Users are managed using a dedicated third party SaaS (Auth0).
 Auth0 is an authentication and authorization management platform providing customers with a User Interface to manage the users themselves:
 
 - Create / Delete
@@ -188,8 +188,8 @@ In the case of a major incident, each team member is trained to apply our Recove
 
 ## Administrator Management
 
-Users Administrators are managed using a dedicated 3rd party SaaS (Auth0).
-Data Administrators are managed using a dedicated 3rd party SaaS (Auth0 or Github) and a synchronization script. They have access to servers with a SSH keypair, if one key or user is added or deleted, the script will spread the authorization on our servers.  
+Users Administrators are managed using a dedicated third party SaaS (Auth0).
+Data Administrators are managed using a dedicated third party SaaS (Auth0 or Github) and a synchronization script. They have access to servers with an SSH keypair, if one key or user is added or deleted, the script will spread the authorization on our servers.  
 We use the same principle to grant/remove access to Developers in our team. In addition, Developers have access to client data only if their email is authorized as Users Administrator.
 
 ## Software and Infrastructure testing
@@ -220,7 +220,7 @@ In addition, we assess, each year or on-demand, the security of our system's phy
 
 All Security specialized companies report that Human is the most efficient shield against cyber-attacks. And this is also the main weakness as we keep seeing in a phishing campaign for instance.
 We are renewing our security awareness effort to protect our assets.
-This Awareness program is mandatory for all employees and contractors, and consist to pass a test of security after watching videos.
+This Awareness program is mandatory for all employees and contractors. It consists in to passing a test on security after watching training videos.
 The program is renewed every year.
 
 ## 3rd Party Software
@@ -274,16 +274,16 @@ Impress also implements "Data At Rest" encryption to prevents data visibility in
 
 ## Data Location
 
-All our AWS server and our Firebase database are hosted in Continental Europe (Paris)
+All our AWS server and our Firebase database are hosted in Continental Europe.
 Our content delivery network (Zeit) that serves the application, choose the best area to deploy the application. The best area is defined by the closest region of the user.
 
 ## G.D.P.R.
 
-On 27 April 2016, the European Parliament and the European Council adopted legislation known as General Data Protection Regulation (GDPR), which becomes enforceable 25 May 2018. This legislation replaces the European Privacy Directive 95/46/EC.
+On 27 April 2016, the European Parliament and the European Council adopted legislation known as General Data Protection Regulation (GDPR), which becames applicable on 25 May 2018. This legislation replaces the European Privacy Directive 95/46/EC.
 
-GDPR is intended to unify and strengthen data privacy for individuals located in the European Union (EU). GDPR also extends the applicability of EU data privacy legislation to non-EU companies who store or process data on EU residents and increases the fines that may be levied against companies who are responsible for preventing breaches of personal data or who violate GDPR requirements.
+GDPR is intended to unify and strengthen data privacy for individuals located in the European Union (EU). GDPR also extends (to some extent) the applicability of EU data privacy legislation to non-EU companies which store or process data on EU residents, and increases the fines that may be levied against companies which are responsible for preventing breaches of personal data or which violate GDPR requirements.
 
-The NeoXam Impress software along with its 3rd party software provider is GDPR compliant.
+The NeoXam Impress software along with its third party software provider is GDPR compliant.
 
 Amazon AWS, which hosts the solution, respects industry regulations, government legislation and is [GDPR compliant](https://aws.amazon.com/blogs/security/all-aws-services-gdpr-ready/). AWS has in place effective technical and organizational measures for data processors to secure personal data in accordance with the GDPR, and specifically enables encryption of personal data; the ability to ensure the ongoing confidentiality, integrity, availability, and resilience of processing systems and services; the ability to restore the availability and access to personal data in a timely manner in the event of a physical or technical incident.
 
@@ -302,7 +302,7 @@ Impress solution is cloud solution, all our datacenter are hosted in the cloud:
 ## Data Access Admin
 
 Only the cloud administrator can administer your differents services.
-His duties are to manage the rights of the team member according to current projects of the team.
+His/her duties are to manage the rights of the team member according to current projects of the team.
 
 ## Backup and Recovery
 
@@ -346,16 +346,16 @@ In the event of termination of the contractual relationship, whatever the cause,
 Each developer has a **@neoxam.com** email and corresponding accesses to GitHub, Auth0, Firebase, AWS, and Zeit.
 If a developer quits the job, all that has to be done is:
 
-- remove his email from LDAP
-- remove his access to GitHub
-- remove his access to AWS
-- remove his access to Firebase
+- remove the developer’s email from LDAP
+- remove the developer’s access to GitHub
+- remove the developer’s access to AWS
+- remove the developer’s access to Firebase
 - regenerate all Firebase API keys
-- remove his access to Auth0
-- remove his access to Zeit
+- remove the developer’s access to Auth0
+- remove the developer’s access to Zeit
 
 ## How do you handle the loss of a device?
 
-- Erase remotely his device
+- Erase remotely the developer’s device
 - Remove SSH Keys from Github account (Server access are automatically synced)
 - Reset all accesses to third parties.
