@@ -122,7 +122,7 @@ Lien: [Interface Auth0](https://auth0.com/)
 Lien: [Section User](https://manage.auth0.com/#/users)
 
 ### Ajout d'utilisateur
- - Cliquer sur ![Create User](./create_user.png)
+ - Cliquer sur ![Create User](./img/create_user.png)
  - Renseigner Email utilisateur et Password
  - Cliquer sur save
 
@@ -138,7 +138,7 @@ Pour donner le role admin à un utilisateur:
  - Cliquer le nom de l'utilisateur pour ouvrir l'écran User Details
  - Dans cet écran écrire "role": "admin" dans app_metadata  
 Cf. image:
-![Fig Admin.](./admin_role.png)  
+![Fig Admin.](./img/admin_role.png)
 
 #### Role user
 Utilisateur qui a accès à un nombre restreint de fonds.
@@ -147,4 +147,4 @@ Pour donner le role user à un utilisateur:
  - Dans cet écran écrire "role": "user" dans app_metadata
  - écrire "funds": [ clés des fonds dont il a accès ]  
 Cf. image:
-![Fig Admin.](./user_role.png)  
+![Fig Admin.](./img/user_role.png)
