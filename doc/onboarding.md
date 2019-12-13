@@ -112,3 +112,39 @@ où CLE_PRIVEE est votre fichier de clé privée, et NOM_DE_PROJET le nom que no
 Vous pouvez également vous connecter en utilisant un utilitaire de gestion SFTP type FileZilla.
 
 Une fois connecté en SFTP, vous n'avez les droits d'écriture que sur le dossier raw ou app.
+
+# Gestion des utilisateurs
+## Auth0
+Pour gérer les utilisateurs de l'application, connectez vous à l'interface Auth0 avec les identifiants qui vous ont été fournis.  
+Lien: [Interface Auth0](https://auth0.com/)
+
+## Interface Users
+Lien: [Section User](https://manage.auth0.com/#/users)
+
+### Ajout d'utilisateur
+ - Cliquer sur ![Create User](./create_user.png)
+ - Renseigner Email utilisateur et Password
+ - Cliquer sur save
+
+### Type d'utilisateurs
+Il y a 3 types(roles) d'utilisateurs
+
+#### Role par défaut
+Utilisateur qui a accès à tous les fonds, mais pas aux interfaces admin
+
+#### Role admin
+Utilisateur qui a accès à tous les fonds et aux interfaces admin
+Pour donner le role admin à un utilisateur:
+ - Cliquer le nom de l'utilisateur pour ouvrir l'écran User Details
+ - Dans cet écran écrire "role": "admin" dans app_metadata  
+Cf. image:
+![Fig Admin.](./admin_role.png)  
+
+#### Role user
+Utilisateur qui a accès à un nombre restreint de fonds.
+Pour donner le role user à un utilisateur:
+ - Cliquer le nom de l'utilisateur pour ouvrir l'écran User Details
+ - Dans cet écran écrire "role": "user" dans app_metadata
+ - écrire "funds": [ clés des fonds dont il a accès ]  
+Cf. image:
+![Fig Admin.](./user_role.png)  
