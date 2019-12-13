@@ -48,7 +48,7 @@ Par exemple, si vous souhaitez traduire une catégorie Pays, il suffit de réfé
 
 
 ## Données comptables (Gestion Collective)
-L’application 100M est basée sur les données comptables. Vous devrez transmettre à 100M l’ensemble des données d’inventaires valorisés, de mouvements, de souscription rachats, de pnl ligne-à-ligne, ainsi que les séries temporelles de la valorisation de chacune des parts, du nombre de parts, et des dividendes. Selon les valorisateurs, ces données vont se trouver dans différents rapports qui sont détaillés ci-dessous.
+L’application NX Digital est basée sur les données comptables. Vous devrez transmettre à NX Digital l’ensemble des données d’inventaires valorisés, de mouvements, de souscription rachats, de pnl ligne-à-ligne, ainsi que les séries temporelles de la valorisation de chacune des parts, du nombre de parts, et des dividendes. Selon les valorisateurs, ces données vont se trouver dans différents rapports qui sont détaillés ci-dessous.
 
 ### BPSS
 Fichiers "Nav Pack" quotidiens bruts pour tous les fonds, au format excel
@@ -92,9 +92,9 @@ Les autres indicateurs, et notamment les données extra-financières, nous sont 
 
 # Protocole de transfert
 
-Le transfert de données s'effectue sur un SFTP hébergé par 100M. C'est un FTP sécurisé qui nécessite une clé SSH pour se connecter.
+Le transfert de données s'effectue sur un SFTP hébergé par NX Digital. C'est un FTP sécurisé qui nécessite une clé SSH pour se connecter.
 
-C'est à partir des données transmises sur le SFTP que nous mettons l'application 100M à jour. Ceci se fait automatiquement à heure prédéfinie, mais peut aussi se faire de manière instantanée dès qu'un fichier est modifié sur le SFTP.
+C'est à partir des données transmises sur le SFTP que nous mettons l'application NX Digital à jour. Ceci se fait automatiquement à heure prédéfinie, mais peut aussi se faire de manière instantanée dès qu'un fichier est modifié sur le SFTP.
 
 ## Création d’une Clef d’Encryption
 
