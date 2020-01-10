@@ -217,7 +217,8 @@ new Vue({
           })
           .filter(d => {
             if (!/^W\d+$/.test(d.week)) return false
-            if (!d.member) return false // TODO: clean cards without assignment
+            if (d.member === 'VD') return false
+            if (!d.member) return console.log('Card without member', d.url)
             return true
           })
       )
