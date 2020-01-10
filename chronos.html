@@ -54,13 +54,13 @@ main > hr { width: 600px; }
     <a v-href="{ display: 'project' }" class="column" style="color: var(--text);text-decoration: none;align-items: unset;justify-content: unset;padding: 4px;border: var(--border);border-radius: 4px;">
       <div class="row">
         <div style="flex: 1;height: 28px;" class="row center" v-for="grp, i in cards.group(router.state.display || 'type').values().sort(grp => -grp.map('time').sum()).slice(0, 5)">
-          <div style="width: 10px;height: 10px;border-radius: 50%;margin-right: 4px;" :style="{ background: ['#60bd4f', '#f2d602', '#ff9f19', '#eb5a46', '#c377e0', '#0279bf', '#03c2e0', '#51e897', '#ff78cb', '#344563'][i] || '#b3bac5' }"></div>
+          <div style="width: 10px;height: 10px;border-radius: 50%;margin-right: 4px;" :style="{ background: colors[grp[0][router.state.display || 'type']] || colors.values()[i] || '#b3bac5' }"></div>
           <div style="font-weight: 600;margin-right: 4px;">{{ grp[0][router.state.display || 'type'] }}</div>
           <div style="font-weight: 600;color: #6a737d;margin-right: 4px;">{{ Math.round(grp.map('time').sum() / cards.map('time').sum() * 100) + '%' }}</div>
         </div>
       </div>
       <div style="height: 8px;" class="row">
-        <div style="border: 1px solid white;" :style="{ width: (grp.map('time').sum() / cards.map('time').sum() * 99) + '%', height: '8px', background: ['#60bd4f', '#f2d602', '#ff9f19', '#eb5a46', '#c377e0', '#0279bf', '#03c2e0', '#51e897', '#ff78cb', '#344563'][i] || '#b3bac5' }" :tt="[grp[0][router.state.display || 'type'], Math.round(grp.map('time').sum() / cards.map('time').sum() * 100) + '%', grp.map('time').sum() + 'j'].join(' / ')" v-for="grp, i in cards.group(router.state.display || 'type').values().sort(grp => -grp.map('time').sum())"></div>
+        <div style="border: 1px solid white;" :style="{ width: (grp.map('time').sum() / cards.map('time').sum() * 99) + '%', height: '8px', background: colors[grp[0][router.state.display || 'type']] || colors.values()[i] || '#b3bac5' }" :tt="[grp[0][router.state.display || 'type'], Math.round(grp.map('time').sum() / cards.map('time').sum() * 100) + '%', grp.map('time').sum() + 'j'].join(' / ')" v-for="grp, i in cards.group(router.state.display || 'type').values().sort(grp => -grp.map('time').sum())"></div>
       </div>
     </a>
 
@@ -161,13 +161,7 @@ Vue.mixin({
 })
 
 window.months = Vue.prototype.months = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC']
-Date.prototype.getWeek = function() {
-  const dec31 = new Date(this.getFullYear(), 0, 0)
-  return Math.ceil(((this - dec31) / 86400000 + (dec31.getDay() > 3 ? dec31.getDay() - 7 : dec31.getDay())) / 7)
-}
-Date.prototype.getQuarter = function() {
-  return Math.ceil((this.getMonth() + 1) / 3)
-}
+window.colors = Vue.prototype.colors = { INVEST: '#60bd4f', IMPLEM: '#f2d602', RUN: '#ff9f19', MISC: '#eb5a46', FRONT: '#c377e0', BACK: '#0279bf', OPS: '#03c2e0', 8: '#51e897', 9: '#ff78cb', 10: '#344563' }
 new Vue({
   el: 'main',
   data: {
@@ -196,7 +190,8 @@ new Vue({
     },
   },
   mounted() {
-    fetch('https://trello.com/b/dn8XQPP7/100m-prod.json?key=046e2330907f0ebb73bd1f18947a4308&token=52431443c595002aa9fc45d54a11e9a4b5797c1a1e1dccc948a5f8efbcb3c5d1&cards=all&lists=all&checklists=all&members=all')
+    const board = (router.search || '?').slice(1).split('&').filter().reduce((acc, str) => { const [k, v] = str.split('=');acc[k] = v;return acc }, {}).board || 'MLd6LVhv' // dn8XQPP7
+    fetch(`https://trello.com/b/${board}/100m-prod.json?key=046e2330907f0ebb73bd1f18947a4308&token=52431443c595002aa9fc45d54a11e9a4b5797c1a1e1dccc948a5f8efbcb3c5d1&cards=all&lists=all&checklists=all&members=all`)
     .then(r => r.json())
     .then(json => {
       const d = new Date('2019')
