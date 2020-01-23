@@ -12,6 +12,7 @@ Il se compose de 5 grands types de données:
 # Généralités sur les données
 
 Impress préférera la donnée la plus brute possible, directement telle que transmise par un fournisseur ou un valorisateur et telle qu’exportée par un système tierce.
+
 Pour assurer une qualité optimale, il est nécessaire que l’ensemble de la chaîne de traitement soit automatisé et ne comporte pas de saisie manuelle.
 
 Les formats supportés sont ‘.csv’. / '.xls' / '.xlsx'
@@ -74,63 +75,52 @@ Dans le cas d'un connecteur spécifique, il appartient au client de s'assurer qu
 
 ## vl_parts
 Un fichier contenant les informations des VLs respectant le format ci dessous:
-  - identification_du_portefeuille
-  - devise_du_portefeuille
-  - code_isin_de_la_part
-  - devise_de_la_part
-  - date_de_valeur_liquidative
-  - actif_net_de_la_part
-  - valeur_liquidative
-  - nombre_de_parts
-  - actif_net_part_en_dev_du_port
-  - taux_de_change_de_la_part
-  - montant_dividende_distribue
-  - dividende_unitaire
+  - fund_id
+  - fund_currency
+  - isin_share
+  - share_currency
+  - nav_date
+  - aum_share
+  - nav
+  - sharenumber
+  - aum_fund_currency
+  - fixing
+  - amount_dividend
+  - unit_dividend
 
 ## Inventaire
 Un fichier contenant les informations d'inventaire respectant le format ci dessous:
-  - date_valorisation
-  - identification_du_portefeuille
-  - code_valeur
-  - libelle_valeur
-  - categorie_valeur (Asset class: Valeur mobilière, CASH, Option, Futur ...)
-  - devise
-  - quantite
-  - cours
+  - nav_date
+  - fund_id
+  - isin
+  - label
+  - asset_class (Asset class: Valeur mobilière, CASH, Option, Futur ...)
+  - currency
+  - quantity
+  - price
   - fixing
-  - vl_boursiere (En devise de portefeuille)
+  - market_value (En currency de portefeuille)
 
-// TODO: Non fongibilité ?
-  - statut_detention
-  - Contrepartie ?
-  - Place cotation
 
 ## fluctuation_vl
 Un fichier justifiant le pnl entre 2 VL respectant le format ci dessous:
-  - identification_du_portefeuille
-  - date_prev_valorisation
-  - date_valorisation
-  - code_valeur
-  - libelle_valeur
-  - categorie_valeur (Asset class: Valeur mobilière, CASH, Option, Futur ...)
-  - quantite
-  - cours
-  - vl_boursiere
-  - pmv (@Clem: pmv = pmv_latente + réalisé)
-
-  @clem Dividende?
-
-// TODO: Non fongibilité ?
-  - statut_detention
-  - Contrepartie ?
-  - Place cotation
+  - fund_id
+  - prev_nav_date
+  - nav_date
+  - isin
+  - label
+  - asset_class (Asset class: Valeur mobilière, CASH, Option, Futur ...)
+  - quantity
+  - price
+  - market_value
+  - pmv
 
 ## journal_operations
 Un journal des opérations respectant le format ci dessous:
-  - identification_du_portefeuille
-  - code_valeur
-  - categorie_valeur
-  - quantite_exercee
+  - fund_id
+  - isin
+  - asset_class
+  - quantity_exercee
   - type_transaction
   - date_comptable
   - date_valeur
@@ -141,7 +131,7 @@ Un journal des opérations respectant le format ci dessous:
 
 ## justificatif_frais
 Un journal des frais respectant le format ci dessous:
-  - identification_du_portefeuille
+  - fund_id
   - code_isin_de_la_part
   - date
   - identifiant_frais
@@ -159,7 +149,7 @@ Ce fichier peut être envoyé sous forme de csv ou de .xls/.xlsx.
 Impress travaille sur le référentiel valeur complet (pas en delta)
 
 Il doit contenir les colonnes:
-  - code_valeur afin de pouvoir faire le lien avec les fichiers comptables
+  - isin afin de pouvoir faire le lien avec les fichiers comptables
   - label libellé de la valeur
 
 Des caractéristiques statiques des titres:
