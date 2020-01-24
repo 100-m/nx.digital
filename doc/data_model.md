@@ -17,20 +17,20 @@ Pour assurer une qualité optimale, il est nécessaire que l’ensemble de la ch
 
 Les formats supportés sont ‘.csv’. / '.xls' / '.xlsx'
 
-La reception des données peut se faire via SFTP ou via Mail. ([Plus d'informations](https://nx.digital/doc?transfer))
+La réception des données peut se faire via SFTP ou via Mail. ([Plus d'informations](https://nx.digital/doc?transfer))
 
 # Données comptables (ABOR) via fichier Valorisateur
 
-Impress propose et recommande d'interfacer l'application directement sur les valorisateurs.
+Impress propose et recommande d'interfacer l'application directement avec les valorisateurs.
 Impress gère nativement les connecteurs suivants:
   - CACEIS
   - BPSS
   - SGSS
 
-Lorsque NeoXam est interfacé directement sur les fichiers des valorisateurs, nous garantissons:
+Lorsque NeoXam est interfacé directement avec les fichiers des valorisateurs, nous garantissons:
   - Intégration et uniformisation des données
-  - Mise en qualité (via une base de tests évolutives: Présense des fichers / formats / Cohérence)
-  - Gestions des évolutions des formats (Ex Changement format des dates...)
+  - Mise en qualité (via une base de tests évolutives: Présence des fichiers / formats / Cohérence inter-flux)
+  - Gestions des évolutions des formats (Changement format des dates, Gestions nouveaux types instruments...)
 
 ## BPSS
 Fichiers "Nav Pack" quotidiens bruts pour tous les fonds, au format excel. (BPSS diffuse ces fichiers également dans un format xml non supporté par NeoXam)
@@ -207,8 +207,8 @@ Dans le cas de comparaisons fines (ligne à ligne / attribution) avec le benchma
 
   Voir nx-pack ([Télécharger](http://platform.100m.io/dist/greenrock/nx-pack_demo.xlsx))
 
-# Data complémentaires
-  - Historiques
-  - Indicateurs de fonds
+# Données complémentaires
 
 Impress peut intégrer d'autres sources de données: à discuter avec l'équipe projet
+  - Historiques
+  - Indicateurs de fonds (esg, sensitaux, deltas...)
