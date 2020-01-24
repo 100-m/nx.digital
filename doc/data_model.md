@@ -182,24 +182,25 @@ Impress peut s'interfacer directement avec RIMES
 Dans le cas de comparaisons fines (ligne à ligne / attribution) avec le benchmark. Il faudra s'assurer de définir et normaliser les instruments du benchmark dans le référentiel valeur.
 
 # Référentiel produit
-  ## Référentiel fonds / Parts:
-  Ce fichier/onglet doit contenir toutes les caractéristiques nécessaires au reporting.
-  Les colonnes obligatoires sont:
-    - Fund id => doit correspondre à l'identifiant portefeuille des données comptables
-    - Fund Name
-    - Benchmark Id => doit correspondre à un id de benchmark du flux benchmark
-    - Fund Currency
-    - Axis of Analysis => doit référencer des colonnes de l'onglet Assets_Referentiel
-    - Orientation
-    - Share Id
-    - Share Letter
-    - Share Currency
+## Référentiel fonds / Parts:
+Ce fichier/onglet doit contenir toutes les caractéristiques nécessaires au reporting.
 
-  ## Traduction
-  Ce fichier/onglet doit contenir les clés de traductions utilisées dans le référentiel et le référentiel valeurs.
-  On peut également ajouter des clés de traduction qui pourront être utilisées dans l'application / builder.
+Les colonnes obligatoires sont:
+  - Fund id => doit correspondre à l'identifiant portefeuille des données comptables
+  - Fund Name
+  - Benchmark Id => doit correspondre à un id de benchmark du flux benchmark
+  - Fund Currency
+  - Axis of Analysis => doit référencer des colonnes de l'onglet Assets_Referentiel
+  - Orientation
+  - Share Id
+  - Share Letter
+  - Share Currency
 
-  La gestion des juridictions se fait via la traduction. Il suffit de renseigner les traductions qui différent de la langue.
+## Traduction
+Ce fichier/onglet doit contenir les clés de traductions utilisées dans le référentiel et le référentiel valeurs.
+On peut également ajouter des clés de traduction qui pourront être utilisées dans l'application / builder.
+
+La gestion des juridictions se fait via la traduction. Il suffit de renseigner les traductions qui différent de la langue.
 
 
   ## Commentaire de Gestion
