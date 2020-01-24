@@ -59,14 +59,14 @@ Impress peut également s'interfacer directement sur un connecteur propriétaire
 Le connecteur devra être en mesure de fournir les éléments suivants:
   - Rapport des VL :La VL des parts du fonds
   - Inventaire: Le positions valorisées (inventaire) du fonds
-  - fluctuation_vl: Une justification des fluctuation de VL (PNL généré par ligne de l'inventaire)
-  - journal_operations: Un journal des opérations
-  - justificatif_frais: Les frais du fonds et les frais des parts
-  - journal_souscription_rachat: Souscription / Rachat dans le fonds
+  - Fluctuations des VL: Une justification des fluctuation de VL (PNL généré par ligne de l'inventaire)
+  - Journal des opérations: Un journal des opérations
+  - Justificatif des frais: Les frais du fonds et les frais des parts
+  - Justificatif des souscriptions et rachats: Souscription / Rachat dans le fonds
 
 La fréquence d'emission devra suivre la fréquence de valorisation du fonds.
 
-## cohérence entre les fichiers
+## Cohérence entre les fichiers
 
 Dans le cas d'un connecteur spécifique, il appartient au client de s'assurer que les égalités suivantes seront toujours respectés:
   - Somme((VLt * VLt-1) * Nombre part t) = Somme PMV fluctuation VL t - Somme PM justificatif_frais t
@@ -99,7 +99,7 @@ Un fichier contenant les informations d'inventaire respectant la structure ci de
   - fixing
   - market_value (En currency de portefeuille)
 
-## fluctuation_vl
+## Fluctuation des VL
 Un fichier justifiant le pnl entre 2 VL respectant la structure ci dessous:
   - fund_id
   - prev_nav_date
@@ -112,7 +112,7 @@ Un fichier justifiant le pnl entre 2 VL respectant la structure ci dessous:
   - market_value
   - pmv
 
-## journal_operations
+## Journal des operations
 Un journal des opérations respectant la structure ci dessous:
   - fund_id
   - isin
@@ -125,7 +125,7 @@ Un journal des opérations respectant la structure ci dessous:
   - gross_amount
   - net_amount (<= settlement amount)
 
-## justificatif_frais
+## Justificatif des frais
 Un journal des frais respectant la structure ci dessous:
   - fund_id
   - isin_share
@@ -136,12 +136,12 @@ Un journal des frais respectant la structure ci dessous:
 
 Les frais impactant toute les parts n'auront pas d'isin_share renseingé.
 
-## justificatif_souscriptio_rachat
+## Justificatif des souscriptions et rachats
 Gérer via le nombre du Rapport des VL
 
 
 # Security Master file
-Impress se charge uniquement d'integrer ce fichier, l'adminisatration est à la charge du client.
+Impress se charge uniquement d'intégrer ce fichier, l'adminisatration est à la charge du client.
 
 Ce fichier peut être envoyé sous forme de csv ou de .xls/.xlsx.
 Impress travaille sur le référentiel valeur complet (pas en delta)
