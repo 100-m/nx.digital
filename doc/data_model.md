@@ -196,7 +196,7 @@ Dans le cas de comparaisons fines (ligne à ligne / attribution) avec le benchma
     - Share Currency
 
   ## Traduction
-  Ce fichier/onglet doit contenir les clés de traductions utilisées dans le référentiel et le référiel valeurs.
+  Ce fichier/onglet doit contenir les clés de traductions utilisées dans le référentiel et le référentiel valeurs.
   On peut également ajouter des clés de traduction qui pourront être utilisées dans l'application / builder.
 
   La gestion des juridictions se fait via la traduction. Il suffit de renseigner les traductions qui différent de la langue.
