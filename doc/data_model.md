@@ -182,7 +182,7 @@ Impress peut s'interfacer directement avec RIMES
 Dans le cas de comparaisons fines (ligne à ligne / attribution) avec le benchmark. Il faudra s'assurer de définir et normaliser les instruments du benchmark dans le référentiel valeur.
 
 # Référentiel produit
-  1) Référentiel fonds / Pars:
+  ## Référentiel fonds / Pars:
   Ce fichier/onglet doit contenir toutes les caractéristiques nécessaires au reporting.
   Les colonnes obligatoires sont:
     - Fund id => doit correspondre à l'identifiant portefeuille des données comptamtables
@@ -195,14 +195,14 @@ Dans le cas de comparaisons fines (ligne à ligne / attribution) avec le benchma
     - Share Letter
     - Share Currency
 
-  2) Traduction
+  ## Traduction
   Ce fichier/onglet doit contenir les clés de traductions utilisées dans le référentiel et le référiel valeurs.
   On peut également ajouter des clés de traduction qui pourront être utilisées dans l'application / builder.
 
   La gestion des juridictions se fait via la traduction. Il suffit de renseigner les traductions qui différent de la langue.
 
 
-  3) Commentaire de Gestion
+  ## Commentaire de Gestion
   Ce fichier/onglet contient les commentaires de gestions
 
   Voir nx-pack ([Télécharger](http://platform.100m.io/dist/greenrock/nx-pack_demo.xlsx))
