@@ -1,11 +1,11 @@
 # Enjeux des données et Data model
 
 L'objectif de ce document est de présenter le data model Impress.
-Il se compose de 5 grands types de données:
+On peut le décomposer en 5 grandes parties:
   - Données comptables (Accounting Book of records ABOR)
   - Données benchmarks
   - Référentiel Valeur (Security Master File SMF)
-  - Référentiel Produit
+  - Référentiel Produit (Fonds / Parts / Traduction)
   - Données complémentaires
 
 
@@ -17,7 +17,7 @@ Pour assurer une qualité optimale, il est nécessaire que l’ensemble de la ch
 
 Les formats supportés sont ‘.csv’. / '.xls' / '.xlsx'
 
-La reception des données peut se faire via SFTP ou via Mail.
+La reception des données peut se faire via SFTP ou via Mail. ([Plus d'informations](https://nx.digital/doc?transfer))
 
 # Données comptables (ABOR) via fichier Valorisateur
 
@@ -27,13 +27,13 @@ Impress gère nativement les connecteurs suivants:
   - BPSS
   - SGSS
 
-Lorsque NeoXam est interfacé directement sur les fichiers bruts des valorisateurs, nous garantissons:
-  - Intégration et l'uniformation des données
-  - Mise en qualité (via une base de tests évolutives: Présense / formats / Cohérence)
+Lorsque NeoXam est interfacé directement sur les fichiers des valorisateurs, nous garantissons:
+  - Intégration et uniformisation des données
+  - Mise en qualité (via une base de tests évolutives: Présense des fichers / formats / Cohérence)
   - Gestions des évolutions des formats (Ex Changement format des dates...)
 
 ## BPSS
-Fichiers "Nav Pack" quotidiens bruts pour tous les fonds, au format excel. (BPSS diffuse ces fichiers également dans un format xml supporté par Excel, ce format ne sera pas supporté)
+Fichiers "Nav Pack" quotidiens bruts pour tous les fonds, au format excel. (BPSS diffuse ces fichiers également dans un format xml non supporté par NeoXam)
 
 ## CACEIS
 Les rapports quotidiens pour toutes les parts de fonds, au format ‘.csv’:
@@ -54,10 +54,10 @@ Les rapports quotidiens pour toutes les parts de fonds, au format ‘.csv’:
 
 # Données comptables (ABOR) via connecteur client
 
-Impress peut également s'interfacer directement sur un connecteur propriétaire sous reserve qu'il corresponde à notre Data Model.
+Impress peut également s'interfacer directement sur un connecteur propriétaire sous reserve qu'il corresponde au data Model Impress.
 
 Le connecteur devra être en mesure de fournir les éléments suivants:
-  - vl_parts :La VL des parts du fonds
+  - Rapport des VL :La VL des parts du fonds
   - Inventaire: Le positions valorisées (inventaire) du fonds
   - fluctuation_vl: Une justification des fluctuation de VL (PNL généré par ligne de l'inventaire)
   - journal_operations: Un journal des opérations
@@ -66,15 +66,13 @@ Le connecteur devra être en mesure de fournir les éléments suivants:
 
 La fréquence d'emission devra suivre la fréquence de valorisation du fonds.
 
-// TODO Gestion des codes valeurs
-
 ## cohérence entre les fichiers
 
 Dans le cas d'un connecteur spécifique, il appartient au client de s'assurer que les égalités suivantes seront toujours respectés:
   - Somme((VLt * VLt-1) * Nombre part t) = Somme PMV fluctuation VL t - Somme PM justificatif_frais t
 
-## vl_parts
-Un fichier contenant les informations des VLs respectant le format ci dessous:
+## Rapport des VL
+Un fichier contenant les informations des VLs respectant la structure ci dessous:
   - fund_id
   - fund_currency
   - isin_share
@@ -82,14 +80,14 @@ Un fichier contenant les informations des VLs respectant le format ci dessous:
   - nav_date
   - aum_share
   - nav
-  - sharenumber
+  - share_number
   - aum_fund_currency
   - fixing
   - amount_dividend
   - unit_dividend
 
 ## Inventaire
-Un fichier contenant les informations d'inventaire respectant le format ci dessous:
+Un fichier contenant les informations d'inventaire respectant la structure ci dessous:
   - nav_date
   - fund_id
   - isin
@@ -101,9 +99,8 @@ Un fichier contenant les informations d'inventaire respectant le format ci desso
   - fixing
   - market_value (En currency de portefeuille)
 
-
 ## fluctuation_vl
-Un fichier justifiant le pnl entre 2 VL respectant le format ci dessous:
+Un fichier justifiant le pnl entre 2 VL respectant la structure ci dessous:
   - fund_id
   - prev_nav_date
   - nav_date
@@ -116,30 +113,31 @@ Un fichier justifiant le pnl entre 2 VL respectant le format ci dessous:
   - pmv
 
 ## journal_operations
-Un journal des opérations respectant le format ci dessous:
+Un journal des opérations respectant la structure ci dessous:
   - fund_id
   - isin
   - asset_class
   - quantity_exercee
-  - type_transaction
-  - date_comptable
-  - date_valeur
-  - date_effet
-  - montant_brut
-  - montant_net (<= montant de règlement)
-
+  - transaction_type
+  - accounting_date
+  - value_date
+  - effect_date
+  - gross_amount
+  - net_amount (<= settlement amount)
 
 ## justificatif_frais
-Un journal des frais respectant le format ci dessous:
+Un journal des frais respectant la structure ci dessous:
   - fund_id
-  - code_isin_de_la_part
-  - date
+  - isin_share
+  - nav_date
   - identifiant_frais
   - libelle_frais
   - montant
 
+Les frais impactant toute les parts n'auront pas d'isin_share renseingé.
+
 ## justificatif_souscriptio_rachat
-TODO
+Gérer via le nombre du Rapport des VL
 
 
 # Security Master file
@@ -149,7 +147,7 @@ Ce fichier peut être envoyé sous forme de csv ou de .xls/.xlsx.
 Impress travaille sur le référentiel valeur complet (pas en delta)
 
 Il doit contenir les colonnes:
-  - isin afin de pouvoir faire le lien avec les fichiers comptables
+  - isin (ou identifiant unique) afin de pouvoir faire le lien avec les fichiers comptables
   - label libellé de la valeur
 
 Des caractéristiques statiques des titres:
@@ -159,11 +157,12 @@ Des caractéristiques statiques des titres:
   - Devise
   - ...
 
+
 Pas de contraintes sur les noms de colonnes.
 Dans le cas de reporting multilangues, nous recommandons mettre une 'clé' dans le referentiel puis de venir traduire cette clé dans toutes les langues souhaités dans le référentiel translation.
 
 Exemple: colonne Sector_GICS_1 de l'onglet 'Assets_Referential' du nx-pack en exemple.
-Les valeurs renseignés sont des clés et leurs traductions se trouvent dans l'onglet translation
+Les valeurs renseignés sont des clés et leurs traductions se trouvent dans l'onglet translation  ([Télécharger](http://platform.100m.io/dist/greenrock/nx-pack_demo.xlsx))
 
 Des caractéristiques dynamiques des titres:
   - rating_moodys
@@ -176,11 +175,11 @@ L'archivage pour la gestion du reporting ASOF est géré par Impress.
 
 # Données benchmarks
 NX impress travaille avec un flux benchmark normalisé. Tous les benchmarks doivent arriver dans le même format.
-Les indices composites ne sont pas calculé dans Impress.
+Les indices composites ne sont pas calculés dans Impress.
 
 Impress peut s'interfacer directement avec RIMES
 
-Dans le cas de de comparaisons fines (ligne à ligne / attribution) avec le benchmark. Il faudra s'assurer de définir et normaliser les instruments du benchmark dans le référentiel valeur.
+Dans le cas de comparaisons fines (ligne à ligne / attribution) avec le benchmark. Il faudra s'assurer de définir et normaliser les instruments du benchmark dans le référentiel valeur.
 
 # Référentiel produit
   1) Référentiel fonds / Pars:
@@ -188,7 +187,7 @@ Dans le cas de de comparaisons fines (ligne à ligne / attribution) avec le benc
   Les colonnes obligatoires sont:
     - Fund id => doit correspondre à l'identifiant portefeuille des données comptamtables
     - Fund Name
-    - Benchmark Id =>
+    - Benchmark Id => doit correspondre à un id de benchmark du flux benchmark
     - Fund Currency
     - Axis of Analysis => Doit référencer des colonnes de l'onglet Assets_Referentiel
     - Orientation
@@ -206,10 +205,10 @@ Dans le cas de de comparaisons fines (ligne à ligne / attribution) avec le benc
   3) Commentaire de Gestion
   Ce fichier/onglet contient les commentaires de gestions
 
-  Voir nx-pack en PJ.
+  Voir nx-pack ([Télécharger](http://platform.100m.io/dist/greenrock/nx-pack_demo.xlsx))
 
 # Data complémentaires
   - Historiques
   - Indicateurs de fonds
 
-  A disucter avec l'équipe projet pour le format.
+Impress peut intégrer d'autres sources de données: à discuter avec l'équipe projet

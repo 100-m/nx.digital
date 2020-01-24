@@ -1,8 +1,8 @@
 # Protocole de transfert
 
-Le transfert de données s'effectue sur un SFTP hébergé par 100M. C'est un FTP sécurisé qui nécessite une clé SSH pour se connecter.
+Le transfert de données s'effectue sur un SFTP hébergé par NeoXam. C'est un FTP sécurisé qui nécessite une clé SSH pour se connecter.
 
-C'est à partir des données transmises sur le SFTP que nous mettons l'application 100M à jour. Ceci se fait automatiquement à heure prédéfinie, mais peut aussi se faire de manière instantanée dès qu'un fichier est modifié sur le SFTP.
+C'est à partir des données transmises sur le SFTP que nous mettons l'application Impress à jour. Ceci se fait automatiquement à heure prédéfinie, mais peut aussi se faire de manière instantanée dès qu'un fichier est modifié sur le SFTP.
 
 ## Création d’une Clef d’Encryption
 
