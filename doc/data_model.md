@@ -159,10 +159,10 @@ Des caractéristiques statiques des titres:
 
 
 Pas de contraintes sur les noms de colonnes.
-Dans le cas de reporting multilangues, nous recommandons de définir une 'clé' dans le référentiel puis de venir traduire cette clé dans toutes les langues souhaitées dans le table_details_of_the_wallet translation.
+Dans le cas de reporting multilangues, nous recommandons de définir une 'clé' dans le référentiel puis de venir traduire cette clé dans toutes les langues souhaitées dans le référentiel translation.
 
 Exemple: colonne Sector_GICS_1 de l'onglet 'Assets_Referential' du nx-pack en exemple.
-Les valeurs renseignés sont des clés et leurs traductions se trouvent dans l'onglet translation  ([Télécharger](http://platform.100m.io/dist/greenrock/nx-pack_demo.xlsx))
+Les valeurs renseignées sont des clés et leurs traductions se trouvent dans l'onglet translation  ([Télécharger](http://platform.100m.io/dist/greenrock/nx-pack_demo.xlsx))
 
 Des caractéristiques dynamiques des titres:
   - rating_moodys
@@ -171,7 +171,7 @@ Des caractéristiques dynamiques des titres:
   - sensitaux
   - ...
 
-L'archivage pour la gestion du reporting ASOF est géré par Impress.
+L'archivage pour la gestion du reporting 'ASOF' est géré par Impress.
 
 # Données benchmarks
 NX impress travaille avec un flux benchmark normalisé. Tous les benchmarks doivent arriver dans le même format.
@@ -182,14 +182,14 @@ Impress peut s'interfacer directement avec RIMES
 Dans le cas de comparaisons fines (ligne à ligne / attribution) avec le benchmark. Il faudra s'assurer de définir et normaliser les instruments du benchmark dans le référentiel valeur.
 
 # Référentiel produit
-  ## Référentiel fonds / Pars:
+  ## Référentiel fonds / Parts:
   Ce fichier/onglet doit contenir toutes les caractéristiques nécessaires au reporting.
   Les colonnes obligatoires sont:
-    - Fund id => doit correspondre à l'identifiant portefeuille des données comptamtables
+    - Fund id => doit correspondre à l'identifiant portefeuille des données comptables
     - Fund Name
     - Benchmark Id => doit correspondre à un id de benchmark du flux benchmark
     - Fund Currency
-    - Axis of Analysis => Doit référencer des colonnes de l'onglet Assets_Referentiel
+    - Axis of Analysis => doit référencer des colonnes de l'onglet Assets_Referentiel
     - Orientation
     - Share Id
     - Share Letter
