@@ -54,21 +54,21 @@ Les rapports quotidiens pour toutes les parts de fonds, au format ‘.csv’:
 
 # Données comptables (ABOR) via connecteur client
 
-Impress peut également s'interfacer directement sur un connecteur propriétaire sous reserve qu'il corresponde au data Model Impress.
+Impress peut également s'interfacer directement sur un connecteur propriétaire. Il devra respecter la structure décrite ci dessous.
 
 Le connecteur devra être en mesure de fournir les éléments suivants:
-  - Rapport des VL :La VL des parts du fonds
-  - Inventaire: Le positions valorisées (inventaire) du fonds
-  - Fluctuations des VL: Une justification des fluctuation de VL (PNL généré par ligne de l'inventaire)
+  - Rapport des VL : La VL des parts du fonds
+  - Inventaire: Les positions valorisées (inventaire) du fonds
+  - Fluctuations des VL: Une justification des fluctuations de VL (PNL généré par ligne)
   - Journal des opérations: Un journal des opérations
   - Justificatif des frais: Les frais du fonds et les frais des parts
   - Justificatif des souscriptions et rachats: Souscription / Rachat dans le fonds
 
-La fréquence d'emission devra suivre la fréquence de valorisation du fonds.
+La fréquence d'émission devra suivre la fréquence de valorisation du fonds.
 
 ## Cohérence entre les fichiers
 
-Dans le cas d'un connecteur spécifique, il appartient au client de s'assurer que les égalités suivantes seront toujours respectés:
+Dans le cas d'un connecteur spécifique, il appartient au client de s'assurer que les égalités suivantes seront toujours respectées:
   - Somme((VLt * VLt-1) * Nombre part t) = Somme PMV fluctuation VL t - Somme PM justificatif_frais t
 
 ## Rapport des VL
@@ -141,7 +141,7 @@ Gérer via le nombre du Rapport des VL
 
 
 # Security Master file
-Impress se charge uniquement d'intégrer ce fichier, l'adminisatration est à la charge du client.
+Impress se charge uniquement d'intégrer ce fichier, l'administration est à la charge du client.
 
 Ce fichier peut être envoyé sous forme de csv ou de .xls/.xlsx.
 Impress travaille sur le référentiel valeur complet (pas en delta)
@@ -159,7 +159,7 @@ Des caractéristiques statiques des titres:
 
 
 Pas de contraintes sur les noms de colonnes.
-Dans le cas de reporting multilangues, nous recommandons mettre une 'clé' dans le referentiel puis de venir traduire cette clé dans toutes les langues souhaités dans le référentiel translation.
+Dans le cas de reporting multilangues, nous recommandons de définir une 'clé' dans le référentiel puis de venir traduire cette clé dans toutes les langues souhaitées dans le table_details_of_the_wallet translation.
 
 Exemple: colonne Sector_GICS_1 de l'onglet 'Assets_Referential' du nx-pack en exemple.
 Les valeurs renseignés sont des clés et leurs traductions se trouvent dans l'onglet translation  ([Télécharger](http://platform.100m.io/dist/greenrock/nx-pack_demo.xlsx))
