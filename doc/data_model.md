@@ -66,6 +66,8 @@ Le connecteur devra être en mesure de fournir les éléments suivants:
 
 La fréquence d'émission devra suivre la fréquence de valorisation du fonds.
 
+ Exemple: ([Télécharger](http://platform.100m.io/dist/greenrock/abor_neoxam.xlsx))
+
 ## Cohérence entre les fichiers
 
 Dans le cas d'un connecteur spécifique, il appartient au client de s'assurer que les égalités suivantes seront toujours respectées:
@@ -85,6 +87,8 @@ Un fichier contenant les informations des VLs respectant la structure ci dessous
   - fixing
   - amount_dividend
   - unit_dividend
+
+Une colonne diffused_nav peut être ajouté dans le cas ou la nav diffusé serait tronquée.
 
 ## Inventaire
 Un fichier contenant les informations d'inventaire respectant la structure ci dessous:
@@ -182,7 +186,7 @@ Impress peut s'interfacer directement avec RIMES
 Dans le cas de comparaisons fines (ligne à ligne / attribution) avec le benchmark. Il faudra s'assurer de définir et normaliser les instruments du benchmark dans le référentiel valeur.
 
 # Référentiel produit
-## Référentiel fonds / Parts:
+## Référentiel Fonds / Parts:
 Ce fichier/onglet doit contenir toutes les caractéristiques nécessaires au reporting.
 
 Les colonnes obligatoires sont:
