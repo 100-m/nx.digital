@@ -23,6 +23,13 @@
     section > h2 { width: 300px;float: left; }
     section img { max-width: calc(100% + 400px);margin-left: -400px; }
   }
+  @media print {
+    body { background: white; }
+    h1.neoxam { position: relative; }
+    h1 { page-break-before: always; }
+    section { page-break-inside: avoid; }
+    section > * { opacity: 1; }
+  }
 </style>
 <h1 class="neoxam">
   <svg viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
