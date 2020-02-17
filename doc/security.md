@@ -6,41 +6,62 @@ Impress is a cloud-based product implementing best practices in terms of archite
 
 One key to have a secure architecture is to have a comprehensive system. Here is our system's schema:
 
-![Architecture](/doc/img/impress-architecture.png)
+![Architecture](/doc/img/architecture_detailled_view.png)
 
 ## Relying on best-in-class third party provider
 
 Impress leverages third party providers for content delivery, user authentication, real-time data storage, as well as server hosting. We chose well-establish best-in-class providers that we review regularly.
 
-### Content Delivery
+### Platform (ZEIT-CDN)
+
+Platform is the FrontEnd and the main part of our product, all our code is condensed in a file to be easily and quickly deployed. We use a CDN to serve the application.
 
 Content delivery network (CDN) are systems of distributed servers (network) that deliver pages and other web content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server. It is effective in speeding up the delivery of content of websites with high traffic and websites that have a global reach.
 
 We chose ZEIT as Impress Content Delivery Network. ZEIT is a content delivery network that serves the application shell efficiently worldwide. Other companies like Netflix or GitHub rely on ZEIT.
 
-### User Authentication
+### Authentication (Auth0)
 
 User authentication is the verification of an active human-to-machine transfer of credentials required for confirmation of a user's authenticity.
 
 We chose Auth0 to provide Impress authentication. Auth0 provides authentication and authorization as a service. It provides crucial features like Single Sign-On, Multi-Factor Authentication, User Management, and Passwordless Authentication. Companies like Atlassian, Nvidia or Mozilla rely on Auth0.
 
-### Real-time data storage
-
-Impress real-time Database is a cloud-hosted NoSQL database that lets you store and sync data between Impress users in real-time. Real-time syncing makes it easy for our users to collaborate.
-
-We chose Google Firebase to be our real-time database. The Firebase Realtime Database uses data synchronization—every time data changes, any connected device receives that update within milliseconds.
-
-### Cloud Server Hosting
+### Business Data (AWS EC2)
 
 Impress application is served using a web server. Impress servers are hosted in a cloud. Services are made available to customers on-demand via the Internet. Rather than being provided by a single server or virtual server, Impress services are provided by multiple connected servers that comprise a cloud.
 
 We chose Amazon Web Service to be our default Cloud provider. Amazon operates in over 50 availability zones. Our servers are located in Continental Europe, except when specified otherwise.
 
-### Serverless Computing Provider
+The brick Business data contains the following features:
+- Pipeline: E.T.L. which will transform the raw data to put it in the format of our data model
+- Commandr: A Scheduler to manage the impress process (Data Integration, pull SFTP ...)
+- File System: This EC2 will contain the Impress file system (Raw Data received, application data, generated reports)
+- API Auth: This API will secure the access from the front to the business data.
+
+The Pipeline component could send data to the Brick Data Realtime via the Firebase SDK.
+This communication is not mandatory.
+
+### Data Realtime (GCP-Firebase)
+
+Impress real-time Database is a cloud-hosted NoSQL database that lets you store and sync data between Impress users in real-time. Real-time syncing makes it easy for our users to collaborate.
+
+We chose Google Firebase to be our real-time database. The Firebase Realtime Database uses data synchronization—every time data changes, any connected device receives that update within milliseconds.
+
+The brick is optionnal, Impress Solution can be used without the Data Realtime.
+This brick is used to:
+- User Analytics: (User journey on the application, time spent...)
+- Live Update: makes it easy for our users to collaborate.
+- Screen Sharing between Users
+
+An alternative to GCP-Firebase is available with HASURA, and could be deployed in AWS.
+
+### Exporter (AWS Lambda)
 
 Serverless computing is a cloud-computing execution model in which the cloud provider runs the server, and dynamically manages the allocation of machine resources. Serverless computing allows impress to scale instantly with its user needs.
 
 We chose Amazon Lambdas for our serverless computing platform.
+
+This brick is used to generate reporting
 
 ## Impress user roles
 
