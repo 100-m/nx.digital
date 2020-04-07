@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link href="https://rawcss.com/raw.css" rel="stylesheet">
+  <link href="https://cdn.rawgit.com/vbrajon/rawcss/2ca9981dd6113e5601bf42d75cb86d1ae4791923/raw.css" rel="stylesheet">
   <style>
     .preview { width: calc(100vw - 150px);max-height: 100%; }
     .list { width: 150px; }
@@ -125,7 +125,7 @@
         predict_labels() {
           const inputs = this.text.slice(0, 200).map('text')
           axios.post('https://ai.nx.digital/predict', { input: inputs }).then(d => {
-            d.data.map((v, k) => this.text[k].label = (v.max() || ''))
+            d.data.map((v, k) => this.text[k].label = (v.max() || ''))
           })
         },
         dlCSV(arr, lang, filename, browser) {
