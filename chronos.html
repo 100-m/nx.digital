@@ -167,7 +167,7 @@ new Vue({
   data: {
     trello: null,
     tickets: null,
-    week: 'W' + new Date().getWeek(),
+    week: 'W' + (new Date().getWeek() + 1),
     quarter: 'Q' + new Date().getQuarter(),
     month: months[new Date().getMonth()],
     year: new Date().getFullYear(),
