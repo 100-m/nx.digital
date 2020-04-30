@@ -28,8 +28,8 @@ main > hr { width: 600px; }
   <h1>Chronos</h1>
   <div class="filters">
     <a v-href="{ member: member.initials }" v-for="member in trello && trello.members && trello.members.filter(d => !['CM', 'VD', 'WV'].includes(d.initials))">
-      <div class="member" :tt="member.fullName.join('title')" v-if="member.avatarUrl"><img :src="member.avatarUrl + '/50.png'" /></div>
-      <div class="member" v-text="member.initials" :tt="member.fullName.join('title')" v-else></div>
+      <div class="member" :tt="member.fullName.format('title')" v-if="member.avatarUrl"><img :src="member.avatarUrl + '/50.png'" /></div>
+      <div class="member" v-text="member.initials" :tt="member.fullName.format('title')" v-else></div>
     </a>
     <hr />
     <a :class="{ default: !router.state.period && period === month }" v-href="{ period }" v-for="period in [week, 'W' + (week.slice(1) - 1), month, months[months.findIndex(d => d === month) - 1], quarter, year].filter(d => !/(W|Q)0/.test(d))">{{ period }}</a>
@@ -43,10 +43,10 @@ main > hr { width: 600px; }
       {{ router.state.period || month }} - {{ cards.map('time').sum() }}j
       <div style="margin-left: auto;" class="row center right">
         <div style="margin: 10px;" v-for="grp, i in cards.group('member').values().sort(grp => -grp.map('time').sum()).slice(0, 5)">
-          <div class="member" :tt="trello.members.find(m => m.initials === grp[0].member).fullName.join('title')" v-if="trello.members.find(m => m.initials === grp[0].member).avatarUrl">
+          <div class="member" :tt="trello.members.find(m => m.initials === grp[0].member).fullName.format('title')" v-if="trello.members.find(m => m.initials === grp[0].member).avatarUrl">
             <img :src="trello.members.find(m => m.initials === grp[0].member).avatarUrl + '/50.png'" />
           </div>
-          <div class="member" v-text="trello.members.find(m => m.initials === grp[0].member).initials" :tt="trello.members.find(m => m.initials === grp[0].member).fullName.join('title')" v-else></div>
+          <div class="member" v-text="trello.members.find(m => m.initials === grp[0].member).initials" :tt="trello.members.find(m => m.initials === grp[0].member).fullName.format('title')" v-else></div>
           <div style="font-size: 20px;text-align: center;">{{ grp.map('time').sum() }}</div>
         </div>
       </div>
@@ -80,10 +80,10 @@ main > hr { width: 600px; }
       <template v-if="router.state.project === grp[0].project || /W\d+/.test(router.state.period)">
         <div style="position: relative;margin: 12px -12px -12px -12px;padding: 12px;border-top:  var(--border);" v-for="ticket in grp">
           <a :href="ticket.url" target="_blank" style="padding-right: 100px;color: var(--text);">{{ ticket.task }}</a>
-          <div style="position: absolute;top: 12px;right: 60px;" class="member" :tt="trello.members.find(m => m.initials === ticket.member).fullName.join('title')" v-if="trello.members.find(m => m.initials === ticket.member).avatarUrl">
+          <div style="position: absolute;top: 12px;right: 60px;" class="member" :tt="trello.members.find(m => m.initials === ticket.member).fullName.format('title')" v-if="trello.members.find(m => m.initials === ticket.member).avatarUrl">
             <img :src="trello.members.find(m => m.initials === ticket.member).avatarUrl + '/50.png'" />
           </div>
-          <div class="member" style="position: absolute;top: 12px;right: 60px;color: var(--primary);" v-text="trello.members.find(m => m.initials === ticket.member).initials" :tt="trello.members.find(m => m.initials === ticket.member).fullName.join('title')" v-else></div>
+          <div class="member" style="position: absolute;top: 12px;right: 60px;color: var(--primary);" v-text="trello.members.find(m => m.initials === ticket.member).initials" :tt="trello.members.find(m => m.initials === ticket.member).fullName.format('title')" v-else></div>
           <b style="position: absolute;top: 12px;right: 12px;font-weight: 600;">{{ ticket.time }}j</b>
         </div>
       </template>
