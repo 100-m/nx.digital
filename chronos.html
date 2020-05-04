@@ -210,7 +210,7 @@ new Vue({
             const week = trello.lists.find(d => d.id === card.idList).name
             const month = months[d.plus(week.slice(1) * 7 - d.getDay() - 6 + ' days').getMonth()]
             const quarter = 'Q' + Math.ceil(week.slice(1) / 13)
-            const year = '2019' // +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
+            const year = '2020' // +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
             const members = (card.idMembers || []).map(mid => trello.members.find(d => d.id === mid))
             const member = (members[0] || {}).initials
             return { url, project, labels, type, task, time, member, week, month, quarter, year }
