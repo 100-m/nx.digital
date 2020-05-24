@@ -45,12 +45,21 @@ Les rapports quotidiens pour toutes les parts de fonds, au format ‘.csv’:
 - FLUVAL2.csv
 - JOURSR.csv
 
+Ces fichiers peuvent être:
+- Récupérés sur via SFTP chez Caceis
+- Receptionnés sur notre adresse mail caceis@100m.io
+
+
 ## SGSS
 Les rapports quotidiens pour toutes les parts de fonds, au format ‘.csv’:
 - F7.csv
 - F2.csv
 - F1.csv
 - F5.csv
+
+Ces fichiers peuvent être:
+- Récupérés sur via SFTP chez SGSS
+- Receptionnés sur notre adresse mail sgss@100m.io
 
 # Données comptables (ABOR) via connecteur client
 
