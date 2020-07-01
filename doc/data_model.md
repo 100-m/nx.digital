@@ -209,6 +209,11 @@ Les colonnes obligatoires sont:
   - Share Letter
   - Share Currency
 
+
+NB:
+- Les colonnes ajoutées avant Share Id seront attachées au fonds
+- Les colonnes ajoutées après Share Id seront attachées à la part
+
 ## Traduction
 Ce fichier/onglet doit contenir les clés de traductions utilisées dans le référentiel et le référentiel valeurs.
 On peut également ajouter des clés de traduction qui pourront être utilisées dans l'application / builder.
