@@ -35,6 +35,11 @@ Lorsque NeoXam est interfacé directement avec les fichiers des valorisateurs, n
 ## BPSS
 Fichiers "Nav Pack" quotidiens bruts pour tous les fonds, au format excel. (BPSS diffuse ces fichiers également dans un format xml non supporté par NeoXam)
 
+Ces fichiers peuvent être:
+
+Récupérés sur via SFTP chez BPSS
+Receptionnés sur notre adresse mail bpss@100m.io
+
 ## CACEIS
 Les rapports quotidiens pour toutes les parts de fonds, au format ‘.csv’:
 - HISINV.csv
