@@ -42,7 +42,7 @@ main > hr { width: 600px; }
     <h2 class="row">
       {{ router.state.period || month }} - {{ cards.map('time').sum() }}j
       <div style="margin-left: auto;" class="row center right">
-        <div style="margin: 10px;" v-for="grp, i in cards.group('member').values().sort(grp => -grp.map('time').sum()).slice(0, 5)">
+        <div style="margin: 10px;" v-for="grp, i in cards.group('member').values().sort(grp => -grp.map('time').sum())">
           <div class="member" :tt="trello.members.find(m => m.initials === grp[0].member).fullName.format('title')" v-if="trello.members.find(m => m.initials === grp[0].member).avatarUrl">
             <img :src="trello.members.find(m => m.initials === grp[0].member).avatarUrl + '/50.png'" />
           </div>
