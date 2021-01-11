@@ -94,7 +94,7 @@ main > hr { width: 600px; }
 <script type="module">
 import 'https://vbrajon.github.io/rawjs/raw.js'
 import Vue from 'https://unpkg.com/vue@2.6.10/dist/vue.esm.browser.js'
-Object.extend(true)
+Object.extend()
 // Mini Vue router
 window.router = {
   pathname: location.pathname,
@@ -190,7 +190,7 @@ new Vue({
     },
   },
   mounted() {
-    const board = (router.search || '?').slice(1).split('&').filter().reduce((acc, str) => { const [k, v] = str.split('=');acc[k] = v;return acc }, {}).board || 'MLd6LVhv' // dn8XQPP7
+    const board = (router.search || '?').slice(1).split('&').filter().reduce((acc, str) => { const [k, v] = str.split('=');acc[k] = v;return acc }, {}).board || 'uNyruS5L' // { 2020: 'MLd6LVhv', 2019: 'dn8XQPP7' }
     fetch(`https://trello.com/b/${board}/100m-prod.json?key=046e2330907f0ebb73bd1f18947a4308&token=52431443c595002aa9fc45d54a11e9a4b5797c1a1e1dccc948a5f8efbcb3c5d1&cards=all&lists=all&checklists=all&members=all`)
     .then(r => r.json())
     .then(json => {
@@ -210,7 +210,7 @@ new Vue({
             const week = trello.lists.find(d => d.id === card.idList).name
             const month = months[d.plus(week.slice(1) * 7 - d.getDay() - 6 + ' days').getMonth()]
             const quarter = 'Q' + Math.ceil(week.slice(1) / 13)
-            const year = '2020' // +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
+            const year = '2021' // +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
             const members = (card.idMembers || []).map(mid => trello.members.find(d => d.id === mid))
             const member = (members[0] || {}).initials
             return { url, project, labels, type, task, time, member, week, month, quarter, year }
