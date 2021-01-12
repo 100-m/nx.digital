@@ -190,7 +190,8 @@ new Vue({
     },
   },
   mounted() {
-    const board = (router.search || '?').slice(1).split('&').filter().reduce((acc, str) => { const [k, v] = str.split('=');acc[k] = v;return acc }, {}).board || 'uNyruS5L' // { 2020: 'MLd6LVhv', 2019: 'dn8XQPP7' }
+    const old_board = { 2020: 'MLd6LVhv', 2019: 'dn8XQPP7' }
+    const board = old_board[(router.search || '?').slice(1).split('&').filter().reduce((acc, str) => { const [k, v] = str.split('=');acc[k] = v;return acc }, {}).board] || 'uNyruS5L' // { 2020: 'MLd6LVhv', 2019: 'dn8XQPP7' }
     fetch(`https://trello.com/b/${board}/100m-prod.json?key=046e2330907f0ebb73bd1f18947a4308&token=52431443c595002aa9fc45d54a11e9a4b5797c1a1e1dccc948a5f8efbcb3c5d1&cards=all&lists=all&checklists=all&members=all`)
     .then(r => r.json())
     .then(json => {
