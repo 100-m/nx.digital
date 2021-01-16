@@ -7,6 +7,7 @@ It retrieves information from Trello and allow filter combinations:
 - per Project
 TOKEN: https://trello.com/1/authorize?expiration=never&name=Chronos&scope=read&response_type=token&key=046e2330907f0ebb73bd1f18947a4308
 -->
+<link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACAAQMAAAD58POIAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAGUExURQAAAP///6XZn90AAAAqSURBVEjHY2AYBUMZ/AeDUQEYF5UeFcBILqMCo8kBJceMlh//R6uRAQMAc1xesM5ImOcAAAAASUVORK5CYII=">
 <style>
 @import url(//cdn.rawgit.com/vbrajon/rawcss/2ca9981dd6113e5601bf42d75cb86d1ae4791923/raw.css);
 @import url(//fonts.googleapis.com/css?family=Montserrat:100,400,700);
@@ -27,12 +28,12 @@ main > hr { width: 600px; }
 <main>
   <h1>Chronos</h1>
   <div class="filters">
-    <a v-href="{ member: member.initials }" v-for="member in trello && trello.members && trello.members.filter(d => !['CM', 'VD', 'WV'].includes(d.initials))">
+    <a v-href="{ member: member.initials }" v-for="member in trello.members && trello.members.filter(v => !['CM', 'VD', 'WV', 'FJ', 'SB'].includes(v.initials))">
       <div class="member" :tt="member.fullName.format('title')" v-if="member.avatarUrl"><img :src="member.avatarUrl + '/50.png'" /></div>
       <div class="member" v-text="member.initials" :tt="member.fullName.format('title')" v-else></div>
     </a>
     <hr />
-    <a :class="{ default: !router.state.period && period === month }" v-href="{ period }" v-for="period in [week, 'W' + (week.slice(1) - 1), month, months[months.findIndex(d => d === month) - 1], quarter, year].filter(d => !/(W|Q)0/.test(d))">{{ period }}</a>
+    <a :class="{ default: !router.state.period && period === month }" v-href="{ period }" v-for="period in [week, 'W' + (week.slice(1) - 1), month, months[months.findIndex(v => v === month) - 1], quarter, year].filter(v => !/(W|Q)0/.test(v))">{{ period }}</a>
     <label><input :value="router.state.period" @input="router.state = Object.assign({}, router.state, { period: $event.target.value })" /></label>
     <hr />
     <a v-href>RESET</a>
@@ -42,27 +43,27 @@ main > hr { width: 600px; }
     <h2 class="row">
       {{ router.state.period || month }} - {{ cards.map('time').sum() }}j
       <div style="margin-left: auto;" class="row center right">
-        <div style="margin: 10px;" v-for="grp, i in cards.group('member').values().sort(grp => -grp.map('time').sum())">
+        <a v-href="{ member: grp[0].member }" style="display: flex;flex-direction: column;place-content: center;margin: 10px;color: var(--text);text-decoration: none;" v-for="grp, i in cards.group('member').values().sort(grp => -grp.map('time').sum())">
           <div class="member" :tt="trello.members.find(m => m.initials === grp[0].member).fullName.format('title')" v-if="trello.members.find(m => m.initials === grp[0].member).avatarUrl">
             <img :src="trello.members.find(m => m.initials === grp[0].member).avatarUrl + '/50.png'" />
           </div>
           <div class="member" v-text="trello.members.find(m => m.initials === grp[0].member).initials" :tt="trello.members.find(m => m.initials === grp[0].member).fullName.format('title')" v-else></div>
           <div style="font-size: 20px;text-align: center;">{{ grp.map('time').sum() }}</div>
-        </div>
+        </a>
       </div>
     </h2>
-    <a v-href="{ display: 'project' }" class="column" style="color: var(--text);text-decoration: none;align-items: unset;justify-content: unset;padding: 4px;border: var(--border);border-radius: 4px;">
+    <div class="column" style="color: var(--text);text-decoration: none;align-items: unset;justify-content: unset;padding: 4px;border: var(--border);border-radius: 4px;" v-for="group in ['type', 'project']">
       <div class="row">
-        <div style="flex: 1;height: 28px;" class="row center" v-for="grp, i in cards.group(router.state.display || 'type').values().sort(grp => -grp.map('time').sum()).slice(0, 5)">
-          <div style="width: 10px;height: 10px;border-radius: 50%;margin-right: 4px;" :style="{ background: colors[grp[0][router.state.display || 'type']] || colors.values()[i] || '#b3bac5' }"></div>
-          <div style="font-weight: 600;margin-right: 4px;">{{ grp[0][router.state.display || 'type'] }}</div>
+        <a v-href="{ [group]: grp[0][group] }" style="flex: 1;height: 28px;color: var(--text);text-decoration: none;" class="row center" v-for="grp, i in cards.group(group).values().sort(grp => -grp.map('time').sum()).slice(0, 5)">
+          <div style="width: 10px;height: 10px;border-radius: 50%;margin-right: 4px;" :style="{ background: colors[grp[0][group]] || colors.values()[i] || '#b3bac5' }"></div>
+          <div style="font-weight: 600;margin-right: 4px;">{{ grp[0][group] }}</div>
           <div style="font-weight: 600;color: #6a737d;margin-right: 4px;">{{ Math.round(grp.map('time').sum() / cards.map('time').sum() * 100) + '%' }}</div>
-        </div>
+        </a>
       </div>
       <div style="height: 8px;" class="row">
-        <div style="border: 1px solid white;" :style="{ width: (grp.map('time').sum() / cards.map('time').sum() * 99) + '%', height: '8px', background: colors[grp[0][router.state.display || 'type']] || colors.values()[i] || '#b3bac5' }" :tt="[grp[0][router.state.display || 'type'], Math.round(grp.map('time').sum() / cards.map('time').sum() * 100) + '%', grp.map('time').sum() + 'j'].join(' / ')" v-for="grp, i in cards.group(router.state.display || 'type').values().sort(grp => -grp.map('time').sum())"></div>
+        <a v-href="{ [group]: grp[0][group] }" style="border: 1px solid white;" :style="{ width: (grp.map('time').sum() / cards.map('time').sum() * 99) + '%', height: '8px', background: colors[grp[0][group]] || colors.values()[i] || '#b3bac5' }" :tt="[grp[0][group], Math.round(grp.map('time').sum() / cards.map('time').sum() * 100) + '%', grp.map('time').sum() + 'j'].join(' / ')" v-for="grp, i in cards.group(group).values().sort(grp => -grp.map('time').sum())"></a>
       </div>
-    </a>
+    </div>
 
     <div style="margin: 10px 0;padding: 12px;border: var(--border);border-radius: 4px;" class="column" v-for="grp in cards.group('project').values().sort(grp => -grp.map('time').sum())">
       <div class="row center">
@@ -71,8 +72,8 @@ main > hr { width: 600px; }
         <div style="margin-left: 10px;font-size: 2em;font-weight: 600;">{{ grp.map('time').sum() }}j</div>
       </div>
 
-      <template v-if="!router.state.period || months.includes(router.state.period) && trello.lists.find(d => d.name.startsWith(router.state.period || month))">
-        <div style="margin: 12px -12px -12px -12px;padding: 12px;border-top:  var(--border);" v-for="card in trello.cards.filter(c => c.idList === trello.lists.find(d => d.name.startsWith(router.state.period || month)).id && c.name.split(' - ')[0] === grp[0].project)">
+      <template v-if="months.includes(router.state.period || month) && trello.lists.find(v => v.name.startsWith(router.state.period || month))">
+        <div style="margin: 12px -12px -12px -12px;padding: 12px;border-top:  var(--border);" v-for="card in trello.cards.filter(c => c.name.split(' - ')[0] === grp[0].project && c.idList === trello.lists.find(v => v.name.startsWith(router.state.period || month)).id)">
           <a :href="card.shortUrl" target="_blank" style="font-weight: 600;" :style="{ color: card.dueComplete ? 'green' : 'red' }">{{ card.name.replace(grp[0].project, card.due && card.due.slice(0, 10)) }}</a>
         </div>
       </template>
@@ -94,7 +95,7 @@ main > hr { width: 600px; }
 <script type="module">
 import 'https://vbrajon.github.io/rawjs/raw.js'
 import Vue from 'https://unpkg.com/vue@2.6.10/dist/vue.esm.browser.js'
-Object.extend()
+Vue.config.productionTip = false
 // Mini Vue router
 window.router = {
   pathname: location.pathname,
@@ -165,8 +166,8 @@ window.colors = Vue.prototype.colors = { INVEST: '#60bd4f', IMPLEM: '#f2d602', R
 new Vue({
   el: 'main',
   data: {
-    trello: null,
-    tickets: null,
+    trello: {},
+    tickets: [],
     week: 'W' + (new Date().getWeek() + 1),
     quarter: 'Q' + new Date().getQuarter(),
     month: months[new Date().getMonth()],
@@ -174,56 +175,52 @@ new Vue({
   },
   computed: {
     cards() {
-      try {
-        return this.tickets
-          .filter(d => {
-            const period = router.state.period || this.month
-            if (router.state.member && router.state.member !== d.member) return false
-            if (router.state.project && router.state.project !== d.project) return false
-            if (/W\d+/.test(period) && period !== d.week) return false
-            if (months.includes(period) && period !== d.month) return false
-            if (/Q\d/.test(period) && period !== d.quarter) return false
-            if (/\d{4}/.test(period) && period !== d.year) return false
-            return true
-          })
-      } catch(e) { return [] }
+      return this.tickets
+        .filter(v => {
+          const period = router.state.period || this.month
+          if (router.state.member && router.state.member !== v.member) return false
+          if (router.state.project && router.state.project !== v.project) return false
+          if (router.state.type && router.state.type !== v.type) return false
+          if (/^W\d+$/.test(period) && period !== v.week) return false
+          if (months.includes(period) && period !== v.month) return false
+          if (/^Q\d$/.test(period) && period !== v.quarter) return false
+          // if (/^\d{4}$/.test(period) && period !== v.year) return false
+          return true
+        })
     },
   },
-  mounted() {
-    const old_board = { 2020: 'MLd6LVhv', 2019: 'dn8XQPP7' }
-    const board = old_board[(router.search || '?').slice(1).split('&').filter().reduce((acc, str) => { const [k, v] = str.split('=');acc[k] = v;return acc }, {}).board] || 'uNyruS5L' // { 2020: 'MLd6LVhv', 2019: 'dn8XQPP7' }
-    fetch(`https://trello.com/b/${board}/100m-prod.json?key=046e2330907f0ebb73bd1f18947a4308&token=52431443c595002aa9fc45d54a11e9a4b5797c1a1e1dccc948a5f8efbcb3c5d1&cards=all&lists=all&checklists=all&members=all`)
-    .then(r => r.json())
-    .then(json => {
-      const d = new Date('2019')
-      window.trello = this.trello = Object.freeze(json)
-      window.tickets = this.tickets = Object.freeze(
-        trello.cards
-          .filter(d => /([^-]*)-(.*)\[([.0-9]+).*\]/.exec(d.name))
-          .map(card => {
-            const url = card.shortUrl
-            const matches = /([^-]*)-(.*)\[([.0-9]+).*\]/.exec(card.name)
-            const project = matches[1].trim()
-            const task = matches[2].trim()
-            const time = +matches[3]
-            const labels = card.labels.map('name')
-            const type = labels.find(d => ['IMPLEM', 'INVEST', 'RUN'].includes(d)) || 'MISC'
-            const week = trello.lists.find(d => d.id === card.idList).name
-            const month = months[d.plus(week.slice(1) * 7 - d.getDay() - 6 + ' days').getMonth()]
-            const quarter = 'Q' + Math.ceil(week.slice(1) / 13)
-            const year = '2021' // +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
-            const members = (card.idMembers || []).map(mid => trello.members.find(d => d.id === mid))
-            const member = (members[0] || {}).initials
-            return { url, project, labels, type, task, time, member, week, month, quarter, year }
-          })
-          .filter(d => {
-            if (!/^W\d+$/.test(d.week)) return false
-            if (d.member === 'VD') return false
-            if (!d.member) return console.log('Card without member', d.url)
-            return true
-          })
+  async created() {
+    const boards = { 2021: 'uNyruS5L', 2020: 'MLd6LVhv', 2019: 'dn8XQPP7' }
+    const board = boards[router.state.board || 2021] || router.state.board
+    const json = await (await fetch(`https://trello.com/b/${board}/100m-prod.json?key=046e2330907f0ebb73bd1f18947a4308&token=52431443c595002aa9fc45d54a11e9a4b5797c1a1e1dccc948a5f8efbcb3c5d1&cards=all&lists=all&checklists=all&members=all`)).json()
+    const soy = new Date(new Date().getFullYear())
+    window.trello = this.trello = Object.freeze(json)
+    window.tickets = this.tickets = Object.freeze(
+      trello.cards
+        .filter(v => /([^-]*)-(.*)\[([.0-9]+).*\]/.exec(v.name))
+        .map(card => {
+          const url = card.shortUrl
+          const matches = /([^-]*)-(.*)\[([.0-9]+).*\]/.exec(card.name)
+          const project = matches[1].trim()
+          const task = matches[2].trim()
+          const time = +matches[3]
+          const labels = card.labels.map('name')
+          const type = labels.find(v => ['IMPLEM', 'INVEST', 'RUN'].includes(v)) || 'MISC'
+          const week = trello.lists.find(v => v.id === card.idList).name
+          const month = months[soy.plus(week.slice(1) * 7 - soy.getDay() - 6 + ' days').getMonth()]
+          const quarter = 'Q' + Math.ceil(week.slice(1) / 13)
+          const year = +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
+          const members = (card.idMembers || []).map(mid => trello.members.find(v => v.id === mid))
+          const member = (members[0] || {}).initials
+          return { url, project, labels, type, task, time, member, week, month, quarter, year }
+        })
+        .filter(v => {
+          if (!/^W\d+$/.test(v.week)) return false
+          if (['CM', 'VD', 'WV', 'FJ', 'SB'].includes(v.member)) return false
+          if (!v.member) return console.log('Card without member', v.url)
+          return true
+        })
       )
-    })
   },
 })
 </script>
