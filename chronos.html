@@ -28,7 +28,7 @@ main > hr { width: 600px; }
 <main>
   <h1>Chronos</h1>
   <div class="filters">
-    <a v-href="{ member: member.initials }" v-for="member in trello.members && trello.members.filter(v => !['CM', 'VD', 'WV', 'FJ', 'SB'].includes(v.initials))">
+    <a v-href="{ member: member.initials }" v-for="member in trello.members?.filter(v => !['CM', 'VD', 'WV', 'FJ', 'SB'].includes(v.initials))">
       <div class="member" :tt="member.fullName.format('title')" v-if="member.avatarUrl"><img :src="member.avatarUrl + '/50.png'" /></div>
       <div class="member" v-text="member.initials" :tt="member.fullName.format('title')" v-else></div>
     </a>
@@ -184,43 +184,51 @@ new Vue({
           if (/^W\d+$/.test(period) && period !== v.week) return false
           if (months.includes(period) && period !== v.month) return false
           if (/^Q\d$/.test(period) && period !== v.quarter) return false
-          // if (/^\d{4}$/.test(period) && period !== v.year) return false
           return true
         })
     },
   },
-  async created() {
-    const boards = { 2021: 'uNyruS5L', 2020: 'MLd6LVhv', 2019: 'dn8XQPP7' }
-    const board = boards[router.state.board || 2021] || router.state.board
-    const json = await (await fetch(`https://trello.com/b/${board}/100m-prod.json?key=046e2330907f0ebb73bd1f18947a4308&token=52431443c595002aa9fc45d54a11e9a4b5797c1a1e1dccc948a5f8efbcb3c5d1&cards=all&lists=all&checklists=all&members=all`)).json()
-    const soy = new Date(new Date().getFullYear())
-    window.trello = this.trello = Object.freeze(json)
-    window.tickets = this.tickets = Object.freeze(
-      trello.cards
-        .filter(v => /([^-]*)-(.*)\[([.0-9]+).*\]/.exec(v.name))
-        .map(card => {
-          const url = card.shortUrl
-          const matches = /([^-]*)-(.*)\[([.0-9]+).*\]/.exec(card.name)
-          const project = matches[1].trim()
-          const task = matches[2].trim()
-          const time = +matches[3]
-          const labels = card.labels.map('name')
-          const type = labels.find(v => ['IMPLEM', 'INVEST', 'RUN'].includes(v)) || 'MISC'
-          const week = trello.lists.find(v => v.id === card.idList).name
-          const month = months[soy.plus(week.slice(1) * 7 - soy.getDay() - 6 + ' days').getMonth()]
-          const quarter = 'Q' + Math.ceil(week.slice(1) / 13)
-          const year = +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
-          const members = (card.idMembers || []).map(mid => trello.members.find(v => v.id === mid))
-          const member = (members[0] || {}).initials
-          return { url, project, labels, type, task, time, member, week, month, quarter, year }
-        })
-        .filter(v => {
-          if (!/^W\d+$/.test(v.week)) return false
-          if (['CM', 'VD', 'WV', 'FJ', 'SB'].includes(v.member)) return false
-          if (!v.member) return console.log('Card without member', v.url)
-          return true
-        })
-      )
+  watch: {
+    'router.state.period': {
+      async handler(period = 2021) {
+        if (!/^\d{4}$/.test(period) || this.trello.name?.includes(period)) return
+        this.trello = {}
+        this.tickets = []
+        const boards = { 2021: 'uNyruS5L', 2020: 'MLd6LVhv', 2019: 'dn8XQPP7' }
+        const board = boards[period] || router.state.board
+        const json = await (await fetch(`https://trello.com/b/${board}/100m-prod.json?key=046e2330907f0ebb73bd1f18947a4308&token=52431443c595002aa9fc45d54a11e9a4b5797c1a1e1dccc948a5f8efbcb3c5d1&cards=all&lists=all&checklists=all&members=all`)).json()
+        const soy = new Date(new Date().getFullYear())
+        window.trello = this.trello = Object.freeze(json)
+        window.tickets = this.tickets = Object.freeze(
+          trello.cards
+            .filter(v => /([^-]*)-(.*)\[([.0-9]+).*\]/.exec(v.name))
+            .map(card => {
+              const url = card.shortUrl
+              const matches = /([^-]*)-(.*)\[([.0-9]+).*\]/.exec(card.name)
+              const project = matches[1].trim()
+              const task = matches[2].trim()
+              const time = +matches[3]
+              const labels = card.labels.map('name')
+              const type = labels.find(v => ['IMPLEM', 'INVEST', 'RUN'].includes(v)) || 'MISC'
+              const week = trello.lists.find(v => v.id === card.idList).name
+              const month = months[soy.plus(week.slice(1) * 7 - soy.getDay() - 6 + ' days').getMonth()]
+              const quarter = 'Q' + Math.ceil(week.slice(1) / 13)
+              const year = +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
+              const members = (card.idMembers || []).map(mid => trello.members.find(v => v.id === mid))
+              const member = (members[0] || {}).initials
+              return { url, project, labels, type, task, time, member, week, month, quarter, year }
+            })
+            .filter(v => {
+              if (!/^W\d+$/.test(v.week)) return false
+              if (['CM', 'VD', 'WV', 'FJ', 'SB'].includes(v.member)) return false
+              if (!v.member) return console.log('Card without member', v.url)
+              return true
+            })
+        )
+      },
+      immediate: true,
+      deep: true,
+    },
   },
 })
 </script>
