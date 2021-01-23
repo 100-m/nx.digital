@@ -190,7 +190,8 @@ new Vue({
   },
   watch: {
     'router.state.period': {
-      async handler(period = 2021) {
+      async handler(period) {
+        if (!this.trello.name) period = 2021
         if (!/^\d{4}$/.test(period) || this.trello.name?.includes(period)) return
         this.trello = {}
         this.tickets = []
