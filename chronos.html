@@ -198,7 +198,7 @@ new Vue({
         const boards = { 2021: 'uNyruS5L', 2020: 'MLd6LVhv', 2019: 'dn8XQPP7' }
         const board = boards[period] || router.state.board
         const json = await (await fetch(`https://trello.com/b/${board}/100m-prod.json?key=046e2330907f0ebb73bd1f18947a4308&token=52431443c595002aa9fc45d54a11e9a4b5797c1a1e1dccc948a5f8efbcb3c5d1&cards=all&lists=all&checklists=all&members=all`)).json()
-        const soy = new Date(new Date().getFullYear())
+        const soy = new Date('' + new Date().getFullYear())
         window.trello = this.trello = Object.freeze(json)
         window.tickets = this.tickets = Object.freeze(
           trello.cards
