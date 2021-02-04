@@ -212,7 +212,8 @@ new Vue({
               const labels = card.labels.map('name')
               const type = labels.find(v => ['IMPLEM', 'INVEST', 'RUN'].includes(v)) || 'MISC'
               const week = trello.lists.find(v => v.id === card.idList).name
-              const month = months[soy.plus(week.slice(1) * 7 - soy.getDay() - 6 + ' days').getMonth()]
+              const find_month_by_week = (week) => months[Math.min(Math.ceil((week.slice(1) * 7) / 30) - 1, 11)]
+              let month = find_month_by_week(week)
               const quarter = 'Q' + Math.ceil(week.slice(1) / 13)
               const year = +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
               const members = (card.idMembers || []).map(mid => trello.members.find(v => v.id === mid))
