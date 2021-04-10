@@ -24,6 +24,7 @@ main > hr { width: 600px; }
 .filters hr { height: 24px;border-left: var(--border); }
 .member { display: flex;align-items: center;justify-content: center;width: 25px;height: 25px;border-radius: 50%;background: #d9d9d9;font-size: 12px; }
 .report { width: 800px; }
+.billable { background: #85bb65;border-radius: 4px;padding: 4px; }
 </style>
 <main>
   <h1>Chronos</h1>
@@ -67,8 +68,9 @@ main > hr { width: 600px; }
 
     <div style="margin: 10px 0;padding: 12px;border: var(--border);border-radius: 4px;" class="column" v-for="grp in cards.group('project').values().sort(grp => -grp.map('time').sum())">
       <div class="row center">
-        <a style="font-size: 2em;font-weight: 600;color: var(--text);" v-href="{ project: grp[0].project }">{{ grp[0].project }}</a>
+        <a style="font-size: 2em;font-weight: 600;color: var(--text);" v-href="{ project: grp[0].project }" :style="[projects_list[grp[0].project] ? { color: 'black' } : {color:'red'}]">{{ grp[0].project }}</a>
         <div style="margin-left: auto;font-weight: 600;color: #6a737d;">{{ Math.round(grp.map('time').sum() / cards.map('time').sum() * 100) }}%</div>
+        <div v-if="projects_list[grp[0].project] && projects_list[grp[0].project].billable" style="margin-left: 10px;font-size: 1em;font-weight: 600;">(billable: {{ grp.filter(d => d.billable).map('time').sum() }}j)</div>
         <div style="margin-left: 10px;font-size: 2em;font-weight: 600;">{{ grp.map('time').sum() }}j</div>
       </div>
 
@@ -81,6 +83,7 @@ main > hr { width: 600px; }
       <template v-if="router.state.project === grp[0].project || /W\d+/.test(router.state.period)">
         <div style="position: relative;margin: 12px -12px -12px -12px;padding: 12px;border-top:  var(--border);" v-for="ticket in grp">
           <a :href="ticket.url" target="_blank" style="padding-right: 100px;color: var(--text);">{{ ticket.task }}</a>
+          <div class="billable" style="position: absolute;top: 12px;right: 100px;color: var(--primary);" tt="NOT BILLABLE" v-if="projects_list[grp[0].project] && projects_list[grp[0].project].billable && !ticket.billable"> NB </div>
           <div style="position: absolute;top: 12px;right: 60px;" class="member" :tt="trello.members.find(m => m.initials === ticket.member).fullName.format('title')" v-if="trello.members.find(m => m.initials === ticket.member).avatarUrl">
             <img :src="trello.members.find(m => m.initials === ticket.member).avatarUrl + '/50.png'" />
           </div>
@@ -93,6 +96,29 @@ main > hr { width: 600px; }
 </main>
 
 <script type="module">
+  const projects_list = {
+    "LFRA": { billable: true },
+    "AMI": { billable: true },
+    "SCH": { billable: true},
+    "CED": { billable: true},
+    "MAN": { billable: true},
+    "NAT": { billable: true},
+    "MOA": { billable: true},
+    "RIC": { billable: true},
+    "DCI": { billable: true},
+    "CACEIS": { billable: true},
+    "GROUPAMA": { billable: true},
+    "OFF": { billable: false},
+    "OTHER": { billable: false},
+    "PIPELINE": { billable: false},
+    "HAURU": { billable: false},
+    "GREENROCK": { billable: false},
+    "COMMANDR": { billable: false},
+    "CALCIFER": { billable: false},
+    "PLATFORM": { billable: false},
+    "VISAGE": { billable: false},
+    "ROADMAP": { billable: false},
+  }
 import 'https://vbrajon.github.io/rawjs/raw.js'
 import Vue from 'https://unpkg.com/vue@2.6.10/dist/vue.esm.browser.js'
 Vue.config.productionTip = false
@@ -172,6 +198,7 @@ new Vue({
     quarter: 'Q' + new Date().getQuarter(),
     month: months[new Date().getMonth()],
     year: new Date().getFullYear(),
+    projects_list: projects_list,
   },
   computed: {
     cards() {
@@ -211,6 +238,7 @@ new Vue({
               const time = +matches[3]
               const labels = card.labels.map('name')
               const type = labels.find(v => ['IMPLEM', 'INVEST', 'RUN'].includes(v)) || 'MISC'
+              const billable = (projects_list[project] && projects_list[project].billable  && !labels.includes('NOT BILLABLE')) || false
               const week = trello.lists.find(v => v.id === card.idList).name
               const find_month_by_week = (week) => months[Math.min(Math.ceil((week.slice(1) * 7) / 30) - 1, 11)]
               let month = find_month_by_week(week)
@@ -218,7 +246,7 @@ new Vue({
               const year = +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
               const members = (card.idMembers || []).map(mid => trello.members.find(v => v.id === mid))
               const member = (members[0] || {}).initials
-              return { url, project, labels, type, task, time, member, week, month, quarter, year }
+              return { url, project, labels, type, billable, task, time, member, week, month, quarter, year }
             })
             .filter(v => {
               if (!/^W\d+$/.test(v.week)) return false
