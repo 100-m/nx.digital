@@ -29,7 +29,7 @@ main > hr { width: 600px; }
 <main>
   <h1>Chronos</h1>
   <div class="filters">
-    <a v-href="{ member: member.initials }" v-for="member in trello.members?.filter(v => !['CM', 'VD', 'WV', 'FJ', 'SB'].includes(v.initials))">
+    <a v-href="{ member: member.initials }" v-for="member in trello.members?.filter(v => !['CM', 'WV', 'FJ', 'SB'].includes(v.initials))">
       <div class="member" :tt="member.fullName.format('title')" v-if="member.avatarUrl"><img :src="member.avatarUrl + '/50.png'" /></div>
       <div class="member" v-text="member.initials" :tt="member.fullName.format('title')" v-else></div>
     </a>
@@ -106,6 +106,8 @@ main > hr { width: 600px; }
     "MOA": { billable: true},
     "RIC": { billable: true},
     "DCI": { billable: true},
+    "LBPAM": { billable: true},
+
     "CACEIS": { billable: true},
     "GROUPAMA": { billable: true},
     "OFF": { billable: false},
@@ -118,7 +120,7 @@ main > hr { width: 600px; }
     "PLATFORM": { billable: false},
     "VISAGE": { billable: false},
     "ROADMAP": { billable: false},
-  }
+}
 import 'https://vbrajon.github.io/rawjs/raw.js'
 import Vue from 'https://unpkg.com/vue@2.6.10/dist/vue.esm.browser.js'
 Vue.config.productionTip = false
@@ -250,7 +252,7 @@ new Vue({
             })
             .filter(v => {
               if (!/^W\d+$/.test(v.week)) return false
-              if (['CM', 'VD', 'WV', 'FJ', 'SB'].includes(v.member)) return false
+              if (['CM', 'WV', 'FJ', 'SB'].includes(v.member)) return false
               if (!v.member) return console.log('Card without member', v.url)
               return true
             })
