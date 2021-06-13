@@ -68,7 +68,8 @@ main > hr { width: 600px; }
 
     <div style="margin: 10px 0;padding: 12px;border: var(--border);border-radius: 4px;" class="column" v-for="grp in cards.group('project').values().sort(grp => -grp.map('time').sum())">
       <div class="row center">
-        <a style="font-size: 2em;font-weight: 600;color: var(--text);" v-href="{ project: grp[0].project }" :style="[projects_list[grp[0].project] ? { color: 'black' } : {color:'red'}]">{{ grp[0].project }}</a>
+        <a style="font-size: 2em;font-weight: 600;color: var(--text);" v-href="router.state.subproject ?{ project: grp[0].project, subproject: router.state.subproject } : { project: grp[0].project }" :style="[projects_list[grp[0].project] ? { color: 'black' } : {color:'red'}]">{{ grp[0].project }}</a>
+        <a style="padding: 8px" v-if="router.state.project" v-for="subproject in grp.map(d => d.subproject).filter().unique()" v-href="{ subproject }"> {{ subproject }} </a>
         <div style="margin-left: auto;font-weight: 600;color: #6a737d;">{{ Math.round(grp.map('time').sum() / cards.map('time').sum() * 100) }}%</div>
         <div v-if="projects_list[grp[0].project] && projects_list[grp[0].project].billable" style="margin-left: 10px;font-size: 1em;font-weight: 600;">(billable: {{ grp.filter(d => d.billable).map('time').sum() }}j)</div>
         <div style="margin-left: 10px;font-size: 2em;font-weight: 600;">{{ grp.map('time').sum() }}j</div>
@@ -209,6 +210,7 @@ new Vue({
           const period = router.state.period || this.month
           if (router.state.member && router.state.member !== v.member) return false
           if (router.state.project && router.state.project !== v.project) return false
+          if (router.state.subproject && router.state.subproject !== v.subproject) return false
           if (router.state.type && router.state.type !== v.type) return false
           if (/^W\d+$/.test(period) && period !== v.week) return false
           if (months.includes(period) && period !== v.month) return false
@@ -237,6 +239,11 @@ new Vue({
               const matches = /([^-]*)-(.*)\[([.0-9]+).*\]/.exec(card.name)
               const project = matches[1].trim()
               const task = matches[2].trim()
+              let subproject = null
+              if (project === "NAT") {
+                // NAT only, require some trello ticket clean before enable all projects
+                subproject = task.includes('-') ? task.split('-')[0].trim().upper() : null
+              }
               const time = +matches[3]
               const labels = card.labels.map('name')
               const type = labels.find(v => ['IMPLEM', 'INVEST', 'RUN'].includes(v)) || 'MISC'
@@ -248,7 +255,7 @@ new Vue({
               const year = +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
               const members = (card.idMembers || []).map(mid => trello.members.find(v => v.id === mid))
               const member = (members[0] || {}).initials
-              return { url, project, labels, type, billable, task, time, member, week, month, quarter, year }
+              return { url, project, subproject, labels, type, billable, task, time, member, week, month, quarter, year }
             })
             .filter(v => {
               if (!/^W\d+$/.test(v.week)) return false
