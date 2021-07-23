@@ -42,7 +42,7 @@ main > hr { width: 600px; }
   <hr />
   <div class="report">
     <h2 class="row">
-      {{ router.state.period || month }} - {{ cards.map('time').sum() }}j
+      {{ router.state.period || month }} - {{ Math.round((cards.map('time').sum() * 100)) / 100 }}j
       <div style="margin-left: auto;" class="row center right">
         <a v-href="{ member: grp[0].member }" style="display: flex;flex-direction: column;place-content: center;margin: 10px;color: var(--text);text-decoration: none;" v-for="grp, i in cards.group('member').values().sort(grp => -grp.map('time').sum())">
           <div class="member" :tt="trello.members.find(m => m.initials === grp[0].member).fullName.format('title')" v-if="trello.members.find(m => m.initials === grp[0].member).avatarUrl">
