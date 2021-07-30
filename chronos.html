@@ -240,7 +240,7 @@ new Vue({
               const project = matches[1].trim()
               const task = matches[2].trim()
               let subproject = null
-              if (['NAT', 'LFRA', 'DCI', 'AMI'].includes(project)) {
+              if (['NAT', 'LFRA', 'DCI', 'AMI', 'MAN'].includes(project)) {
                 // NAT only, require some trello ticket clean before enable all projects
                 subproject = task.includes('-') ? task.split('-')[0].trim().upper() : null
               }
