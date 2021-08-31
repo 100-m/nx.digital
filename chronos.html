@@ -254,7 +254,7 @@ new Vue({
               const quarter = 'Q' + Math.ceil(week.slice(1) / 13)
               const year = +card.dateLastActivity.slice(0, 4) - (week >= 'W50' && card.dateLastActivity.slice(5, 7) === '01' ? 1 : 0)
               const members = (card.idMembers || []).map(mid => trello.members.find(v => v.id === mid))
-              const member = (members[0] || {}).initials
+              const member = (members[0] || {}).initials || 'B' // Leaver fallback to bot.100m.io
               return { url, project, subproject, labels, type, billable, task, time, member, week, month, quarter, year }
             })
             .filter(v => {
