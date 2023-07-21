@@ -107,7 +107,7 @@ Congratulations! You just created and configure your first report. ✅
 
 * Press Play/Run icon
 
-Congratulations! You just declared your first report. ✅
+Congratulations! You just run your first report. ✅
 
 
 ### Step 6 – Follow your report process and download your first factsheet
