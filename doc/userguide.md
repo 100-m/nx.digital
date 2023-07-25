@@ -60,7 +60,7 @@ Congratulations! You just configured and read your first template ✅
 
 * Open the “Demo_workflow” by clicking on the edit option  
 
-* Read the two steps: - manual validation – generate PDF and how it is structured  
+* Check and validate the steps in the Demo_worflow.
 
 * Save your workflow  
 
