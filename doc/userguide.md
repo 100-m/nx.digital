@@ -56,7 +56,8 @@ Congratulations! You just configured and read your first template ✅
 
 ### Step 3 - Configure your production workflow
 
-![Workflow Structure](/doc/img/workflowstructure1.png)
+<img src="/doc/img/workflowstructure1.png" alt="Report Run" width="400">
+
 *Illustration of the nature of possible workflow steps.*
 
 * Go to the Workflow tab  
@@ -112,8 +113,10 @@ Congratulations! You just created and configure your first report. ✅
 
 Congratulations! You just run your first report. ✅
 
-![Report Run](/doc/img/reportrun1.png)
+<img src="/doc/img/reportrun1.png" alt="Report Run" width="700">
+
 *Illustration of a complete report configuration and run.*
+
 
 ### Step 6 – Follow your report process and download your first factsheet
 
