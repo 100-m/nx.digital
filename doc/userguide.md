@@ -56,7 +56,7 @@ Congratulations! You just configured and read your first template ✅
 
 ### Step 3 - Configure your production workflow
 
-<img src="/doc/img/workflowstructure1.png" alt="Report Run" width="400">
+<img src="/doc/img/workflowstructure1.png" alt="Report Run" height="300">
 
 *Illustration of the nature of possible workflow steps.*
 
