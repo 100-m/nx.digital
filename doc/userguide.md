@@ -56,6 +56,9 @@ Congratulations! You just configured and read your first template ✅
 
 ### Step 3 - Configure your production workflow
 
+![Workflow Structure](/doc/img/workflowstructure1.png)
+*Illustration of the nature of possible workflow steps.*
+
 * Go to the Workflow tab  
 
 * Open the “Demo_workflow” by clicking on the edit option  
@@ -68,8 +71,6 @@ Congratulations! You just configured and read your first workflow ✅
 
 
 ### Step 4 - Create and configure a report
-
-![business entity](/doc/img/businessentity.png)
 
 * Go to the reports tab  
 In this tab, you will find the list of all your reports. You can read check its style, workflow, planification, pattern, planification, wallet, ISIN, part.  
@@ -111,6 +112,8 @@ Congratulations! You just created and configure your first report. ✅
 
 Congratulations! You just run your first report. ✅
 
+![Report Run](/doc/img/reportrun1.png)
+*Illustration of a complete report configuration and run.*
 
 ### Step 6 – Follow your report process and download your first factsheet
 
