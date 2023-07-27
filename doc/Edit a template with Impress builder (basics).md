@@ -1,6 +1,6 @@
-# Edit a template with Impress builder (basics)
+# Create and edit a template with Impress builder (basics)
 
-*After reading this article, you will understand how to edit a template, what a template is, and how it will be used. We will go through clear steps to make you practice on this tool.*
+*After reading this article, you will understand how to create a template, what a template is, and how it will be used. We will go through clear steps to make you practice on this tool.*
 
 ## Prerequisite
 Having a demo_template placed in the templates section.
