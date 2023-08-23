@@ -19,7 +19,7 @@ Pre-defined layout or design that serves as a blueprint for generating reports. 
 Sequence of steps and actions involved in the entire reporting process. A workflow can include a wide range of steps: data acquisition, data validation, data processing, data quality, user contribution, document generation, synchronization of workflows, and many more. Impress offers workflow automation to streamline the report generation process, reducing manual efforts and increasing productivity.
 
 **Run**  
-Execution or generation of a specific report based on a given set of parameters. 
+"Running a report" means launching the document creation workflow, it concludes when the “Document” has been created and delivered to the documents warehouse.​ For a report to "run", it needs a “Report Config" and an as-of-date.​
 
 ### Step 0 - Prerequisites
 Check the following conditions before started:  
