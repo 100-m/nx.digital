@@ -2,7 +2,7 @@
 
 ## Impress Architecture at a glance
 
-Impress is a cloud-based product implementing best practices in terms of architecture and security. The platform relies on world-class software as services: AWS, Auth0, Firebase, Github and Zeit.
+Impress is a cloud-based product implementing best practices in terms of architecture and security. The platform relies on world-class software as services: AWS, Auth0, Github and Vercel.
 
 One key to have a secure architecture is to have a comprehensive system. Here is our system's schema:
 
@@ -12,13 +12,21 @@ One key to have a secure architecture is to have a comprehensive system. Here is
 
 Impress leverages third party providers for content delivery, user authentication, real-time data storage, as well as server hosting. We chose well-establish best-in-class providers that we review regularly.
 
-### Platform (ZEIT-CDN)
+### FrontEnd (Vercel)
 
-Platform is the FrontEnd and the main part of our product, all our code is condensed in a file to be easily and quickly deployed. We use a CDN to serve the application.
+We chose Vercel as Impress Content Delivery Network. Vercel is a content delivery network that serves the application shell efficiently worldwide. Other companies like Netflix or GitHub rely on Vercel.
 
 Content delivery network (CDN) are systems of distributed servers (network) that deliver pages and other web content to a user, based on the geographic locations of the user, the origin of the webpage and the content delivery server. It is effective in speeding up the delivery of content of websites with high traffic and websites that have a global reach.
 
-We chose ZEIT as Impress Content Delivery Network. ZEIT is a content delivery network that serves the application shell efficiently worldwide. Other companies like Netflix or GitHub rely on ZEIT.
+The frontend is composed of the following modules:
+  - Digital Application: Digital Reporting, Client Reporting
+  - Embedded Widgets
+  - HTML/PDF
+  - Client Portal
+
+## Power Point
+
+NeoXm features a PowerPoint add-in that allows for simple and quick connection to the GraphQL API in a secure manner, making it possible to seamlessly link PowerPoint objects with high-quality data curated by Impress
 
 ### Authentication (Auth0)
 
@@ -26,42 +34,41 @@ User authentication is the verification of an active human-to-machine transfer o
 
 We chose Auth0 to provide Impress authentication. Auth0 provides authentication and authorization as a service. It provides crucial features like Single Sign-On, Multi-Factor Authentication, User Management, and Passwordless Authentication. Companies like Atlassian, Nvidia or Mozilla rely on Auth0.
 
-### Business Data (AWS EC2)
+### Data Reporting Services (AWS Lambda)
 
 Impress application is served using a web server. Impress servers are hosted in a cloud. Services are made available to customers on-demand via the Internet. Rather than being provided by a single server or virtual server, Impress services are provided by multiple connected servers that comprise a cloud.
 
 We chose Amazon Web Service to be our default Cloud provider. Amazon operates in over 50 availability zones. Our servers are located in Continental Europe, except when specified otherwise.
 
-The brick Business data contains the following features:
+The brick ata Reporting Services contains the following features:
 - Pipeline: E.T.L. which will transform the raw data to put it in the format of our data model
-- Commandr: A Scheduler to manage the impress process (Data Integration, pull SFTP ...)
-- File System: This EC2 will contain the Impress file system (Raw Data received, application data, generated reports)
-- API Auth: This API will secure the access from the front to the business data.
+- GraphQL DataReport API: The GraphQL DataReport API is a well-documented, secure, and modular application programming interface, designed to efficiently retrieve functional data while offering maximum flexibility to both developers and business users.
 
-The Pipeline component could send data to the Brick Data Realtime via the Firebase SDK.
+The Pipeline component could send data to the Brick Data Realtime.
 This communication is not mandatory.
 
-### Data Realtime (GCP-Firebase)
+### Realtime Services (AWS)
 
-Impress real-time Database is a cloud-hosted NoSQL database that lets you store and sync data between Impress users in real-time. Real-time syncing makes it easy for our users to collaborate.
+Impress features a Scheduler to manage various processes such as Data Integration, pulling from SFTP, and user actions.
 
-We chose Google Firebase to be our real-time database. The Firebase Realtime Database uses data synchronization—every time data changes, any connected device receives that update within milliseconds.
+For managing workflows, a real-time database is essential.
 
-The brick is optionnal, Impress Solution can be used without the Data Realtime.
-This brick is used to:
-- User Analytics: (User journey on the application, time spent...)
-- Live Update: makes it easy for our users to collaborate.
-- Screen Sharing between Users
+The Impress Real-Time Database, integrated within a PostgreSQL environment, enables the storage and real-time synchronization of data among Impress users. This capability ensures seamless collaboration.
 
-An alternative to GCP-Firebase is available with HASURA, and could be deployed in AWS.
+We've chosen Hasura + PostgreSQL for our real-time database solution. Hasura facilitates immediate data synchronization, ensuring that any updates are swiftly propagated to all connected devices within milliseconds.
 
-### Exporter (AWS Lambda)
+
+### Document Creation Services (AWS Lambda)
 
 Serverless computing is a cloud-computing execution model in which the cloud provider runs the server, and dynamically manages the allocation of machine resources. Serverless computing allows impress to scale instantly with its user needs.
 
 We chose Amazon Lambdas for our serverless computing platform.
 
-This brick is used to generate reporting
+This brick is used to generate reporting (PPT / PDF)
+
+## Storage (AWS)
+
+File System will contain the Impress file system (Raw Data received, application data, generated reports)
 
 ## Impress user roles
 
@@ -71,7 +78,6 @@ Three big types of user roles exist in Impress: the application users who intera
 
 - to retrieve financial data files from our AWS server filesystems.
 - to create factsheet on-demand using AWS lambdas.
-- access real-time private data on Firebase.
 
 **Users Administrator** can connect to Auth0 web interface and manage the account and permission of application users as well as the other users administrators.
 
@@ -99,7 +105,7 @@ This principle means giving a user account or process only those privileges whic
 
 ### How it works in NeoXam?
 
-Only cloud administrators have access to AWS, Firebase, Zeit or Auth0 console.
+Only cloud administrators have access to AWS, Vercel or Auth0 console.
 Users administrators accounts are created for the client and dedicated developers during the implementation phase. At any time, developer access can be removed by users administrator, at least one access will be needed by the support team to check on the data or users.
 
 ## SSH keys
@@ -164,9 +170,9 @@ With an additional cost, we can centralize and stream logs to an external servic
 We can monitor all our applications through a web dashboard:
 
 - Amazon CloudWatch is a monitoring and observability service, it provides you with data and actionable insights to monitor your applications, respond to system-wide performance changes, optimize resource utilization, and get a unified view of operational health.
-- Firebase dashboard provides a lot of statistics to monitor database usage.
+- AWS dashboard provides a lot of statistics to monitor database usage.
 - Auth0 provides a login dashboard global and by users.
-- Zeit provides the logs of the application invocation.
+- Vercel provides the logs of the application invocation.
 
 ## Application administration
 
@@ -281,7 +287,7 @@ Any access to data or application features is subject to permission that is defi
 
 Financial Data is delivered to the application via the Impress API, secured by an authentication API.
 
-Application configuration and real-time data is delivered through Firebase, secured by their built-in authentication mechanism and the Auth0 token.
+Application configuration secured by their built-in authentication mechanism and the Auth0 token.
 
 ## Data encryption
 
@@ -295,8 +301,8 @@ Impress also implements "Data At Rest" encryption to prevents data visibility in
 
 ## Data Location
 
-All our AWS server and our Firebase database are hosted in Continental Europe.
-Our content delivery network (Zeit) that serves the application, choose the best area to deploy the application. The best area is defined by the closest region of the user.
+All our AWS server are hosted in Continental Europe.
+Our content delivery network (Vercel) that serves the application, choose the best area to deploy the application. The best area is defined by the closest region of the user.
 
 ## G.D.P.R.
 
@@ -310,7 +316,6 @@ Amazon AWS, which hosts the solution, respects industry regulations, government 
 
 Per GDPR, Auth0 is a [Data Processor](https://auth0.com/docs/compliance/gdpr). It enables Impress to protect user consent, secure user data, allow data portability, implement data minimization and right to access, correct, and erase data.
 
-As far as Google Firebase is concerned, from a GRPD perspective, Google is generally seen as a data processor and processes personal data on behalf of the users. Firebase terms include [Data Processing and Security Terms for all Firebase services](https://firebase.google.com/terms/data-processing-term). Firebase allows Impress to be GDPR compliant.
 
 ## Datacenter Physical Security
 
@@ -318,7 +323,7 @@ Impress solution is cloud solution, all our datacenter are hosted in the cloud:
 
 - [AWS physical Security](https://aws.amazon.com/compliance/data-center/controls/?nc1=h_ls#Physical_Access)
 - [Google physical Security](https://www.google.com/about/datacenters/inside/data-security/index.html)
-- Zeit and Auth0 are using AWS.
+- Vercel and Auth0 are using AWS.
 
 ## Data Access Admin
 
@@ -331,7 +336,7 @@ Even if our cloud providers are reliable, we have prepared a **recovery procedur
 
 For our servers & databases:
 
-- Daily data backup (AWS & Firebase)
+- Daily data backup (AWS)
 - Weekly filesystem snapshots
 - Archive are conserved 2 years before removing.
 
@@ -346,8 +351,6 @@ For our deployments:
 **AWS**: [Amazon Disaster recovery plan](https://aws.amazon.com/compliance/data-center/controls/?nc1=h_ls#Business_Continuity_.26_Disaster_Recovery)
 
 **Auth0**: [Auth0 Disaster recovery plan](https://auth0.com/availability-trust)
-
-**Firebase**: [Google Disaster recovery plan](https://cloud.google.com/solutions/dr-scenarios-planning-guide)
 
 ## Reversibility
 
@@ -364,16 +367,14 @@ In the event of termination of the contractual relationship, whatever the cause,
 
 ## How do you handle employees leaving the company?
 
-Each developer has a **@neoxam.com** email and corresponding accesses to GitHub, Auth0, Firebase, AWS, and Zeit.
+Each developer has a **@neoxam.com** email and corresponding accesses to GitHub, Auth0, AWS, and Vercel.
 If a developer quits the job, all that has to be done is:
 
 - remove the developer’s email from LDAP
 - remove the developer’s access to GitHub
 - remove the developer’s access to AWS
-- remove the developer’s access to Firebase
-- regenerate all Firebase API keys
 - remove the developer’s access to Auth0
-- remove the developer’s access to Zeit
+- remove the developer’s access to Vercel
 
 ## How do you handle the loss of a device?
 
