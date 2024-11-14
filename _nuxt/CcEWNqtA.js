@@ -1,0 +1,1311 @@
+const o=`EffectiveDate	ParentId	ParentAccountDescription	ChildId	ChildAccountDescription	Shares	Price	EMV	CCY	ParentClassification	ChildClassification
+20240331	USAPIO	Allocated Pension Plan	USAEUO	AP - Australian Equity Income	44760741,67	3,987712	178492947	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USAINO	AP - Australian Bond	205324157,1	1,950225	400428304	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USASNO	AP - Australian Shares	115695705,4	4,069667	470842994	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USBUIO	AP - Balanced	1309838612	6,20732	8130587411	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USCBIO	AP - Conservative Balanced	882471682,7	4,719568	4164885115	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USCSIO	AP - Conservative	527814991,3	3,823489	2018094813	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USCUIO	AP - Cash	572652703,4	2,21617	1269095742	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USDCNO	AP - Diversified Credit Income	112242654,1	1,313803	147464736	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USGAUO	AP - Global Co in Asia	56109644,63	5,291176	296886005	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USGEUO	AP - Global Environ Opps	82328908,5	4,062607	334470000	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USGUIO	AP - Growth	159574380,9	7,22571	1153038200	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USISNO	AP - International Shares	90481407,1	4,685157	423919598	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USLPNO	AP - Listed Property	57973743,07	2,740215	158860520	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USSBNO	AP - Sustainable Balanced	1011804935	3,044781	3080724441	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USSRIO	AP - Sustainable High Growth	148154578,5	6,756088	1000945370	AUD	PLAN	OPTION
+20240331	USAPIO	Allocated Pension Plan	USSUIO	AP - High Growth	77177844,43	8,630845	666110013	AUD	PLAN	OPTION
+20240331	USDBIO	Defined Benefit Plan Pool	USDBTX	DB - Taxed	8406496759	2,940533	24720000000	AUD	PLAN	OPTION
+20240331	USDBIO	Defined Benefit Plan Pool	USDBUT	DB - Untaxed	2529043646	3,288072	8315677599	AUD	PLAN	OPTION
+20240331	USDBIO	Defined Benefit Plan Pool	USLARO	Administration Reserve	309343601	1,176356	363898201	AUD	PLAN	OPTION
+20240331	USDBIO	Defined Benefit Plan Pool	USLERO	External Insurance Reserve	24180297,12	1,069957	25871878,2	AUD	PLAN	OPTION
+20240331	USDBIO	Defined Benefit Plan Pool	USLIVO	Investment Reserve	80068819,18	1,068383	85544165,2	AUD	PLAN	OPTION
+20240331	USDBIO	Defined Benefit Plan Pool	USLORO	Operational Risk Reserve	326928869,7	1,068791	349418634	AUD	PLAN	OPTION
+20240331	USDBIO	Defined Benefit Plan Pool	USLSIR	Self Insurance Reserve	3483225,94	1,069957	3726901,98	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USAETO	Accum - Australian Equity Income	66538408,83	3,422171	227705813	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USAITO	Accum - Australian Bond	205526221,9	1,753398	360369266	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USASTO	Accum - Australian Shares	339315408,4	3,428073	1163197990	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USBTIO	Accum - Balanced	7414522177	5,307605	39353000000	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USCAIO	Accum - Conservative	577198563,9	3,218898	1857943303	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USCOIO	Accum - Conservative Balanced	937381830,5	3,964065	3715842506	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USCTIO	Accum - Cash	1120167540	1,955837	2190865120	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USDCTO	Accum - Diversified Credit Income	124370193,2	1,255278	156119167	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USGATO	Accum - Global Co in Asia	255440080,5	4,639937	1185225881	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USGETO	Accum - Global Environ Opps	401533851,2	3,59105	1441928136	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USGTIO	Accum - Growth	1243029654	6,099813	7582248441	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USISTO	Accum - International Shares	333970133,6	4,146294	1384738361	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USLPTO	Accum - Listed Property	128489850,8	2,574131	330749708	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USSBTO	Accum - Sustainable Balanced	1537439891	2,716886	4177048914	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USSTIO	Accum - High Growth	1156173019	7,204617	8329783789	AUD	PLAN	OPTION
+20240331	USICIO	Investment Choice Plan	USTSIO	Accum - Sustainable High Growth	1131448647	5,607139	6344189833	AUD	PLAN	OPTION
+20240331	USAITO	Accum - Australian Bond	USAISP	Australian Bond Sector Pool	183328128,9	1,949379	357376004	AUD	OPTION	SECTOR_POOL
+20240331	USAETO	Accum - Australian Equity Income	USAESP	Australian Equity Income Sector Pool	67203306,62	3,369844	226464660	AUD	OPTION	SECTOR_POOL
+20240331	USASTO	Accum - Australian Shares	USASSP	Australian Shares Sector Pool	350631493,6	3,371357	1182103940	AUD	OPTION	SECTOR_POOL
+20240331	USBTIO	Accum - Balanced	USBLSP	Balanced Sector Pool	11533384692	3,501681	40386000000	AUD	OPTION	SECTOR_POOL
+20240331	USCTIO	Accum - Cash	USCASP	Cash Sector Pool	1256754142	1,766247	2219738233	AUD	OPTION	SECTOR_POOL
+20240331	USCAIO	Accum - Conservative	USCSSP	Conservative Sector Pool	725644203,4	2,619806	1901047038	AUD	OPTION	SECTOR_POOL
+20240331	USCOIO	Accum - Conservative Balanced	USCBSP	Conservative Balanced Sector Pool	1307713526	2,917195	3814855360	AUD	OPTION	SECTOR_POOL
+20240331	USDCTO	Accum - Diversified Credit Income	USDCSP	Diversified Credit Income Sector Pool	120695523,7	1,31157	158300628	AUD	OPTION	SECTOR_POOL
+20240331	USGATO	Accum - Global Co in Asia	USGASP	Global Co in Asia Sector Pool	233287488,7	5,331053	1243667966	AUD	OPTION	SECTOR_POOL
+20240331	USGETO	Accum - Global Environ Opps	USGESP	Global Environ Opps Sector Pool	357933897,4	4,053852	1451011046	AUD	OPTION	SECTOR_POOL
+20240331	USGTIO	Accum - Growth	USGRSP	Growth Sector Pool	2130477886	3,69199	7865703050	AUD	OPTION	SECTOR_POOL
+20240331	USSTIO	Accum - High Growth	USSHSP	High Growth Sector Pool	2088759253	4,111212	8587332105	AUD	OPTION	SECTOR_POOL
+20240331	USISTO	Accum - International Shares	USISSP	International Shares Sector Pool	303506560,8	4,751095	1441988504	AUD	OPTION	SECTOR_POOL
+20240331	USLPTO	Accum - Listed Property	USLPSP	Listed Property Sector Pool	125417877,4	2,722368	341433616	AUD	OPTION	SECTOR_POOL
+20240331	USSBTO	Accum - Sustainable Balanced	USSBSP	Sustainable Balanced Sector Pool	1479991806	2,907486	4303055457	AUD	OPTION	SECTOR_POOL
+20240331	USTSIO	Accum - Sustainable High Growth	USSSSP	Sustainable High Growth Sector Pool	1833042891	3,565861	6536376156	AUD	OPTION	SECTOR_POOL
+20240331	USLARO	Administration Reserve	USARSP	Administration Reserve Sector Pool	309463087,8	1,211182	374816122	AUD	OPTION	SECTOR_POOL
+20240331	USAINO	AP - Australian Bond	USAISP	Australian Bond Sector Pool	205415012,6	1,949379	400431712	AUD	OPTION	SECTOR_POOL
+20240331	USAEUO	AP - Australian Equity Income	USAESP	Australian Equity Income Sector Pool	51481643,84	3,369844	173485109	AUD	OPTION	SECTOR_POOL
+20240331	USASNO	AP - Australian Shares	USASSP	Australian Shares Sector Pool	137810318,8	3,371357	464607783	AUD	OPTION	SECTOR_POOL
+20240331	USBUIO	AP - Balanced	USBLSP	Balanced Sector Pool	2310981027	3,501681	8092318353	AUD	OPTION	SECTOR_POOL
+20240331	USCUIO	AP - Cash	USCASP	Cash Sector Pool	718532766,9	1,766247	1269106344	AUD	OPTION	SECTOR_POOL
+20240331	USCSIO	AP - Conservative	USCSSP	Conservative Sector Pool	768452781,9	2,619806	2013197209	AUD	OPTION	SECTOR_POOL
+20240331	USCBIO	AP - Conservative Balanced	USCBSP	Conservative Balanced Sector Pool	1421694756	2,917195	4147360834	AUD	OPTION	SECTOR_POOL
+20240331	USDCNO	AP - Diversified Credit Income	USDCSP	Diversified Credit Income Sector Pool	112461422,7	1,31157	147501028	AUD	OPTION	SECTOR_POOL
+20240331	USGAUO	AP - Global Co in Asia	USGASP	Global Co in Asia Sector Pool	55689409,04	5,331053	296883191	AUD	OPTION	SECTOR_POOL
+20240331	USGEUO	AP - Global Environ Opps	USGESP	Global Environ Opps Sector Pool	82504404,54	4,053852	334460645	AUD	OPTION	SECTOR_POOL
+20240331	USGUIO	AP - Growth	USGRSP	Growth Sector Pool	310870636,2	3,69199	1147731280	AUD	OPTION	SECTOR_POOL
+20240331	USSUIO	AP - High Growth	USSHSP	High Growth Sector Pool	161154451,5	4,111212	662540115	AUD	OPTION	SECTOR_POOL
+20240331	USISNO	AP - International Shares	USISSP	International Shares Sector Pool	89199340,53	4,751095	423794541	AUD	OPTION	SECTOR_POOL
+20240331	USLPNO	AP - Listed Property	USLPSP	Listed Property Sector Pool	58323677,64	2,722368	158778514	AUD	OPTION	SECTOR_POOL
+20240331	USSBNO	AP - Sustainable Balanced	USSBSP	Sustainable Balanced Sector Pool	1055653548	2,907486	3069297911	AUD	OPTION	SECTOR_POOL
+20240331	USSRIO	AP - Sustainable High Growth	USSSSP	Sustainable High Growth Sector Pool	279412016,3	3,565861	996344412	AUD	OPTION	SECTOR_POOL
+20240331	USDBTX	DB - Taxed	USDSP1	DBD (Taxed) Sector Pool	8350829292	3,068226	25622000000	AUD	OPTION	SECTOR_POOL
+20240331	USDBUT	DB - Untaxed	USDSP2	DBD (Untaxed) Sector Pool	2686221255	3,073353	8255706154	AUD	OPTION	SECTOR_POOL
+20240331	USLERO	External Insurance Reserve	USDSP1	DBD (Taxed) Sector Pool	8434324,39	3,068226	25878413,4	AUD	OPTION	SECTOR_POOL
+20240331	USLIVO	Investment Reserve	USDSP1	DBD (Taxed) Sector Pool	27975060,98	3,068226	85833809,5	AUD	OPTION	SECTOR_POOL
+20240331	USLORO	Operational Risk Reserve	USDSP1	DBD (Taxed) Sector Pool	114058388,5	3,068226	349956913	AUD	OPTION	SECTOR_POOL
+20240331	USLSIR	Self Insurance Reserve	USDSP1	DBD (Taxed) Sector Pool	1214983,31	3,068226	3727843,39	AUD	OPTION	SECTOR_POOL
+20240331	USSSSP	Sustainable High Growth Sector Pool	SS_GAC_AEQ	Sustainable High Growth Sector Pool Australian Shares GAC	724624299,2	0	2862951257	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USSSSP	Sustainable High Growth Sector Pool	SS_GAC_FIC	Sustainable High Growth Sector Pool Cash and Fixed Interest	0	0	0	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USSSSP	Sustainable High Growth Sector Pool	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	4333370941	0	4346426973	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USSSSP	Sustainable High Growth Sector Pool	SS_GAC_IPE	Sustainable High Growth Sector Pool Infrastructure and Private Equity GAC	280589769,5	0	323342867	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USAISP	Australian Bond Sector Pool	AI_GAC_FIC	Australian Bond Sector Pool Cash and Fixed Interest	296661038,6	0	757807570	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USAESP	Australian Equity Income Sector Pool	AE_GAC_AEQ	Australian Equity Income Sector Pool Australian Shares GAC	113242500,5	0	399949750	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USGASP	Global Co in Asia Sector Pool	GA_GAC_IEQ	Global Co in Asia Sector Pool International Shares GAC	268305613,6	0	1540551269	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USGESP	Global Environ Opps Sector Pool	GE_GAC_IEQ	Global Environ Opps Sector Pool International Shares GAC	437073216	0	1785471623	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USGRSP	Growth Sector Pool	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	1368844207	0	3006725812	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USGRSP	Growth Sector Pool	GR_GAC_DPT	Growth Sector Pool Direct Property GAC	109897903	0	440151977	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USGRSP	Growth Sector Pool	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	79045125948	0	716905276	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USGRSP	Growth Sector Pool	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	7205366787	0	3966682321	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USGRSP	Growth Sector Pool	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	547570594,3	0	882969541	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USDSP1	DBD (Taxed) Sector Pool	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	5148080068	0	11757000000	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USDSP1	DBD (Taxed) Sector Pool	DSP1_GAC_DPT	DBD (Taxed) Sector Pool Direct Property GAC	540073773,1	0	2721167107	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USDSP1	DBD (Taxed) Sector Pool	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	6384437594	0	7434618695	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USDSP1	DBD (Taxed) Sector Pool	DSP1_GAC_IEQ	DBD (Taxed) Sector Pool International Shares GAC	1286891507	0	1620762755	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USDSP1	DBD (Taxed) Sector Pool	DSP1_GAC_IPE	DBD (Taxed) Sector Pool Infrastructure and Private Equity	854367731,5	0	2554506874	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USDSP2	DBD (Untaxed) Sector Pool	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	1637252973	0	3738489355	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USDSP2	DBD (Untaxed) Sector Pool	DSP2_GAC_DPT	DBD (Untaxed) Sector Pool Direct Property GAC	171698978,9	0	865107022	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USDSP2	DBD (Untaxed) Sector Pool	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	1997928388	0	2322442006	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USDSP2	DBD (Untaxed) Sector Pool	DSP2_GAC_IEQ	DBD (Untaxed) Sector Pool International Shares GAC	410963826,2	0	517550526	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USDSP2	DBD (Untaxed) Sector Pool	DSP2_GAC_IPE	DBD (Untaxed) Sector Pool Infrastructure and Private Equity	271616655,6	0	812116652	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USCBSP	Conservative Balanced Sector Pool	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	647678208,7	0	1525314737	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USCBSP	Conservative Balanced Sector Pool	CB_GAC_DPT	Conservative Balanced Sector Pool Direct Property GAC	169573224,6	0	854395866	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USCBSP	Conservative Balanced Sector Pool	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	2544613458	0	2944911814	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USCBSP	Conservative Balanced Sector Pool	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	1516669342	0	1782382484	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USCBSP	Conservative Balanced Sector Pool	CB_GAC_IPE	Conservative Balanced Sector Pool Infrastructure and Private Equity	516280911,3	0	855210704	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USASSP	Australian Shares Sector Pool	AS_GAC_AEQ	Australian Shares Sector Pool Australian Shares GAC	706522729,8	0	1646711680	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USBLSP	Balanced Sector Pool	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	6136648623	0	13359000000	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USBLSP	Balanced Sector Pool	BL_GAC_DPT	Balanced Sector Pool Direct Property GAC	1311495422	0	2609678056	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USBLSP	Balanced Sector Pool	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	53764734287	0	10455000000	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USBLSP	Balanced Sector Pool	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	35638059781	0	16073000000	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USBLSP	Balanced Sector Pool	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	3596772523	0	5981538836	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USARSP	Administration Reserve Sector Pool	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	32295051,27	0	73928323,7	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USARSP	Administration Reserve Sector Pool	AR_GAC_DPT	Administration Reserve Sector Pool Direct Property GAC	3409096,17	0	17176765,1	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USARSP	Administration Reserve Sector Pool	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	41509516,17	0	48265454,5	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USARSP	Administration Reserve Sector Pool	AR_GAC_IEQ	Administration Reserve Sector Pool International Shares GAC	7361114,2	0	9288838,2	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USARSP	Administration Reserve Sector Pool	AR_GAC_IPE	Administration Reserve Sector Pool Infrastructure and Private Equity	46341021,18	0	226156674	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USDCSP	Diversified Credit Income Sector Pool	DC_GAC_FIC	Diversified Credit Income Sector Pool Cash and Fixed Interest	235117194,3	0	305801757	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USCASP	Cash Sector Pool	CA_GAC_FIC	Cash Sector Pool Cash and Fixed Interest	1602974326	0	3488844766	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USCSSP	Conservative Sector Pool	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	152012992,2	0	357998235	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USCSSP	Conservative Sector Pool	CS_GAC_DPT	Conservative Sector Pool Direct Property GAC	95539718,14	0	481377439	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USCSSP	Conservative Sector Pool	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	1472287563	0	2133599532	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USCSSP	Conservative Sector Pool	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	312187584,9	0	365161454	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USCSSP	Conservative Sector Pool	CS_GAC_IPE	Conservative Sector Pool Infrastructure and Private Equity	399766076,1	0	576107706	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USSBSP	Sustainable Balanced Sector Pool	SB_GAC_AEQ	Sustainable Balanced Sector Pool Australian Shares GAC	576525916,6	0	2084751352	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USSBSP	Sustainable Balanced Sector Pool	SB_GAC_FIC	Sustainable Balanced Sector Pool Cash and Fixed Interest	19425356122	0	1620336032	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USSBSP	Sustainable Balanced Sector Pool	SB_GAC_IEQ	Sustainable Balanced Sector Pool International Shares GAC	959148966,9	0	2979966468	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USSBSP	Sustainable Balanced Sector Pool	SB_GAC_IPE	Sustainable Balanced Sector Pool Infrastructure and Private Equity	492581643,4	0	687298314	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USSHSP	High Growth Sector Pool	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	1673640433	0	3667510571	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USSHSP	High Growth Sector Pool	HG_GAC_DPT	High Growth Sector Pool Direct Property GAC	167470984,2	0	317325289	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USSHSP	High Growth Sector Pool	HG_GAC_FIC	High Growth Sector Pool Cash and Fixed Interest	0	0	0	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USSHSP	High Growth Sector Pool	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	8570177327	0	4723214261	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USSHSP	High Growth Sector Pool	HG_GAC_IPE	High Growth Sector Pool Infrastructure and Private Equity GAC	356405860,9	0	541821750	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USLPSP	Listed Property Sector Pool	LP_GAC_AEQ	Listed Property Sector Pool Australian Shares GAC	105065876,6	0	254683782	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USLPSP	Listed Property Sector Pool	LP_GAC_IEQ	Listed Property Sector Pool International Shares GAC	139900818,8	0	245528315	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USISSP	International Shares Sector Pool	IS_GAC_AEQ	International Shares Sector Pool Australian Shares GAC	16205879,49	0	19391679,9	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	USISSP	International Shares Sector Pool	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	2906958998	0	1846391384	AUD	SECTOR_POOL	GRAND_ASSET_CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USAEIA	Australian Equity Income Asset Class	4675995	0	16514674,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USAPAC	Australian Listed Property Asset Class	1332076,74	0	3229005,97	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USASFO	Aust Shares Overlay Asset Class	32,25	0	53,29	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USDRAC	Aust Shares Core Asset Class	3866496,82	0	8954381,32	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USEITC	Aust Shares Index Tilts Asset Class	221180,05	0	608712,48	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMMM1	Single Stock Income Bias VCX Asset Class	1770936,58	0	2879388,81	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMMM2	Single Stock Income Bias GPT Asset Class	2140434,76	0	4445192,84	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMMM3	Single Stock Income Bias TLS Asset Class	3002384,88	0	4326085,33	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMMM4	Single Stock Income Bias SCG Asset Class	2998026,41	0	5706938,14	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMMM5	Fortress TCL Asset Class	3518484,21	0	11583240,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMMM6	Single Stock Income Bias WOW Asset Class	2156392,55	0	3331126,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMMM7	Fortress AIA Asset Class	10857,12	0	12714,26	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMMM8	Fortress APA Asset Class	2077838,43	0	4170067,98	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMR11	Fortress ASX Asset Class	2283496,81	0	5742665,67	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMR19	Single Stock Income Bias Banks Asset Class	0,07	0	0,88	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMR20	Single Stock Income Bias COL - Asset Class	1182272,26	0	1297697,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMR24	Single Stock Income Bias EDV Asset Class	1,05	0	1,09	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMR26	Fortress CWY Asset Class	711443,75	0	788571,36	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USMR27	Fortress CNU Asset Class	346701,43	0	337554,4	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_AEQ	Administration Reserve Sector Pool Australian Shares GAC	USSOAC	Aust Shares Small Industrials Asset Class	0,1	0	251,13	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USACFX	Coolabah Fixed Rate Asset Class	2312501,56	0	2555943,22	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USALAC	Australian Loans Asset Class	708472,61	0	979047,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USASAC	Securitised Credit Asset Class	34307,38	0	36704,16	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USAT2D	Subordinated Fixed Asset Class	14132406,91	0	16344580,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USCAAC	Div Credit Income Aust and NZ Asset Class	143624,06	0	195686,78	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USCCAC	Special Ops Cash Asset Class	815855,7	0	879072,28	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USCGAC	Div Credit Income Global Asset Class	29,07	0	44,32	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USDCAC	Liquid Cash Asset Class	7687733,46	0	9938840,19	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USDFII	Inflation Linked Bonds Asset Class	1104963,61	0	3540166,39	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USGIAC	Global Investment Grade Corporate Asset Class	642878,43	0	2014255,77	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USGMRC	Global Credit Asset Class	949789,64	0	1401234,15	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USHCAC	High Yield Credit Asset Class	0,57	0	113,32	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USMR13	Hybrids Fixed Asset Class	3334561,92	0	4634030,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USMR14	Hybrids Floating Asset Class	878336,78	0	1307669,55	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USODAC	FI Overlay DB Asset Class	5714429	0	131186,15	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USSOGE	Risk Protection Overlay Asset Class	483546,68	0	318829,89	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USSRAS	Domestic High Grade Credit Asset Class	2136800,04	0	3501272,93	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_FIC	Administration Reserve Sector Pool Cash and Fixed Interest	USSTAC	Short Term Cash Asset Class	429278,75	0	486776,34	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_DPT	Administration Reserve Sector Pool Direct Property GAC	USPRPS	Direct Property Asset Class	3409096,17	0	17176765,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IPE	Administration Reserve Sector Pool Infrastructure and Private Equity	USAAAC	Sustainable Infrastructure Asset Class	471011,49	0	6037127,14	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IPE	Administration Reserve Sector Pool Infrastructure and Private Equity	USAUAC	Sustainable Timber Asset Class	2026032,19	0	2071166,11	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IPE	Administration Reserve Sector Pool Infrastructure and Private Equity	USAUSM	USM Pty Ltd Asset Class	40948037,46	0	210031984	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IPE	Administration Reserve Sector Pool Infrastructure and Private Equity	USHCRA	Fortress SYD Asset Class	1574260,76	0	6743612,02	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IPE	Administration Reserve Sector Pool Infrastructure and Private Equity	USMIFA	Defensive Infrastructure Asset Class	815432,77	0	692273,88	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IPE	Administration Reserve Sector Pool Infrastructure and Private Equity	USPE1T	SFT Private Equity 1 Transition Asset Class	253178,09	0	268700,69	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IPE	Administration Reserve Sector Pool Infrastructure and Private Equity	USPE2T	SFT Private Equity 2 Transition Asset Class	51829,91	0	46138,62	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IPE	Administration Reserve Sector Pool Infrastructure and Private Equity	USPE3T	SFT Private Equity 3 Transition Asset Class	154464,66	0	160693,14	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IPE	Administration Reserve Sector Pool Infrastructure and Private Equity	USPEAA	Private Equity Asset Class	45925,35	0	104087,61	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IPE	Administration Reserve Sector Pool Infrastructure and Private Equity	USUINF	SFT Other Infra Transition Asset Class	848,5	0	890,29	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IEQ	Administration Reserve Sector Pool International Shares GAC	USAEND	Terminated Portfolio Asset Class	12353,95	0	12895,69	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IEQ	Administration Reserve Sector Pool International Shares GAC	USAJAP	Intl Shares Overlay Japan Asset Class	1434,92	0	1681,94	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IEQ	Administration Reserve Sector Pool International Shares GAC	USGAAC	Global Co in Asia Asset Class	1944,5	0	11164,89	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IEQ	Administration Reserve Sector Pool International Shares GAC	USGLIC	Global Listed Infrastructure Asset Class	1879911,59	0	3115295,49	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IEQ	Administration Reserve Sector Pool International Shares GAC	USGQEC	Global High Quality Asset Class	1905,03	0	6412,34	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IEQ	Administration Reserve Sector Pool International Shares GAC	USISOC	Intl Shares Overlay Asset Class	888772,88	0	52227,85	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IEQ	Administration Reserve Sector Pool International Shares GAC	USLPAC	Global Listed Property Asset Class	508453,51	0	892344,55	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IEQ	Administration Reserve Sector Pool International Shares GAC	USMR15	Fortress Listed Infrastructure Asset Class	2092406,77	0	2684670,87	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IEQ	Administration Reserve Sector Pool International Shares GAC	USMR25	Fortress AENA Asset Class	1973877,03	0	2512050,65	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AR_GAC_IEQ	Administration Reserve Sector Pool International Shares GAC	USROBA	Intl Shares Banks Asset Class	54,02	0	93,93	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AI_GAC_FIC	Australian Bond Sector Pool Cash and Fixed Interest	USDFIN	Domestic Sovereign Bonds Asset Class	296661038,6	0	757807570	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AE_GAC_AEQ	Australian Equity Income Sector Pool Australian Shares GAC	USAEIA	Australian Equity Income Asset Class	113242500,5	0	399949750	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AS_GAC_AEQ	Australian Shares Sector Pool Australian Shares GAC	USAEIA	Australian Equity Income Asset Class	47106801,76	0	166371755	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AS_GAC_AEQ	Australian Shares Sector Pool Australian Shares GAC	USAELS	Aust Shares Long Short Asset Class	105081711,8	0	230605600	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AS_GAC_AEQ	Australian Shares Sector Pool Australian Shares GAC	USALS2	Aust Shares Long Short 2 Asset Class	129892142,3	0	201090052	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AS_GAC_AEQ	Australian Shares Sector Pool Australian Shares GAC	USAREA	Active Aust Resources Equity Asset Class	91562040,18	0	109588775	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AS_GAC_AEQ	Australian Shares Sector Pool Australian Shares GAC	USBANX	Aust Shares Passive Financials Asset Class	19569043,01	0	36803616,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AS_GAC_AEQ	Australian Shares Sector Pool Australian Shares GAC	USDAST	Aust Shares Passive Resources Asset Class	40,71	0	0,42	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AS_GAC_AEQ	Australian Shares Sector Pool Australian Shares GAC	USDES	Australian Shares Asset Class	42969357,42	0	293408007	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AS_GAC_AEQ	Australian Shares Sector Pool Australian Shares GAC	USEITC	Aust Shares Index Tilts Asset Class	53028304,7	0	145939887	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AS_GAC_AEQ	Australian Shares Sector Pool Australian Shares GAC	USIAAC	Aust Shares Small Caps Asset Class	46775360,98	0	98557042,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AS_GAC_AEQ	Australian Shares Sector Pool Australian Shares GAC	USMCAS	Aust Shares Mid Cap Asset Class	74667910,1	0	162748790	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	AS_GAC_AEQ	Australian Shares Sector Pool Australian Shares GAC	USTIAC	Aust Shares Industrials Asset Class	95870016,8	0	201598156	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USAEAC	Aust Shares Equal Weighted Asset Class	600,98	0	387,13	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USAEIA	Australian Equity Income Asset Class	281394471,1	0	993828712	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USALS2	Aust Shares Long Short 2 Asset Class	183313951,1	0	283794010	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USAQAC	Aust Shares Equitisation Asset Class	9618553,79	0	10762421,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USAREA	Active Aust Resources Equity Asset Class	59214711,31	0	70872903,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USAREI	Active Intl Resources Equity Asset Class	1827483653	0	2186735872	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USASCA	Aust Shares Concentrated Asset Class	670179583,7	0	1252016765	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USAUST	SFT Aust Shares Transition Asset Class	1333721,19	0	1107131,29	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USBANX	Aust Shares Passive Financials Asset Class	128294,31	0	241283,89	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USDES	Australian Shares Asset Class	286605936,5	0	1957033609	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USDRAC	Aust Shares Core Asset Class	1122732231	0	2600124346	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USEITC	Aust Shares Index Tilts Asset Class	163480586,1	0	449917046	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USIAAC	Aust Shares Small Caps Asset Class	114396769,7	0	241037311	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USMCAS	Aust Shares Mid Cap Asset Class	92964537,71	0	202628760	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USMMM1	Single Stock Income Bias VCX Asset Class	71825840,31	0	116782567	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USMMM2	Single Stock Income Bias GPT Asset Class	163951625,5	0	340489981	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USMMM3	Single Stock Income Bias TLS Asset Class	28349989,45	0	40849017,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USMMM4	Single Stock Income Bias SCG Asset Class	250869062,6	0	477545567	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USMMM5	Fortress TCL Asset Class	408469536,3	0	1344727054	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USMMM8	Fortress APA Asset Class	178779,68	0	358797,59	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USMMM9	Fortress AZJ Asset Class	20314,4	0	974377,12	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USMSAA	Sector Overlay Australia Asset Class	52112,84	0	21230,35	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USOPAC	Special Opps Asset Class	49415666,69	0	50157049,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_AEQ	Balanced Sector Pool Australian Shares GAC	USTIAC	Aust Shares Industrials Asset Class	350668093,7	0	737394686	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USACFL	Coolabah Floating Rate Asset Class	553926617,9	0	613407812	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USASAC	Securitised Credit Asset Class	8780396,67	0	9393812,74	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USAT2A	Subordinated Floating Asset Class	452180203,3	0	507085732	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USCAAC	Div Credit Income Aust and NZ Asset Class	31139170,58	0	42426901,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USCCAC	Special Ops Cash Asset Class	755638295,8	0	814188929	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USCGAC	Div Credit Income Global Asset Class	5014,62	0	7645,96	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USCSHT	SFT Cash Transition Asset Class	10279,34	0	10643,62	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USDCAC	Liquid Cash Asset Class	721127981,5	0	932287235	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USDFIN	Domestic Sovereign Bonds Asset Class	969601334,2	0	2476803946	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USFINH	SFT Hybrids Transition Asset Class	35,6	0	2493,27	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USFISC	Specialised Credit Asset Class	3810435,42	0	196520459	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USGIAC	Global Investment Grade Corporate Asset Class	220001722,8	0	689305658	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USGMRC	Global Credit Asset Class	302723825,2	0	446611487	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USHCAC	High Yield Credit Asset Class	33,09	0	6620,39	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USMCDA	Macquarie Co-Invest Debt Asset Class	46486559929	0	261115007	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USMLDA	Long Duration Bond Asset Class	759034285,6	0	822113071	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USMR14	Hybrids Floating Asset Class	769178116	0	1145153917	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USOBAC	FI Overlay Balanced Asset Class	676747896,6	0	32605713,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USPCRT	SFT Private Credit Transition Asset Class	13952295,22	0	15142160,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USSRAS	Domestic High Grade Credit Asset Class	546883478,2	0	896100845	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USSTAC	Short Term Cash Asset Class	486745406,4	0	551940086	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_FIC	Balanced Sector Pool Cash and Fixed Interest	USTCAC	Long Term Cash Asset Class	6687534,68	0	3006093,65	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_DPT	Balanced Sector Pool Direct Property GAC	USAITA	Industrial Trust Asset Class	542458054,9	0	577142281	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_DPT	Balanced Sector Pool Direct Property GAC	USPRPS	Direct Property Asset Class	318880136,1	0	1606680754	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_DPT	Balanced Sector Pool Direct Property GAC	USPWSA	Direct Property Industrial Asset Class	450156701,9	0	425854542	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_DPT	Balanced Sector Pool Direct Property GAC	USUPRP	SFT Direct Prop Transition Asset Class	529,59	0	478,86	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USAAAC	Sustainable Infrastructure Asset Class	55755588,53	0	714639840	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USADAC	Green Infrastructure Asset Class	1	0	2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USAUAC	Sustainable Timber Asset Class	366955579,2	0	375130249	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USAUSX	Aust Unlisted Shares Asset Class	72062413	0	74101346,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USAVRD	VicRoads Asset Class	255098092,4	0	277224281	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USAVTG	Vantage Towers Asset Class	608240693,8	0	702622010	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USHCRA	Fortress SYD Asset Class	456516026,9	0	1955563552	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USMIFA	Defensive Infrastructure Asset Class	185325058	0	157334488	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USPAST	SFT Palisade Australian Social Transition Asset Class	248,64	0	46,26	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USPE1T	SFT Private Equity 1 Transition Asset Class	221309781,7	0	234878506	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USPE2T	SFT Private Equity 2 Transition Asset Class	62715806,21	0	55829171,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USPE3T	SFT Private Equity 3 Transition Asset Class	328344862,4	0	341584712	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USPEAA	Private Equity Asset Class	45261557,62	0	102583148	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USPRPA	PRP Asset Class	2229,33	0	35,62	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USSUNT	SFT Sustainable Unlisted Transition Asset Class	100532029,8	0	110087901	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IPE	Balanced Sector Pool Infrastructure and Private Equity	USUINF	SFT Other Infra Transition Asset Class	838652554	0	879959547	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USAJAP	Intl Shares Overlay Japan Asset Class	679132710,7	0	796047444	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USDSAC	SFT Delisted Securities Asset Class	31,49	0	33703,62	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USGAAC	Global Co in Asia Asset Class	518325614,2	0	2976110609	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USGLIC	Global Listed Infrastructure Asset Class	318746916,5	0	528211453	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USGQAC	Intl Shares Equitisation Asset Class	48393135,11	0	53732349,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USGQEC	Global High Quality Asset Class	427872014,6	0	1440215062	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USINTT	SFT Intl Shares Transition Asset Class	899256,69	0	941195,32	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USISAA	Intl Shares Asia Asset Class	501537147,1	0	1315257596	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USISCA	Intl Shares Small Cap Asset Class	113946847,6	0	345632922	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USISEU	Intl Shares Europe Asset Class	3946438415	0	489074220	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USISNP	Intl Shares US Quant Asset Class	113653825,1	0	202930269	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USISOC	Intl Shares Overlay Asset Class	26745970116	0	1571700188	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USISSA	Intl Shares Overlay Short Asset Class	552997,62	0	400,37	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USITAC	Intl Shares IT Asset Class	240507085,4	0	1737928010	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USITDA	Intl Shares Health Care Asset Class	262075872,5	0	966736830	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USLPAC	Global Listed Property Asset Class	116355726,1	0	204206277	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USMGEA	Global Equity Income Asset Class	1736852,76	0	2758064,87	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USMR15	Fortress Listed Infrastructure Asset Class	54085496,67	0	69394612,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USMR25	Fortress AENA Asset Class	942280,06	0	1199190,83	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USMSAI	Sector Overlay International Asset Class	740501696,7	0	771368029	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USOES	Intl Shares Mainstream Asset Class	198680552	0	1664953754	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USROBA	Intl Shares Banks Asset Class	237422917,6	0	412851387	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USROCA	Intl Shares Japan Asset Class	135465381,9	0	261923400	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	BL_GAC_IEQ	Balanced Sector Pool International Shares GAC	USSGMB	SSGM Overlay B Asset Class	234816891,8	0	259492155	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CA_GAC_FIC	Cash Sector Pool Cash and Fixed Interest	USCS	Cash Asset Class	1602974326	0	3488844766	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USAEAC	Aust Shares Equal Weighted Asset Class	0,01	0	0	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USAEIA	Australian Equity Income Asset Class	114093231	0	402954359	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USAQAC	Aust Shares Equitisation Asset Class	747601,81	0	836508,86	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USAREI	Active Intl Resources Equity Asset Class	176016709,9	0	210618603	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USASCA	Aust Shares Concentrated Asset Class	15719542,16	0	29366950	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USASFO	Aust Shares Overlay Asset Class	41486,64	0	68553,15	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USDES	Australian Shares Asset Class	8026298,42	0	54806037,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USDRAC	Aust Shares Core Asset Class	172343011,4	0	399127457	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USEITC	Aust Shares Index Tilts Asset Class	102024626,9	0	280783302	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USMMM2	Single Stock Income Bias GPT Asset Class	11411998,76	0	23700108,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USMMM4	Single Stock Income Bias SCG Asset Class	5846647,48	0	11129473,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USMMM5	Fortress TCL Asset Class	9923360,02	0	32668802,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USMMM9	Fortress AZJ Asset Class	1707,91	0	81919,86	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_AEQ	Conservative Balanced Sector Pool Australian Shares GAC	USMR11	Fortress ASX Asset Class	31481986,3	0	79172662,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USACFL	Coolabah Floating Rate Asset Class	244469711,7	0	270721114	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USALAC	Australian Loans Asset Class	95935116,99	0	132573985	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USASAC	Securitised Credit Asset Class	2522291,21	0	2698503,52	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USAT2A	Subordinated Floating Asset Class	126623551,4	0	141998690	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USCAAC	Div Credit Income Aust and NZ Asset Class	4958235,72	0	6755561,47	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USCCAC	Special Ops Cash Asset Class	544268424,1	0	586441063	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USCGAC	Div Credit Income Global Asset Class	2199,66	0	3353,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USCSHT	SFT Cash Transition Asset Class	4000,43	0	4142,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USDCAC	Liquid Cash Asset Class	103292151,7	0	133537953	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USDFIN	Domestic Sovereign Bonds Asset Class	117309018,8	0	299660727	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USGIAC	Global Investment Grade Corporate Asset Class	48189446,86	0	150986356	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USGMRC	Global Credit Asset Class	75287217,09	0	111071984	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USMLDA	Long Duration Bond Asset Class	141129918,8	0	152858380	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USMR14	Hybrids Floating Asset Class	178014880,9	0	265028911	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USOCAC	FI Overlay Cons Bal Asset Class	345641689,3	0	19277128,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USPCRT	SFT Private Credit Transition Asset Class	2114220,65	0	2294523,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USSRAS	Domestic High Grade Credit Asset Class	169200412,3	0	277244858	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USSTAC	Short Term Cash Asset Class	345369160,2	0	391627906	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_FIC	Conservative Balanced Sector Pool Cash and Fixed Interest	USTCAC	Long Term Cash Asset Class	281810,42	0	126675,76	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_DPT	Conservative Balanced Sector Pool Direct Property GAC	USPRPS	Direct Property Asset Class	169573098,3	0	854395752	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_DPT	Conservative Balanced Sector Pool Direct Property GAC	USUPRP	SFT Direct Prop Transition Asset Class	126,28	0	114,18	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IPE	Conservative Balanced Sector Pool Infrastructure and Private Equity	USAAAC	Sustainable Infrastructure Asset Class	22927525,75	0	293870512	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IPE	Conservative Balanced Sector Pool Infrastructure and Private Equity	USAUAC	Sustainable Timber Asset Class	98621676,89	0	100818672	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IPE	Conservative Balanced Sector Pool Infrastructure and Private Equity	USAUSX	Aust Unlisted Shares Asset Class	11996605,72	0	12336037,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IPE	Conservative Balanced Sector Pool Infrastructure and Private Equity	USHCRA	Fortress SYD Asset Class	10923885,41	0	46794309,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IPE	Conservative Balanced Sector Pool Infrastructure and Private Equity	USPE1T	SFT Private Equity 1 Transition Asset Class	46264316,31	0	49100827,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IPE	Conservative Balanced Sector Pool Infrastructure and Private Equity	USPE2T	SFT Private Equity 2 Transition Asset Class	14684679,25	0	13072198,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IPE	Conservative Balanced Sector Pool Infrastructure and Private Equity	USPE3T	SFT Private Equity 3 Transition Asset Class	14518269,28	0	15103689,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IPE	Conservative Balanced Sector Pool Infrastructure and Private Equity	USPEAA	Private Equity Asset Class	9868758,93	0	22367068,4	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IPE	Conservative Balanced Sector Pool Infrastructure and Private Equity	USSUNT	SFT Sustainable Unlisted Transition Asset Class	25374906,04	0	27786867	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IPE	Conservative Balanced Sector Pool Infrastructure and Private Equity	USUINF	SFT Other Infra Transition Asset Class	261100287,7	0	273960521	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USAJAP	Intl Shares Overlay Japan Asset Class	43527941,44	0	51021407,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USDSAC	SFT Delisted Securities Asset Class	7,87	0	8421,33	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USGAAC	Global Co in Asia Asset Class	59507974,17	0	341681577	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USGLIC	Global Listed Infrastructure Asset Class	17294282,51	0	28659220,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USGQEC	Global High Quality Asset Class	106244702,4	0	357619137	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USINTT	SFT Intl Shares Transition Asset Class	191134,43	0	200048,37	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USISAA	Intl Shares Asia Asset Class	41709836,46	0	109382086	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USISNP	Intl Shares US Quant Asset Class	41452820,09	0	74014507,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USISOC	Intl Shares Overlay Asset Class	978282402	0	57487787,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USISSA	Intl Shares Overlay Short Asset Class	768,49	0	0,56	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USITAC	Intl Shares IT Asset Class	18811172,98	0	135931398	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USITDA	Intl Shares Health Care Asset Class	11607509,53	0	42817398,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USLPAC	Global Listed Property Asset Class	2758665,1	0	4841504,14	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USMGEA	Global Equity Income Asset Class	938747,19	0	1490699,56	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USMR15	Fortress Listed Infrastructure Asset Class	13863749,78	0	17787939,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USMR25	Fortress AENA Asset Class	105,67	0	134,48	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USMSAI	Sector Overlay International Asset Class	121334731,3	0	126392327	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USOES	Intl Shares Mainstream Asset Class	49552308,99	0	415251025	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USROBA	Intl Shares Banks Asset Class	5568,23	0	9682,51	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USROCA	Intl Shares Japan Asset Class	8684019,28	0	16790620,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CB_GAC_IEQ	Conservative Balanced Sector Pool International Shares GAC	USSGMB	SSGM Overlay B Asset Class	900893,62	0	995562,22	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USAEIA	Australian Equity Income Asset Class	26778194,69	0	94575201,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USAQAC	Aust Shares Equitisation Asset Class	175465,75	0	196332,67	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USAREI	Active Intl Resources Equity Asset Class	41311913,76	0	49433133,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USASCA	Aust Shares Concentrated Asset Class	3689450,46	0	6892561,26	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USASFO	Aust Shares Overlay Asset Class	9736,3	0	16088,41	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USDES	Australian Shares Asset Class	1883808,23	0	12863222,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USDRAC	Aust Shares Core Asset Class	40449680,1	0	93677009,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USEITC	Aust Shares Index Tilts Asset Class	23945638,82	0	65901103,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USMMM2	Single Stock Income Bias GPT Asset Class	2678447,65	0	5562522,41	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USMMM4	Single Stock Income Bias SCG Asset Class	1372234,43	0	2612137,43	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USMMM5	Fortress TCL Asset Class	2329057,41	0	7667515,51	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USMMM9	Fortress AZJ Asset Class	400,83	0	19225,71	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_AEQ	Conservative Sector Pool Australian Shares GAC	USMR11	Fortress ASX Asset Class	7388963,81	0	18582180	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USACFL	Coolabah Floating Rate Asset Class	204437179,9	0	226389849	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USALAC	Australian Loans Asset Class	73018988,68	0	100905890	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USASAC	Securitised Credit Asset Class	3357965,55	0	3592559,73	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USAT2A	Subordinated Floating Asset Class	95487714,49	0	107082215	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USCAAC	Div Credit Income Aust and NZ Asset Class	7914125,71	0	10782940,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USCCAC	Special Ops Cash Asset Class	291507777,3	0	314095257	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USCGAC	Div Credit Income Global Asset Class	3203,91	0	4885,11	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USCSHT	SFT Cash Transition Asset Class	10064,04	0	10420,69	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USDCAC	Liquid Cash Asset Class	39175320,13	0	50646559	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USDFIN	Domestic Sovereign Bonds Asset Class	133484487,8	0	340980251	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USGIAC	Global Investment Grade Corporate Asset Class	69878564,77	0	218942331	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USGMRC	Global Credit Asset Class	68117435,01	0	100494333	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USMLDA	Long Duration Bond Asset Class	30735877,32	0	33290151,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USMR14	Hybrids Floating Asset Class	118074368,7	0	175789356	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USOTAC	FI Overlay Cap Stable Asset Class	29272188,44	0	2811183,89	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USPCRT	SFT Private Credit Transition Asset Class	12163058,9	0	13200336,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USSRAS	Domestic High Grade Credit Asset Class	197047916,4	0	322874637	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USSTAC	Short Term Cash Asset Class	98452864,17	0	111639641	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_FIC	Conservative Sector Pool Cash and Fixed Interest	USTCAC	Long Term Cash Asset Class	148462,24	0	66734,82	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_DPT	Conservative Sector Pool Direct Property GAC	USPRPS	Direct Property Asset Class	95539624,83	0	481377355	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_DPT	Conservative Sector Pool Direct Property GAC	USUPRP	SFT Direct Prop Transition Asset Class	93,31	0	84,37	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IPE	Conservative Sector Pool Infrastructure and Private Equity	USAAAC	Sustainable Infrastructure Asset Class	12770783,09	0	163687814	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IPE	Conservative Sector Pool Infrastructure and Private Equity	USAUAC	Sustainable Timber Asset Class	54932924,94	0	56156665,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IPE	Conservative Sector Pool Infrastructure and Private Equity	USHCRA	Fortress SYD Asset Class	71370,63	0	305728,16	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IPE	Conservative Sector Pool Infrastructure and Private Equity	USPE1T	SFT Private Equity 1 Transition Asset Class	28437451,94	0	30180980,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IPE	Conservative Sector Pool Infrastructure and Private Equity	USPE2T	SFT Private Equity 2 Transition Asset Class	10918837,32	0	9719872,55	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IPE	Conservative Sector Pool Infrastructure and Private Equity	USPE3T	SFT Private Equity 3 Transition Asset Class	3948976,59	0	4108211,17	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IPE	Conservative Sector Pool Infrastructure and Private Equity	USPEAA	Private Equity Asset Class	6550672,76	0	14846785,4	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IPE	Conservative Sector Pool Infrastructure and Private Equity	USSUNT	SFT Sustainable Unlisted Transition Asset Class	23369724,84	0	25591087,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IPE	Conservative Sector Pool Infrastructure and Private Equity	USUINF	SFT Other Infra Transition Asset Class	258765334	0	271510562	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USAJAP	Intl Shares Overlay Japan Asset Class	9040545,64	0	10596902,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USDSAC	SFT Delisted Securities Asset Class	1,63	0	1749,32	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USGAAC	Global Co in Asia Asset Class	12359521,39	0	70965628	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USGLIC	Global Listed Infrastructure Asset Class	3591939,72	0	5952382,91	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USGQEC	Global High Quality Asset Class	22066516,1	0	74275782,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USINTT	SFT Intl Shares Transition Asset Class	39697,64	0	41549,01	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USISAA	Intl Shares Asia Asset Class	8662933,31	0	22718135,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USISNP	Intl Shares US Quant Asset Class	5791954,47	0	10341604,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USISOC	Intl Shares Overlay Asset Class	203184561,3	0	11939937,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USISSA	Intl Shares Overlay Short Asset Class	389,92	0	0,28	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USITAC	Intl Shares IT Asset Class	3906990,6	0	28232300,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USITDA	Intl Shares Health Care Asset Class	2410824,44	0	8892969,64	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USLPAC	Global Listed Property Asset Class	572961,12	0	1005556,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USMGEA	Global Equity Income Asset Class	194973,23	0	309611,06	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USMR15	Fortress Listed Infrastructure Asset Class	2879434,21	0	3694469,58	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USMR25	Fortress AENA Asset Class	22,43	0	28,55	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USMSAI	Sector Overlay International Asset Class	25200643,05	0	26251081,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USOES	Intl Shares Mainstream Asset Class	10291777,09	0	86245647,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USROBA	Intl Shares Banks Asset Class	1156,16	0	2010,43	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USROCA	Intl Shares Japan Asset Class	1803629,51	0	3487332,09	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	CS_GAC_IEQ	Conservative Sector Pool International Shares GAC	USSGMB	SSGM Overlay B Asset Class	187111,88	0	206774,16	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USAEIA	Australian Equity Income Asset Class	741402776	0	2618485583	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USAPAC	Australian Listed Property Asset Class	213955852,8	0	518637331	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USASCA	Aust Shares Concentrated Asset Class	3,98	0	7,43	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USASFO	Aust Shares Overlay Asset Class	5191,35	0	8578,27	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USDAST	Aust Shares Passive Resources Asset Class	6451,25	0	66,13	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USDRAC	Aust Shares Core Asset Class	612524459,3	0	1418539270	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USEITC	Aust Shares Index Tilts Asset Class	34891067,18	0	96024159,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMMM1	Single Stock Income Bias VCX Asset Class	280526308,1	0	456111371	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMMM2	Single Stock Income Bias GPT Asset Class	339131958,5	0	704299417	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMMM3	Single Stock Income Bias TLS Asset Class	475654238,1	0	685362105	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMMM4	Single Stock Income Bias SCG Asset Class	474902856,8	0	904008457	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMMM5	Fortress TCL Asset Class	557681330,8	0	1835948844	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMMM6	Single Stock Income Bias WOW Asset Class	341590370	0	527677873	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMMM7	Fortress AIA Asset Class	1269,18	0	1486,27	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMMM8	Fortress APA Asset Class	336829492,3	0	675991866	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMR11	Fortress ASX Asset Class	361745093,7	0	909736819	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMR19	Single Stock Income Bias Banks Asset Class	3,69	0	44,11	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMR20	Single Stock Income Bias COL - Asset Class	187281451	0	205565739	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMR24	Single Stock Income Bias EDV Asset Class	5,87	0	6,08	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMR26	Fortress CWY Asset Class	112728209,5	0	124949075	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USMR27	Fortress CNU Asset Class	77221663,51	0	75184324,4	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_AEQ	DBD (Taxed) Sector Pool Australian Shares GAC	USSOAC	Aust Shares Small Industrials Asset Class	15,56	0	39609,92	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USACAC	High Conviction Credit ICP Asset Class	9,49	0	9,84	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USACFX	Coolabah Fixed Rate Asset Class	366344387,8	0	404910194	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USALAC	Australian Loans Asset Class	110822073,4	0	153146464	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USASAC	Securitised Credit Asset Class	5434972,84	0	5814670,91	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USAT2D	Subordinated Fixed Asset Class	2238887323	0	2589344833	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USCAAC	Div Credit Income Aust and NZ Asset Class	22753351,5	0	31001282,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USCCAC	Special Ops Cash Asset Class	129249396,8	0	139264286	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USCGAC	Div Credit Income Global Asset Class	4707,28	0	7177,36	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USDCAC	Liquid Cash Asset Class	1084800192	0	1402449215	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USDFIA	High Conviction Credit DBD Asset Class	10,15	0	10,44	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USDFII	Inflation Linked Bonds Asset Class	175051822,2	0	560844332	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USGIAC	Global Investment Grade Corporate Asset Class	101843576,7	0	319094563	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USGMRC	Global Credit Asset Class	150467233,3	0	221985814	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USHCAC	High Yield Credit Asset Class	89,9	0	17985,93	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USMR13	Hybrids Fixed Asset Class	528264527,8	0	734127629	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USMR14	Hybrids Floating Asset Class	139146501,2	0	207161589	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USODAC	FI Overlay DB Asset Class	905325473,3	0	20783556,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USSOGE	Risk Protection Overlay Asset Class	19518018,29	0	12869342	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USSRAS	Domestic High Grade Credit Asset Class	338516778,6	0	554679714	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_FIC	DBD (Taxed) Sector Pool Cash and Fixed Interest	USSTAC	Short Term Cash Asset Class	68007148,18	0	77116025,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_DPT	DBD (Taxed) Sector Pool Direct Property GAC	USPRPS	Direct Property Asset Class	540073773,1	0	2721167107	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IPE	DBD (Taxed) Sector Pool Infrastructure and Private Equity	USAAAC	Sustainable Infrastructure Asset Class	74618606,79	0	956414068	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IPE	DBD (Taxed) Sector Pool Infrastructure and Private Equity	USAUAC	Sustainable Timber Asset Class	320968639,4	0	328118858	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IPE	DBD (Taxed) Sector Pool Infrastructure and Private Equity	USAVTG	Vantage Towers Asset Class	1,87	0	2,16	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IPE	DBD (Taxed) Sector Pool Infrastructure and Private Equity	USHCRA	Fortress SYD Asset Class	249397640,7	0	1068336942	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IPE	DBD (Taxed) Sector Pool Infrastructure and Private Equity	USMIFA	Defensive Infrastructure Asset Class	129182181,5	0	109671151	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IPE	DBD (Taxed) Sector Pool Infrastructure and Private Equity	USPE1T	SFT Private Equity 1 Transition Asset Class	40108879,48	0	42567995	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IPE	DBD (Taxed) Sector Pool Infrastructure and Private Equity	USPE2T	SFT Private Equity 2 Transition Asset Class	8210956,54	0	7309336,03	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IPE	DBD (Taxed) Sector Pool Infrastructure and Private Equity	USPE3T	SFT Private Equity 3 Transition Asset Class	24470715,89	0	25457448,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IPE	DBD (Taxed) Sector Pool Infrastructure and Private Equity	USPEAA	Private Equity Asset Class	7275715,97	0	16490061	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IPE	DBD (Taxed) Sector Pool Infrastructure and Private Equity	USUINF	SFT Other Infra Transition Asset Class	134393,4	0	141012,81	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IEQ	DBD (Taxed) Sector Pool International Shares GAC	USAEND	Terminated Portfolio Asset Class	1957305,51	0	2043137,27	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IEQ	DBD (Taxed) Sector Pool International Shares GAC	USAJAP	Intl Shares Overlay Japan Asset Class	227238,29	0	266358,04	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IEQ	DBD (Taxed) Sector Pool International Shares GAC	USGAAC	Global Co in Asia Asset Class	211725,35	0	1215679,95	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IEQ	DBD (Taxed) Sector Pool International Shares GAC	USGLIC	Global Listed Infrastructure Asset Class	297823346,1	0	493537958	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IEQ	DBD (Taxed) Sector Pool International Shares GAC	USISOC	Intl Shares Overlay Asset Class	140794600,9	0	8273653,92	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IEQ	DBD (Taxed) Sector Pool International Shares GAC	USISSA	Intl Shares Overlay Short Asset Class	1265,3	0	0,92	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IEQ	DBD (Taxed) Sector Pool International Shares GAC	USLPAC	Global Listed Property Asset Class	73532077,31	0	129050046	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IEQ	DBD (Taxed) Sector Pool International Shares GAC	USMR15	Fortress Listed Infrastructure Asset Class	331529226,7	0	425369900	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IEQ	DBD (Taxed) Sector Pool International Shares GAC	USMR25	Fortress AENA Asset Class	440806040,7	0	560990926	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP1_GAC_IEQ	DBD (Taxed) Sector Pool International Shares GAC	USROBA	Intl Shares Banks Asset Class	8680,73	0	15094,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USAEIA	Australian Equity Income Asset Class	235731997,3	0	832558032	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USAPAC	Australian Listed Property Asset Class	68074007,3	0	165014049	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USASCA	Aust Shares Concentrated Asset Class	1,62	0	3,03	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USASFO	Aust Shares Overlay Asset Class	1650,25	0	2726,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USDAST	Aust Shares Passive Resources Asset Class	2154,12	0	22,08	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USDRAC	Aust Shares Core Asset Class	194739066,2	0	450994256	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USEITC	Aust Shares Index Tilts Asset Class	11091274,69	0	30524441,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMMM1	Single Stock Income Bias VCX Asset Class	89200810,59	0	145032758	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMMM2	Single Stock Income Bias GPT Asset Class	107791610,9	0	223858491	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMMM3	Single Stock Income Bias TLS Asset Class	151211640,1	0	217878282	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMMM4	Single Stock Income Bias SCG Asset Class	151008822,4	0	287455109	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMMM5	Fortress TCL Asset Class	177291656,5	0	583663812	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMMM6	Single Stock Income Bias WOW Asset Class	108614421,9	0	167784083	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMMM7	Fortress AIA Asset Class	6137,69	0	7187,55	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMMM8	Fortress APA Asset Class	107207409	0	215157337	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMR11	Fortress ASX Asset Class	115010853,6	0	289235735	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMR19	Single Stock Income Bias Banks Asset Class	1,33	0	15,87	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMR20	Single Stock Income Bias COL - Asset Class	59549432,24	0	65363243,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMR24	Single Stock Income Bias EDV Asset Class	1,58	0	1,63	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMR26	Fortress CWY Asset Class	35826308,99	0	39710239,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USMR27	Fortress CNU Asset Class	24893710,25	0	24236939,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_AEQ	DBD (Untaxed) Sector Pool Australian Shares GAC	USSOAC	Aust Shares Small Industrials Asset Class	4,95	0	12590,88	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USACAC	High Conviction Credit ICP Asset Class	2,9	0	3,01	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USACFX	Coolabah Fixed Rate Asset Class	116470646,9	0	128731745	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USALAC	Australian Loans Asset Class	36246302,52	0	50089236,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USASAC	Securitised Credit Asset Class	1727864,17	0	1848576,22	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USAT2D	Subordinated Fixed Asset Class	711775051,1	0	823190623	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USCAAC	Div Credit Income Aust and NZ Asset Class	7233662,13	0	9855814,01	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USCCAC	Special Ops Cash Asset Class	41090438,48	0	44274331,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USCGAC	Div Credit Income Global Asset Class	1497,33	0	2283,03	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USDCAC	Liquid Cash Asset Class	311832176,1	0	403142250	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USDFIA	High Conviction Credit DBD Asset Class	2,93	0	3,01	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USDFII	Inflation Linked Bonds Asset Class	55650926,11	0	178298667	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USGIAC	Global Investment Grade Corporate Asset Class	32378890,67	0	101448990	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USGMRC	Global Credit Asset Class	47836059,21	0	70573016,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USHCAC	High Yield Credit Asset Class	28,58	0	5717,18	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USMR13	Hybrids Fixed Asset Class	167945563,4	0	233393446	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USMR14	Hybrids Floating Asset Class	44237608,45	0	65861039,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USODAC	FI Overlay DB Asset Class	287797460,7	0	6606966,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USSOGE	Risk Protection Overlay Asset Class	6464356,38	0	4262318,63	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USSRAS	Domestic High Grade Credit Asset Class	107619301,3	0	176340575	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_FIC	DBD (Untaxed) Sector Pool Cash and Fixed Interest	USSTAC	Short Term Cash Asset Class	21620549,24	0	24516405,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_DPT	DBD (Untaxed) Sector Pool Direct Property GAC	USPRPS	Direct Property Asset Class	171698978,9	0	865107022	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IPE	DBD (Untaxed) Sector Pool Infrastructure and Private Equity	USAAAC	Sustainable Infrastructure Asset Class	23722388,7	0	304058562	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IPE	DBD (Untaxed) Sector Pool Infrastructure and Private Equity	USAUAC	Sustainable Timber Asset Class	102040539,4	0	104313696	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IPE	DBD (Untaxed) Sector Pool Infrastructure and Private Equity	USHCRA	Fortress SYD Asset Class	79287299,51	0	339640547	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IPE	DBD (Untaxed) Sector Pool Infrastructure and Private Equity	USMIFA	Defensive Infrastructure Asset Class	41069387,76	0	34866472,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IPE	DBD (Untaxed) Sector Pool Infrastructure and Private Equity	USPE1T	SFT Private Equity 1 Transition Asset Class	12751268,73	0	13533061,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IPE	DBD (Untaxed) Sector Pool Infrastructure and Private Equity	USPE2T	SFT Private Equity 2 Transition Asset Class	2610383,75	0	2323745,34	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IPE	DBD (Untaxed) Sector Pool Infrastructure and Private Equity	USPE3T	SFT Private Equity 3 Transition Asset Class	7779603,77	0	8093300,74	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IPE	DBD (Untaxed) Sector Pool Infrastructure and Private Equity	USPEAA	Private Equity Asset Class	2313058,13	0	5242435,22	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IPE	DBD (Untaxed) Sector Pool Infrastructure and Private Equity	USUINF	SFT Other Infra Transition Asset Class	42725,94	0	44830,36	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IEQ	DBD (Untaxed) Sector Pool International Shares GAC	USAEND	Terminated Portfolio Asset Class	622228,12	0	649514,07	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IEQ	DBD (Untaxed) Sector Pool International Shares GAC	USAJAP	Intl Shares Overlay Japan Asset Class	72252,03	0	84690,43	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IEQ	DBD (Untaxed) Sector Pool International Shares GAC	USGAAC	Global Co in Asia Asset Class	67369,07	0	386818,25	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IEQ	DBD (Untaxed) Sector Pool International Shares GAC	USGLIC	Global Listed Infrastructure Asset Class	94680242,36	0	156899364	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IEQ	DBD (Untaxed) Sector Pool International Shares GAC	USISOC	Intl Shares Overlay Asset Class	44764872,54	0	2630562,97	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IEQ	DBD (Untaxed) Sector Pool International Shares GAC	USISSA	Intl Shares Overlay Short Asset Class	1309,48	0	0,95	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IEQ	DBD (Untaxed) Sector Pool International Shares GAC	USLPAC	Global Listed Property Asset Class	23271160,92	0	40841283	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IEQ	DBD (Untaxed) Sector Pool International Shares GAC	USMR15	Fortress Listed Infrastructure Asset Class	105371022,5	0	135196712	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IEQ	DBD (Untaxed) Sector Pool International Shares GAC	USMR25	Fortress AENA Asset Class	142110610,8	0	180856785	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DSP2_GAC_IEQ	DBD (Untaxed) Sector Pool International Shares GAC	USROBA	Intl Shares Banks Asset Class	2758,38	0	4796,51	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DC_GAC_FIC	Diversified Credit Income Sector Pool Cash and Fixed Interest	USACFL	Coolabah Floating Rate Asset Class	5562633,4	0	6159954,54	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DC_GAC_FIC	Diversified Credit Income Sector Pool Cash and Fixed Interest	USACFX	Coolabah Fixed Rate Asset Class	17990006,26	0	19883850,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DC_GAC_FIC	Diversified Credit Income Sector Pool Cash and Fixed Interest	USALAC	Australian Loans Asset Class	5140373,25	0	7103548,61	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DC_GAC_FIC	Diversified Credit Income Sector Pool Cash and Fixed Interest	USAT2D	Subordinated Fixed Asset Class	33229690,04	0	38431199,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DC_GAC_FIC	Diversified Credit Income Sector Pool Cash and Fixed Interest	USCAAC	Div Credit Income Aust and NZ Asset Class	158948446,5	0	216566146	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DC_GAC_FIC	Diversified Credit Income Sector Pool Cash and Fixed Interest	USMR13	Hybrids Fixed Asset Class	12167182,62	0	16908697,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	DC_GAC_FIC	Diversified Credit Income Sector Pool Cash and Fixed Interest	USOEAC	FI Overlay En Income Asset Class	2078862,21	0	748361,29	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GA_GAC_IEQ	Global Co in Asia Sector Pool International Shares GAC	USGAAC	Global Co in Asia Asset Class	268305613,6	0	1540551269	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GE_GAC_IEQ	Global Environ Opps Sector Pool International Shares GAC	USGEOA	Global Environ Opps Asset Class	437073216	0	1785471623	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USAEIA	Australian Equity Income Asset Class	51437161,33	0	181665715	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USAELS	Aust Shares Long Short Asset Class	164960146,8	0	362010981	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USAQAC	Aust Shares Equitisation Asset Class	74848969,9	0	83750234	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USAREI	Active Intl Resources Equity Asset Class	247071702,5	0	295641799	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USASCA	Aust Shares Concentrated Asset Class	76401114,02	0	142731110	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USAUST	SFT Aust Shares Transition Asset Class	1547808,86	0	1284846,97	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USDES	Australian Shares Asset Class	53241798,45	0	363551398	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USDRAC	Aust Shares Core Asset Class	267397596,4	0	619263420	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USEITC	Aust Shares Index Tilts Asset Class	70573199,58	0	194225420	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USIAAC	Aust Shares Small Caps Asset Class	132714097,2	0	279632451	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USMCAS	Aust Shares Mid Cap Asset Class	113124764,6	0	246570696	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USMMM9	Fortress AZJ Asset Class	1564,72	0	75051,65	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USMSAA	Sector Overlay Australia Asset Class	77733,54	0	31668,02	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USOPAC	Special Opps Asset Class	5984833,16	0	6074623,61	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USTIAC	Aust Shares Industrials Asset Class	109192800	0	229613677	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_AEQ	Growth Sector Pool Australian Shares GAC	USTSAC	Aust Shares Resources Asset Class	268915,49	0	602720,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	USASAC	Securitised Credit Asset Class	678314,44	0	725702,84	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	USCAAC	Div Credit Income Aust and NZ Asset Class	285282,51	0	388695,42	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	USCCAC	Special Ops Cash Asset Class	1103689,2	0	1189208,56	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	USCGAC	Div Credit Income Global Asset Class	75,24	0	114,72	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	USDCAC	Liquid Cash Asset Class	85182723,06	0	110125758	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	USDFIN	Domestic Sovereign Bonds Asset Class	90317892,29	0	230713082	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	USGIAC	Global Investment Grade Corporate Asset Class	21036527,05	0	65911288,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	USHCAC	High Yield Credit Asset Class	13,56	0	2712,68	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	USMLDA	Long Duration Bond Asset Class	132566216,5	0	143582999	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	USOGAC	FI Overlay Growth Asset Class	78671630568	0	94956658,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	USPCRT	SFT Private Credit Transition Asset Class	76586,72	0	83118,12	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_FIC	Growth Sector Pool Cash and Fixed Interest	USSRAS	Domestic High Grade Credit Asset Class	42248059,5	0	69225938,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_DPT	Growth Sector Pool Direct Property GAC	USAITA	Industrial Trust Asset Class	28574055,95	0	30401052,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_DPT	Growth Sector Pool Direct Property GAC	USPRPS	Direct Property Asset Class	81323824,69	0	409750904	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_DPT	Growth Sector Pool Direct Property GAC	USUPRP	SFT Direct Prop Transition Asset Class	22,39	0	20,24	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USAAAC	Sustainable Infrastructure Asset Class	14881394,67	0	190740297	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USAUAC	Sustainable Timber Asset Class	64011623,65	0	65437610,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USAUSX	Aust Unlisted Shares Asset Class	5192100,85	0	5339006,15	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USAVTG	Vantage Towers Asset Class	152078440,2	0	175676604	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USHCRA	Fortress SYD Asset Class	39082079,87	0	167414694	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USMIFA	Defensive Infrastructure Asset Class	59568772,57	0	50571803	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USPE1T	SFT Private Equity 1 Transition Asset Class	27778150,01	0	29481256,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USPE2T	SFT Private Equity 2 Transition Asset Class	6207719,85	0	5526068,76	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USPE3T	SFT Private Equity 3 Transition Asset Class	143904939,7	0	149707619	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USPEAA	Private Equity Asset Class	5206025,8	0	11799207,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USPRPA	PRP Asset Class	1235,3	0	19,74	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USSUNT	SFT Sustainable Unlisted Transition Asset Class	3416301,62	0	3741031,34	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IPE	Growth Sector Pool Infrastructure and Private Equity	USUINF	SFT Other Infra Transition Asset Class	26241810,13	0	27534324,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USAJAP	Intl Shares Overlay Japan Asset Class	165358770,6	0	193825779	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USDSAC	SFT Delisted Securities Asset Class	2,98	0	3187,94	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USGAAC	Global Co in Asia Asset Class	103095723,3	0	591952756	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USGEOA	Global Environ Opps Asset Class	20719654,66	0	84641094,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USGLIC	Global Listed Infrastructure Asset Class	98972819,64	0	164012808	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USGQAC	Intl Shares Equitisation Asset Class	55364808,16	0	61473207,4	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USGQEC	Global High Quality Asset Class	85731165,64	0	288570675	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USINTT	SFT Intl Shares Transition Asset Class	63582,96	0	66548,28	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USISAA	Intl Shares Asia Asset Class	100326370	0	263101190	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USISCA	Intl Shares Small Cap Asset Class	99010429,31	0	300326553	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USISEU	Intl Shares Europe Asset Class	1048081246	0	129886613	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USISOC	Intl Shares Overlay Asset Class	4886726853	0	287163617	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USISSA	Intl Shares Overlay Short Asset Class	1324,93	0	0,96	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USITAC	Intl Shares IT Asset Class	87402509,69	0	631579188	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USITCP	Investment Trust Asset Class	118834,87	0	67015,62	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USITDA	Intl Shares Health Care Asset Class	91600973,51	0	337894648	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USLPAC	Global Listed Property Asset Class	8245336,05	0	14470705	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USMR15	Fortress Listed Infrastructure Asset Class	12090804,47	0	15513155	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USMR25	Fortress AENA Asset Class	72966,6	0	92860,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USMSAI	Sector Overlay International Asset Class	132194409,5	0	137704669	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USOES	Intl Shares Mainstream Asset Class	27208106,8	0	228005404	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USROBA	Intl Shares Banks Asset Class	10681122,34	0	18573254,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USROCA	Intl Shares Japan Asset Class	33017745,04	0	63840074,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	GR_GAC_IEQ	Growth Sector Pool International Shares GAC	USSGMB	SSGM Overlay B Asset Class	139281228	0	153917317	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USAEIA	Australian Equity Income Asset Class	62586667,38	0	221043529	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USAELS	Aust Shares Long Short Asset Class	200716867,8	0	440480392	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USAQAC	Aust Shares Equitisation Asset Class	99159607,34	0	110951965	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USAREI	Active Intl Resources Equity Asset Class	300626901,8	0	359725040	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USASCA	Aust Shares Concentrated Asset Class	92961797,21	0	173669463	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USAUST	SFT Aust Shares Transition Asset Class	1882821,49	0	1562943,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USDES	Australian Shares Asset Class	64782475,01	0	442354692	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USDRAC	Aust Shares Core Asset Class	325358632,8	0	753494804	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USEITC	Aust Shares Index Tilts Asset Class	85870628,84	0	236325674	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USIAAC	Aust Shares Small Caps Asset Class	161481172,1	0	340245513	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USMCAS	Aust Shares Mid Cap Asset Class	137645660,6	0	300017299	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USMMM9	Fortress AZJ Asset Class	1903,88	0	91319,11	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USMSAA	Sector Overlay Australia Asset Class	94583,09	0	38532,39	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USOPAC	Special Opps Asset Class	7282103,88	0	7391357,28	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USTIAC	Aust Shares Industrials Asset Class	132861403,6	0	279384680	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_AEQ	High Growth Sector Pool Australian Shares GAC	USTSAC	Aust Shares Resources Asset Class	327205,91	0	733366,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_FIC	High Growth Sector Pool Cash and Fixed Interest	USDCAC	Liquid Cash Asset Class	0	0	0	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_DPT	High Growth Sector Pool Direct Property GAC	USAITA	Industrial Trust Asset Class	132461827,9	0	140931305	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_DPT	High Growth Sector Pool Direct Property GAC	USPRPS	Direct Property Asset Class	35009156,33	0	176393984	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IPE	High Growth Sector Pool Infrastructure and Private Equity GAC	USAAAC	Sustainable Infrastructure Asset Class	10022667,74	0	128464211	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IPE	High Growth Sector Pool Infrastructure and Private Equity GAC	USAUAC	Sustainable Timber Asset Class	101916064,8	0	104186449	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IPE	High Growth Sector Pool Infrastructure and Private Equity GAC	USAVTG	Vantage Towers Asset Class	70968265,52	0	81980482,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IPE	High Growth Sector Pool Infrastructure and Private Equity GAC	USHCRA	Fortress SYD Asset Class	18944541,9	0	81152146,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IPE	High Growth Sector Pool Infrastructure and Private Equity GAC	USMIFA	Defensive Infrastructure Asset Class	86041641,4	0	73046342,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IPE	High Growth Sector Pool Infrastructure and Private Equity GAC	USPE1T	SFT Private Equity 1 Transition Asset Class	7822175,74	0	8301761,16	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IPE	High Growth Sector Pool Infrastructure and Private Equity GAC	USPE2T	SFT Private Equity 2 Transition Asset Class	1601321,97	0	1425485,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IPE	High Growth Sector Pool Infrastructure and Private Equity GAC	USPE3T	SFT Private Equity 3 Transition Asset Class	57608051,82	0	59930981,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IPE	High Growth Sector Pool Infrastructure and Private Equity GAC	USPEAA	Private Equity Asset Class	1462595,56	0	3314902,63	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IPE	High Growth Sector Pool Infrastructure and Private Equity GAC	USPRPA	PRP Asset Class	443,68	0	7,09	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IPE	High Growth Sector Pool Infrastructure and Private Equity GAC	USUINF	SFT Other Infra Transition Asset Class	18090,77	0	18981,81	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USAJAP	Intl Shares Overlay Japan Asset Class	196464339	0	230286264	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USDSAC	SFT Delisted Securities Asset Class	3,54	0	3788,07	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USGAAC	Global Co in Asia Asset Class	122489015,8	0	703304736	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USGEOA	Global Environ Opps Asset Class	24617219,95	0	100562894	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USGLIC	Global Listed Infrastructure Asset Class	117590554,9	0	194865188	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USGQAC	Intl Shares Equitisation Asset Class	65779459,21	0	73036906,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USGQEC	Global High Quality Asset Class	101858018,1	0	342853580	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USINTT	SFT Intl Shares Transition Asset Class	75543,58	0	79066,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USISAA	Intl Shares Asia Asset Class	119198720,5	0	312593042	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USISCA	Intl Shares Small Cap Asset Class	117635239,3	0	356820854	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USISEU	Intl Shares Europe Asset Class	1245235361	0	154319528	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USISOC	Intl Shares Overlay Asset Class	5806005687	0	341184118	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USISSA	Intl Shares Overlay Short Asset Class	1179,62	0	0,85	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USITAC	Intl Shares IT Asset Class	103843758,6	0	750385280	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USITCP	Investment Trust Asset Class	141190,91	0	79623,06	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USITDA	Intl Shares Health Care Asset Class	108831993,3	0	401455866	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USLPAC	Global Listed Property Asset Class	9796363,23	0	17192784	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USMR15	Fortress Listed Infrastructure Asset Class	14365200,84	0	18431328,4	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USMR25	Fortress AENA Asset Class	86604,5	0	110217,04	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USMSAI	Sector Overlay International Asset Class	157061443,6	0	163608236	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USOES	Intl Shares Mainstream Asset Class	32326213,59	0	270895415	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USROBA	Intl Shares Banks Asset Class	12690343,15	0	22067060	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USROCA	Intl Shares Japan Asset Class	39228699,11	0	75849003,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	HG_GAC_IEQ	High Growth Sector Pool International Shares GAC	USSGMB	SSGM Overlay B Asset Class	174855174,4	0	193229481	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_AEQ	International Shares Sector Pool Australian Shares GAC	USAREI	Active Intl Resources Equity Asset Class	16205879,49	0	19391679,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USAJAP	Intl Shares Overlay Japan Asset Class	44529164,67	0	52194994	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USDSAC	SFT Delisted Securities Asset Class	0	0	0,61	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USGAAC	Global Co in Asia Asset Class	25736745,21	0	147774677	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USGLIC	Global Listed Infrastructure Asset Class	36568462,49	0	60599427,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USGQEC	Global High Quality Asset Class	25814212,34	0	86890509,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USINTT	SFT Intl Shares Transition Asset Class	0,7	0	0,73	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USISAA	Intl Shares Asia Asset Class	40448743,93	0	106074930	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USISCA	Intl Shares Small Cap Asset Class	50942474,57	0	154522891	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USISEU	Intl Shares Europe Asset Class	150413880,8	0	18640491,4	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USISNP	Intl Shares US Quant Asset Class	208289,03	0	371902,57	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USISOC	Intl Shares Overlay Asset Class	2250489823	0	132247784	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USITAC	Intl Shares IT Asset Class	32256265,82	0	233086970	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USITDA	Intl Shares Health Care Asset Class	33089092,54	0	122057953	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USMGEA	Global Equity Income Asset Class	130197,84	0	206749,88	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USMR22	Fortress LSE Asset Class	16670593,52	0	20099001,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USMSAI	Sector Overlay International Asset Class	19132368,77	0	19929863,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USOES	Intl Shares Mainstream Asset Class	65631389,04	0	549994584	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USROCA	Intl Shares Japan Asset Class	17777839,97	0	34373595,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	IS_GAC_IEQ	International Shares Sector Pool International Shares GAC	USSGMB	SSGM Overlay B Asset Class	97119454,06	0	107325058	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	LP_GAC_AEQ	Listed Property Sector Pool Australian Shares GAC	USAPAC	Australian Listed Property Asset Class	105065876,6	0	254683782	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	LP_GAC_IEQ	Listed Property Sector Pool International Shares GAC	USLPAC	Global Listed Property Asset Class	139900818,8	0	245528315	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_AEQ	Sustainable Balanced Sector Pool Australian Shares GAC	USAQAC	Aust Shares Equitisation Asset Class	181641681,9	0	203243056	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_AEQ	Sustainable Balanced Sector Pool Australian Shares GAC	USLLAC	Sustainable Listed Property Asset Class	91008957,42	0	162750499	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_AEQ	Sustainable Balanced Sector Pool Australian Shares GAC	USMR26	Fortress CWY Asset Class	45636095,1	0	50583504,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_AEQ	Sustainable Balanced Sector Pool Australian Shares GAC	USSRAC	Sustainable Australian Shares Asset Class	258237400,1	0	1668172287	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_AEQ	Sustainable Balanced Sector Pool Australian Shares GAC	USSUST	SFT Aust Sustainable Transition Asset Class	1782,08	0	2005,72	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_FIC	Sustainable Balanced Sector Pool Cash and Fixed Interest	USACFL	Coolabah Floating Rate Asset Class	105880669,5	0	117250242	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_FIC	Sustainable Balanced Sector Pool Cash and Fixed Interest	USAT2A	Subordinated Floating Asset Class	93976331,12	0	105387313	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_FIC	Sustainable Balanced Sector Pool Cash and Fixed Interest	USDCAC	Liquid Cash Asset Class	118883029,1	0	153694120	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_FIC	Sustainable Balanced Sector Pool Cash and Fixed Interest	USDFIN	Domestic Sovereign Bonds Asset Class	9566621,61	0	24437514	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_FIC	Sustainable Balanced Sector Pool Cash and Fixed Interest	USFISC	Specialised Credit Asset Class	5195463,95	0	267952307	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_FIC	Sustainable Balanced Sector Pool Cash and Fixed Interest	USMGAC	Green Bonds Asset Class	411563020,2	0	533740442	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_FIC	Sustainable Balanced Sector Pool Cash and Fixed Interest	USMLDA	Long Duration Bond Asset Class	161202574,2	0	174599153	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_FIC	Sustainable Balanced Sector Pool Cash and Fixed Interest	USMR14	Hybrids Floating Asset Class	104613885,8	0	155749362	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_FIC	Sustainable Balanced Sector Pool Cash and Fixed Interest	USOSAC	FI Overlay SR Balanced Asset Class	18414467285	0	87523963	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_FIC	Sustainable Balanced Sector Pool Cash and Fixed Interest	USSUSL	SFT Sustainable Cash Transition Asset Class	7241,55	0	1616,31	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_FIC	Sustainable Balanced Sector Pool Cash and Fixed Interest	USTCAC	Long Term Cash Asset Class	-0,01	0	0	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IPE	Sustainable Balanced Sector Pool Infrastructure and Private Equity	USAUAC	Sustainable Timber Asset Class	146696260,5	0	149964213	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IPE	Sustainable Balanced Sector Pool Infrastructure and Private Equity	USAVTG	Vantage Towers Asset Class	152078440,2	0	175676604	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IPE	Sustainable Balanced Sector Pool Infrastructure and Private Equity	USHCRA	Fortress SYD Asset Class	55514438,59	0	237805480	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IPE	Sustainable Balanced Sector Pool Infrastructure and Private Equity	USMIFA	Defensive Infrastructure Asset Class	112518787,1	0	95524512,1	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IPE	Sustainable Balanced Sector Pool Infrastructure and Private Equity	USUSAC	Sustainable Private Equity Asset Class	25773717,06	0	28327505,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IEQ	Sustainable Balanced Sector Pool International Shares GAC	USGEOA	Global Environ Opps Asset Class	54589312,27	0	223000780	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IEQ	Sustainable Balanced Sector Pool International Shares GAC	USGQAC	Intl Shares Equitisation Asset Class	67878110,26	0	75367102,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IEQ	Sustainable Balanced Sector Pool International Shares GAC	USITAC	Intl Shares IT Asset Class	14630807,73	0	105723665	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IEQ	Sustainable Balanced Sector Pool International Shares GAC	USITDA	Intl Shares Health Care Asset Class	6161121,06	0	22726940	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IEQ	Sustainable Balanced Sector Pool International Shares GAC	USMGQS	Sustainable Global Quality Asset Class	241635668,6	0	341647464	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IEQ	Sustainable Balanced Sector Pool International Shares GAC	USMR22	Fortress LSE Asset Class	38397284,57	0	46293916,5	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IEQ	Sustainable Balanced Sector Pool International Shares GAC	USOESR	Sustainable Intl Shares Mainstream Asset Class	202853809,7	0	245255327	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IEQ	Sustainable Balanced Sector Pool International Shares GAC	USROBA	Intl Shares Banks Asset Class	19130216,01	0	33265264,8	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IEQ	Sustainable Balanced Sector Pool International Shares GAC	USSGMA	SSGM Overlay A Asset Class	31077787,96	0	92776458,3	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IEQ	Sustainable Balanced Sector Pool International Shares GAC	USSSAC	Sustainable Intl Shares Asset Class	282733613,1	0	1793848363	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SB_GAC_IEQ	Sustainable Balanced Sector Pool International Shares GAC	USSUSI	SFT Intl Sustainable Transition Asset Class	61235,59	0	61187,58	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_AEQ	Sustainable High Growth Sector Pool Australian Shares GAC	USAQAC	Aust Shares Equitisation Asset Class	195079822,7	0	218279300	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_AEQ	Sustainable High Growth Sector Pool Australian Shares GAC	USLLAC	Sustainable Listed Property Asset Class	116396491,6	0	208150798	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_AEQ	Sustainable High Growth Sector Pool Australian Shares GAC	USMR26	Fortress CWY Asset Class	43418062,26	0	48125014,4	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_AEQ	Sustainable High Growth Sector Pool Australian Shares GAC	USSRAC	Sustainable Australian Shares Asset Class	369729922,7	0	2388396144	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_FIC	Sustainable High Growth Sector Pool Cash and Fixed Interest	USDCAC	Liquid Cash Asset Class	0	0	0	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IPE	Sustainable High Growth Sector Pool Infrastructure and Private Equity GAC	USAUAC	Sustainable Timber Asset Class	78265910,53	0	80009440,2	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IPE	Sustainable High Growth Sector Pool Infrastructure and Private Equity GAC	USAVTG	Vantage Towers Asset Class	65900654,52	0	76126525	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IPE	Sustainable High Growth Sector Pool Infrastructure and Private Equity GAC	USHCRA	Fortress SYD Asset Class	13219446,85	0	56627734,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IPE	Sustainable High Growth Sector Pool Infrastructure and Private Equity GAC	USMIFA	Defensive Infrastructure Asset Class	99281283,24	0	84286334,6	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IPE	Sustainable High Growth Sector Pool Infrastructure and Private Equity GAC	USUSAC	Sustainable Private Equity Asset Class	23922474,32	0	26292832,7	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USAJAP	Intl Shares Overlay Japan Asset Class	116427809,8	0	136471207	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USGEOA	Global Environ Opps Asset Class	83533264,94	0	341238650	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USGQAC	Intl Shares Equitisation Asset Class	316116899,7	0	350994077	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USISOC	Intl Shares Overlay Asset Class	2604076925	0	153025976	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USISSA	Intl Shares Overlay Short Asset Class	327,85	0	0,24	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USITAC	Intl Shares IT Asset Class	40410976,96	0	292013720	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USITDA	Intl Shares Health Care Asset Class	32992384,7	0	121701220	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USMGQS	Sustainable Global Quality Asset Class	371550632,4	0	525333581	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USMR22	Fortress LSE Asset Class	73998573,35	0	89216824	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USOESR	Sustainable Intl Shares Mainstream Asset Class	340013472,7	0	411084789	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USROBA	Intl Shares Banks Asset Class	42855501,66	0	74520831,9	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USSGMA	SSGM Overlay A Asset Class	37168895,46	0	110960229	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	SS_GAC_IEQ	Sustainable High Growth Sector Pool International Shares GAC	USSSAC	Sustainable Intl Shares Asset Class	274225276,3	0	1739865868	AUD	GRAND_ASSET_CLASS	ASSET CLASS
+20240331	USAITA	Industrial Trust Asset Class	USLDAE	Industrial Trust - Cash	187025,6	0,063788	11929,99	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAITA	Industrial Trust Asset Class	USMAIP	Industrial Trust - Australian Industrial Partnership	595784347,8	1,056528	629462845	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAITA	Industrial Trust Asset Class	USMCWL	Industrial Trust - Cawley Road Industrial Trust	113452508,9	1,048893	118999542	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAREA	Active Aust Resources Equity Asset Class	USMRAA	Active Aust Resources Equity - USM	150772620,7	1,196884	180457337	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAREA	Active Aust Resources Equity Asset Class	USMRAC	Active Aust Resources Equity - Cash	453696,72	0,009411	4269,74	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAREA	Active Aust Resources Equity Asset Class	USMRAT	Active Aust Resources Equity - Transition	3,07	2,110749	6,48	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAREI	Active Intl Resources Equity Asset Class	USMRAH	Active Int Resources Equity - Cash	54464,74	1,298287	70710,86	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAREI	Active Intl Resources Equity Asset Class	USMRAI	Active Int Resources Equity - USM	2608471095	1,196694	3121541709	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAREI	Active Intl Resources Equity Asset Class	USMRAL	Active Int Resources Equity - Currency Overlay	74,05	-889,02672	-65829,04	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAJAP	Intl Shares Overlay Japan Asset Class	USAUIP	Intl Shares OL Japan - Cash	72699,12	0,063563	4620,97	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAJAP	Intl Shares Overlay Japan Asset Class	USOLEA	Intl Shares Overlay Japan - Currency Overlay	-4158,31	-1666,4132	6929466,36	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAJAP	Intl Shares Overlay Japan Asset Class	USVETF	Intl Shares Overlay Japan - Futures Overlay	1055006083	1,38754	1463863140	AUD	ASSET CLASS	PORTFOLIO
+20240331	USALAC	Australian Loans Asset Class	USLALC	Australian Loans - Cash	487626793,9	0,012765	6224556,02	AUD	ASSET CLASS	PORTFOLIO
+20240331	USALAC	Australian Loans Asset Class	USTPAL	Australian Loans - Tanarra	248433526	1,371116	340631182	AUD	ASSET CLASS	PORTFOLIO
+20240331	USALAC	Australian Loans Asset Class	USTREV	Australian Loans - Revolution	87776893,94	1,11581	97942336	AUD	ASSET CLASS	PORTFOLIO
+20240331	USALS2	Aust Shares Long Short 2 Asset Class	USLSPC	Aust Shares Long Short 2 - Cash	14029524,55	0,000152	2132,49	AUD	ASSET CLASS	PORTFOLIO
+20240331	USALS2	Aust Shares Long Short 2 Asset Class	USPDLS	Aust Shares Long Short 2 - Pendal	313111345,6	1,548593	484882038	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAPAC	Australian Listed Property Asset Class	USLAPC	Australian Listed Property - Cash	4,05	25,265807	102,42	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAPAC	Australian Listed Property Asset Class	USLSPT	Australian Listed Property - Transition	1835,13	0,918386	1685,36	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAPAC	Australian Listed Property Asset Class	USMARI	Australian Listed Property - USM	236401651,3	3,982892	941562246	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAT2A	Subordinated Floating Asset Class	USLMFC	Subordinated Floating - Cash	82413519,02	0,000152	12526,85	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAT2A	Subordinated Floating Asset Class	USMT2A	Subordinated Floating - USM	769530512,8	1,119568	861541737	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAT2D	Subordinated Fixed Asset Class	USLMXC	Subordinated Fixed - Cash	50090,53	0,801742	40159,68	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAT2D	Subordinated Fixed Asset Class	USMT2D	Subordinated Fixed - USM	2997776215	1,156614	3467269939	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUAC	Sustainable Timber Asset Class	USAUCA	Sustainable Timber - Cash	97004,71	1,001545	97154,58	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUAC	Sustainable Timber Asset Class	USAUOL	Sustainable Timber - Currency Overlay	-2945,23	-3068,3752	9037081,62	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUAC	Sustainable Timber Asset Class	USHVPL	Sustainable Timber - Hancock Vic Plantations	43049126,63	8,064733	347179712	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUAC	Sustainable Timber Asset Class	USSPIT	Sustainable Timber - Tasmanian Forest Trust	406862049,7	0,991052	403221448	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUAC	Sustainable Timber Asset Class	USTKPL	Sustainable Timber - Tiaki Plantation	26918961,6	5,914017	159199197	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUAC	Sustainable Timber Asset Class	USTMPL	Sustainable Timber - Taumata Plantations	85042165,01	5,261778	447472993	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUSM	USM Pty Ltd Asset Class	USAIFM	USM Pty Ltd	5077660,23	37,771942	191793088	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUSM	USM Pty Ltd Asset Class	USBW31	31 Burwood Road Property	4024999,97	2,099379	8450000,41	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUSM	USM Pty Ltd Asset Class	USBW33	33 Burwood Road Property	5124999,97	1,873171	9600001,32	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUSM	USM Pty Ltd Asset Class	USSIT2	USM Pty Ltd - Cash	67118,49	0,01305	875,9	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUSM	USM Pty Ltd Asset Class	USTRGP	USM Pty Ltd - ACS Russia	15,02	12516,2125	188038,16	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUST	SFT Aust Shares Transition Asset Class	USAUTC	SFT Aust Shares - Cash	20562,3	0,524894	10793,03	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUST	SFT Aust Shares Transition Asset Class	USIBT1	SFT Aust Shares Transition - USM	4951549,51	0,796544	3944127,05	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUSX	Aust Unlisted Shares Asset Class	USAIPO	Aust Unlisted Shares - Perennial Pre IPO	89451037,01	1,026412	91813617,8	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUSX	Aust Unlisted Shares Asset Class	USAUXC	Aust Unlisted Shares - Cash	433,76	1,000854	434,13	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAUSX	Aust Unlisted Shares Asset Class	USPEOP	Aust Unlisted Shares - Currency Overlay	1015,82	-37,095144	-37681,87	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAVRD	VicRoads Asset Class	USLDAD	Vic Roads - Cash	2326911,2	0,00189	4397,86	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAVRD	VicRoads Asset Class	USVRDS	Vic Roads - USM	255070066,1	1,086838	277219841	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAVTG	Vantage Towers Asset Class	USLVTG	Vantage Towers - Cash	14791,25	1,000845	14803,75	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAVTG	Vantage Towers Asset Class	USMVTG	Vantage Towers - USM	1022391400	1,18458	1211104404	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAVTG	Vantage Towers Asset Class	USVTGL	Vantage Towers - Currency Overlay	67655638,93	0,01423	962739,74	AUD	ASSET CLASS	PORTFOLIO
+20240331	USBANX	Aust Shares Passive Financials Asset Class	USDBT2	Aust Shares Passive Financials - Banks	19692361,66	1,881165	37044581,5	AUD	ASSET CLASS	PORTFOLIO
+20240331	USBANX	Aust Shares Passive Financials Asset Class	USLBAN	Aust Shares Passive Financials - Cash	8723,83	0,036644	319,68	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAQAC	Aust Shares Equitisation Asset Class	USFAEQ	Aust Shares Equitisation - Futures	550210143,3	1,1224	617555865	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAQAC	Aust Shares Equitisation Asset Class	USLAEQ	Aust Shares Equitisation - Cash	10326123,93	1,013331	10463781,5	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAAAC	Sustainable Infrastructure Asset Class	USAAIR	Sustainable Infrastructure - Adelaide Airport	140007002,3	7,520062	1052861338	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAAAC	Sustainable Infrastructure Asset Class	USAICO	Sustainable Infrastructure - Currency Overlay	0,06	1	0,06	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAAAC	Sustainable Infrastructure Asset Class	USAIRM	Sustainable Infrastructure - Airport Motorway	57610165,29	3,82289	220237325	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAAAC	Sustainable Infrastructure Asset Class	USAQSR	Sustainable Infrastructure - Aquasure	112795803,2	5,010031	565110470	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAAAC	Sustainable Infrastructure Asset Class	USBAIR	Sustainable Infrastructure - Brisbane Airport	141698765,5	4,711296	667584827	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAAAC	Sustainable Infrastructure Asset Class	USIMIN	Sustainable Infrastructure - Cash	25985913,84	0,064283	1670452,5	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAAAC	Sustainable Infrastructure Asset Class	USPRWT	Sustainable Infrastructure - Prospect Water	55989970,42	3,166371	177285019	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAAAC	Sustainable Infrastructure Asset Class	USVCCC	Sustainable Infrastructure - Vic Comp Cancer Centre	29623090,53	2,469797	73163020,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USACAC	High Conviction Credit ICP Asset Class	USACCA	High Conviction Credit ICP - Cash	2631,09	0,004884	12,85	AUD	ASSET CLASS	PORTFOLIO
+20240331	USACFL	Coolabah Floating Rate Asset Class	USEC2A	Subordinated Floating - Coolabah Floating Rate	1090199489	1,131819	1233908495	AUD	ASSET CLASS	PORTFOLIO
+20240331	USACFL	Coolabah Floating Rate Asset Class	USMEP3	Coolabah Floating Rate - Cash	28677,56	0,69689	19985,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USACFX	Coolabah Fixed Rate Asset Class	USEC2D	Subordinated Fixed - Coolabah Fixed Rate	506604753,6	1,097639	556069135	AUD	ASSET CLASS	PORTFOLIO
+20240331	USACFX	Coolabah Fixed Rate Asset Class	USMEP5	USMEP5 - Coolabah Fixed Rate Cash	18154,74	0,698987	12689,93	AUD	ASSET CLASS	PORTFOLIO
+20240331	USADAC	Green Infrastructure Asset Class	USMCOF	Green Infrastructure - Macquarie Climate Opp	1	2	2	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAEAC	Aust Shares Equal Weighted Asset Class	USLAEW	Aust Shares Equal Weight - Cash	61,51	1,02262	62,9	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAEAC	Aust Shares Equal Weighted Asset Class	USMAEW	Aust Shares Equal Weight - USM	30,03	1,673277	50,25	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAEAC	Aust Shares Equal Weighted Asset Class	USTAEW	Aust Shares Equal Weight - Transition	919,15	0,298079	273,98	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAEIA	Australian Equity Income Asset Class	USAEIC	Australian Equity Income - Cash	6832092,21	0,084099	574572,12	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAEIA	Australian Equity Income Asset Class	USMAEI	Australian Equity Income - USM	1646375075	3,600257	5927373388	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAELS	Aust Shares Long Short Asset Class	USLSCS	Aust Shares Long Short - Cash	15720392,23	0,000285	4480,31	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAELS	Aust Shares Long Short Asset Class	USTBLS	Aust Shares Long Short - Tribeca	470287299,8	2,196726	1033092339	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAEND	Terminated Portfolio Asset Class	USACGE	Intl Shares Small Cap - Acadian	63827,42	0,955252	60971,27	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAEND	Terminated Portfolio Asset Class	USAENC	Terminated Portfolio - Cash	653,04	0,729955	476,69	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAEND	Terminated Portfolio Asset Class	USAENL	Terminated Portfolio - Overlay	2142,06	4,43858	9507,71	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAEND	Terminated Portfolio Asset Class	USASEM	Intl Shares Asia - BlackRock	700818,44	0,37958	266016,66	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAEND	Terminated Portfolio Asset Class	USBGUT	Intl Shares Overlay Short - Futures Overlay	36331,46	1,027942	37346,64	AUD	ASSET CLASS	PORTFOLIO
+20240331	USAEND	Terminated Portfolio Asset Class	USMFGE	Global High Quality - MFS	2161021,9	1,078762	2331228,3	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDAST	Aust Shares Passive Resources Asset Class	USLASC	Aust Shares Passive Resources - Cash	359,94	0,246237	88,63	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDCAC	Liquid Cash Asset Class	USDBCS	Liquid Cash - USM	2470392033	1,29365	3195822654	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDRAC	Aust Shares Core Asset Class	USDBRC	Aust Shares Core - Cash	39895648,79	0,003142	125352,13	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDRAC	Aust Shares Core Asset Class	USHQT2	Global High Quality - Transition 2	1819,39	-28,393481	-51658,81	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDRAC	Aust Shares Core Asset Class	USMFCM	Aust Shares Core - USM	1854126868	3,421611	6344100887	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDSAC	SFT Delisted Securities Asset Class	USATPU	Terminated Portfolio - USL	47,58	1068,71951	50847,39	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDSAC	SFT Delisted Securities Asset Class	USLDAA	SFT Delisted Securities - Cash	3,19	1,108112	3,53	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDES	Australian Shares Asset Class	USADAE	Aust Shares - Ausbil	90692381,85	10,51446	953581421	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDES	Australian Shares Asset Class	USAST2	Aust Shares - Transition	99,88	283,914006	28357,7	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDES	Australian Shares Asset Class	USDBSM	Aust Shares - Cash	61003,84	7,781453	474698,52	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDES	Australian Shares Asset Class	USQSAE	Aust Shares - Quest	261116558,7	3,928959	1025916253	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDES	Australian Shares Asset Class	USSCAE	Aust Shares - Schroders	372467807,1	3,07145	1144016246	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDFIA	High Conviction Credit DBD Asset Class	USDFIC	High Conviction Credit DBD - Cash	3786,71	0,003552	13,45	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDFII	Inflation Linked Bonds Asset Class	USIMAI	Inflation Linked Bonds - Cash	9677697,37	0,000498	4819,49	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDFII	Inflation Linked Bonds Asset Class	USIMCB	Inflation Linked Bonds - USM	229282837,7	3,239136	742678294	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDFIN	Domestic Sovereign Bonds Asset Class	MACQFI	Domestic Sovereign Bonds - Macquarie	628652728,5	2,629936	1653316442	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDFIN	Domestic Sovereign Bonds Asset Class	UNIMFI	Domestic Sovereign Bonds - Cash	3,89	109,501786	426,17	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDFIN	Domestic Sovereign Bonds Asset Class	USCFSI	Domestic Sovereign Bonds - USM	1095565820	1,459498	1598976123	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDFIN	Domestic Sovereign Bonds Asset Class	USMJCB	Domestic Sovereign Bonds - JCB	831369793,8	1,056219	878108572	AUD	ASSET CLASS	PORTFOLIO
+20240331	USDFIN	Domestic Sovereign Bonds Asset Class	USTRAI	Domestic Sovereign Bonds - Bond Futures	1374,58	1,484972	2041,22	AUD	ASSET CLASS	PORTFOLIO
+20240331	USASAC	Securitised Credit Asset Class	USCSAC	Securitised Credit - Cash	280919,47	0,000443	124,45	AUD	ASSET CLASS	PORTFOLIO
+20240331	USASAC	Securitised Credit Asset Class	USMSAC	Securitised Credit - USM	22534821,47	1,069918	24110411,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USASCA	Aust Shares Concentrated Asset Class	USLACE	Aust Shares Concentrated - Cash	2356516,98	0,013724	32340,84	AUD	ASSET CLASS	PORTFOLIO
+20240331	USASCA	Aust Shares Concentrated Asset Class	USMACE	Aust Shares Concentrated - USM	837537495	1,916002	1604723516	AUD	ASSET CLASS	PORTFOLIO
+20240331	USASCA	Aust Shares Concentrated Asset Class	USPET1	Private Equity - Transition	130,43	-605,2703	-78947,07	AUD	ASSET CLASS	PORTFOLIO
+20240331	USASFO	Aust Shares Overlay Asset Class	USAUTR	Aust Shares Overlay - Short Futures Overlay	57860,7	1,658427	95957,75	AUD	ASSET CLASS	PORTFOLIO
+20240331	USASFO	Aust Shares Overlay Asset Class	USLSPI	Aust Shares Overlay - Cash	179,68	0,235137	42,25	AUD	ASSET CLASS	PORTFOLIO
+20240331	USCCAC	Special Ops Cash Asset Class	USCAND	Cash Asset Class - CFSGAM Advance Notice	816586340,4	1,311714	1071127735	AUD	ASSET CLASS	PORTFOLIO
+20240331	USCCAC	Special Ops Cash Asset Class	USCBNA	CBA - 35 Day Notice Account	279029782,7	1,040122	290225016	AUD	ASSET CLASS	PORTFOLIO
+20240331	USCCAC	Special Ops Cash Asset Class	USCCCC	Special Ops Cash - Cash	22948,16	1,000836	22967,34	AUD	ASSET CLASS	PORTFOLIO
+20240331	USCCAC	Special Ops Cash Asset Class	USCCH2	Long Term Cash - CFS	0,24	1,416667	0,34	AUD	ASSET CLASS	PORTFOLIO
+20240331	USCCAC	Special Ops Cash Asset Class	USMCAN	Notice Account Portfolio - USM	498686242,8	1,080753	538956653	AUD	ASSET CLASS	PORTFOLIO
+20240331	USCGAC	Div Credit Income Global Asset Class	USLDCG	Div Credit Income Global - Cash	5964,36	0,004871	29,05	AUD	ASSET CLASS	PORTFOLIO
+20240331	USCGAC	Div Credit Income Global Asset Class	USMSGD	Div Credit Income Global - MSIM	15097,21	1,687421	25475,35	AUD	ASSET CLASS	PORTFOLIO
+20240331	USCS	Cash Asset Class	USALCA	Cash Asset Class - USM Money Market	1646570734	2,118855	3488844633	AUD	ASSET CLASS	PORTFOLIO
+20240331	USCSHT	SFT Cash Transition Asset Class	USCSHP	SFT Cash - Cash	276,81	0,095913	26,55	AUD	ASSET CLASS	PORTFOLIO
+20240331	USCSHT	SFT Cash Transition Asset Class	USFINP	SFT Fixed Interest - Transition	19751,64	1,274829	25179,96	AUD	ASSET CLASS	PORTFOLIO
+20240331	USCAAC	Div Credit Income Aust and NZ Asset Class	USLDCA	Div Credit Income A and NZ - Cash	19367650,13	0,006573	127303,56	AUD	ASSET CLASS	PORTFOLIO
+20240331	USCAAC	Div Credit Income Aust and NZ Asset Class	USMDCA	Div Credit Income A and NZ - USM	231971768,8	1,370191	317845630	AUD	ASSET CLASS	PORTFOLIO
+20240331	USEITC	Aust Shares Index Tilts Asset Class	USAIT2	Aust Share Index Tilts - Long Futures Overlay	20039,74	1,366061	27375,51	AUD	ASSET CLASS	PORTFOLIO
+20240331	USEITC	Aust Shares Index Tilts Asset Class	USBGAE	Aust Shares Index Tilts - SSGM	199027505,9	7,537727	1500215005	AUD	ASSET CLASS	PORTFOLIO
+20240331	USEITC	Aust Shares Index Tilts Asset Class	USLAST	Aust Shares Index Tilts - Cash	34267,52	0,211339	7242,06	AUD	ASSET CLASS	PORTFOLIO
+20240331	USFINH	SFT Hybrids Transition Asset Class	USMHHC	SFT Hybrids - Cash	117,2	0,820215	96,13	AUD	ASSET CLASS	PORTFOLIO
+20240331	USFINH	SFT Hybrids Transition Asset Class	USMHHH	Transition Hybrids Floating - USM	2212,22	1,083592	2397,14	AUD	ASSET CLASS	PORTFOLIO
+20240331	USFISC	Specialised Credit Asset Class	USEFSC	Specialised Credit - First Sentier	418576278,1	1,109621	464461028	AUD	ASSET CLASS	PORTFOLIO
+20240331	USFISC	Specialised Credit Asset Class	USLSCA	Specialised Credit - Cash	11848,26	0,991074	11742,5	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGAAC	Global Co in Asia Asset Class	USGACO	Global Co in Asia - Currency Overlay	-138468,48	10,609686	-1469107,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGAAC	Global Co in Asia Asset Class	USGACS	Global Co in Asia - Cash	104468562,9	0,330849	34563319,6	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGAAC	Global Co in Asia Asset Class	USMGAO	Global Co in Asia - Currency Options	748,43	1,361191	1018,76	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGAAC	Global Co in Asia Asset Class	USMGCA	Global Co in Asia - USM	940663596,1	6,364616	5986962574	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGAAC	Global Co in Asia Asset Class	USMGTR	Global Co in Asia - Transition	182279683,5	1,941505	353896917	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGIAC	Global Investment Grade Corporate Asset Class	USBRAB	International Bonds - BlackRock	191511719,1	1,14097	218509126	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGIAC	Global Investment Grade Corporate Asset Class	USMSGI	International Bonds - MSIM	367975097	1,761148	648058606	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGIAC	Global Investment Grade Corporate Asset Class	USPRGC	International Bonds - Prudential	465287206,8	1,463824	681098580	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGIAC	Global Investment Grade Corporate Asset Class	USTFIO	International Bonds - Cash	13,72	2694,93807	36963,93	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGLIC	Global Listed Infrastructure Asset Class	USBSGE	Global Listed Infrastructure - Trans 1	1601,39	1,158069	1854,52	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGLIC	Global Listed Infrastructure Asset Class	USGLCO	Global Listed Infrastructure - Currency Option	0,04	1	0,04	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGLIC	Global Listed Infrastructure Asset Class	USGLIO	Global Listed Infrastructure - Currency Overlay	11592,54	-107,18128	-1242503,6	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGLIC	Global Listed Infrastructure Asset Class	USIST2	Global Listed Infrastructure - Transition	465246,2	0,445422	207230,89	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGLIC	Global Listed Infrastructure Asset Class	USLGLI	Global Listed Infrastructure - Cash	1657209,89	0,020214	33498,84	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGLIC	Global Listed Infrastructure Asset Class	USMGLI	Global Listed Infrastructure - USM	940203624	1,740956	1636853140	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGMRC	Global Credit Asset Class	USECOL	Global Credit - Coolabah	874776128,5	1,088394	952101090	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGMRC	Global Credit Asset Class	USLGMC	Global Credit - Cash	38549251,1	0,000953	36737,44	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGQAC	Intl Shares Equitisation Asset Class	USFGCO	Intl Shares Equitisation - Currency Overlay	-11,61	38430,7114	-446117,25	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGQAC	Intl Shares Equitisation Asset Class	USFGEQ	Intl Shares Equitisation - Futures	523959207,2	1,143989	599403569	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGQAC	Intl Shares Equitisation Asset Class	USLGEQ	Intl Shares Equitisation - Cash	15480070,86	1,01072	15646017,2	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGQEC	Global High Quality Asset Class	USEWEL	Global High Quality - Wellington	705579271,6	1,745548	1231622486	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGQEC	Global High Quality Asset Class	USGEFU	Global High Quality - Transition	22,01	0,021809	0,48	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGQEC	Global High Quality Asset Class	USGQCO	Global High Quality - Currency Overlay	11349,46	-52,360337	-594261,5	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGQEC	Global High Quality Asset Class	USLCQC	Global High Quality - Cash	14416368,19	0,002397	34556,03	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGQEC	Global High Quality Asset Class	USMGHQ	Global High Quality - USM	440046305,9	3,089148	1359368166	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGQEC	Global High Quality Asset Class	USMQCO	Global High Quality - Currency Options	7,51	0,019977	0,15	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGEOA	Global Environ Opps Asset Class	USGECO	Global Environ Opps - Currency Overlay	2,33	101623,542	237030,98	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGEOA	Global Environ Opps Asset Class	USGECS	Global Environ Opps - Cash	4908271,63	2,383678	11699739,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGEOA	Global Environ Opps Asset Class	USGEOP	Global Environ Opps - USM	573155538,6	4,315718	2473577675	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGEOA	Global Environ Opps Asset Class	USGEOT	Global Environ Opps - Transition	108090129,5	0,457029	49400323,8	AUD	ASSET CLASS	PORTFOLIO
+20240331	USGEOA	Global Environ Opps Asset Class	USMGEO	Global Environ Opps - Currency Options	0,08	1	0,08	AUD	ASSET CLASS	PORTFOLIO
+20240331	USHCAC	High Yield Credit Asset Class	USHCCO	High Yield Credit - Currency Overlay	-5,15	-64,986495	334,44	AUD	ASSET CLASS	PORTFOLIO
+20240331	USHCAC	High Yield Credit Asset Class	USHCCS	High Yield Credit - Cash	572,14	42,468582	24298,17	AUD	ASSET CLASS	PORTFOLIO
+20240331	USHCAC	High Yield Credit Asset Class	USOTHY	High Yield Credit - Oaktree	1482,83	0,001484	2,2	AUD	ASSET CLASS	PORTFOLIO
+20240331	USHCAC	High Yield Credit Asset Class	USOTUC	High Yield Credit - Oaktree High Yield 2	1721,8	4,94523	8514,69	AUD	ASSET CLASS	PORTFOLIO
+20240331	USHCRA	Fortress SYD Asset Class	USDIIC	Fortress SYD - Cash	102151,99	1,001336	102288,47	AUD	ASSET CLASS	PORTFOLIO
+20240331	USHCRA	Fortress SYD Asset Class	USMHGH	Fortress SYD - USM	759648678,7	5,213308	3960282534	AUD	ASSET CLASS	PORTFOLIO
+20240331	USIAAC	Aust Shares Small Caps Asset Class	USCSCT	Aust Shares Small Caps - Novaport	0,03	24,719101	0,66	AUD	ASSET CLASS	PORTFOLIO
+20240331	USIAAC	Aust Shares Small Caps Asset Class	USELNX	Aust Shares Small Caps - Lennox	253257839,9	1,601247	405528356	AUD	ASSET CLASS	PORTFOLIO
+20240331	USIAAC	Aust Shares Small Caps Asset Class	USHSCT	Aust Shares Small Caps - Transition 1	201778,87	0,022573	4554,75	AUD	ASSET CLASS	PORTFOLIO
+20240331	USIAAC	Aust Shares Small Caps Asset Class	USIACC	Aust Shares Small Caps - Cash	96447,54	0,417138	40231,93	AUD	ASSET CLASS	PORTFOLIO
+20240331	USIAAC	Aust Shares Small Caps Asset Class	USIACO	Aust Shares Small Caps - Currency Overlay	-16,62	-3066,3642	50953,05	AUD	ASSET CLASS	PORTFOLIO
+20240331	USIAAC	Aust Shares Small Caps Asset Class	USKNAE	Aust Shares Small Caps - Kinetic	536,67	2,550914	1368,99	AUD	ASSET CLASS	PORTFOLIO
+20240331	USIAAC	Aust Shares Small Caps Asset Class	USLWAE	Aust Shares Small Caps - Longwave	211171050,4	1,081067	228290054	AUD	ASSET CLASS	PORTFOLIO
+20240331	USIAAC	Aust Shares Small Caps Asset Class	USRGAE	Aust Shares Small Caps - Regal	295453974,6	1,101886	325556598	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMCAS	Aust Shares Mid Cap Asset Class	USECAE	Aust Shares Mid Cap - ECP	151618813,5	2,594231	393334226	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMCAS	Aust Shares Mid Cap Asset Class	USECST	Australian Shares - Chester	482564926,5	1,074399	518467274	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMCAS	Aust Shares Mid Cap Asset Class	USLMCC	Aust Shares Mid Cap - Cash	61295,37	0,718631	44048,76	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMCAS	Aust Shares Mid Cap Asset Class	USLTMC	Aust Shares Mid Cap - Transition 1	15309,06	0,019392	296,87	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMCAS	Aust Shares Mid Cap Asset Class	USSMAE	Aust Shares Mid Cap - Selector	65724,8	1,822894	119809,34	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMCDA	Macquarie Co-Invest Debt Asset Class	USMCDC	Macquarie Co-Invest Debt - Cash	285283,36	0,002781	793,37	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMCDA	Macquarie Co-Invest Debt Asset Class	USMCDF	Macquarie Co-Invest Debt - USM	129444434,7	2,017703	261180424	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMCDA	Macquarie Co-Invest Debt Asset Class	USMCDO	Macquarie Co-Invest Debt - Currency Overlay	235,92	-194,28206	-45834,81	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMCDA	Macquarie Co-Invest Debt Asset Class	USMPFZ	Macquarie Co-Invest Debt - USM USA	1	1,01	1,01	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOBAC	FI Overlay Balanced Asset Class	USLOBC	FI Overlay Balanced - Cash	14934,29	0,034938	521,77	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOBAC	FI Overlay Balanced Asset Class	USMFOB	FI Overlay Balanced - Futures Overlay	711293499	0,045839	32604982,7	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOCAC	FI Overlay Cons Bal Asset Class	USLOCC	FI Overlay Cons Bal - Cash	5911,07	0,042718	252,51	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOCAC	FI Overlay Cons Bal Asset Class	USMFOC	FI Overlay Cons Bal - Futures Overlay	35726718,56	0,539562	19276779,7	AUD	ASSET CLASS	PORTFOLIO
+20240331	USODAC	FI Overlay DB Asset Class	USLODC	FI Overlay DB - Cash	8487,78	0,038509	326,86	AUD	ASSET CLASS	PORTFOLIO
+20240331	USODAC	FI Overlay DB Asset Class	USMFOD	FI Overlay DB - Futures Overlay	1220385592	0,022551	27520915,5	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOEAC	FI Overlay En Income Asset Class	USLOEC	FI Overlay En Income - Cash	155,82	0,519843	81	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOEAC	FI Overlay En Income Asset Class	USMFOE	FI Overlay En Income - Futures Overlay	2078662,02	0,359982	748280,91	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOES	Intl Shares Mainstream Asset Class	USFIGE	Intl Shares Small Cap - Transition 1	4393186,8	0,569772	2503114,83	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOES	Intl Shares Mainstream Asset Class	USIMOS	Intl Shares Mainstream - Cash	2695708,26	2,100279	5661739,45	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOES	Intl Shares Mainstream Asset Class	USMDAE	Intl Shares Mainstream - SSGM World ex Japan & Aust	985672841,8	1,39262	1372667713	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOES	Intl Shares Mainstream Asset Class	USMOSO	Intl Shares Mainstream - Currency Option	12,62	0,007923	0,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOES	Intl Shares Mainstream Asset Class	USSPCO	Intl Shares Mainstream - Currency Overlay	1142,08	-252,42516	-288289,16	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOES	Intl Shares Mainstream Asset Class	USTRGG	Intl Shares Mainstream - T Rowe Price	648055847,2	2,830246	1834157469	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOES	Intl Shares Mainstream Asset Class	USVGGE	Intl Shares Mainstream - SSGM World ex USA & Aust	210964,45	3,053188	644114,13	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOESR	Sustainable Intl Shares Mainstream Asset Class	USTRGC	Sustainable Intl Shares Mainstream - Cash	98358,35	1,049328	103210,18	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOESR	Sustainable Intl Shares Mainstream Asset Class	USTRGO	Sustainable Intl Shares Mainstream - Currency Overlay	106048,78	2,298505	243753,66	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOESR	Sustainable Intl Shares Mainstream Asset Class	USTRGS	Sustainable Intl Shares Mainstream - T Rowe Price	533749130,6	1,229029	655993160	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOGAC	FI Overlay Growth Asset Class	USLOGC	FI Overlay Growth - Cash	695,17	0,229556	159,58	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOGAC	FI Overlay Growth Asset Class	USMFOG	FI Overlay Growth - Futures Overlay	8572549153	0,011079	94975272,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOPAC	Special Opps Asset Class	USLSOP	Special Opps - Cash	3370516,14	0,000389	1311,13	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOPAC	Special Opps Asset Class	USMPSO	Special Opps - USM	185125514,3	0,343668	63621715,3	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOSAC	FI Overlay SR Balanced Asset Class	USLOSC	FI Overlay SR Balanced - Cash	135,97	0,787839	107,12	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOSAC	FI Overlay SR Balanced Asset Class	USMFOS	FI Overlay SR Balanced - Futures Overlay	18410537637	0,004754	87523695,9	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOTAC	FI Overlay Cap Stable Asset Class	USLOTC	FI Overlay Cap Stable - Cash	1275,22	0,108742	138,67	AUD	ASSET CLASS	PORTFOLIO
+20240331	USOTAC	FI Overlay Cap Stable Asset Class	USMFOT	FI Overlay Cap Stable - Futures Overlay	3146579,83	0,893362	2811034,85	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPAST	SFT Palisade Australian Social Transition Asset Class	USPASC	Sustainable Infrastructure - Palisade Australian Social - Cash	45,48	1,017258	46,26	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPCRT	SFT Private Credit Transition Asset Class	USPCRC	Private Credit - Cash	2228,13	0,078303	174,47	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPCRT	SFT Private Credit Transition Asset Class	USRPD1	Private Credit - Revolution I	29405971,7	1,044542	30715772,5	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPCRT	SFT Private Credit Transition Asset Class	USRPD2	Private Credit - Revolution II	3629,69	1,151493	4179,56	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE1T	SFT Private Equity 1 Transition Asset Class	USEFWC	Special Situations - Fitzwalter 1	114401640,5	1,465874	167698390	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE1T	SFT Private Equity 1 Transition Asset Class	USPE1C	Special Situations - Cash	12885496,55	0,000167	2151,88	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE1T	SFT Private Equity 1 Transition Asset Class	USPE1O	Special Situations - Currency Overlay	-56286,24	32,6926	-1840143,6	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE1T	SFT Private Equity 1 Transition Asset Class	USPE56	Special Situations - Fidera Vecta (York) Distressed	85134471,32	1,086542	92502178,7	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE1T	SFT Private Equity 1 Transition Asset Class	USPE57	Special Situations - Harbourvest Private Credit	109129830,8	1,179933	128765889	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE1T	SFT Private Equity 1 Transition Asset Class	USPEFW	Special Situations - Fitzwalter 2	22742605,47	0,931496	21184646	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE2T	SFT Private Equity 2 Transition Asset Class	USPE2C	Real Estate PE - Cash	456643,49	0,001269	579,48	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE2T	SFT Private Equity 2 Transition Asset Class	USPE2O	Real Estate PE - Currency Overlay	0,01	-31829735	-248347,14	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE2T	SFT Private Equity 2 Transition Asset Class	USPE50	Real Estate PE - Clearbell Amberside	427364,88	1,085401	463862,26	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE2T	SFT Private Equity 2 Transition Asset Class	USPE51	Real Estate PE - Clearbell II	15995293,06	1,03727	16591437,6	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE2T	SFT Private Equity 2 Transition Asset Class	USPE52	Real Estate PE - Clearbell III	34706112,35	0,998998	34671336,8	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE2T	SFT Private Equity 2 Transition Asset Class	USPE53	Real Estate PE - RECAP IV	13745978,83	0,928421	12762055,4	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE2T	SFT Private Equity 2 Transition Asset Class	USPE54	Real Estate PE - RECAP V	32020519,99	0,968477	31011137,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE3T	SFT Private Equity 3 Transition Asset Class	USLTPC	Core PE and VC - IFM LTPC	157769928,7	1,119996	176701689	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE3T	SFT Private Equity 3 Transition Asset Class	USPE3C	Core PE and VC - Cash	457115,55	0,015189	6943,13	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE3T	SFT Private Equity 3 Transition Asset Class	USPE3O	Core PE and VC - Currency Overlay	-14621,57	43,673358	-638573,15	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE3T	SFT Private Equity 3 Transition Asset Class	USPE55	Core PE and VC - Partners Wangal	143134834,8	1,230348	176105658	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPE3T	SFT Private Equity 3 Transition Asset Class	USPRPF	Core PE and VC - PRP Imaging	218409197,3	1,153664	251970828	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPEAA	Private Equity Asset Class	THUITT	TESS UniSuper Intl Investments Trust - Portfolio	5007590,99	0,561403	2811276,6	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPEAA	Private Equity Asset Class	USLCDC	Core PE and VC 2 - Leichhardt Coal	86262803,97	0,608896	52525076,3	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPEAA	Private Equity Asset Class	USPEAC	Core PE and VC 2 - Cash	19887,63	0,070692	1405,9	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPEAA	Private Equity Asset Class	USPEAS	Core PE and VC 2 - Astarte Sivlipar	13762116,71	1,139874	15687079	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPEAA	Private Equity Asset Class	USPECO	Core PE and VC 2 - Currency Overlay	96815,35	-4,29497	-415819,01	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPEAA	Private Equity Asset Class	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	14500400,53	3,786943	54912190,3	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPEAA	Private Equity Asset Class	USPESO	Core PE and VC 2 - Astarte Special Opps Platform	37614665,13	1,361876	51226509,7	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSOAC	Aust Shares Small Industrials Asset Class	USASOC	Aust Shares Small Industrials - Cash	115,53	0,842696	97,36	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSOAC	Aust Shares Small Industrials Asset Class	USQIAE	Aust Shares Small Industrials - Discovery	5558,52	9,418801	52354,56	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSOGE	Risk Protection Overlay Asset Class	USISOL	Risk Protection Overlay - Cash	9544,24	0,015053	143,67	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSOGE	Risk Protection Overlay Asset Class	USRPGI	Risk Protection Overlay - Overlay	27747387,82	0,628901	17450359,9	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSRAC	Sustainable Australian Shares Asset Class	USBPAS	Sustainable Aust Shares - USM	1230165738	3,253763	4002667762	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSRAC	Sustainable Australian Shares Asset Class	USENSI	Sustainable Australian Shares - NorthStar Impact	50747985,41	1,060185	53802252,9	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSRAC	Sustainable Australian Shares Asset Class	USSDCA	Sustainable Aust Shares - Cash	14301925,67	0,00672	96108,94	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSRAC	Sustainable Australian Shares Asset Class	USSRDT	Sustainable Aust Shares - Transition	470,18	5,335953	2508,87	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSRAS	Domestic High Grade Credit Asset Class	USABFI	Domestic High Grade Credit - USM FRNs	316761375,9	1,742703	552021000	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSRAS	Domestic High Grade Credit Asset Class	USCLAI	Domestic High Grade Credit - CFS	0,99	1	0,99	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSRAS	Domestic High Grade Credit Asset Class	USMFIN	Domestic High Grade Credit - USM Aust Credit	961072041	1,818715	1747916137	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSRAS	Domestic High Grade Credit Asset Class	USSASC	Domestic High Grade Credit - Cash	3245105,65	0,00927	30082,13	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	US7MAQ	Direct Property - 7 Macquarie Place NSW	64702378,88	4,111235	266006685	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USAPPI	Direct Property - APPF Industrial	75927164,47	2,856971	216921707	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USAPPR	Direct Property - APPF Retail	34331019,36	2,0063	68878324,2	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USASCF	Direct Property - Dexus Wholesale Shopping Centre Fund	89877974,15	0,970825	87255784,3	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USAWOF	Direct Property - Mirvac Wholesale Office Fund	131614960,9	3,636262	478586481	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USDADF	Direct Property - Dexus Wholesale Property Fund	156885166,3	0,883407	138593454	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USDBPC	Direct Property - GPT Trust	6753979,89	0,089373	603623,44	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USDPMC	Direct Property - Dapto Mall NSW	39723929,05	3,307696	131394681	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USDPT1	Direct Property - Wattletree Trust	4998055,98	0,83033	4150035,82	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USGPTO	Direct Property - GPT Wholesale Office Fund	99558670,64	3,764029	374741723	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USGWSC	Direct Property - GPT Wholesale Shopping Centre Fund	108102388,7	1,841212	199039415	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USIMPT	Direct Property - Cash	439576501,1	0,066765	29348325,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USISUT	Direct Property - ISPT 50 Lonsdale St Trust	26070997,6	8,056996	210053923	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USKRSC	Direct Property - Karrinyup Shopping Centre WA	778990026	1,851571	1442355341	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USMCSC	Direct Property - Malvern Central Shopping Centre VIC	48365765,93	3,531671	170811973	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USMDAB	Direct Property - UNSW Health Translation Hub NSW	30352002,89	0,991722	30100749	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USMGWS	Direct Property - Goodman Australian Industrial Partnership	69954363,48	5,844714	408863248	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USMMSC	Direct Property - Marrickville Metro Shopping Cntr NSW	156963322,7	2,171943	340915390	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USMODP	Direct Property - Deer Park Industrial Trust	288880624,7	0,91304	263759566	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USQICA	Direct Property - QIC Aus Core Plus Fund	96528848,18	1,012654	97750324,2	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USTPCL	Direct Property - Australian Core Retail Trust	664702911,2	1,254458	833841885	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USWYDP	Direct Property - Brookfield Place NSW	1346398629	0,363016	488764245	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPS	Direct Property Asset Class	USXISP	Direct Propety - ISPT Core Fund	175207136,3	4,847476	849312388	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPWSA	Direct Property Industrial Asset Class	USADAP	Direct Property Industrial - Cash	42,92	1,000788	42,95	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPWSA	Direct Property Industrial Asset Class	USTIFT	Direct Property Industrial - West Sydney Airport	450156657,9	0,946014	425854501	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROBA	Intl Shares Banks Asset Class	USBROC	Intl Shares Banks - Cash	279589,05	0,097426	27239,24	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROBA	Intl Shares Banks Asset Class	USIAT2	Intl Shares Banks - SSGM Japan	203326,45	0,126825	25786,88	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROBA	Intl Shares Banks Asset Class	USIST5	Intl Shares Banks - SSGM Europe	173495,9	0,138083	23956,83	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROBA	Intl Shares Banks Asset Class	USMDAA	Intl SSGM 500 Banks	770665509,2	0,728021	561060675	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROBA	Intl Shares Banks Asset Class	USMDCO	Intl Shares Banks - Currency Overlay	-0,01	22698579,2	-327866,22	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROBA	Intl Shares Banks Asset Class	USSCT2	Intl Shares Banks - Currency Option	2,47	38935,7389	96196,86	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROBA	Intl Shares Banks Asset Class	USTDT2	Intl Shares Banks - SSGM United States	231310,42	1,729644	400084,67	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROBA	Intl Shares Banks Asset Class	USTRGT	Sustainable Intl Shares Mainstream - Transition	98054,44	0,034455	3378,47	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROCA	Intl Shares Japan Asset Class	USBGJE	Intl Shares Japan - Baillie Gifford	118872223,6	2,712231	322408930	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROCA	Intl Shares Japan Asset Class	USCBRO	Intl Shares Japan - Cash	1378,55	12,482129	17207,23	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROCA	Intl Shares Japan Asset Class	USCSRO	Intl Shares Japan - Currency Overlay	-1346,12	-3784,355	5094189,93	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROCA	Intl Shares Japan Asset Class	USFSJE	Intl Shares Japan - First Sentier	139473726,3	0,919449	128238978	AUD	ASSET CLASS	PORTFOLIO
+20240331	USROCA	Intl Shares Japan Asset Class	USISJT	Intl Shares Japan - Transition 2	499727,65	1,01022	504834,86	AUD	ASSET CLASS	PORTFOLIO
+20240331	USLPAC	Global Listed Property Asset Class	USLPCS	Global Listed Property - Cash	58776,21	0,247983	14575,5	AUD	ASSET CLASS	PORTFOLIO
+20240331	USLPAC	Global Listed Property Asset Class	USMLPO	Global Listed Property - Currency Options	10,91	0,035755	0,39	AUD	ASSET CLASS	PORTFOLIO
+20240331	USLPAC	Global Listed Property Asset Class	USPELP	Global Listed Property - SSGM GREIT	493723353,3	1,330439	656868804	AUD	ASSET CLASS	PORTFOLIO
+20240331	USLPAC	Global Listed Property Asset Class	USSLPO	Global Listed Property - Currency Overlay	-2,98	-384208,87	1145403,2	AUD	ASSET CLASS	PORTFOLIO
+20240331	USLLAC	Sustainable Listed Property Asset Class	USLLPC	Sustainable Listed Property - Cash	36030,13	0,134463	4844,72	AUD	ASSET CLASS	PORTFOLIO
+20240331	USLLAC	Sustainable Listed Property Asset Class	USMLPC	Sustainable Listed Property - USM	208675133	1,777387	370896469	AUD	ASSET CLASS	PORTFOLIO
+20240331	USLLAC	Sustainable Listed Property Asset Class	USTLPC	Sustainable Listed Property - Transition	461,37	0,003555	1,64	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISNP	Intl Shares US Quant Asset Class	USMSPC	Intl Shares US Quant - Cash	2943788291	0,001136	3344143,5	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISNP	Intl Shares US Quant Asset Class	USMSPL	Intl Shares US Quant - Currency Overlay	0,73	-233465,07	-170302,05	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISNP	Intl Shares US Quant Asset Class	USMSPO	Intl Shares US Quant - Currency Option	0,07	0,857143	0,06	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISNP	Intl Shares US Quant Asset Class	USMSPT	Intl Shares US Quant - Transition	82,07	0,009992	0,82	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISNP	Intl Shares US Quant Asset Class	USMSPX	Intl Shares US Quant - USM	700,25	0,512031	358,55	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISNP	Intl Shares US Quant Asset Class	USTRAN	Intl Shares Mainstream - SSGM Fundamental	6129290,19	46,413877	284484121	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISOC	Intl Shares Overlay Asset Class	USGRGE	Intl Shares Overlay - Futures Overlay	129011501,2	19,90278	2567687527	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISOC	Intl Shares Overlay Asset Class	USLISC	Intl Shares Overlay - Cash	10376,96	1,000836	10385,63	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISOC	Intl Shares Overlay Asset Class	USTPCO	Intl Shares Overlay - Currency Overlay	192,27	-10407,062	-2000927,2	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISSA	Intl Shares Overlay Short Asset Class	USLM23	Intl Shares Overlay Short - Cash	5412,21	0,074855	405,13	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITAC	Intl Shares IT Asset Class	USIITC	Intl Shares IT - Cash	21004715,44	0,094525	1985470,73	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITAC	Intl Shares IT Asset Class	USITCO	Intl Shares IT - Currency Overlay	-135,19	33504,7462	-4529443,9	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITAC	Intl Shares IT Asset Class	USITST	Intl Shares IT - Transition	97159217,41	22,841625	2219274409	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITAC	Intl Shares IT Asset Class	USMICO	Intl Shares IT - Currency Option	0,37	1	0,37	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITAC	Intl Shares IT Asset Class	USPECT	Intl Shares IT Transition 3	257685,43	0,097153	25034,91	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITAC	Intl Shares IT Asset Class	USSDGE	Intl Shares IT - Sands	124808445,7	13,581773	1695119978	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITAC	Intl Shares IT Asset Class	USTRUS	Intl Shares IT - T Rowe Price	1148226,77	2,616949	3004850,9	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITCP	Investment Trust Asset Class	USCPCO	Investment Trust - Currency Overlay	0,01	205,607477	2,19	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITCP	Investment Trust Asset Class	USCPLC	Investment Trust - Cash	714,47	0,122636	87,62	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITCP	Investment Trust Asset Class	USITT2	INVESTMENT TRUST - 2B AVIATION TRUST	1787572,82	0,081982	146548,8	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITDA	Intl Shares Health Care Asset Class	USCOTD	Intl Shares Health Care - Currency Overlay	12386,03	-129,32832	-1601865,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITDA	Intl Shares Health Care Asset Class	USEPCH	Intl Shares Health Care - Polar Capital	284992637,8	0,996502	283995734	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITDA	Intl Shares Health Care Asset Class	USJGHC	Intl Shares Health Care - Janus	600000371,7	2,902791	1741675679	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITDA	Intl Shares Health Care Asset Class	USLTDC	Intl Shares Health Care - Cash	28297,07	0,319337	9036,3	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITDA	Intl Shares Health Care Asset Class	USMDGE	Intl Shares Health Care - SSGM	1274,87	41,978041	53516,36	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITDA	Intl Shares Health Care Asset Class	USMTDO	Intl Shares Health Care - Currency Option	4,36	0,048209	0,21	AUD	ASSET CLASS	PORTFOLIO
+20240331	USITDA	Intl Shares Health Care Asset Class	USTDT1	Intl Shares Health Care - Transition	1102022,29	0,137895	151963,36	AUD	ASSET CLASS	PORTFOLIO
+20240331	USINTT	SFT Intl Shares Transition Asset Class	USINTC	SFT Intl Shares - Cash	47,91	0,212278	10,17	AUD	ASSET CLASS	PORTFOLIO
+20240331	USINTT	SFT Intl Shares Transition Asset Class	USINTP	SFT Intl Shares - Transition	950095,3	1,396931	1327217,58	AUD	ASSET CLASS	PORTFOLIO
+20240331	USINTT	SFT Intl Shares Transition Asset Class	USSUSO	SFT Intl Shares - Currency Overlay	240,1	4,914892	1180,07	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISAA	Intl Shares Asia Asset Class	USCOIA	Intl Shares Asia - Currency Overlay	58494,78	22,907693	1339980,44	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISAA	Intl Shares Asia Asset Class	USEGLG	Intl Shares Asia - Man GLG	302392981,1	1,097126	331763202	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISAA	Intl Shares Asia Asset Class	USLASH	Intl Shares Asia - Cash	113505,45	1,438642	163293,7	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISAA	Intl Shares Asia Asset Class	USMAGE	Intl Shares Asia - Mirae	215262,28	0,539823	116203,53	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISAA	Intl Shares Asia Asset Class	USMAOP	Intl Shares Asia - Currency Option	6,23	0,004816	0,03	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISAA	Intl Shares Asia Asset Class	USMDAC	Intl Shares Asia - SSGM Emerging Markets Asia	193536117,8	1,053078	203808628	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISAA	Intl Shares Asia Asset Class	USMEMA	Intl Shares Asia - SSGM India	55,71	0,003769	0,21	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISAA	Intl Shares Asia Asset Class	USPLGE	Intl Shares Asia - Transition 1	1479,3	0,995187	1472,18	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISAA	Intl Shares Asia Asset Class	USSCGE	Intl Shares Asia - Schroders	320295090,6	3,65151	1169560726	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISAA	Intl Shares Asia Asset Class	USSCIN	Intl Shares Asia - Axis India	99408306,92	2,635886	262028964	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISAA	Intl Shares Asia Asset Class	USSPGE	Intl Shares Asia - Asian Futures	454,25	1,015586	461,33	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISAA	Intl Shares Asia Asset Class	USTRSU	TRS Overlay - US	143009990	1,12121	160344231	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISCA	Intl Shares Small Cap Asset Class	USAWSC	Intl Shares Small Cap - Arrowstreet	107685572,4	10,737565	1156280833	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISCA	Intl Shares Small Cap Asset Class	USCOSC	Intl Shares Small Cap - Currency Overlay	320,94	2809,96039	901815,02	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISCA	Intl Shares Small Cap Asset Class	USLSCC	Intl Shares Small Cap - Cash	2334033,91	0,051613	120466,49	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISCA	Intl Shares Small Cap Asset Class	USMSOP	Intl Shares Small Cap - Currency Option	0,09	1,111111	0,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISEU	Intl Shares Europe Asset Class	USEUCO	Intl Shares Europe - Currency Overlay	-5483978,16	-0,055001	301624,28	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISEU	Intl Shares Europe Asset Class	USLIEU	Intl Shares Europe - Cash	3350,66	1,000844	3353,49	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISEU	Intl Shares Europe Asset Class	USSTAT	Intl Shares Europe - SSGM	333360,36	5,424566	1808335,26	AUD	ASSET CLASS	PORTFOLIO
+20240331	USISEU	Intl Shares Europe Asset Class	USTIEU	Intl Shares European - Futures	603537596	1,308633	789809215	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMGAC	Green Bonds Asset Class	USLGBC	Green Bonds - Cash	741468,3	0,006331	4694,24	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMGAC	Green Bonds Asset Class	USMGBP	Green Bonds - USM	410498700,9	1,300213	533735747	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMGEA	Global Equity Income Asset Class	USMGEC	Global Equity Income - Cash	298546,94	0,036205	10808,89	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMGEA	Global Equity Income Asset Class	USMGEH	Global Equity Income - Currency Option	0,05	1	0,05	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMGEA	Global Equity Income Asset Class	USMGEI	Global Equity Income - USM	2822206,22	1,68345	4751043,06	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMGEA	Global Equity Income Asset Class	USMGEL	Global Equity Income - Currency Overlay	29,81	-54,332491	-1619,82	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMGEA	Global Equity Income Asset Class	USMGET	Global Equity Income - Transition	8429,19	0,580681	4894,67	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMGQS	Sustainable Global Quality Asset Class	USMSGB	Sustainable Global Quality - Cash	671710,3	0,025821	17344,23	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMGQS	Sustainable Global Quality Asset Class	USMSGO	Sustainable Global Quality - Currency Overlay	-244,08	1578,93228	-385385,73	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMGQS	Sustainable Global Quality Asset Class	USMSGP	Sustainable Global Quality - Currency Option	-136474,96	0,070053	-9560,48	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMGQS	Sustainable Global Quality Asset Class	USMSGQ	Sustainable Global Quality - USM	592715303,2	1,463302	867321489	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMGQS	Sustainable Global Quality Asset Class	USMSGT	Sustainable Global Quality - Transition	28207,91	1,325914	37401,26	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMIFA	Defensive Infrastructure Asset Class	USDBDT	Infrastructure - Transurban	637508510,6	0,954274	608357796	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMIFA	Defensive Infrastructure Asset Class	USTICC	Defensive Infrastructure - Cash	683842,12	0,015261	10436,11	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMIFA	Defensive Infrastructure Asset Class	USTICL	Defensive Infrastructure - Currency Overlay	-0,65	3628379,1	-2374571,3	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMLDA	Long Duration Bond Asset Class	USMLDC	Long Duration Bond - Cash	2583366,48	0,004033	10418,72	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMLDA	Long Duration Bond Asset Class	USMLDR	Long Duration Bond - USM	1224100919	1,083598	1326433308	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM1	Single Stock Income Bias VCX Asset Class	USLM01	Single Stock Income Bias VCX - Cash	54807327,9	0,000254	13921,06	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM1	Single Stock Income Bias VCX Asset Class	USMM01	Single Stock Income Bias VCX - USM	441009312,7	1,634415	720792236	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM2	Single Stock Income Bias GPT Asset Class	USLM02	Single Stock Income Bias GPT - Cash	24671980,91	0,001098	27089,84	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM2	Single Stock Income Bias GPT Asset Class	USMM02	Single Stock Income Bias GPT - USM	620969312,2	2,097251	1302328511	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM3	Single Stock Income Bias TLS Asset Class	USLM03	Single Stock Income Bias TLS - Cash	19181,65	1,022047	19604,54	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM3	Single Stock Income Bias TLS Asset Class	USMM03	Single Stock Income Bias TLS - USM	649650559,8	1,459855	948395618	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM4	Single Stock Income Bias SCG Asset Class	USLM04	Single Stock Income Bias SCG - Cash	15224207,68	0,001976	30083,03	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM4	Single Stock Income Bias SCG Asset Class	USMM04	Single Stock Income Bias SCG - USM	875732116,5	1,928018	1688427284	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM5	Fortress TCL Asset Class	USLM05	Fortress TCL - Cash	329296630,9	0,000245	80677,67	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM5	Fortress TCL Asset Class	USMM05	Fortress TCL - USM	1145946579	3,330154	3816178585	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM6	Single Stock Income Bias WOW Asset Class	USLM06	Single Stock Income Bias WOW - Cash	15671,45	1,000846	15684,71	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM6	Single Stock Income Bias WOW Asset Class	USMM06	Single Stock Income Bias WOW - USM	442643297,6	1,578647	698777514	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM7	Fortress AIA Asset Class	USLM07	Fortress AIA - Cash	18622895,87	0,001298	24172,52	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM7	Fortress AIA Asset Class	USMM07	Fortress AIA - USM	-312,51	8,909794	-2784,43	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM8	Fortress APA Asset Class	USLM08	Fortress APA - Cash	31057021,69	0,000595	18478,93	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM8	Fortress APA Asset Class	USMM08	Fortress APA - USM	441724896,8	2,027641	895659511	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM9	Fortress AZJ Asset Class	USAAUT	SFT Aust Shares - Transition	1185655,64	1,047411	1241868,76	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM9	Fortress AZJ Asset Class	USLM09	Fortress AZJ - Cash	2,46	10,03985	24,69	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMMM9	Fortress AZJ Asset Class	USMM09	Fortress AZJ - USM	1	0,01	0,01	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR11	Fortress ASX Asset Class	USLM11	Fortress ASX - Cash	1065419,21	0,024468	26068,68	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR11	Fortress ASX Asset Class	USMM11	Fortress ASX - USM	508345685,3	2,562123	1302444172	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR13	Hybrids Fixed Asset Class	USLM13	Hybrids Fixed - Cash	13182,86	0,831149	10956,92	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR13	Hybrids Fixed Asset Class	USMHYD	Hybrids Fixed - USM	703067131,6	1,406769	989053046	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR14	Hybrids Floating Asset Class	USLM14	Hybrids Floating - Cash	28719,28	1,000836	28743,29	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR14	Hybrids Floating Asset Class	USMHYA	Hybrids Floating - USM	1353155774	1,489868	2016023487	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR15	Fortress Listed Infrastructure Asset Class	USLM15	Fortress Listed Infrastructure - Cash	1909238,66	0,008094	15453,38	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR15	Fortress Listed Infrastructure Asset Class	USMM16	Fortress Listed Infrastructure - Enbridge	1,78	0,073005	0,13	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR15	Fortress Listed Infrastructure Asset Class	USMM17	Fortress Listed Infrastructure - TC Energy	1,68	1,374509	2,31	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR15	Fortress Listed Infrastructure Asset Class	USMM18	Fortress Listed Infrastructure - National Grid	324241907,2	1,696583	550103308	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR15	Fortress Listed Infrastructure Asset Class	USMM21	Fortress Listed Infrastructure - Dominion	170123387,2	0,813011	138312185	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR15	Fortress Listed Infrastructure Asset Class	USSACO	Fortress Listed Infrastructure - Currency Overlay	-168072,74	2,131962	-358324,7	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR19	Single Stock Income Bias Banks Asset Class	USLM10	Single Stock Income Bias Banks - Cash	83,83	0,722268	60,55	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR19	Single Stock Income Bias Banks Asset Class	USMM19	Single Stock Income Bias NAB USM	0,31	1	0,31	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR20	Single Stock Income Bias COL - Asset Class	USLM19	New USM Cash Portfolio - USLM19	5304,4	1,000845	5308,88	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR20	Single Stock Income Bias COL - Asset Class	USMM20	Single Stock Income Bias COL - USM	247945593,8	1,097908	272221451	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR22	Fortress LSE Asset Class	USLM22	Fortress LSE - Cash	7452301,62	0,000415	3092,71	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR22	Fortress LSE Asset Class	USMM22	Fortress LSE - USM	126828906,7	1,227327	155660542	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR22	Fortress LSE Asset Class	USPECL	Fortress LSE - Currency Overlay	-27,17	1985,33131	-53934,99	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR24	Single Stock Income Bias EDV Asset Class	USLM24	Single Stock Income Bias EDV - Cash	65,52	0,129418	8,48	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR24	Single Stock Income Bias EDV Asset Class	USMM24	Single Stock Income Bias EDV - USM	8,52	0,037579	0,32	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR25	Fortress AENA Asset Class	USHCCT	Fortress AENA Currency Overlay	67287,16	7,37161	496014,72	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR25	Fortress AENA Asset Class	USLM25	Fortress AENA Cash	3826705,28	0,003638	13921,55	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR25	Fortress AENA Asset Class	USMM15	Fortress AENA - USM	606236034,6	1,22931	745252020	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR26	Fortress CWY Asset Class	USLM26	Fortress CWY - Cash	20647244,57	0,000253	5223,75	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR26	Fortress CWY Asset Class	USMM26	Fortress CWY - USM	238291573,7	1,108521	264151214	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR27	Fortress CNU Asset Class	USLM27	Fortress CNU - Cash	4140,47	1,000845	4143,97	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMR27	Fortress CNU Asset Class	USMM27	Fortress CNU - USM	102457880,1	0,973616	99754631,4	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMSAA	Sector Overlay Australia Asset Class	USLECA	Sector Overlay Australia - Cash	60995,49	0,041644	2540,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMSAA	Sector Overlay Australia Asset Class	USMEPA	Sector Overlay Australia - SSGM	243936,97	0,364218	88846,24	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMSAA	Sector Overlay Australia Asset Class	USOLEB	Sector Overlay Australia - Currency Overlay	-2,97	-14,996123	44,48	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMSAI	Sector Overlay International Asset Class	USLECB	Sector Overlay International - Cash	893905,47	0,005753	5142,64	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMSAI	Sector Overlay International Asset Class	USOLEC	Sector Overlay International - Currency Overlay	-313257,36	3,939678	-1234133,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USMSAI	Sector Overlay International Asset Class	USTRSE	Sector Overlay International - TRS	1201588305	1,037363	1246483249	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSTAC	Short Term Cash Asset Class	USCASH	Cash Asset Class - Cash	99971,54	1,074232	107392,63	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSTAC	Short Term Cash Asset Class	USLSTH	Short Term Cash - Cash	25192838,06	0,000316	7960,94	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSTAC	Short Term Cash Asset Class	USMCSH	Cash Asset Class - USM Cash Portfolio	179137,26	1,47145	263591,53	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSTAC	Short Term Cash Asset Class	USMSTC	Short Term Cash - USM	1017036231	1,137568	1156947871	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSGMA	SSGM Overlay A Asset Class	USSGCA	SSGM Overlay A - Cash	50788,47	0,01906	968,03	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSGMA	SSGM Overlay A Asset Class	USSGOA	SSGM Overlay A - Currency Overlay	1096,66	150,740104	165311,19	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSGMA	SSGM Overlay A Asset Class	USSGPA	SSGM Overlay A - Futures Overlay	189353653,8	1,075071	203568622	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSGMA	SSGM Overlay A Asset Class	USSGTA	SSGM Overlay A - Transition	1756,72	1,00834	1771,37	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSGMB	SSGM Overlay B Asset Class	USSGCB	SSGM Overlay B - Cash	22267231,87	1,01218	22538446,8	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSGMB	SSGM Overlay B Asset Class	USSGOB	SSGM Overlay B - Currency Overlay	-15,65	38741,0246	-606168,9	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSGMB	SSGM Overlay B Asset Class	USSGPB	SSGM Overlay B - Futures Overlay	611634432,2	1,133412	693233805	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSSAC	Sustainable Intl Shares Asset Class	USMRT1	Sustainable Intl Shares - Futures	354230,01	1,685502	597055,4	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSSAC	Sustainable Intl Shares Asset Class	USMSIE	Sustainable Intl Shares - USM	1137268671	3,105288	3531546756	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSSAC	Sustainable Intl Shares Asset Class	USMSRO	Sustainable Intl Shares - Currency Option	1,17	0,145299	0,17	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSSAC	Sustainable Intl Shares Asset Class	USSISO	Sustainable Intl Shares - Currency Overlay	11902,21	-90,532244	-1077533,7	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSSAC	Sustainable Intl Shares Asset Class	USSRIC	Sustainable Intl Shares - Cash	3721068,72	0,700675	2607259,83	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSSAC	Sustainable Intl Shares Asset Class	USSRIT	Sustainable Intl Shares - Transition	402263,97	0,100656	40490,28	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPA	PRP Asset Class	USPRPC	PRP - Cash	61,42	1,016811	62,45	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSUNT	SFT Sustainable Unlisted Transition Asset Class	USICGR	Sustainable Infra Funds - ICG Aust Renewables	53269212,09	1,061941	56568760,4	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSUNT	SFT Sustainable Unlisted Transition Asset Class	USIFMA	Sustainable Infra Funds - IFM Australia	86375753,08	1,116597	96446906,8	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSUNT	SFT Sustainable Unlisted Transition Asset Class	USPASF	Sustainable Infra Funds - Palisade Aust Social	12821017,88	1,106663	14188546,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSUNT	SFT Sustainable Unlisted Transition Asset Class	USSUNC	Sustainable Infra Funds - Cash	42501,2	0,062953	2675,58	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSUSI	SFT Intl Sustainable Transition Asset Class	USSUCO	SFT Intl Sustainable - Currency Overlay	1	2,1	2,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSUSI	SFT Intl Sustainable Transition Asset Class	USSUIC	SFT Intl Sustainable - Cash	75,73	0,88834	67,27	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSUSI	SFT Intl Sustainable Transition Asset Class	USSUIP	SFT Intl Sustainable - Transition	48695,22	1,255117	61118,19	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSUSL	SFT Sustainable Cash Transition Asset Class	USSUSA	SFT Sustainable - Cash	7241,55	0,2232	1616,31	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSUST	SFT Aust Sustainable Transition Asset Class	USSUSC	SFT Aust Sustainable - Cash	540,32	0,096424	52,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USSUST	SFT Aust Sustainable Transition Asset Class	USSUSP	SFT Aust Sustainable - Transition	1730,06	1,129223	1953,62	AUD	ASSET CLASS	PORTFOLIO
+20240331	USTCAC	Long Term Cash Asset Class	USLTCH	Long Term Cash - Cash	75325,29	0,001235	93,03	AUD	ASSET CLASS	PORTFOLIO
+20240331	USTCAC	Long Term Cash Asset Class	USMLTC	Long Term Cash - USM	2751532,35	1,162775	3199413,03	AUD	ASSET CLASS	PORTFOLIO
+20240331	USTIAC	Aust Shares Industrials Asset Class	USAIAE	Aust Shares Industrials - Airlie	644993869,6	2,244792	1447877078	AUD	ASSET CLASS	PORTFOLIO
+20240331	USTIAC	Aust Shares Industrials Asset Class	USCRGE	Aust Shares Industrials - Transition	14352,51	0,01289	185	AUD	ASSET CLASS	PORTFOLIO
+20240331	USTIAC	Aust Shares Industrials Asset Class	USGSAE	Aust Shares Industrials - Yarra Capital	6924,09	5,810212	40230,45	AUD	ASSET CLASS	PORTFOLIO
+20240331	USTIAC	Aust Shares Industrials Asset Class	USTPRS	Aust Shares Industrials - Cash	33423214,15	0,00221	73865,3	AUD	ASSET CLASS	PORTFOLIO
+20240331	USTSAC	Aust Shares Resources Asset Class	US90WR	Aust Shares Resources - Henderson	287311,59	2,511987	721722,97	AUD	ASSET CLASS	PORTFOLIO
+20240331	USTSAC	Aust Shares Resources Asset Class	USLTSC	Aust Shares Resources - Cash	1122060,64	0,05395	60535,17	AUD	ASSET CLASS	PORTFOLIO
+20240331	USTSAC	Aust Shares Resources Asset Class	USMEP2	Aust Shares Resources - Transition II	563419,42	0,967375	545037,86	AUD	ASSET CLASS	PORTFOLIO
+20240331	USTSAC	Aust Shares Resources Asset Class	USTRGE	Aust Shares Resources - Transition 2	2064,25	3,43499	7090,67	AUD	ASSET CLASS	PORTFOLIO
+20240331	USTSAC	Aust Shares Resources Asset Class	USTSCO	Aust Shares Resources - Currency Overlay	-0,97	129,118616	-125,4	AUD	ASSET CLASS	PORTFOLIO
+20240331	USTSAC	Aust Shares Resources Asset Class	USTSTR	Aust Shares Resources - Transition	3784,79	0,482383	1825,72	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUINF	SFT Other Infra Transition Asset Class	USICGE	Infrastructure Funds - ICG Energy	350276578,6	1,054509	369369805	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUINF	SFT Other Infra Transition Asset Class	USIFCA	Infrastructure Funds - Cash	24806712,05	0,000944	23417,54	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUINF	SFT Other Infra Transition Asset Class	USIFMI	Infrastructure Funds - IFM Global	460305940,5	1,124138	517447399	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUINF	SFT Other Infra Transition Asset Class	USISQU	Infrastructure Funds - I Squared	68825213,94	1,069389	73600926,7	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUINF	SFT Other Infra Transition Asset Class	USMQGI	Sustainable Infrastructure - Macquarie Global	696944,68	0,525584	366302,97	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUINF	SFT Other Infra Transition Asset Class	USMTIF	Infrastructure Funds - MAM The Infrastructure Fund	243042955,7	1,107614	269197780	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUINF	SFT Other Infra Transition Asset Class	USPADI	Infrastructure Funds - Palisade Diversified	202406245,7	1,103952	223446780	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUINF	SFT Other Infra Transition Asset Class	USPICO	Infrastructure Funds - Currency Overlay	-16915,33	16,617741	-281094,65	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUPRP	SFT Direct Prop Transition Asset Class	USIFPA	SFT Direct Prop - Cash	598,45	0,987346	590,88	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUPRP	SFT Direct Prop Transition Asset Class	USTAPP	Transition Direct Property - APPF Retail Portfolio	2,06	1,024272	2,11	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUPRP	SFT Direct Prop Transition Asset Class	USTAWO	Transition Direct Property - AMP Wholesale Office Trust	2,05	1,02439	2,1	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUPRP	SFT Direct Prop Transition Asset Class	USTXIS	Transition Direct Property - ISPT Direct Property	2188,65	0,046865	102,57	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUSAC	Sustainable Private Equity Asset Class	USPECC	Sustainable Private Equity - Cash	377379,12	0,019518	7365,69	AUD	ASSET CLASS	PORTFOLIO
+20240331	USUSAC	Sustainable Private Equity Asset Class	USPEUS	Sustainable Private Equity - Uniseed	49682240,07	1,099245	54612954	AUD	ASSET CLASS	PORTFOLIO
+20240331	USPRPF	Core PE and VC - PRP Imaging	USPR_A	PRP SPV Trust  Class A	220000001	1,145539	252018581	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE04	USPEFM - APAX Europe VI LP	2247274,06	1	2247274,06	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE06	USPEFM - Industrial Growth PA	10,67	1	10,67	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE09	USPEFM - Azure Capital Partners II LP	190,88	1	190,88	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE10	USPEFM - Calvert St. Capital Partners III LP	-36,89	1	-36,89	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE13	USPEFM - Catalyst Buyout 2A	675000	1	675000	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE14	USPEFM - Catalyst Buyout 2B	675000	1	675000	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE15	USPEFM - Clarus Life Sciences I LP	651955,19	1	651955,19	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE16	USPEFM - Clarus Life Sciences II LP	690160,9	1	690160,9	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE17	USPEFM - Commonwealth Capital Ventures IV LP	4413090,25	1	4413090,25	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE20	USPEFM - Hancock Park Capt III LP	3170521,88	1	3170521,88	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE22	USPEFM - IFM Intl Private Equity 1	176635,78	1	176635,78	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE23	USPEFM - Industry Super Holdings	29810469,11	1	29810469,1	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE26	USPEFM - Members Equity Bank	0,03	1	0,03	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE27	USPEFM - Natural Gas Partners VIII LP	6,67	1	6,67	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE32	USPEFM - Polaris Venture Partners V LP	7714051,47	1	7714051,47	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE41	USPEFM - Wilshire Private Mkts Asia 1	104063,22	1	104063,22	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE42	USPEFM - Wilshire Private Mkts Asia 2	82923,12	1	82923,12	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE44	USPEFM - Cash Portfolio	42604,96	1	42604,96	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE45	PE - Partners Group Distressed	1355162,97	0,670173	908193,63	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE46	PE - Partners Group Secondary 2008	1885561,08	0,790843	1491182,78	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE47	PE - Development Capital Fund II	163101,62	0,377428	61559,12	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE48	PE - Generation IM Climate Solutions Fund	4145531,85	0,419818	1740368,89	AUD	PORTFOLIO	PORTFOLIO
+20240331	USPEFM	Core PE and VC 2 - Legacy PE Portfolios	USPE49	PE - Gardior Pty Ltd	260121,28	0,999618	260021,91	AUD	PORTFOLIO	PORTFOLIO
+20240331	USKRSC	Direct Property - Karrinyup Shopping Centre WA	USH1_A	Highlander Investments 1 - Class A	274083429	0,938307	257174400	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USKRSC	Direct Property - Karrinyup Shopping Centre WA	USH2_A	Highlander Investments 2 - Class A	274083429	0,938307	257174400	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USKRSC	Direct Property - Karrinyup Shopping Centre WA	USIM_A	KSC Intermediate Trust - Class A	457200508	2,032276	929157620	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USDPT1	Direct Property - Wattletree Trust	USWL_A	Wattletree Trust - Class A	5200000	0,798734	4153416,8	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USPE_A	FitzWalter II SPV Trust  Class A	USPE	FitzWalter II SPV Trust  Pool	21162461,07	1	21162461,1	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USPE	FitzWalter II SPV Trust  Pool	USPESV	FitzWalter II SPV Trust  Portfolio	21162461,07	1	21162461,1	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USMCOF	Green Infrastructure - Macquarie Climate Opp	USMG_A	TESS UniSuper Macquarie Climate Opp Trust - Class A	1	1	1	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USH1_A	Highlander Investments 1 - Class A	USH1	Highlander Investments 1 - Pool	246344165	1	246344165	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USH1	Highlander Investments 1 - Pool	USHIN1	Highlander Investments 1 - Portfolio	246344165	1	246344165	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USHIN1	Highlander Investments 1 - Portfolio	HRHH_A	Highlander Investments Trust - Class A	280644369	0,8277	232289344	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USH2_A	Highlander Investments 2 - Class A	USH2	Highlander Investments 2 - Pool	246344163,8	1	246344164	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USH2	Highlander Investments 2 - Pool	USHIN2	Highlander Investments 2 - Portfolio	246344163,8	1	246344164	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USHIN2	Highlander Investments 2 - Portfolio	HRHH_A	Highlander Investments Trust - Class A	280644369	0,8277	232289344	AUD	PORTFOLIO	UNIT_CLASS
+20240331	HRHH_A	Highlander Investments Trust - Class A	HRHH	Highlander Investments Trust - Pool	464578815,1	1	464578815	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	HRHH	Highlander Investments Trust - Pool	HRHHIT	Highlander Investments Trust - Portfolio	464578815,1	1	464578815	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	HRHHIT	Highlander Investments Trust - Portfolio	USIM_A	KSC Intermediate Trust - Class A	228600254	2,032276	464578810	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USDBDT	Infrastructure - Transurban	USTE_A	TESS UniSuper Infrastructure Trust - Class A	604199933,9	1,006716	608257741	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USIM_A	KSC Intermediate Trust - Class A	USIM	KSC Intermediate Trust - Pool	1393736556	1	1393736556	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USIM	KSC Intermediate Trust - Pool	USIMDT	KSC Intermediate Trust - Portfolio	1393736556	1	1393736556	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USMCDF	Macquarie Co-Invest Debt - USM	USMC_A	TESS UniSuper Private Credit Co-Investment Trust  Class A	255609497	1,015893	259671899	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USMPFZ	Macquarie Co-Invest Debt - USM USA	USMP_A	TESS UniSuper Private Credit Co-Investment Trust (USA)-Class A	1	1	1	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USPH_A	Parkville Holdings Nominees Pty Ltd - Class A	USPH	Parkville Holdings Nominees Pty Ltd - Pool	73532487,89	1	73532487,9	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USPH	Parkville Holdings Nominees Pty Ltd - Pool	USPHNO	Parkville Holdings Nominees Pty Ltd - Portfolio	73532487,89	1	73532487,9	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USPHNO	Parkville Holdings Nominees Pty Ltd - Portfolio	USPK_A	Parkville Trust - Class A	75335213	0,971191	73164880,9	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USPK_A	Parkville Trust - Class A	USPK	Parkville Trust - Pool	90327057,87	1	90327057,9	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USPK	Parkville Trust - Pool	USPKVT	Parkville Trust - Portfolio	90327057,87	1	90327057,9	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USPR_A	PRP SPV Trust  Class A	USPR	PRP SPV Trust  Pool	252018675,5	1	252018675	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USPR	PRP SPV Trust  Pool	USPRPV	PRP SPV Trust  Portfolio	252018675,5	1	252018675	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USEFWC	Special Situations - Fitzwalter 1	USTI_A	TESS UniSuper International Credit Trust - Class A	114358965	1,458103	166747150	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USPEFW	Special Situations - Fitzwalter 2	USPE_A	FitzWalter II SPV Trust  Class A	22515640	0,9399	21162450	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USAQSR	Sustainable Infrastructure - Aquasure	USWI_A	Water Investments Trust - Class A	345951270	1,633812	565219336	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USVCCC	Sustainable Infrastructure - Vic Comp Cancer Centre	USPH_A	Parkville Holdings Nominees Pty Ltd - Class A	2000	28007,1677	56014335,4	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USVCCC	Sustainable Infrastructure - Vic Comp Cancer Centre	USPK_A	Parkville Trust - Class A	17671222	0,971191	17162131,8	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USTKPL	Sustainable Timber - Tiaki Plantation	USTS_A	TESS Property Holdings Pty Ltd - Class A	5764134	1,883584	10857230,6	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USTKPL	Sustainable Timber - Tiaki Plantation	USUF_A	UniSuper Forestry Trust - Class A	96882971	1,534642	148680676	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USTS_A	TESS Property Holdings Pty Ltd - Class A	USTS	TESS Property Holdings Pty Ltd - Pool	11727432,21	1	11727432,2	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USTS	TESS Property Holdings Pty Ltd - Pool	USTESS	TESS Property Holdings Pty Ltd - Portfolio	11727432,21	1	11727432,2	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USTESS	TESS Property Holdings Pty Ltd - Portfolio	USUF_A	UniSuper Forestry Trust - Class A	5764134	1,534642	8845882,13	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USTE_A	TESS UniSuper Infrastructure Trust - Class A	USTE	TESS UniSuper Infrastructure Trust - Pool	608257774,9	1	608257775	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USTE	TESS UniSuper Infrastructure Trust - Pool	USTEIT	TESS UniSuper Infrastructure Trust - Portfolio	608257774,9	1	608257775	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USTI_A	TESS UniSuper International Credit Trust - Class A	USTI	TESS UniSuper International Credit Trust - Pool	166747164,3	1	166747164	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USTI	TESS UniSuper International Credit Trust - Pool	USTICT	TESS UniSuper International Credit Trust - Portfolio	166747164,3	1	166747164	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USUI	TESS UniSuper Intl Investments Trust	USUIIT	TESS UniSuper Intl Investments Trust - Portfolio	2811266,46	1	2811266,46	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USUI_A	TESS UniSuper Intl Investments Trust - Class A	USUI	TESS UniSuper Intl Investments Trust	2811266,46	1	2811266,46	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	THUITT	TESS UniSuper Intl Investments Trust - Portfolio	USUI_A	TESS UniSuper Intl Investments Trust - Class A	38733453,85	0,07258	2811274,08	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USMG	TESS UniSuper Macquarie Climate Opp Trust	USMCOV	TESS UniSuper Macquarie Climate Opp Trust - Portfolio	1	1	1	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USMG_A	TESS UniSuper Macquarie Climate Opp Trust - Class A	USMG	TESS UniSuper Macquarie Climate Opp Trust	1	1	1	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USME_A	TESS UniSuper Oak Trust  Class A	USME	TESS UniSuper Oak Trust  Pool	1211150060	1	1211150060	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USME	TESS UniSuper Oak Trust  Pool	USMEP1	TESS UniSuper Oak Trust - Portfolio	1211150060	1	1211150060	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USMC_A	TESS UniSuper Private Credit Co-Investment Trust  Class A	USMC	TESS UniSuper Private Credit Co-Investment Trust - Pool	259672000	1	259672000	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USMC	TESS UniSuper Private Credit Co-Investment Trust - Pool	USMCDS	TESS UniSuper Private Credit Co-Investment Trust  Portfolio	259672000	1	259672000	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USMP_A	TESS UniSuper Private Credit Co-Investment Trust (USA)-Class A	USMP	TESS UniSuper Private Credit Co-Investment Trust (USA)-POOL	1	1	1	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USMP	TESS UniSuper Private Credit Co-Investment Trust (USA)-POOL	USMPFU	TESS UniSuper Private Credit Co-Investment Trust (USA)-PORTFOIO	1	1	1	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USUF_A	UniSuper Forestry Trust - Class A	USUF	UniSuper Forestry Trust - Pool	157526601,2	1	157526601	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USUF	UniSuper Forestry Trust - Pool	USUFT1	UniSuper Forestry Trust - Portfolio	157526601,2	1	157526601	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USMVTG	Vantage Towers - USM	USME_A	TESS UniSuper Oak Trust  Class A	1034362654	1,170914	1211149713	AUD	PORTFOLIO	UNIT_CLASS
+20240331	USWI_A	Water Investments Trust - Class A	USWI	Water Investments Trust - Pool	565219345,5	1	565219346	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USWI	Water Investments Trust - Pool	USWITA	Water Investments Trust - Portfolio	565219345,5	1	565219346	AUD	MULTI_CLASS_POOL	PORTFOLIO
+20240331	USWL_A	Wattletree Trust - Class A	USWL	Wattletree Trust - Pool	4153418,64	1	4153418,64	AUD	UNIT_CLASS	MULTI_CLASS_POOL
+20240331	USWL	Wattletree Trust - Pool	USWLTT	Wattletree Trust - Portfolio	4153418,64	1	4153418,64	AUD	MULTI_CLASS_POOL	PORTFOLIO`,[n,...l]=o.split(`
+`).map(A=>A.split("	")),C=l.map(A=>{const s=Object.fromEntries(n.map((e,a)=>[e,A[a]]));return s.EMV=+s.EMV.replace(/,/g,""),s.Price=+s.Price.replace(/,/g,""),s.Shares=+s.Shares.replace(/,/g,""),s}),r={PLAN:0,OPTION:1,SECTOR_POOL:2,GRAND_ASSET_CLASS:3,"ASSET CLASS":4},i=C.reduce((A,s)=>{if(!r[s.ChildClassification])return A;const e=[s];for(;r[e[0].ParentClassification]>0;)e.unshift(C.find(({ChildId:S})=>S===e[0].ParentId));e.unshift({ChildId:e[0].ParentId,ChildClassification:e[0].ParentClassification,ChildAccountDescription:e[0].ParentAccountDescription});const a=[];return e.forEach((S,t)=>{A[S.ChildClassification]||(A[S.ChildClassification]={}),A[S.ChildClassification][S.ChildId]||(A[S.ChildClassification][S.ChildId]=Object.keys(A[S.ChildClassification]).length+1,a[t]=A[S.ChildClassification][S.ChildId],A.push({id:a.join("."),type:S.ChildClassification,name:S.ChildAccountDescription,...S})),a[t]=A[S.ChildClassification][S.ChildId]}),A},[]);export{i as default};
